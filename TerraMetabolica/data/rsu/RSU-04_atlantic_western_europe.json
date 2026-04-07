@@ -1,0 +1,270 @@
+{
+  "region_id": "RSU-04",
+  "name": "Atlantic Western Europe",
+  "coordinates": {
+    "lat": 47.0,
+    "lon": 2.5,
+    "altitude_m": 100
+  },
+  "climate": {
+    "temperature_mean": 12.0,
+    "temperature_seasonality": 16.0,
+    "precipitation_mean": 750,
+    "precipitation_seasonality": 0.3
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 7.2,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "wheat bread",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "wheat bread sourdough",
+      "fdc_id": 172686,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "10.67 g/100g [USDA FDC 172686]",
+          "lipid_content": "4.53 g/100g [USDA FDC 172686]",
+          "starch_content": "47.54 g/100g [USDA FDC 172686]",
+          "fiber_content": "4.0 g/100g [USDA FDC 172686]",
+          "energy_kcal": "274.0 g/100g [USDA FDC 172686]",
+          "glucose_concentration": "5.73 g/100g [USDA FDC 172686]",
+          "saturated_fat_g": "0.697 g/100g [USDA FDC 172686]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.2-0.8 g/100g [sourdough wheat literature]",
+          "acetic_acid": "0.05-0.3 g/100g [sourdough wheat literature]"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "energy_kcal": 274.0,
+          "protein_g": 10.67,
+          "fat_g": 4.53,
+          "carb_g": 47.54,
+          "fiber_g": 4.0,
+          "sugars_g": 5.73,
+          "saturated_fat_g": 0.697,
+          "monounsaturated_fat_g": 0.612,
+          "polyunsaturated_fat_g": 1.615
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "notes": "Sourdough wheat bread. Mild organic acid fermentation signal compared to rye equivalents.",
+      "data_sources": []
+    },
+    {
+      "name": "butter",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "butter unsalted",
+      "fdc_id": 789828,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "81.5 g/100g [USDA FDC 789828]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "trace — cultured butter varieties"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "fat_g": 81.5
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "myrcene"
+      ],
+      "notes": "Dairy fat dominant. High saturated fat, butyric acid profile distinctive for cow dairy. FDC has detailed fatty acid breakdown.",
+      "data_sources": []
+    },
+    {
+      "name": "roast chicken",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "chicken breast raw",
+      "fdc_id": 2646170,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "22.525 g/100g [USDA FDC 2646170]",
+          "lipid_content": "1.934 g/100g [USDA FDC 2646170]",
+          "saturated_fat_g": "0.349 g/100g [USDA FDC 2646170]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.4 g/100g [chicken breast free glutamate — food chemistry literature]",
+          "inosinate": "present — poultry IMP"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 22.525,
+          "fat_g": 1.934,
+          "saturated_fat_g": 0.349,
+          "monounsaturated_fat_g": 0.369,
+          "polyunsaturated_fat_g": 0.296
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Standard poultry protein. Umami from IMP + glutamate combination.",
+      "data_sources": []
+    },
+    {
+      "name": "thyme",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "thyme dried",
+      "fdc_id": 170938,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "9.11 g/100g [USDA FDC 170938]",
+          "lipid_content": "7.43 g/100g [USDA FDC 170938]",
+          "starch_content": "63.94 g/100g [USDA FDC 170938]",
+          "fiber_content": "37.0 g/100g [USDA FDC 170938]",
+          "energy_kcal": "276.0 g/100g [USDA FDC 170938]",
+          "glucose_concentration": "1.71 g/100g [USDA FDC 170938]",
+          "saturated_fat_g": "2.73 g/100g [USDA FDC 170938]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {
+          "linalool": "linalool + thymol dominant in thyme essential oil — 20-60% linalool in some chemotypes",
+          "pinene": "alpha-pinene present in thyme oil — 2-10%"
+        },
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "energy_kcal": 276.0,
+          "protein_g": 9.11,
+          "fat_g": 7.43,
+          "carb_g": 63.94,
+          "fiber_g": 37.0,
+          "sugars_g": 1.71,
+          "saturated_fat_g": 2.73,
+          "monounsaturated_fat_g": 0.47,
+          "polyunsaturated_fat_g": 1.19
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "notes": "Representative Mediterranean/Atlantic herb aromatic. Thymol and carvacrol are the key bioactives — not fully captured by schema terpene fields. Linalool measurable. Used in herbes de Provence.",
+      "data_sources": [
+        "Lawrence (1992) — thyme essential oil composition"
+      ]
+    },
+    {
+      "name": "Golden Delicious apple",
+      "macronutrient_category": "fruit",
+      "fdc_search_term": "apple golden delicious raw",
+      "fdc_id": null,
+      "cultivar": "Golden Delicious",
+      "natural_experiment": [
+        "RSU-13",
+        "RSU-14"
+      ],
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "fructose_concentration": "5.0-6.5 g/100g [European Golden Delicious — general apple chemistry literature]",
+          "ascorbic_acid": "0.04-0.08 g/100g [European lowland apple ~100-300m — general apple chemistry literature]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "malic_acid": "0.30-0.50 g/100g [European Golden Delicious, lowland ~100-300m — general apple chemistry literature; lower than Shanxi highland RSU-14 values of 0.48-0.53 g/100g]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Golden Delicious grown in Atlantic Europe (France, Normandy/Loire, ~100-300m altitude). Natural experiment reference: same cultivar measured at 400-800m (RSU-13, Shanxi) and 900-1200m (RSU-14, Shanxi) shows malic acid doubling with altitude. European values need targeted literature citation — Zhao et al. 2021 Shanxi data is the primary comparison.",
+      "data_sources": [
+        "Zhao et al. (2021) — Effects of genetic background and altitude on sugars, malic acid and ascorbic acid in apples, Foods 10(12):2950"
+      ]
+    },
+    {
+      "name": "Camembert cheese",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "camembert cheese",
+      "fdc_id": 328637,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "1-2 g/100g [soft-ripened cheese fermentation literature]",
+          "acetic_acid": "trace [secondary fermentation]"
+        },
+        "umami_compounds": {
+          "glutamate": "2-5 g/100g free glutamate [aged soft cheese — USDA FDC and food chemistry literature]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "myrcene"
+      ],
+      "notes": "Best-documented fermented product in pilot set alongside soy sauce. Glutamate concentration in aged cheese is well-measured. Distinct mold-ripened flavor chemistry (2-heptanone etc.) not captured in current schema.",
+      "data_sources": [
+        "USDA FoodData Central",
+        "McSweeney & Sousa (2000) — cheese flavor chemistry"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "wheat",
+      "grapes",
+      "milk/cheese",
+      "pork",
+      "apple",
+      "mustard",
+      "herbs"
+    ],
+    "known_processing_methods": [
+      "wine fermentation",
+      "cheese ripening",
+      "charcuterie",
+      "bread leavening"
+    ],
+    "fermentation_prevalence": 0.85
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.65,
+    "industrial_processing_index": 0.55
+  },
+  "notes": "Limestone + alluvial soils. Best-documented metabolite profile in pilot set. Reference RSU for model calibration. Strong anchor for H2 (soil amplification via limestone → structured dairy and wine). Note: wine is excluded from staple foods in favor of cheese as a more food-system-representative fermented product."
+}

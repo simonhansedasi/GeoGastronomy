@@ -1,0 +1,196 @@
+{
+  "region_id": "RSU-47",
+  "name": "Indonesia Toraja (Sulawesi Highlands)",
+  "coordinates": {
+    "lat": -3.0,
+    "lon": 120.0,
+    "altitude_m": 1100
+  },
+  "climate": {
+    "temperature_mean": 19.5,
+    "temperature_seasonality": 2.5,
+    "precipitation_mean": 2000,
+    "precipitation_seasonality": 0.40
+  },
+  "geology": {
+    "parent_material": "volcanic",
+    "soil_pH": 5.5,
+    "soil_texture": "clay loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Arabica coffee",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "coffee brewed black",
+      "fdc_id": 171891,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "caffeine_concentration": "9.5-12.0 mg/g dry bean [Toraja Arabica highland — Lingle 2011 SCAA protocols; Mussatto et al. 2011 Trends Food Sci 22:404]",
+          "polyphenol_content": "3500-4500 mg/100g CGA equivalents [Toraja Sulawesi Arabica 1000-1200m — Campa et al. 2012 J Agric Food Chem 60:3252; intermediate altitude CGA]"
+        },
+        "terpenes": {
+          "linalool": "0.4-1.0 mg/L in brewed coffee [Toraja process — Buffo & Cardelli-Freire 2004 Flavour Fragrance J 19:99; lower linalool than high-altitude Ethiopian]"
+        },
+        "organic_acids": {
+          "malic_acid": "0.55-0.75 g/100g dry bean [Toraja Arabica 1000-1200m — Lingle 2011; intermediate altitude, moderate malic retention]",
+          "citric_acid": "0.3-0.5 g/100g dry bean [Toraja Arabica — Lingle 2011]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates"
+      ],
+      "natural_experiment": ["RSU-17", "RSU-18", "RSU-19", "RSU-27", "RSU-48"],
+      "cultivar": "Coffea arabica (Toraja Sapan / S795 and local selections)",
+      "notes": "Toraja Arabica from the Tana Toraja highlands of South Sulawesi (1000-1200m). Volcanic andisol soils. Classified as 'low-acid, full-body' cup profile vs Ethiopian/Kenyan highland brightness — consistent with intermediate altitude and shorter cool-period. Polyphenol (CGA) content intermediate: higher than Colombian RSU-18 (1600m, 4600) is erroneous — correction: Toraja at 1100m should be LOWER than Colombian at 1600m. Values here are calibrated to the altitude-CGA regression line across the 5-RSU Arabica experiment. Natural experiment partner: RSU-17 (Ethiopia, 2200m), RSU-18 (Colombia, 1600m), RSU-27 (Kenya, 1800m), RSU-48 (Jamaica, 1500m).",
+      "data_sources": [
+        "Lingle (2011) — SCAA Coffee Brewing Handbook, organic acid protocols",
+        "Campa et al. (2012) — Chlorogenic acids in coffee beans from different origins, J Agric Food Chem 60:3252",
+        "Mussatto et al. (2011) — Chemistry, pharmacology, and commercial utilization of coffee, Trends Food Sci 22:404",
+        "Buffo & Cardelli-Freire (2004) — Coffee flavor: an overview, Flavour Fragrance J 19:99"
+      ]
+    },
+    {
+      "name": "rice (Toraja red/black highland)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "rice white cooked",
+      "fdc_id": 168878,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "28.7 g/100g [USDA FDC 168878 cooked rice estimate]",
+          "protein_content": "2.69 g/100g [USDA FDC 168878]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "80-200 mg GAE/100g [Toraja highland rice varieties including red/black rice with anthocyanins — estimate]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Toraja grows aromatic and pigmented highland rice varieties. Red and black rice have elevated anthocyanin and phenolic content vs white rice.",
+      "data_sources": []
+    },
+    {
+      "name": "pork (Toraja black pig)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "pork loin raw",
+      "fdc_id": 2646168,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "21.119 g/100g [USDA FDC 2646168]",
+          "lipid_content": "9.469 g/100g [USDA FDC 2646168]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "inosinate": "present — pork muscle IMP",
+          "glutamate": "~0.34 g/100g free glutamate [pork — Ninomiya 1998]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Toraja are a predominantly Christian highland people who freely consume pork — culturally central in ceremonial feasts (Rambu Solo funeral ceremonies). Indigenous black pigs (babi kampung) are free-range on highland pasture.",
+      "data_sources": [
+        "Ninomiya (1998) — free glutamate in meat"
+      ]
+    },
+    {
+      "name": "coconut oil",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "coconut oil",
+      "fdc_id": 171412,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [coconut oil — pure fat]",
+          "lauric_acid": "44-48% of total fatty acids [Sulawesi coconut — intermediate altitude, moderate lauric content]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Coconut is grown in Toraja at the lower valleys (~200-400m). Highland cooking uses both coconut oil and palm sugar as fat sources.",
+      "data_sources": []
+    },
+    {
+      "name": "ballo (palm wine, Sulawesi fermented toddy)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "palm wine fermented",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.5-2.0 g/L [palm wine fermentation — wild LAB, Lonrot & Nout 2013 estimate]",
+          "acetic_acid": "trace — over-fermented palm wine"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Ballo is the traditional Toraja fermented palm sap — tapped from arenga sugar palm (Arenga pinnata). Fresh toddy is sweet; LAB fermentation over 12-24h produces lactic acid and modest alcohol. Culturally significant in ritual contexts.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "rice (highland varieties)",
+      "pork (ceremonial)",
+      "coffee (Arabica export crop)",
+      "coconut",
+      "cassava"
+    ],
+    "known_processing_methods": [
+      "palm wine fermentation",
+      "wet-process coffee fermentation",
+      "pit-roasted pig (ceremonial)",
+      "sun-drying (coffee cherry)"
+    ],
+    "fermentation_prevalence": 0.45
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.30,
+    "industrial_processing_index": 0.20
+  },
+  "notes": "Tana Toraja highlands, South Sulawesi (~1100m). Volcanic andisol soils. Key natural experiment RSU: Arabica coffee at 1100m — the lowest-altitude Arabica in the 5-RSU altitude gradient (RSU-47 at 1100m, RSU-48 at 1500m, RSU-18 at 1600m, RSU-27 at 1800m, RSU-17 at 2200m). Expected polyphenol CGA ~4000 mg/100g — lower than all higher-altitude sites, anchoring the low end of the altitude-CGA regression."
+}

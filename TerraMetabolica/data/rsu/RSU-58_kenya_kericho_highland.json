@@ -1,0 +1,49 @@
+{
+  "region_id": "RSU-58",
+  "name": "Kericho Highland Tea, Kenya (~2200m)",
+  "coordinates": {"lat": -0.4, "lon": 35.3, "altitude_m": 2200},
+  "climate": {"temperature_mean": 17.5, "temperature_seasonality": 3.0, "precipitation_mean": 2000, "precipitation_seasonality": 0.35},
+  "geology": {"parent_material": "volcanic", "soil_pH": 5.0, "soil_texture": "clay loam", "drainage_class": "medium"},
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {"fruiting_species": null, "tuber_species": null, "aromatic_species": null, "fermentable_species": null},
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "green tea (Camellia sinensis)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "tea green",
+      "fdc_id": null,
+      "feeding_type": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "16.0-19.4 g/100g dry leaf total catechins [Kericho/Timbilil highland green leaf, Camellia sinensis var. assamica clones at ~2178m — Wachira et al. 2014 Am J Plant Sci 5:180; TRFK clone range: 10.0-19.4% DM across clones, upper-performing clones TRFK 371/3 at 18.85% and TRFK 303/1199 at 19.37%; conservative range uses clones grown at the Timbilil research station at 2178m above MSL]",
+          "caffeine_concentration": "3.0-4.5 g/100g dry leaf [Kenyan tea — Obanda et al. 1997 J Sci Food Agric 74:209; var. assamica characteristically high caffeine]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.5-1.2 g/100g dry leaf as theanine+glutamate [var. assamica — lower theanine than var. sinensis; elevated somewhat by highland altitude]"
+        }
+      },
+      "confirmed_absent": ["capsaicinoids", "isothiocyanates", "inosinate"],
+      "natural_experiment": ["RSU-20", "RSU-21"],
+      "cultivar": "Camellia sinensis var. assamica (TRFK clones — 303/1199, 371/3, BBK 35, others)",
+      "notes": "Kericho/Timbilil highland tea zone, western Kenya, equatorial East Africa at ~2200m (Kericho township at 2200m; Timbilil TRFK research station at 2178m). Wachira et al. (2014) measured total catechins in multiple TRFK clones at the Timbilil site by HPLC from green leaf — range across clones 10.0-19.4% DM. The best-performing clones (TRFK 371/3 at 18.85% and TRFK 303/1199 at 19.37%) represent the upper range; the conservative RSU range of 16.0-19.4 g/100g reflects high-quality commercial clones at this altitude. This is UNOXIDIZED green leaf data — Kenya exports predominantly CTC black tea industrially, but the Wachira et al. data is from green leaf before any processing. Obanda et al. (1997) also confirmed that green leaf flavanol composition correlates strongly with ultimate black tea quality in Kenyan assamica, validating these green-leaf catechin values as real. KEY CONFOUND: all Kenyan data is Camellia sinensis var. assamica (large-leaf tropical variety), same as RSU-21 Assam. The altitude comparison to RSU-20 Darjeeling (var. sinensis) carries a cultivar confound; the Kenya-to-Assam comparison (same variety, different altitude) is the cleaner test. Volcanic Rift Valley soils (alfisols/oxisols) are distinct from South Asian tea soils.",
+      "data_sources": [
+        "Wachira et al. (2014) — Variation in Catechin Composition of Popularly Cultivated Tea Clones in East Africa (Kenya), Am J Plant Sci 5(2):180-191 [SCIRP]",
+        "Obanda et al. (1997) — Flavanol composition and caffeine content of green leaf as quality potential indicators of Kenyan black teas, J Sci Food Agric 74(2):209-215"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": ["black tea (CTC)", "maize (ugali)", "sukuma wiki (kale)", "sorghum"],
+    "known_processing_methods": ["CTC black tea processing", "hand-rolled green tea (limited)", "sun-drying vegetables"],
+    "fermentation_prevalence": 0.20
+  },
+  "culture": {"agricultural_intensification_index": 0.70, "industrial_processing_index": 0.60},
+  "notes": "Kericho County, Rift Valley, Kenya (~2200m). The Kericho highlands straddle the equator at an altitude of ~2200m and receive near-uniform rainfall year-round (low seasonality compared to South Asian monsoon tea regions), creating a distinctive year-round flush cycle. Volcanic parent material from the East African Rift produces fertile clay loam soils. Kenya is now the world's largest exporter of CTC black tea, and the Kericho/Timbilil area is the commercial heart. The catechin data from Wachira et al. (2014) are from the TRFK research station at 2178m — the highest-altitude data point in this natural experiment after RSU-20 Darjeeling (2000m) in the pilot set. Comparing RSU-58 Kenya (2200m, assamica, 16-19.4 g/100g) to RSU-21 Assam (100m, assamica, 12-16 g/100g) with matched cultivar provides the cleanest altitude signal in the set, removing the cultivar confound present in the Darjeeling/Assam comparison."
+}

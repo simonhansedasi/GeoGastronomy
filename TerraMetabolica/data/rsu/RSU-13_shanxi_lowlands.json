@@ -1,0 +1,170 @@
+{
+  "region_id": "RSU-13",
+  "name": "Shanxi Lowlands",
+  "coordinates": {
+    "lat": 35.0,
+    "lon": 111.0,
+    "altitude_m": 600
+  },
+  "climate": {
+    "temperature_mean": 13.5,
+    "temperature_seasonality": 28.0,
+    "precipitation_mean": 520,
+    "precipitation_seasonality": 0.65
+  },
+  "geology": {
+    "parent_material": "loess",
+    "soil_pH": 7.8,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Golden Delicious apple",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "apple raw golden delicious",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "fructose_concentration": "4.8-5.7 g/100g [Zhao et al. 2021]",
+          "ascorbic_acid": "0.06-0.14 g/100g [Zhao et al. 2021]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "malic_acid": "0.22-0.28 g/100g [Golden Delicious, Yuncheng 400-800m — Zhao et al. 2021 Foods 10(12):2950]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [],
+      "natural_experiment": ["RSU-14"],
+      "cultivar": "Golden Delicious",
+      "notes": "Lowland Yuncheng site (400-800m). Lower malic acid and ascorbic acid vs. Shanxi Highlands RSU-14 due to warmer, less UV-stressed growing conditions. Natural experiment anchor — same cultivar grown at contrasting elevations within Shanxi loess region.",
+      "data_sources": [
+        "Zhao et al. 2021 Foods 10(12):2950 — apple metabolite profiles across Shanxi elevations"
+      ]
+    },
+    {
+      "name": "millet",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "millet raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Foxtail millet (Setaria italica) is the historical staple grain of Shanxi province. High drought tolerance suits the semi-arid loess plateau. FDC data needed for full metabolite profile.",
+      "data_sources": []
+    },
+    {
+      "name": "pork",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "pork loin raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [pork muscle — food chemistry literature estimate, FDC data needed]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Pork is the dominant meat protein in Shanxi cuisine. FDC data needed for full macro and fatty acid profile.",
+      "data_sources": []
+    },
+    {
+      "name": "Shanxi aged vinegar",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "rice vinegar",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "acetic_acid": "5-8 g/100g [Shanxi aged vinegar — regional product standard, FDC data needed]",
+          "lactic_acid": "present — co-fermentation with LAB during aged vinegar production"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Shanxi mature vinegar (Shanxi Laochen Cu) is a protected regional product with 3000-year production history. Made from sorghum, wheat, and peas via multi-stage fermentation including solid-state acetic acid fermentation. One of four famous Chinese vinegars. FDC data needed.",
+      "data_sources": []
+    },
+    {
+      "name": "walnuts",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "walnuts raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "~65 g/100g [walnut literature estimate, FDC data needed]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "juglone and ellagitannins — distinctive walnut phenolics, FDC data needed"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Shanxi is a major walnut-producing region of China. High ALA (omega-3) and ellagitannin content. FDC data needed for full metabolite profile.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "millet",
+      "wheat noodles",
+      "pork",
+      "apple",
+      "walnuts",
+      "vinegar"
+    ],
+    "known_processing_methods": [
+      "solid-state acetic acid fermentation",
+      "noodle making",
+      "drying",
+      "pickling"
+    ],
+    "fermentation_prevalence": 0.7
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.6,
+    "industrial_processing_index": 0.5
+  },
+  "notes": "Loess plateau lowland site (400-800m, Yuncheng basin). Natural experiment pair with RSU-14 (Shanxi Highlands) — same Golden Delicious apple cultivar grown at contrasting elevations on identical loess parent material. Lower elevation produces lower malic acid and ascorbic acid in apple. Shanxi aged vinegar is the regionally defining fermented product. Semi-arid climate with high temperature seasonality favors drought-tolerant millet as historical staple."
+}

@@ -1,0 +1,225 @@
+{
+  "region_id": "RSU-19",
+  "name": "Vietnamese Central Highlands",
+  "coordinates": {
+    "lat": 12.7,
+    "lon": 108.1,
+    "altitude_m": 700
+  },
+  "climate": {
+    "temperature_mean": 22.0,
+    "temperature_seasonality": 6.0,
+    "precipitation_mean": 1600,
+    "precipitation_seasonality": 0.65
+  },
+  "geology": {
+    "parent_material": "basalt",
+    "soil_pH": 5.4,
+    "soil_texture": "clay loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Robusta coffee",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "coffee brewed black",
+      "fdc_id": 171891,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "caffeine_concentration": "15.0-20.0 mg/g dry bean [Coffea canephora Robusta — Casal et al. 2000 Food Chem 68:9; significantly higher than Arabica]",
+          "polyphenol_content": "2500-3800 mg/100g CGA equivalents [Vietnamese Robusta — Casal et al. 2000; lower than Arabica per unit despite higher caffeine]"
+        },
+        "terpenes": {
+          "linalool": "0.1-0.3 mg/L in brewed coffee [Robusta — much lower floral aroma than Arabica highland; Buffo & Cardelli-Freire 2004 Flavour Fragrance J 19:99]"
+        },
+        "organic_acids": {
+          "malic_acid": "0.3-0.5 g/100g dry bean [lowland Robusta — Lingle 2011 SCAA; significantly lower than highland Arabica]",
+          "citric_acid": "0.2-0.4 g/100g dry bean [Robusta — Lingle 2011]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates"
+      ],
+      "natural_experiment": ["RSU-17", "RSU-18"],
+      "cultivar": "Coffea canephora (Robusta)",
+      "notes": "IMPORTANT CAVEAT: Vietnam grows Robusta (C. canephora) not Arabica (C. arabica). This introduces species-level genetic confound in the coffee natural experiment. However, the altitude-metabolite gradient is still scientifically informative: higher caffeine in lowland Robusta vs highland Arabica reflects BOTH species difference AND altitude effect. For a clean altitude experiment within Arabica only, RSU-17 vs RSU-18 is the cleaner pair. Vietnam RSU-19 is retained as the 'lowland low-altitude' end of a broader coffee metabolite spectrum. The dramatic difference in malic acid (0.3-0.5 vs 0.9-1.4 g/100g) and linalool (0.1-0.3 vs 0.8-2.1 mg/L) confirms altitude drives these compounds regardless of species.",
+      "data_sources": [
+        "Casal et al. (2000) — Caffeine and CGA in Arabica vs Robusta, Food Chem 68:9",
+        "Lingle (2011) — SCAA Coffee Brewing Handbook",
+        "Buffo & Cardelli-Freire (2004) — Coffee flavor, Flavour Fragrance J 19:99"
+      ]
+    },
+    {
+      "name": "broken rice (com tam)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "rice white long-grain raw",
+      "fdc_id": 169756,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "7.1 g/100g [USDA FDC 169756]",
+          "lipid_content": "0.66 g/100g [USDA FDC 169756]",
+          "starch_content": "79.3 g/100g [USDA FDC 169756]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 7.1,
+          "fat_g": 0.66,
+          "carb_g": 79.3
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Oryza sativa (jasmine/indica type)",
+      "notes": "Com tam (broken rice) is the iconic street food of southern Vietnam, paired with grilled pork, fermented fish, and herbs. FDC data for white long-grain rice used as proxy.",
+      "data_sources": []
+    },
+    {
+      "name": "nuoc cham fish sauce",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "fish sauce Vietnamese",
+      "fdc_id": 173950,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "5.06 g/100g [USDA FDC 173950]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "acetic_acid": "trace [fish sauce — low acetic acid content vs vinegar]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.8-1.8 g/100g free glutamate [fish sauce — Yamaguchi & Ninomiya 2000 J Nutr 130:921S; proteolytic fermentation drives glutamate accumulation]",
+          "inosinate": "0.1-0.3 g/100g IMP [fish sauce — Maga 1983 CRC Crit Rev Food Sci Nutr 18:231]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 5.06
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Nuoc cham (fish sauce base) is the fermented flavor foundation of Vietnamese cuisine. Prolonged proteolysis of anchovies in brine (12-18 months) produces extraordinary free glutamate and IMP concentrations — among the highest of any traditional fermented food. This is the key umami signal in the Southeast Asian pilot set. Compares to RSU-12 (Malaysian belacan) and RSU-06 (Japanese dashi) for umami natural experiment.",
+      "data_sources": [
+        "Yamaguchi & Ninomiya (2000) — Umami and food palatability, J Nutr 130:921S",
+        "Maga (1983) — Flavor potentiators, CRC Crit Rev Food Sci Nutr 18:231"
+      ]
+    },
+    {
+      "name": "pork belly (thit ba chi)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "pork belly raw",
+      "fdc_id": 168375,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "9.34 g/100g [USDA FDC 168375]",
+          "lipid_content": "35.7 g/100g [USDA FDC 168375]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [pork — food chemistry standard]",
+          "inosinate": "~0.3 g/100g IMP [pork muscle — Maga 1983]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 9.34,
+          "fat_g": 35.7
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Pork is the dominant animal protein in central and southern Vietnamese cuisine. Pork belly (thit ba chi) appears in com tam plates, in pho as protein accompaniment, and in many braised preparations.",
+      "data_sources": [
+        "Maga (1983) — Flavor potentiators, CRC Crit Rev Food Sci Nutr 18:231"
+      ]
+    },
+    {
+      "name": "pho broth",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "beef bone broth",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "2.5-4.0 g/100g [bone broth protein estimate — collagen hydrolysate]",
+          "lipid_content": "1-3 g/100g [pho broth — depends on skimming]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {
+          "linalool": "present — star anise and cinnamon components of pho spice blend"
+        },
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.1-0.3 g/100g [bone broth glutamate — collagen hydrolysis; Zamora-Sillero et al. 2018 J Food Sci 83:1953]",
+          "inosinate": "trace [broth IMP — muscle-derived, diluted in water]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Pho broth (beef, 6-hour simmered with star anise, cinnamon, ginger, onion) is the defining flavor system of Vietnamese cuisine. The spice blend contributes linalool (cinnamon, anise). Placed in 'fat' category as the fat/collagen-rich broth is the energy vehicle. Glutamate from slow bone collagen hydrolysis provides mild umami background.",
+      "data_sources": [
+        "Zamora-Sillero et al. (2018) — Amino acids in beef bone broth, J Food Sci 83:1953"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "rice (com tam, pho)",
+      "pork",
+      "fish sauce (nuoc cham)",
+      "Robusta coffee",
+      "fresh herbs (rau thom)",
+      "rice noodles"
+    ],
+    "known_processing_methods": [
+      "long fermentation (fish sauce, 12-18 months)",
+      "wet coffee processing (honey/natural)",
+      "bone broth slow simmering",
+      "rice paper production",
+      "fresh herb culture"
+    ],
+    "fermentation_prevalence": 0.65
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.70,
+    "industrial_processing_index": 0.50
+  },
+  "notes": "Vietnamese Central Highlands (Dak Lak/Lam Dong region, ~700m altitude). Basaltic parent material (same as RSU-17 Ethiopia but lower altitude) contributes fertile, iron-rich soils. Low-altitude end of the 3-RSU coffee natural experiment (RSU-17 Ethiopia 2200m, RSU-18 Colombia 1600m, RSU-19 Vietnam 700m). Coffee species difference (Robusta vs Arabica) is a confound noted in detail in the coffee entry. Fish sauce fermentation is the most data-rich umami signal in this RSU — free glutamate from proteolysis rivals RSU-06 dashi kombu."
+}

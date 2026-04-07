@@ -1,0 +1,230 @@
+{
+  "region_id": "RSU-08",
+  "name": "West African Transition Zone",
+  "coordinates": {
+    "lat": 7.5,
+    "lon": -1.5,
+    "altitude_m": 300
+  },
+  "climate": {
+    "temperature_mean": 27.0,
+    "temperature_seasonality": 5.0,
+    "precipitation_mean": 1200,
+    "precipitation_seasonality": 0.7
+  },
+  "geology": {
+    "parent_material": "metamorphic",
+    "soil_pH": 5.8,
+    "soil_texture": "clay",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "cassava",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "cassava raw",
+      "fdc_id": 2512377,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "0.918 g/100g [USDA FDC 2512377]",
+          "lipid_content": "0.494 g/100g [USDA FDC 2512377]",
+          "starch_content": "87.313 g/100g [USDA FDC 2512377]",
+          "fiber_content": "4.834 g/100g [USDA FDC 2512377]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 0.918,
+          "fat_g": 0.494,
+          "carb_g": 87.313,
+          "fiber_g": 4.834
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Primary carb staple across West Africa. Note: bitter cassava contains linamarin (cyanogenic glycoside) — not in schema but should be flagged. FDC has basic composition data.",
+      "data_sources": []
+    },
+    {
+      "name": "palm oil",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "palm oil",
+      "fdc_id": 171015,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100.0 g/100g [USDA FDC 171015]",
+          "energy_kcal": "884.0 g/100g [USDA FDC 171015]",
+          "saturated_fat_g": "49.3 g/100g [USDA FDC 171015]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {
+          "limonene": "trace in red palm oil volatile fraction"
+        },
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "energy_kcal": 884.0,
+          "fat_g": 100.0,
+          "saturated_fat_g": 49.3,
+          "monounsaturated_fat_g": 37.0,
+          "polyunsaturated_fat_g": 9.3
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "lactic_acid"
+      ],
+      "notes": "Red palm oil is the defining fat. High in palmitic acid and beta-carotene (carotenoids not in schema). FDC has fatty acid profile.",
+      "data_sources": []
+    },
+    {
+      "name": "groundnut",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "peanuts raw",
+      "fdc_id": 2515376,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "23.205 g/100g [USDA FDC 2515376]",
+          "lipid_content": "43.28 g/100g [USDA FDC 2515376]",
+          "starch_content": "26.498 g/100g [USDA FDC 2515376]",
+          "fiber_content": "8.014 g/100g [USDA FDC 2515376]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.7 g/100g free glutamate [peanut — food chemistry databases]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 23.205,
+          "fat_g": 43.28,
+          "carb_g": 26.498,
+          "fiber_g": 8.014
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Groundnut (peanut) is both a fat and protein source — categorized under protein here. Notable free glutamate content. FDC has complete macro profile.",
+      "data_sources": []
+    },
+    {
+      "name": "Scotch bonnet pepper",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "scotch bonnet pepper raw",
+      "fdc_id": 2258588,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "0.715 g/100g [USDA FDC 2258588]",
+          "lipid_content": "0.106 g/100g [USDA FDC 2258588]",
+          "starch_content": "4.778 g/100g [USDA FDC 2258588]",
+          "fiber_content": "0.942 g/100g [USDA FDC 2258588]"
+        },
+        "key_flavor_bioactives": {
+          "capsaicinoids": "1500-3000 Scoville heat units per mg capsaicin equivalent; 2-20 mg/g dry weight [chili heat literature]"
+        },
+        "terpenes": {
+          "linalool": "present in Scotch bonnet aroma fraction"
+        },
+        "organic_acids": {
+          "citric_acid": "detectable in fresh pepper"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 0.715,
+          "fat_g": 0.106,
+          "carb_g": 4.778,
+          "fiber_g": 0.942
+        }
+      },
+      "confirmed_absent": [
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "notes": "Scotch bonnet (Capsicum chinense) is one of the hottest native peppers — distinctive fruity-hot profile. Capsaicinoid data available from food chemistry literature. Defines West African heat signal.",
+      "data_sources": [
+        "Collins et al. (1995) — HPLC capsaicinoid quantification in hot peppers"
+      ]
+    },
+    {
+      "name": "dawadawa",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "fermented locust bean",
+      "fdc_id": 2644281,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "21.562 g/100g [USDA FDC 2644281]",
+          "lipid_content": "2.199 g/100g [USDA FDC 2644281]",
+          "starch_content": "59.795 g/100g [USDA FDC 2644281]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "present — co-fermentation in dawadawa production"
+        },
+        "umami_compounds": {
+          "glutamate": "elevated — fermented locust bean free glutamate, analogous to soy sauce fermentation [Azokpota et al. 2006]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 21.562,
+          "fat_g": 2.199,
+          "carb_g": 59.795
+        }
+      },
+      "confirmed_absent": [
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Fermented locust bean (Parkia biglobosa) — West African equivalent of soy sauce in terms of umami function. Likely not in FDC — search term is approximate, may need manual entry from Azokpota et al. literature.",
+      "data_sources": [
+        "Azokpota et al. (2006) — dawadawa fermentation chemistry and nutrition"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "cassava",
+      "yam",
+      "sorghum",
+      "plantain",
+      "palm oil",
+      "groundnut"
+    ],
+    "known_processing_methods": [
+      "fermentation (dawadawa, kenkey)",
+      "roasting",
+      "drying",
+      "palm processing"
+    ],
+    "fermentation_prevalence": 0.75
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.5,
+    "industrial_processing_index": 0.35
+  },
+  "notes": "Lateritic soils. Fermentation + spice + starch archetype. Dawadawa provides measurable umami compounds. Capsaicinoid data available for Scotch bonnet. High biodiversity signal potentially detectable through ingredient diversity."
+}

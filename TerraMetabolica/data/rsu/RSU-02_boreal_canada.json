@@ -1,0 +1,236 @@
+{
+  "region_id": "RSU-02",
+  "name": "Boreal Canada",
+  "coordinates": {
+    "lat": 54.0,
+    "lon": -100.0,
+    "altitude_m": 400
+  },
+  "climate": {
+    "temperature_mean": 1.5,
+    "temperature_seasonality": 35.0,
+    "precipitation_mean": 500,
+    "precipitation_seasonality": 0.4
+  },
+  "geology": {
+    "parent_material": "metamorphic",
+    "soil_pH": 5.0,
+    "soil_texture": "loam",
+    "drainage_class": "low"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "bannock",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "bannock fry bread",
+      "fdc_id": 168058,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "2.89 g/100g [USDA FDC 168058]",
+          "lipid_content": "0.98 g/100g [USDA FDC 168058]",
+          "starch_content": "33.88 g/100g [USDA FDC 168058]",
+          "fiber_content": "17.0 g/100g [USDA FDC 168058]",
+          "energy_kcal": "156.0 g/100g [USDA FDC 168058]",
+          "glucose_concentration": "14.22 g/100g [USDA FDC 168058]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "energy_kcal": 156.0,
+          "protein_g": 2.89,
+          "fat_g": 0.98,
+          "carb_g": 33.88,
+          "fiber_g": 17.0,
+          "sugars_g": 14.22
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "myrcene",
+        "lactic_acid"
+      ],
+      "notes": "Wheat-based flatbread adopted into Indigenous tradition. Minimal metabolite complexity — primarily starch and fat. FDC likely has generic fry bread entry.",
+      "data_sources": []
+    },
+    {
+      "name": "moose",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "moose raw",
+      "fdc_id": 174344,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "22.24 g/100g [USDA FDC 174344]",
+          "lipid_content": "0.74 g/100g [USDA FDC 174344]",
+          "energy_kcal": "102.0 g/100g [USDA FDC 174344]",
+          "saturated_fat_g": "0.22 g/100g [USDA FDC 174344]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "inosinate": "present — game meat IMP documented in food science"
+        },
+        "_fdc_macros_raw": {
+          "energy_kcal": 102.0,
+          "protein_g": 22.24,
+          "fat_g": 0.74,
+          "saturated_fat_g": 0.22,
+          "monounsaturated_fat_g": 0.15,
+          "polyunsaturated_fat_g": 0.24
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Primary large game fat source. Lower total fat than ruminants but high IMP (umami). FDC has moose data under SR Legacy.",
+      "data_sources": []
+    },
+    {
+      "name": "walleye",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "walleye raw",
+      "fdc_id": 2685576,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "1.688 g/100g [USDA FDC 2685576]",
+          "lipid_content": "0.302 g/100g [USDA FDC 2685576]",
+          "starch_content": "8.787 g/100g [USDA FDC 2685576]",
+          "fiber_content": "3.119 g/100g [USDA FDC 2685576]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "inosinate": "present — freshwater fish IMP"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 1.688,
+          "fat_g": 0.302,
+          "carb_g": 8.787,
+          "fiber_g": 3.119
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "notes": "Dominant freshwater fish. Lean, high protein. Counterpart to RSU-01 pike.",
+      "data_sources": []
+    },
+    {
+      "name": "wild blueberries",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "blueberries wild raw",
+      "fdc_id": 2346411,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "0.703 g/100g [USDA FDC 2346411]",
+          "lipid_content": "0.306 g/100g [USDA FDC 2346411]",
+          "starch_content": "14.572 g/100g [USDA FDC 2346411]"
+        },
+        "key_flavor_bioactives": {
+          "tannin_content": "anthocyanins 300-500 mg/100g [Phenol-Explorer — wild blueberry]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "citric_acid": "1.0-2.0 g/100g [wild blueberry composition literature]",
+          "malic_acid": "0.4-0.9 g/100g"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 0.703,
+          "fat_g": 0.306,
+          "carb_g": 14.572
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "notes": "No capsaicin-class aromatics native to boreal Canada. Wild blueberry fills the aromatic/bioactive slot with anthocyanin and organic acid signal. Anthocyanin data well-sourced in Phenol-Explorer.",
+      "data_sources": [
+        "Phenol-Explorer — anthocyanins in wild blueberry"
+      ]
+    },
+    {
+      "name": "smoked whitefish",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "whitefish smoked",
+      "fdc_id": 173712,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "23.4 g/100g [USDA FDC 173712]",
+          "lipid_content": "0.93 g/100g [USDA FDC 173712]",
+          "energy_kcal": "108.0 g/100g [USDA FDC 173712]",
+          "saturated_fat_g": "0.228 g/100g [USDA FDC 173712]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "elevated — smoking concentrates free glutamate",
+          "inosinate": "present — fish IMP"
+        },
+        "_fdc_macros_raw": {
+          "energy_kcal": 108.0,
+          "protein_g": 23.4,
+          "fat_g": 0.93,
+          "saturated_fat_g": 0.228,
+          "monounsaturated_fat_g": 0.278,
+          "polyunsaturated_fat_g": 0.293
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "lactic_acid"
+      ],
+      "notes": "Smoking is the primary preservation method here rather than lacto-fermentation. Glutamate concentration through drying/smoking. Lower fermentation signal than RSU-01.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "wild game",
+      "bannock",
+      "wild berries",
+      "maple syrup",
+      "smoked fish"
+    ],
+    "known_processing_methods": [
+      "smoking",
+      "drying",
+      "salt-curing",
+      "fermentation"
+    ],
+    "fermentation_prevalence": 0.5
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.25,
+    "industrial_processing_index": 0.3
+  },
+  "notes": "Shield rock / thin acidic soils. Smoke and preservation dominant. Fat-protein bias parallels RSU-01 but lower fermentation prevalence. Ethnobotanical literature required for full wild food coverage."
+}

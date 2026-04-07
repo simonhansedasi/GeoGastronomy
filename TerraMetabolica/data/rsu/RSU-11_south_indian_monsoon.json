@@ -1,0 +1,240 @@
+{
+  "region_id": "RSU-11",
+  "name": "South Indian Monsoon",
+  "coordinates": {
+    "lat": 11.0,
+    "lon": 77.0,
+    "altitude_m": 100
+  },
+  "climate": {
+    "temperature_mean": 27.0,
+    "temperature_seasonality": 6.0,
+    "precipitation_mean": 1400,
+    "precipitation_seasonality": 0.8
+  },
+  "geology": {
+    "parent_material": "metamorphic",
+    "soil_pH": 6.0,
+    "soil_texture": "clay",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "rice",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "white rice raw long-grain",
+      "fdc_id": 2512381,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "7.039 g/100g [USDA FDC 2512381]",
+          "lipid_content": "1.033 g/100g [USDA FDC 2512381]",
+          "starch_content": "80.313 g/100g [USDA FDC 2512381]",
+          "fiber_content": "0.149 g/100g [USDA FDC 2512381]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 7.039,
+          "fat_g": 1.033,
+          "carb_g": 80.313,
+          "fiber_g": 0.149
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "tannin_content"
+      ],
+      "notes": "Rice appears in RSU-06, RSU-11, RSU-12 — shared carb staple across monsoon Asia. Direct comparison across soil types (loess vs. laterite vs. volcanic). Parboiled rice common in South India — different starch profile.",
+      "data_sources": []
+    },
+    {
+      "name": "coconut oil",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "coconut oil",
+      "fdc_id": 330458,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "99.1 g/100g [USDA FDC 330458]",
+          "starch_content": "0.84 g/100g [USDA FDC 330458]",
+          "energy_kcal": "833.0 g/100g [USDA FDC 330458]",
+          "saturated_fat_g": "82.5 g/100g [USDA FDC 330458]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "energy_kcal": 833.0,
+          "fat_g": 99.1,
+          "carb_g": 0.84,
+          "saturated_fat_g": 82.5,
+          "monounsaturated_fat_g": 6.31,
+          "polyunsaturated_fat_g": 1.7
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "lactic_acid"
+      ],
+      "notes": "Coconut oil dominates South Indian cooking fat. Extremely high in lauric acid (C12) and other medium-chain saturated fats — very distinctive fatty acid profile vs. all other RSUs except RSU-12 (coconut milk). FDC has complete fatty acid breakdown.",
+      "data_sources": []
+    },
+    {
+      "name": "red lentils",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "lentils raw red",
+      "fdc_id": 2346408,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "1.242 g/100g [USDA FDC 2346408]",
+          "lipid_content": "0.214 g/100g [USDA FDC 2346408]",
+          "starch_content": "6.79 g/100g [USDA FDC 2346408]"
+        },
+        "key_flavor_bioactives": {
+          "tannin_content": "condensed tannins detectable — lower in red vs. green lentils [Phenol-Explorer]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.5 g/100g free glutamate [legume databases]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 1.242,
+          "fat_g": 0.214,
+          "carb_g": 6.79
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Dal (lentils) is the primary plant protein. Glutamate content makes lentils an umami contributor alongside the fermented slot. Tannin data available in Phenol-Explorer.",
+      "data_sources": [
+        "Phenol-Explorer — polyphenols in lentils"
+      ]
+    },
+    {
+      "name": "black pepper",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "black pepper ground",
+      "fdc_id": 2262075,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "18.036 g/100g [USDA FDC 2262075]",
+          "lipid_content": "37.28 g/100g [USDA FDC 2262075]",
+          "starch_content": "34.355 g/100g [USDA FDC 2262075]",
+          "fiber_content": "23.13 g/100g [USDA FDC 2262075]",
+          "saturated_fat_g": "3.281 g/100g [USDA FDC 2262075]"
+        },
+        "key_flavor_bioactives": {
+          "capsaicinoids": "piperine 2-7.5% dry weight — not a capsaicinoid but analogous pungent alkaloid [Pruthi 1993]"
+        },
+        "terpenes": {
+          "limonene": "limonene 15-20% of black pepper essential oil [Pruthi 1993]",
+          "myrcene": "beta-myrcene 10-20% of black pepper essential oil",
+          "pinene": "alpha-pinene 5-15% of black pepper essential oil",
+          "linalool": "linalool trace in black pepper oil"
+        },
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 18.036,
+          "fat_g": 37.28,
+          "carb_g": 34.355,
+          "fiber_g": 23.13,
+          "saturated_fat_g": 3.281,
+          "monounsaturated_fat_g": 5.944,
+          "polyunsaturated_fat_g": 24.73
+        }
+      },
+      "confirmed_absent": [
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "notes": "Black pepper (Piper nigrum) is native to Western Ghats — best-documented terpene profile of any aromatic in the pilot set. Four terpene dimensions measured. Piperine is the key pungent compound — classified as capsaicinoid-analog here pending schema extension. Strong H2 candidate: Western Ghats volcanic laterite soil as origin.",
+      "data_sources": [
+        "Pruthi (1993) — spice composition and chemistry",
+        "Lawrence (1981) — black pepper essential oil composition"
+      ]
+    },
+    {
+      "name": "idli batter",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "idli rice lentil fermented",
+      "fdc_id": 2644283,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "23.569 g/100g [USDA FDC 2644283]",
+          "lipid_content": "1.925 g/100g [USDA FDC 2644283]",
+          "starch_content": "62.171 g/100g [USDA FDC 2644283]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "4-8 g/L [idli/dosa batter fermentation — Salovaara & Kanerva 1994]"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 23.569,
+          "fat_g": 1.925,
+          "carb_g": 62.171
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Rice-lentil lacto-fermentation. One of the best-studied grain-legume fermentation systems. Lactic acid profile comparable to sauerkraut (RSU-05). Likely not in FDC — manual entry from fermentation literature.",
+      "data_sources": [
+        "Salovaara & Kanerva (1994) — idli fermentation organic acid profile"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "rice",
+      "lentils (dal)",
+      "tamarind",
+      "coconut",
+      "black pepper",
+      "cardamom",
+      "turmeric"
+    ],
+    "known_processing_methods": [
+      "fermentation (idli, dosa, kanji)",
+      "tempering (tadka)",
+      "wet-grinding",
+      "sun-drying"
+    ],
+    "fermentation_prevalence": 0.7
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.65,
+    "industrial_processing_index": 0.5
+  },
+  "notes": "Laterite + alluvial soils. Highest terpene field coverage in pilot set — black pepper alone provides 4 measured terpene dimensions. Coconut oil fatty acid profile is highly distinctive. Strong test for H3 (aromatic species diversity from Western Ghats biodiversity hotspot)."
+}

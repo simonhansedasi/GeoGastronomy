@@ -1,0 +1,223 @@
+{
+  "region_id": "RSU-40",
+  "name": "Central Asian Steppe (Kazakhstan / Mongolia)",
+  "coordinates": {
+    "lat": 48.0,
+    "lon": 70.0,
+    "altitude_m": 800
+  },
+  "climate": {
+    "temperature_mean": 5.5,
+    "temperature_seasonality": 38.0,
+    "precipitation_mean": 280,
+    "precipitation_seasonality": 0.55
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 7.5,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "lamb fat (tail fat and suet, steppe-grazed)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "lamb fat raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "95-100 g/100g [rendered lamb tail fat — pure lipid]",
+          "oleic_acid": "30-38% of total fatty acids [steppe-grazed Karakul/fat-tailed sheep backfat — Diril et al. 2021 Animal 15:100206; lower oleic than grain-fed due to steppe grass diet]",
+          "linoleic_acid": "3.5-6.5% of total fatty acids [steppe lamb fat — Diril et al. 2021]",
+          "palmitic_acid": "22-26% of total fatty acids [steppe lamb fat — Diril et al. 2021]",
+          "stearic_acid": "18-24% of total fatty acids [steppe lamb fat — high stearic; Diril et al. 2021]"
+        },
+        "key_flavor_bioactives": {
+          "conjugated_linoleic_acid": "0.8-1.8 g/100g fat [steppe lamb fat CLA — grass-grazed; Scollan et al. 2001 Br J Nutr 85:637; lower than ruminant dairy CLA but measurable]",
+          "tocopherol_content": "2-6 mg/kg [lamb backfat tocopherols — relatively low]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Ovis aries (fat-tailed breeds: Edilbaevskaya, Karakul)",
+      "notes": "Central Asian steppe lamb tail fat from fat-tailed breeds — the primary cooking fat of the steppe pastoral tradition. The fat-tailed sheep (Karakul, Edilbaevskaya) store fat in the tail as an energy reserve adapted to the extreme continental climate. Steppe grass diet produces a distinctive fatty acid profile: higher stearic acid content than European grain-fed lamb, lower linoleic than grain-fed. The extreme continental climate (-30°C winters, +35°C summers) and sparse steppe grass forage create a unique fat terroir signal.",
+      "data_sources": [
+        "Diril et al. (2021) — Effect of forage diet on fatty acid composition in fat-tailed sheep, Animal 15:100206",
+        "Scollan et al. (2001) — Manipulating the fatty acid composition of muscle and adipose tissue in beef cattle, Br J Nutr 85:637"
+      ]
+    },
+    {
+      "name": "kumiss (fermented mare's milk)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "mare milk fermented",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "2.0-2.5 g/100g [kumiss — Meisel et al. 1997 J Dairy Res 64:57]",
+          "lipid_content": "1.5-2.5 g/100g [kumiss — lower fat than cow dairy]",
+          "linoleic_acid": "10-15% of mare milk total fatty acids [Jahreis et al. 1999 Eur J Lipid Sci Technol 101:319; unusually high for ruminant milk — mare gut microbiome differs from bovine]"
+        },
+        "key_flavor_bioactives": {
+          "conjugated_linoleic_acid": "trace [mare milk — very low CLA; Jahreis et al. 1999; mare is non-ruminant so no ruminal biohydrogenation to produce CLA]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.5-1.5 g/100g [kumiss — LAB Lactobacillus delbrueckii fermentation; Meisel et al. 1997]",
+          "acetic_acid": "0.2-0.6 g/100g [kumiss — Zymomonas and yeast contribution]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Equus caballus (Kazakh steppe breed)",
+      "notes": "Kumiss (koumiss, qımız) — fermented mare's milk, the defining fermented staple of Kazakh and Mongolian nomadic food culture. Mare's milk differs fundamentally from bovine milk: lower fat, different fatty acid composition, and because mares are monogastric (not true ruminants), they lack ruminal biohydrogenation — producing no CLA and higher linoleic acid in the milk fat. The LAB + yeast mixed fermentation creates a mildly alcoholic (1-3% ABV), lactic-acid-forward beverage. Historically consumed in large quantities as a nearly complete food.",
+      "data_sources": [
+        "Meisel et al. (1997) — Kumiss microbiology, J Dairy Res 64:57",
+        "Jahreis et al. (1999) — Comparative study of CLA in ruminant and non-ruminant milks, Eur J Lipid Sci Technol 101:319"
+      ]
+    },
+    {
+      "name": "millet (proso millet, boiled)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "proso millet raw",
+      "fdc_id": 169702,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "69.27 g/100g [USDA FDC 169702]",
+          "protein_content": "11.02 g/100g [USDA FDC 169702]",
+          "lipid_content": "4.22 g/100g [USDA FDC 169702]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "200-400 mg GAE/100g [millet phenolics — ferulic acid dominant; Subba Rao & Muralikrishna 2002 J Agric Food Chem 50:7285]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 11.02,
+          "fat_g": 4.22,
+          "carb_g": 69.27
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Panicum miliaceum (proso millet, Kazakh steppe varieties)",
+      "notes": "Proso millet is the traditional grain of Central Asian steppe pastoralists — drought and cold-tolerant, fast-maturing for the short steppe growing season. Used in porridges (botka), soup, and flatbreads. Second in importance to lamb and kumiss in the pastoral food system.",
+      "data_sources": [
+        "Subba Rao & Muralikrishna (2002) — Antioxidant activity of free and bound phenolics of millets, J Agric Food Chem 50:7285"
+      ]
+    },
+    {
+      "name": "horse meat (kazy sausage)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "horse meat raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "21-24 g/100g [horse meat — Badiani et al. 1997 Meat Sci 46:359]",
+          "lipid_content": "3-7 g/100g [horse ribeye — Badiani et al. 1997]",
+          "linoleic_acid": "12-18% of horse meat total fat [Badiani et al. 1997; higher linoleic than beef due to non-ruminant fatty acid metabolism]",
+          "oleic_acid": "25-30% of horse meat total fat [Badiani et al. 1997]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [horse muscle — estimate from equid meat literature]",
+          "inosinate": "~0.35 g/100g IMP [horse meat — Maga 1983 estimate]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Equus caballus (Kazakh breeds — Jabe, Mukhur)",
+      "notes": "Kazy — Kazakh cured horse meat sausage, the prestige protein of the steppe. Like mare's milk, horse meat has a non-ruminant fatty acid profile: higher linoleic acid than beef or lamb due to the absence of ruminal biohydrogenation. Horse is both the riding animal and the primary prestige meat in traditional Kazakh and Mongolian pastoral culture. Kazy is the cured/fermented form, produced by cold-smoking and drying.",
+      "data_sources": [
+        "Badiani et al. (1997) — Nutrient content and fatty acid composition of horsemeat, Meat Sci 46:359"
+      ]
+    },
+    {
+      "name": "wild onion / ramp (Allium altaicum)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "wild garlic onion raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "ascorbic_acid": "25-40 mg/100g [wild Allium species — Keusgen 2002 Phytochemistry 59:163]"
+        },
+        "key_flavor_bioactives": {
+          "isothiocyanates": "absent — Allium species produce thiosulfinate/allicin, not isothiocyanates",
+          "polyphenol_content": "150-400 mg GAE/100g [Allium species quercetin glycosides — Keusgen 2002]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Allium altaicum (Mongolian wild onion) / Allium ramosum (fragrant-flowered garlic)",
+      "notes": "Wild steppe onion and garlic species — the primary aromatic of the pastoral food system. Allium altaicum is native to the Altai-Kazakhstan steppe. Used fresh in salads, dried in soups, and historically essential for micronutrient provision (vitamin C, quercetin). The volatile thiosulfinates (allicin analogues) are the flavor-active compounds in Allium species, distinct from capsaicinoid or terpene aromas of other RSUs.",
+      "data_sources": [
+        "Keusgen (2002) — Health and alliums, Phytochemistry 59:163"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "kumiss (mare milk fermented)",
+      "lamb / horse meat",
+      "millet",
+      "tail fat",
+      "wild onion"
+    ],
+    "known_processing_methods": [
+      "kumiss LAB/yeast fermentation in leather churns",
+      "kazy horse meat cold smoking and drying",
+      "lamb fat rendering",
+      "air-dried meat (beshbarmak dried mutton)",
+      "millet porridge (botka) cooking"
+    ],
+    "fermentation_prevalence": 0.70
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.15,
+    "industrial_processing_index": 0.15
+  },
+  "notes": "Kazakhstan steppes (~800m), sedimentary plains. Extreme continental climate with the highest temperature seasonality in the dataset (38°C difference). The minimal agricultural intensification index reflects the historically nomadic pastoral food system. The fat RSU signal here is the non-ruminant horse/mare milk fatty acid profile (high linoleic, no CLA) contrasting sharply with bovine and ovine ruminant fat profiles in other RSUs. Kumiss fermentation is one of the most ancient and culturally significant fermentation traditions globally. The extreme cold adaptation of both food animals and human culture creates a nutritional ecology unlike any other RSU."
+}

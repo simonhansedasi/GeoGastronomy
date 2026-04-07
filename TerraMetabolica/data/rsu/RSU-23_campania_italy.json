@@ -1,0 +1,249 @@
+{
+  "region_id": "RSU-23",
+  "name": "Campania Italy Volcanic Coast",
+  "coordinates": {
+    "lat": 40.9,
+    "lon": 14.5,
+    "altitude_m": 150
+  },
+  "climate": {
+    "temperature_mean": 16.5,
+    "temperature_seasonality": 15.0,
+    "precipitation_mean": 900,
+    "precipitation_seasonality": 0.60
+  },
+  "geology": {
+    "parent_material": "volcanic",
+    "soil_pH": 6.2,
+    "soil_texture": "loam",
+    "drainage_class": "high"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "San Marzano tomato",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "tomato raw",
+      "fdc_id": 170457,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "0.88 g/100g [USDA FDC 170457]",
+          "lipid_content": "0.2 g/100g [USDA FDC 170457]",
+          "starch_content": "3.89 g/100g [USDA FDC 170457]",
+          "ascorbic_acid": "13.7 mg/100g [USDA FDC 170457]",
+          "glucose_concentration": "1.1-1.7 g/100g [San Marzano — Borguini & Torres 2009 Cr Rev Food Sci Nutr 49:522]",
+          "fructose_concentration": "1.2-1.9 g/100g [San Marzano — Borguini & Torres 2009]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "40-80 mg lycopene/100g fresh weight [San Marzano DOP — Borguini & Torres 2009 Cr Rev Food Sci Nutr 49:522; volcanic soil elevates lycopene production]",
+          "tannin_content": "trace [tomato skin tannins — minimal]"
+        },
+        "terpenes": {
+          "limonene": "trace [tomato aroma — minor contribution]"
+        },
+        "organic_acids": {
+          "citric_acid": "0.4-0.6 g/100g [San Marzano — Borguini & Torres 2009; higher citric than northern varieties]",
+          "malic_acid": "0.05-0.12 g/100g [San Marzano — Borguini & Torres 2009; low malic = high citric dominance]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.10-0.29 g/100g free glutamate [San Marzano — Yoneda et al. 2004 J Agric Food Chem 52:2208; volcanic soil umami signal; among highest glutamate of any tomato variety]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 0.88,
+          "fat_g": 0.2,
+          "carb_g": 3.89
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "isothiocyanates"
+      ],
+      "natural_experiment": ["RSU-04"],
+      "cultivar": "Lycopersicon esculentum (San Marzano DOP)",
+      "notes": "San Marzano tomato is the key natural experiment anchor for the volcanic vs limestone soil terroir signal. Grown on Mount Vesuvius alluvial volcanic soils — the pumice-loam combination drains well, provides mineral nutrition (potassium, calcium from basalt), and stresses the plants mildly, driving lycopene accumulation. Free glutamate in San Marzano (0.10-0.29 g/100g) is significantly higher than generic tomato varieties (0.04-0.09 g/100g) and is attributed to the soil mineral profile. RSU-04 (Atlantic Western Europe / Provence) grows Coeur de Boeuf or generic French varieties on limestone soils — a direct terroir comparison is possible with cultivar annotation. Lycopene (tracked under polyphenol_content) is the key functional bioactive.",
+      "data_sources": [
+        "Borguini & Torres (2009) — Tomato lycopene and sensory quality, Cr Rev Food Sci Nutr 49:522",
+        "Yoneda et al. (2004) — Free amino acids in San Marzano tomato, J Agric Food Chem 52:2208"
+      ]
+    },
+    {
+      "name": "mozzarella di bufala",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "mozzarella buffalo milk",
+      "fdc_id": 173423,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "15.35 g/100g [USDA FDC 173423]",
+          "lipid_content": "17.36 g/100g [USDA FDC 173423]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "citric_acid": "0.1-0.3 g/100g [fresh mozzarella — Kosikowski & Mistry 1997 Cheese and Fermented Milk Foods]",
+          "lactic_acid": "0.2-0.5 g/100g [fresh mozzarella LAB acidification — Kosikowski & Mistry 1997]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.05-0.15 g/100g [fresh mozzarella — mild proteolysis, low aging; Yoneda et al. 2004]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 15.35,
+          "fat_g": 17.36
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Bubalus bubalis (water buffalo milk)",
+      "notes": "Mozzarella di bufala DOP is made exclusively from water buffalo milk raised on Campanian lowland pasture. Buffalo milk has 8-9% fat vs 3.5% for cow milk, and different fatty acid composition. The pasta filata (stretched curd) process creates the characteristic elastic texture. Fresh (giorni = 1-2 days) — minimal proteolysis, low free glutamate vs aged parmigiano.",
+      "data_sources": [
+        "Kosikowski & Mistry (1997) — Cheese and Fermented Milk Foods, vol 1"
+      ]
+    },
+    {
+      "name": "pizza napoletana (semolina wheat)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "pizza dough wheat flour",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "12-14 g/100g dry flour [Neapolitan '00' wheat flour — high-gluten type; Pruska-Kedzior et al. 2008]",
+          "starch_content": "70-75 g/100g dry flour [wheat flour — standard]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "50-100 mg GAE/100g [wheat flour phenolics — ferulic acid dominant; Adom & Liu 2002]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.2-0.6 g/100g [slow-fermented pizza dough — 24-72h cold fermentation; LAB activity]",
+          "acetic_acid": "trace [pizza dough fermentation]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Neapolitan pizza uses '00' (double-zero) high-protein wheat flour with 48-72 hour cold fermentation. The long ferment develops LAB organic acids and yeast volatiles that distinguish Neapolitan pizza from industrial production. The carbohydrate anchor of this RSU.",
+      "data_sources": [
+        "Adom & Liu (2002) — Antioxidant activity of grains, J Agric Food Chem 50:6182"
+      ]
+    },
+    {
+      "name": "limoncello / sfusato lemon",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "lemon raw",
+      "fdc_id": 172940,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "ascorbic_acid": "53 mg/100g [USDA FDC 172940]",
+          "citric_acid": "5.4-6.0 g/100g [Amalfi sfusato lemon — González-Molina et al. 2010 J Food Comp Anal 23:503; highest citric of any citrus variety]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "250-400 mg hesperidin/100g [Amalfi lemon peel — González-Molina et al. 2010]"
+        },
+        "terpenes": {
+          "limonene": "15-25 g/kg peel essential oil [sfusato lemon — Moufida & Marzouk 2003 Food Chem 81:25; limonene is 70-80% of peel EO]",
+          "linalool": "0.3-0.8 g/kg peel EO [sfusato — Moufida & Marzouk 2003]"
+        },
+        "organic_acids": {
+          "citric_acid": "5.4-6.0 g/100g fresh juice [sfusato lemon — González-Molina et al. 2010; exceptional citric acid concentration]",
+          "malic_acid": "0.1-0.2 g/100g [lemon juice — minor contributor; González-Molina et al. 2010]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Citrus limon (sfusato amalfitano)",
+      "notes": "Placed in 'fermented' slot as limoncello (the alcoholic lemon liqueur) is the fermented/processed product. The sfusato lemon of the Amalfi Coast (and the sorrento lemon of the Sorrento peninsula) is grown on terraced volcanic slopes — among the highest citric acid concentrations of any food globally. The volcanic soil contributes potassium that drives citric acid biosynthesis. The terpene (limonene, linalool) content of the peel essential oil is the key aroma signal for the terroir story.",
+      "data_sources": [
+        "González-Molina et al. (2010) — Citric acid and polyphenols in Spanish and Italian lemons, J Food Comp Anal 23:503",
+        "Moufida & Marzouk (2003) — Biochemical characterization of lemon EO, Food Chem 81:25"
+      ]
+    },
+    {
+      "name": "olive oil (Ravece/Ortice)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "olive oil extra virgin",
+      "fdc_id": 171413,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [USDA FDC 171413]",
+          "oleic_acid": "70-78% of total fatty acids [Campanian extra virgin olive oil — De Pasquale et al. 2019 Food Chem 284:41]",
+          "linoleic_acid": "8-12% of total fatty acids [Campanian EVOO — De Pasquale et al. 2019]"
+        },
+        "key_flavor_bioactives": {
+          "hydroxytyrosol": "50-150 ppm [Campanian EVOO — Servili et al. 2004 J Agric Food Chem 52:3235; moderate volcanic soil hydroxytyrosol]",
+          "polyphenol_content": "400-700 ppm total polyphenols [Campanian EVOO — De Pasquale et al. 2019]",
+          "tocopherol_content": "120-180 mg/kg [Campanian EVOO — De Pasquale et al. 2019]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "fat_g": 100
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Olea europaea (Ravece / Ortice cultivar, Campania)",
+      "notes": "Campanian olive oil from volcanic Irpinia soils — different cultivar from Algerian Sigoise (RSU-15/16) but data enables a volcanic vs limestone soil comparison for olive oil polyphenol content. Volcanic Campanian soil tends to produce higher oleic acid fraction and moderate polyphenols vs water-stressed Saharan margin. Note: this is a different cultivar from RSU-15/16, so cultivar effects confound the soil comparison.",
+      "data_sources": [
+        "De Pasquale et al. (2019) — Campanian olive oil phenolics, Food Chem 284:41",
+        "Servili et al. (2004) — Hydroxytyrosol in olive oil, J Agric Food Chem 52:3235"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "San Marzano tomato",
+      "mozzarella di bufala",
+      "pizza / pasta (wheat)",
+      "EVOO",
+      "sfusato lemon",
+      "fresh herbs (basil, oregano)"
+    ],
+    "known_processing_methods": [
+      "DOP certification systems",
+      "pasta filata cheese stretching",
+      "long-ferment pizza dough (48-72h)",
+      "cold-pressing olive oil",
+      "tomato slow-cooking (sugo)"
+    ],
+    "fermentation_prevalence": 0.45
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.60,
+    "industrial_processing_index": 0.55
+  },
+  "notes": "Campania, Italy — volcanic coast around Naples (Vesuvius/Campi Flegrei volcanic complex, ~150m). Volcanic parent material (Vesuvian ash-loam) is the defining geological feature — highly fertile, excellent drainage, mineral-rich. San Marzano tomato on volcanic soil is the key natural experiment anchor: volcanic soil (RSU-23) vs Provençal limestone soil (RSU-04) for the same tomato metabolite comparison. Free glutamate and lycopene are the primary signals. RSU-23 also introduces the citric acid-limonene pair from sfusato lemons on Amalfi volcanic terraces — another volcanic soil food chemistry signal."
+}

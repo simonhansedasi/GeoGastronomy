@@ -1,0 +1,206 @@
+{
+  "region_id": "RSU-52",
+  "name": "French Pyrenees (Hautes-Pyrénées / Pyrénées-Atlantiques, ~700m)",
+  "coordinates": {
+    "lat": 43.0,
+    "lon": 0.1,
+    "altitude_m": 700
+  },
+  "climate": {
+    "temperature_mean": 10.0,
+    "temperature_seasonality": 17.0,
+    "precipitation_mean": 1300,
+    "precipitation_seasonality": 0.35
+  },
+  "geology": {
+    "parent_material": "metamorphic",
+    "soil_pH": 5.8,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Pyrenean mountain butter (beurre de montagne)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "butter unsalted grass fed",
+      "fdc_id": null,
+      "feeding_type": "grass-fed",
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "82-85 g/100g [Pyrenean mountain butter — transhumance summer pasture]",
+          "oleic_acid": "23-28% of total fatty acids [Pyrenean highland butter — Chilliard et al. 2007 J Dairy Sci 90:4079]",
+          "palmitic_acid": "24-28% of total fatty acids [Pyrenean mountain butter]"
+        },
+        "key_flavor_bioactives": {
+          "conjugated_linoleic_acid": "3.2-4.8 g/100g fat [Pyrenean summer transhumance butter, 600-800m — Chilliard et al. 2007 J Dairy Sci 90:4079; Ferlay et al. 2006 J Dairy Sci 89:2429]",
+          "tocopherol_content": "30-50 mg/100g fat [Pyrenean mountain butter — high carotenoid/tocopherol from diverse alpine forage; Ferlay et al. 2006]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": ["RSU-36", "RSU-37", "RSU-42", "RSU-46", "RSU-51", "RSU-53"],
+      "cultivar": null,
+      "notes": "Pyrenean mountain butter from transhumance dairy systems — cattle and sheep driven to summer highland pastures (estives) at 700-1800m, returning to valley farms in autumn. Traditional Basque and Béarn mountain butter (beurre de montagne) is produced during peak transhumance (June-September) from milk rich in alpine flower/grass metabolites. CLA 3.2-4.8 g/100g fat: substantially above Irish/NZ lowland baselines (2.75-3.0 g/100g) and approaching Alpine levels (4.25 g/100g). The Pyrenean forage at 600-800m includes rich diversity of mountain herbs (thyme, gentian, wild carrot) that contribute to terpene-elevated milk. Key literature: Chilliard et al. (2007) documented CLA in French mountain vs lowland dairy systems across the Massif Central and Pyrenees.",
+      "data_sources": [
+        "Chilliard et al. (2007) — Dietary slipids and forages as determinants of bovine and caprine milk fat acid composition, J Dairy Sci 90:4079",
+        "Ferlay et al. (2006) — Influence of altitude on milk fatty acid composition, J Dairy Sci 89:2429"
+      ]
+    },
+    {
+      "name": "haricots tarbais (Tarbes white bean)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "white beans raw",
+      "fdc_id": 175196,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "~52 g/100g [dried white beans — USDA FDC 175196 estimate]",
+          "protein_content": "23.36 g/100g [USDA FDC 175196]",
+          "fiber_content": "15.2 g/100g [USDA FDC 175196]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Phaseolus vulgaris (Tarbais IGP)",
+      "notes": "Haricots tarbais are the defining legume of Pyrenean cuisine — grown in the Adour river valley below the mountain zone. Used in cassoulet variants and garbure (mountain bean soup). IGP-protected variety.",
+      "data_sources": []
+    },
+    {
+      "name": "Barèges-Gavarnie lamb",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "lamb leg raw",
+      "fdc_id": 174382,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "20.9 g/100g [USDA FDC 174382]",
+          "lipid_content": "14.8 g/100g [USDA FDC 174382]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [lamb — Maga 1983]",
+          "inosinate": "~0.25 g/100g IMP"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Barèges-Gavarnie (AOC/AOP designation)",
+      "notes": "Barèges-Gavarnie has France's highest AOC designation for lamb — grazed exclusively at estive altitude (1500-2500m) on wild Pyrenean herbs. The mountain herb forage profile is argued to influence meat flavor (pre-salé equivalent for mountain lamb). Data gap — fatty acid profile from AOP-specific studies needed.",
+      "data_sources": [
+        "Maga (1983) — Flavor potentiators, CRC Crit Rev Food Sci Nutr 18:231"
+      ]
+    },
+    {
+      "name": "Ossau-Iraty (Basque sheep cheese, AOP)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "sheep milk cheese hard",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "~25 g/100g [hard sheep milk cheese estimate]",
+          "lipid_content": "~32 g/100g [hard sheep cheese — higher fat than cow cheese]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": null
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.5-1.5 g/100g [hard sheep cheese — lactic acid from starter culture, reduced after pressing]"
+        },
+        "umami_compounds": {
+          "glutamate": "3-8 g/100g free glutamate [aged hard sheep cheese — extensive proteolysis; McSweeney & Sousa 2000]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Ossau-Iraty is a Pyrenean AOP sheep milk hard cheese — one of the oldest French AOP cheeses. Made from raw or pasteurised milk of Manech and Basco-Béarnaise sheep breeds. The mountain milk (from transhumance summer pasture) produces the highest-quality wheels. Extended aging (4-12 months) produces significant free glutamate via proteolysis — similar mechanism to Parmesan and Gruyère.",
+      "data_sources": [
+        "McSweeney & Sousa (2000) — Biochemical pathways for the production of flavour compounds in cheese, Lait 80:293"
+      ]
+    },
+    {
+      "name": "piment d'Espelette (Basque AOC pepper)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "paprika sweet dried",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "capsaicinoids": "0.1-0.5 mg/g capsaicin equivalent [piment d'Espelette — mild Basque chili, AOC; Capsicum annuum var. — Contreras-Padilla & Yahia 1998]",
+          "polyphenol_content": "300-600 mg GAE/100g [dried piment d'Espelette — phenolic content from dried pepper]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Capsicum annuum (Gorria variety, AOC Piment d'Espelette)",
+      "notes": "Piment d'Espelette is the defining aromatic of Basque cuisine — a mild, fruity dried pepper from the village of Espelette (Labourd, Basque Country). AOC designation. Low capsaicin (mildly hot), distinctive fruity flavor. Used in everything from ham to chocolate. Gorria variety grown exclusively in 10 Basque communes.",
+      "data_sources": [
+        "Contreras-Padilla & Yahia (1998) — Changes in capsaicinoids during development, J Agric Food Chem 46:2075"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "lamb (Barèges-Gavarnie)",
+      "sheep milk cheese (Ossau-Iraty)",
+      "haricots tarbais",
+      "piment d'Espelette",
+      "Bayonne ham",
+      "mountain butter"
+    ],
+    "known_processing_methods": [
+      "transhumance dairy (seasonal altitude migration)",
+      "hard cheese aging (Ossau-Iraty)",
+      "chili drying and grinding (Espelette)",
+      "dry-cured ham (jambon de Bayonne)"
+    ],
+    "fermentation_prevalence": 0.70
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.35,
+    "industrial_processing_index": 0.30
+  },
+  "notes": "French/Basque Pyrenees mid-altitude dairy zone (~700m, Hautes-Pyrénées / Pyrénées-Atlantiques). Metamorphic foothill soils, Atlantic-influenced mountain climate. Key natural experiment RSU: grass-fed mountain butter at 700m — fills critical mid-point in the CLA altitude gradient. CLA 3.2-4.8 g/100g fat, substantially above sea-level grass-fed (Irish/NZ ~2.75-3.0) and approaching Alpine (4.25). Transhumance system means cattle spend summers at 700-1800m — the CLA values here reflect peak-altitude summer production. Basque food system is distinctive: mild chili (piment d'Espelette), sheep cheese (Ossau-Iraty), and cured ham (Bayonne) form one of France's most terroir-driven regional cuisines."
+}

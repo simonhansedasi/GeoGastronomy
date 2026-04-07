@@ -1,0 +1,157 @@
+{
+  "region_id": "RSU-07",
+  "name": "North American Prairie",
+  "coordinates": {
+    "lat": 41.0,
+    "lon": -97.0,
+    "altitude_m": 600
+  },
+  "climate": {
+    "temperature_mean": 11.0,
+    "temperature_seasonality": 28.0,
+    "precipitation_mean": 700,
+    "precipitation_seasonality": 0.45
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 6.8,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "commodity corn",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "yellow corn raw",
+      "fdc_id": 2710826,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "2.789 g/100g [USDA FDC 2710826]",
+          "lipid_content": "1.626 g/100g [USDA FDC 2710826]",
+          "starch_content": "14.69 g/100g [USDA FDC 2710826]",
+          "fiber_content": "2.428 g/100g [USDA FDC 2710826]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 2.789,
+          "fat_g": 1.626,
+          "carb_g": 14.69,
+          "fiber_g": 2.428
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "tannin_content"
+      ],
+      "notes": "Industrial commodity corn — modern field varieties bred for yield, not metabolite complexity. Minimal bioactive profile compared to traditional maize. NEGATIVE CONTROL food for H5.",
+      "data_sources": []
+    },
+    {
+      "name": "soybean oil",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "soybean oil",
+      "fdc_id": 748366,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "saturated_fat_g": "14.9 g/100g [USDA FDC 748366]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "saturated_fat_g": 14.9,
+          "monounsaturated_fat_g": 22.1,
+          "polyunsaturated_fat_g": 57.6
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "lactic_acid",
+        "tannin_content"
+      ],
+      "notes": "Refined commodity oil — essentially pure fat, all bioactives removed in processing. Most metabolically inert fat source in the pilot set. Exemplifies H5 signal destruction.",
+      "data_sources": []
+    },
+    {
+      "name": "feedlot beef",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "beef ground raw 80% lean",
+      "fdc_id": 2514744,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "17.531 g/100g [USDA FDC 2514744]",
+          "lipid_content": "19.44 g/100g [USDA FDC 2514744]",
+          "saturated_fat_g": "6.845 g/100g [USDA FDC 2514744]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "inosinate": "present — beef IMP",
+          "glutamate": "~0.32 g/100g free glutamate [Ninomiya 1998 — beef]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 17.531,
+          "fat_g": 19.44,
+          "saturated_fat_g": 6.845,
+          "monounsaturated_fat_g": 7.247,
+          "polyunsaturated_fat_g": 0.485
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Grain-finished feedlot beef. Lower omega-3:omega-6 ratio vs. grass-finished. IMP documented. The environmental substrate (Mollisol soil quality) is completely decoupled from the animal's metabolite profile via grain feeding.",
+      "data_sources": [
+        "Ninomiya (1998) — free glutamate in meat"
+      ]
+    }
+  ],
+  "absent_categories": [
+    "aromatic",
+    "fermented"
+  ],
+  "food_system": {
+    "dominant_staples": [
+      "corn",
+      "wheat",
+      "soybeans",
+      "beef",
+      "high-fructose corn syrup"
+    ],
+    "known_processing_methods": [
+      "industrial milling",
+      "high-temp extrusion",
+      "chemical leavening"
+    ],
+    "fermentation_prevalence": 0.1
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.98,
+    "industrial_processing_index": 0.95
+  },
+  "notes": "NEGATIVE CONTROL for H5 (Cultural Distortion). Only 3 staple foods — aromatic and fermented categories are confirmed absent from the traditional industrial food system. Do not treat as primary flavor signal contributor. Mollisol soil quality is high but food system is completely decoupled from its environmental substrate. Absence of aromatic and fermented categories is itself a data point."
+}

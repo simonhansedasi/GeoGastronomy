@@ -1,0 +1,189 @@
+{
+  "region_id": "RSU-16",
+  "name": "Algerian Saharan Margin",
+  "coordinates": {
+    "lat": 33.4,
+    "lon": 6.9,
+    "altitude_m": 70
+  },
+  "climate": {
+    "temperature_mean": 22.0,
+    "temperature_seasonality": 18.0,
+    "precipitation_mean": 65,
+    "precipitation_seasonality": 0.70
+  },
+  "geology": {
+    "parent_material": "aeolian_sand",
+    "soil_pH": 8.1,
+    "soil_texture": "sandy loam",
+    "drainage_class": "high"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Sigoise olive",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "olive oil extra virgin",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "oleic_acid": "59-62% of total fatty acids [Sigoise, Eloued — Guerfel et al. 2022 Food Sci Nutr]",
+          "linoleic_acid": "15-17% of total fatty acids [Guerfel et al. 2022]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "838-945 ppm total polyphenols [Sigoise olive, Eloued water-stressed — Guerfel et al. 2022 Food Sci Nutr] — 60% higher than Setif highlands",
+          "tocopherol_content": "208-245 mg/kg [Sigoise, Eloued — Guerfel et al. 2022] — 2.4x higher than Setif"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": ["RSU-15"],
+      "cultivar": "Sigoise",
+      "notes": "Saharan margin Eloued site. Severe water stress (65mm annual precipitation) drives dramatic upregulation of polyphenols (60% higher) and tocopherols (2.4x higher) vs. highland RSU-15 Setif site. Oleic acid proportion is lower and linoleic acid higher than highland counterpart — water stress shifts fatty acid composition. Natural experiment pair with RSU-15 (Algerian Northern Highlands) — same Sigoise cultivar under contrasting water availability.",
+      "data_sources": [
+        "Guerfel et al. 2022 Food Sci Nutr PMC9179137 — Sigoise olive oil composition across Algerian regions"
+      ]
+    },
+    {
+      "name": "dates",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "dates medjool raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "sugar_content": "~65-70 g/100g total sugars [dates — literature estimate, FDC data needed]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "tannins and carotenoids present — FDC data needed for quantification"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Dates (Phoenix dactylifera) are the defining carbohydrate staple of Saharan oasis communities. Algeria's Eloued region (El Oued) is renowned for its Deglet Nour dates. Extremely high sugar concentration with low water content. FDC data needed for full metabolite profile.",
+      "data_sources": []
+    },
+    {
+      "name": "camel meat",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "camel meat raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [camelid muscle — literature estimate, FDC data needed]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Camel (Camelus dromedarius) is the culturally significant protein source in Saharan nomadic and semi-nomadic food systems. Lean red meat with distinct fatty acid profile. FDC data limited — specialized literature required.",
+      "data_sources": []
+    },
+    {
+      "name": "cumin",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "cumin seed dried",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {
+          "cuminaldehyde": "cuminaldehyde is the dominant volatile compound in cumin essential oil — 25-35% of oil fraction",
+          "pinene": "alpha- and beta-pinene present in cumin oil — secondary terpenes"
+        },
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Cumin (Cuminum cyminum) is the dominant aromatic spice of Saharan and southern Algerian cuisine. Cuminaldehyde is the key flavor-active terpene. FDC data needed for macro profile.",
+      "data_sources": []
+    },
+    {
+      "name": "smen",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "fermented butter clarified",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "~80 g/100g [clarified fermented butter — literature estimate, FDC data needed]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "present — LAB fermentation during smen production",
+          "butyric_acid": "present — characteristic short-chain fatty acid of aged butter fermentation"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Smen is a traditional North African fermented and clarified butter, aged for months to years. The long fermentation produces a sharp, pungent flavor profile dominated by short-chain fatty acids including butyric acid. Used extensively in Saharan and Maghrebi cooking. FDC data not available — specialized literature required.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "dates",
+      "olive oil",
+      "camel meat",
+      "goat milk",
+      "durum wheat",
+      "cumin"
+    ],
+    "known_processing_methods": [
+      "date drying and pressing",
+      "olive pressing",
+      "long-aged butter fermentation",
+      "flatbread baking",
+      "spice blending"
+    ],
+    "fermentation_prevalence": 0.55
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.25,
+    "industrial_processing_index": 0.2
+  },
+  "notes": "Algerian Saharan margin site (Eloued region, ~70m elevation). Hyper-arid conditions (65mm annual precipitation) on aeolian sand parent material. Natural experiment pair with RSU-15 (Algerian Northern Highlands) — same Sigoise olive cultivar under contrasting water availability. Severe water stress drives the highest polyphenol and tocopherol concentrations measured in the Guerfel et al. 2022 dataset — a clean environmental terroir signal on identical genetic background. Oasis food system built around dates as primary carbohydrate energy source, with camel and goat as protein/fat providers adapted to arid conditions. Lowest agricultural intensification index in the pilot set."
+}

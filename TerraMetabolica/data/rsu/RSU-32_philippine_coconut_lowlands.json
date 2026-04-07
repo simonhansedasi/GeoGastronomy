@@ -1,0 +1,222 @@
+{
+  "region_id": "RSU-32",
+  "name": "Philippine Coconut Lowlands (Quezon)",
+  "coordinates": {
+    "lat": 14.0,
+    "lon": 122.1,
+    "altitude_m": 50
+  },
+  "climate": {
+    "temperature_mean": 27.5,
+    "temperature_seasonality": 3.0,
+    "precipitation_mean": 2200,
+    "precipitation_seasonality": 0.45
+  },
+  "geology": {
+    "parent_material": "volcanic",
+    "soil_pH": 6.0,
+    "soil_texture": "clay loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "coconut oil (lowland)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "coconut oil",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [pure oil]",
+          "lauric_acid": "45.1-47.5% of total fatty acids [Cocos nucifera, Philippine lowland — Mansor et al. 2012 J Oleo Sci 61:735; sea-level humid lowland production]",
+          "myristic_acid": "16.8-18.2% of total fatty acids [Philippine coconut oil — Mansor et al. 2012]",
+          "oleic_acid": "5.8-7.2% of total fatty acids [Philippine coconut oil — Mansor et al. 2012; low oleic typical of lowland coconut]",
+          "linoleic_acid": "1.8-2.5% of total fatty acids [Philippine coconut oil — Mansor et al. 2012]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "55-90 mg GAE/100g [virgin coconut oil — Arunima & Rajamohan 2013 Food Funct 4:270; polyphenols higher in VCO vs refined]",
+          "tocopherol_content": "0.5-0.9 mg/100g [coconut oil tocopherols — Mansor et al. 2012; very low vs other plant oils]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": ["RSU-33"],
+      "cultivar": "Cocos nucifera (Tall, Philippine lowland)",
+      "notes": "Philippine lowland coconut oil — warm, humid, sea-level growing conditions. Lauric acid (45-47%) is the defining saturated fat of coconut oil and varies with altitude and temperature. Natural experiment pair with RSU-33 (Sri Lankan Highland coconut, ~500m) — same species, contrasting altitude and temperature regime, allowing fatty acid composition comparison as a function of altitude/temperature gradient.",
+      "data_sources": [
+        "Mansor et al. (2012) — Physicochemical properties of virgin coconut oil, J Oleo Sci 61:735",
+        "Arunima & Rajamohan (2013) — Virgin coconut oil and polyphenol content, Food Funct 4:270"
+      ]
+    },
+    {
+      "name": "rice (sinandomeng)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "white rice long grain raw",
+      "fdc_id": 168878,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "79.3 g/100g [USDA FDC 168878]",
+          "protein_content": "6.6 g/100g [USDA FDC 168878]",
+          "lipid_content": "0.58 g/100g [USDA FDC 168878]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 6.6,
+          "fat_g": 0.58,
+          "carb_g": 79.3
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Oryza sativa (Sinandomeng, indica type)",
+      "notes": "White rice is the foundational carbohydrate of the Philippine diet. Sinandomeng is the dominant traditional lowland variety in Quezon province. FDC 168878 used as macro proxy.",
+      "data_sources": []
+    },
+    {
+      "name": "tilapia (fresh, lake-raised)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "tilapia raw",
+      "fdc_id": 175177,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "20.1 g/100g [USDA FDC 175177]",
+          "lipid_content": "2.65 g/100g [USDA FDC 175177]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.28 g/100g free glutamate [tilapia muscle — Yoneda et al. 2004 estimate for freshwater fish]",
+          "inosinate": "~0.25 g/100g IMP [tilapia — typical teleost muscle IMP; Maga 1983]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 20.1,
+          "fat_g": 2.65
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Oreochromis niloticus (Nile tilapia)",
+      "notes": "Freshwater tilapia from Laguna de Bay — the largest lake in the Philippines and a major aquaculture center. Central protein source of Quezon and surrounding lowland communities.",
+      "data_sources": [
+        "Maga (1983) — Flavor potentiators, CRC Crit Rev Food Sci Nutr 18:231"
+      ]
+    },
+    {
+      "name": "bagoong (fermented shrimp paste)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "shrimp paste fermented",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "18-22 g/100g [bagoong alamang — Olympia 1992 SEAFDEC Aquacult Dept Tech Rep]",
+          "amino_acid_content": "free amino acids dramatically elevated by proteolysis during fermentation"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.4-1.0 g/100g [bagoong LAB fermentation — Olympia 1992]"
+        },
+        "umami_compounds": {
+          "glutamate": "1.2-2.8 g/100g free glutamate [bagoong alamang — Nozaki et al. 1999 Biosci Biotechnol Biochem 63:1474; extremely high due to extended proteolysis]",
+          "inosinate": "trace [hydrolyzed during fermentation]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Bagoong alamang is a fermented paste of tiny shrimp (Acetes sp.) salt-cured for 30-90 days. The hallmark of Philippine fermentation — the high free glutamate from proteolysis makes it one of the most umami-concentrated foods in any Asian food system. Used as condiment and cooking ingredient. Analogous to Malaysian belacan, Thai kapi, and Vietnamese mam ruoc.",
+      "data_sources": [
+        "Olympia (1992) — Fermented fish products in the Philippines, SEAFDEC Aquacult Dept Tech Rep",
+        "Nozaki et al. (1999) — Free amino acids in fermented shrimp paste, Biosci Biotechnol Biochem 63:1474"
+      ]
+    },
+    {
+      "name": "calamansi",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "calamansi lime juice",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "ascorbic_acid": "37-52 mg/100g [Citrofortunella microcarpa juice — Gonzalez et al. 2011 Philipp J Sci 140:133]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "180-280 mg GAE/100g [calamansi peel — Gonzalez et al. 2011]"
+        },
+        "terpenes": {
+          "limonene": "present — dominant terpene in calamansi peel EO",
+          "linalool": "present — secondary terpene of calamansi EO"
+        },
+        "organic_acids": {
+          "citric_acid": "5.8-7.5 g/100g fresh juice [calamansi — Gonzalez et al. 2011; higher acidity than key lime]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Citrofortunella microcarpa",
+      "notes": "Calamansi (Philippine lime) is the defining aromatic souring agent of the Philippine food system — used in dipping sauces (sawsawan), marinades, and squeezed over most savory dishes. The intense citric acid concentration (5.8-7.5 g/100g) is among the highest of any citrus fruit. Essential counterpoint to the rich coconut fat and umami-heavy fermented shrimp paste in this food system.",
+      "data_sources": [
+        "Gonzalez et al. (2011) — Physicochemical and phytochemical properties of calamansi, Philipp J Sci 140:133"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "rice",
+      "coconut oil/milk",
+      "tilapia/bangus",
+      "bagoong",
+      "calamansi"
+    ],
+    "known_processing_methods": [
+      "coconut milk extraction",
+      "salt fermentation (bagoong, patis fish sauce)",
+      "rice milling",
+      "adobo vinegar-braising",
+      "sun-drying (dried fish/daing)"
+    ],
+    "fermentation_prevalence": 0.70
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.55,
+    "industrial_processing_index": 0.45
+  },
+  "notes": "Quezon Province, Luzon, Philippines (~50m). Warm, humid lowland tropical environment on volcanic soils. This RSU provides the low-altitude anchor for the coconut oil fat natural experiment (RSU-32 lowland vs RSU-33 Sri Lankan highland). Coconut oil lauric acid and myristic acid are the primary fat terroir signals. Bagoong provides the highest free glutamate in the dataset by a large margin — a distinct fermentation-terroir signal."
+}

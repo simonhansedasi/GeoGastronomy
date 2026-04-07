@@ -1,0 +1,217 @@
+{
+  "region_id": "RSU-31",
+  "name": "Peruvian Amazon Lowlands",
+  "coordinates": {
+    "lat": -4.9,
+    "lon": -75.0,
+    "altitude_m": 120
+  },
+  "climate": {
+    "temperature_mean": 26.0,
+    "temperature_seasonality": 4.0,
+    "precipitation_mean": 2800,
+    "precipitation_seasonality": 0.30
+  },
+  "geology": {
+    "parent_material": "alluvial",
+    "soil_pH": 4.5,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "cacao (Criollo Amazonian)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "cocoa powder unsweetened",
+      "fdc_id": 169593,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "13.7 g/100g [USDA FDC 169593 — cocoa powder fat]",
+          "protein_content": "19.6 g/100g [USDA FDC 169593]",
+          "fiber_content": "37.0 g/100g [USDA FDC 169593]"
+        },
+        "key_flavor_bioactives": {
+          "theobromine_concentration": "2.57 g/100g [USDA FDC 169593]",
+          "caffeine_concentration": "0.23 g/100g [USDA FDC 169593]",
+          "polyphenol_content": "5000-8000 mg procyanidin/100g raw bean [Theobroma cacao Criollo — highest polyphenol variety; Gu et al. 2006 J Agric Food Chem 54:4057; vs 3500-5500 for Forastero]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "acetic_acid": "2.0-4.5 g/100g [Amazonian fermented cacao — Schwan & Wheals 2004 Crit Rev Food Sci Nutr 44:205]",
+          "lactic_acid": "0.8-2.0 g/100g [cacao bean fermentation — Schwan & Wheals 2004]",
+          "citric_acid": "1.0-2.0 g/100g [cacao — reduced from 3-4 g/100g pre-fermentation; Schwan & Wheals 2004]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates",
+        "linalool"
+      ],
+      "natural_experiment": ["RSU-25"],
+      "cultivar": "Theobroma cacao var. Criollo (Amazonian fine-flavor)",
+      "notes": "Criollo cacao is the highest-quality and rarest variety — grown in the Peruvian Amazon lowland forest-agriculture agroforestry systems. Polyphenol content (5000-8000 mg/100g) is dramatically higher than Forastero (the common commercial variety) or Trinitario. The natural experiment here is RSU-31 (Amazonian Criollo, 120m) vs RSU-25 (Oaxacan cacao in mole, ~1550m, Forastero/Trinitario) — same food (cacao) but different variety, altitude, and terroir. The altitude and shade-growing conditions in Amazonian agroforestry affect the polyphenol profile. This RSU provides the 3rd low-altitude point of the Andean altitude gradient (RSU-09 Amazon at similar altitude, RSU-10 Andes at 3500m, RSU-18 Colombia at 1600m) — connecting to cacao as the fat/flavor anchor.",
+      "data_sources": [
+        "Gu et al. (2006) — Procyanidin content in Theobroma cacao varieties, J Agric Food Chem 54:4057",
+        "Schwan & Wheals (2004) — Cocoa bean fermentation, Crit Rev Food Sci Nutr 44:205"
+      ]
+    },
+    {
+      "name": "yuca (cassava)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "cassava raw",
+      "fdc_id": 169281,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "1.36 g/100g [USDA FDC 169281]",
+          "lipid_content": "0.28 g/100g [USDA FDC 169281]",
+          "starch_content": "38.06 g/100g [USDA FDC 169281]",
+          "ascorbic_acid": "20.6 mg/100g [USDA FDC 169281]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 1.36,
+          "fat_g": 0.28,
+          "carb_g": 38.06
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Manihot esculenta (bitter and sweet varieties)",
+      "notes": "Cassava (yuca) is the foundational carbohydrate of Amazonian lowland food systems — capable of growing in poor acid soils at high heat where other starchy crops fail. Bitter varieties require detoxification (grating + pressing + cooking to remove linamarin/cyanogenic glucosides). Compare to RSU-09 (Amazon Basin) for cassava as the shared carbohydrate of Amazonia.",
+      "data_sources": []
+    },
+    {
+      "name": "paiche / arapaima fish",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "freshwater fish raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "19.5-22.0 g/100g [Arapaima gigas — Núñez et al. 2016 Food Chem 211:595]",
+          "lipid_content": "2.5-5.5 g/100g [Arapaima gigas — Núñez et al. 2016]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.08-0.15 g/100g free glutamate [freshwater fish — lower than marine]",
+          "inosinate": "0.3-0.5 g/100g IMP [Arapaima — Núñez et al. 2016; high IMP in muscle]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Arapaima gigas (paiche)",
+      "notes": "Paiche (arapaima) is one of the world's largest freshwater fish — up to 3m, 200kg — native to the Amazon basin. A culturally significant protein source for Amazonian Peruvian communities. High IMP content makes it an umami-rich fish despite freshwater environment. Now also farmed in Loreto region aquaculture.",
+      "data_sources": [
+        "Núñez et al. (2016) — Nutritional composition of Arapaima gigas, Food Chem 211:595"
+      ]
+    },
+    {
+      "name": "masato (cassava beer)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "cassava fermented beverage",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.3-0.7 g/100g [masato — LAB fermentation during cassava starch hydrolysis]",
+          "acetic_acid": "trace"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Masato is the traditional cassava-based fermented beverage of Amazonian indigenous communities — produced by chewing cassava (salivary amylase begins starch hydrolysis), spitting into a vessel, and allowing wild yeast + LAB fermentation. The salivary amylase saccharification is a unique enzyme source not found in any other RSU fermentation system (vs koji mold amylase in rice wine/sake). Compare to chicha de jora (RSU-10, Andean corn, salivary amylase also used) and apong (RSU-21, rice, mold starter).",
+      "data_sources": []
+    },
+    {
+      "name": "aguaje palm fruit",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "buriti palm fruit",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "12-22 g/100g [Mauritia flexuosa — Yuyama et al. 2003; high fat Amazonian palm]",
+          "protein_content": "1.5-3.0 g/100g [Mauritia flexuosa — Yuyama et al. 2003]",
+          "ascorbic_acid": "35-60 mg/100g [aguaje — Yuyama et al. 2003 Food Chem 83:79]",
+          "oleic_acid": "70-80% of fatty acids [aguaje oil — very high oleic, similar to olive oil]"
+        },
+        "key_flavor_bioactives": {
+          "tocopherol_content": "500-1200 mg/kg [Mauritia flexuosa — exceptionally high tocopherol; Zanatta et al. 2012 Food Sci Technol 32:505]",
+          "polyphenol_content": "150-300 mg beta-carotene equivalent/100g [aguaje — bright orange-red beta-carotene; Zanatta et al. 2012]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Mauritia flexuosa (aguaje/buriti palm)",
+      "notes": "Aguaje (Mauritia flexuosa, the 'tree of life') is the most commercially important wild plant food of the Peruvian Amazon — sold throughout Loreto and Ucayali as fresh pulp, ice cream, and flavoring. The tocopherol content (500-1200 mg/kg) rivals or exceeds argan oil (RSU-28, 500-900 mg/kg) — both are outlier vitamin E sources. The very high oleic acid content (70-80%) despite being an Amazonian tropical palm is unusual — most tropical palms are high in saturated fat (palm oil) or polyunsaturated. Compare to chontaduro (RSU-18) for a multi-Amazonian-palm fat comparison.",
+      "data_sources": [
+        "Yuyama et al. (2003) — Chemical composition of Amazonian palm fruits, Food Chem 83:79",
+        "Zanatta et al. (2012) — Buriti (Mauritia flexuosa) pulp properties, Food Sci Technol 32:505"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "cassava (yuca)",
+      "paiche/arapaima fish",
+      "aguaje palm fruit",
+      "Criollo cacao",
+      "plantain",
+      "masato (cassava beer)"
+    ],
+    "known_processing_methods": [
+      "cassava grating + pressing (bitter variety detoxification)",
+      "salivary amylase saccharification (masato)",
+      "cacao pod fermentation (7-8 days)",
+      "fish salting and sun-drying (paiche)"
+    ],
+    "fermentation_prevalence": 0.55
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.20,
+    "industrial_processing_index": 0.10
+  },
+  "notes": "Peruvian Amazon lowlands (Loreto / Ucayali region, ~120m). Alluvial parent material from Andean sediment deposited by Ucayali/Marañón rivers. Lowest altitude in the Peruvian altitude gradient (RSU-10 at 3500m, RSU-18 at 1600m, RSU-31 at 120m). Criollo cacao adds a fine-flavor variety vs Forastero comparison for the cacao natural experiment. Aguaje palm tocopherol completes the high-tocopherol fat trio (aguaje RSU-31 ~ argan oil RSU-28 > olive oil RSU-15). The salivary-amylase masato fermentation is a unique food technology shared with RSU-10 (chicha). Lowest industrial processing index in the pilot set (0.10) — closest to a traditional hunter-gatherer-agriculture continuum."
+}

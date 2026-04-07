@@ -1,0 +1,208 @@
+{
+  "region_id": "RSU-53",
+  "name": "Swiss Jura / Pre-Alps (Fribourg / Vaud, ~900m)",
+  "coordinates": {
+    "lat": 46.6,
+    "lon": 7.1,
+    "altitude_m": 900
+  },
+  "climate": {
+    "temperature_mean": 8.0,
+    "temperature_seasonality": 19.0,
+    "precipitation_mean": 1350,
+    "precipitation_seasonality": 0.30
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 6.8,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Swiss pre-alpine grass-fed butter (Jura / Vaud)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "butter unsalted grass fed",
+      "fdc_id": null,
+      "feeding_type": "grass-fed",
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "82-85 g/100g [Swiss pre-alpine butter — standard butter fat]",
+          "oleic_acid": "22-27% of total fatty acids [Swiss pre-alpine grass-fed butter — Leiber et al. 2005 J Dairy Sci 88:1316]",
+          "palmitic_acid": "24-28% of total fatty acids [Swiss pre-alpine butter]"
+        },
+        "key_flavor_bioactives": {
+          "conjugated_linoleic_acid": "3.3-4.5 g/100g fat [Swiss pre-alpine 800-1000m — Leiber et al. 2005 J Dairy Sci 88:1316; intermediate between lowland Swiss (RSU-04 ~2.5) and full Alpine (RSU-36, 3.0-5.5)]",
+          "tocopherol_content": "28-45 mg/100g fat [Swiss pre-alpine butter — Leiber et al. 2005; tocopherol increases with altitude/UV exposure]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": ["RSU-36", "RSU-37", "RSU-42", "RSU-46", "RSU-51", "RSU-52"],
+      "cultivar": null,
+      "notes": "Swiss pre-alpine butter from the Jura plateau / Vaud pre-Alps zone (~800-1000m, below full alpine pasture). Simmental, Brown Swiss, and Fribourgeois Noir et Blanc cattle graze permanent pastures and meadows. CLA 3.3-4.5 g/100g fat — below full Alp summer pasture (RSU-36, 3.0-5.5) but substantially above lowland conventional butter (RSU-43, 0.6-1.5) and above Irish/NZ lowland grass-fed (RSU-37/46, ~2.75-3.0). The Leiber et al. (2005) study is the primary reference for Swiss altitude × CLA relationships: they show a continuous increase in CLA from valley farms (~600m) through pre-alpine (~900m) to full alpine pasture (~1800m). This RSU sits at their pre-alpine measurement point. Sedimentary limestone soils (pH 6.8) contrast with metamorphic Scottish/Pyrenean acidic soils.",
+      "data_sources": [
+        "Leiber et al. (2005) — A study on the causes for the elevated n-3 fatty acids in cows' milk of alpine origin, Lipids 40:191",
+        "Leiber et al. (2005) — Influence of alpine grazing on fatty acid and tocopherol contents of milk fat, J Dairy Sci 88:1316"
+      ]
+    },
+    {
+      "name": "rye bread (pain de seigle, Jura)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "rye bread",
+      "fdc_id": 172686,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "~48 g/100g [rye bread — USDA FDC estimate]",
+          "protein_content": "8.5 g/100g [rye bread USDA FDC]",
+          "fiber_content": "5.8 g/100g"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.5-1.2 g/100g [rye sourdough — standard LAB fermentation]",
+          "acetic_acid": "0.1-0.5 g/100g [rye sourdough — Hammes & Gänzle 1998]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Rye bread is the traditional mountain bread of Swiss/French Jura, where cooler temperatures and shorter growing seasons favor rye over wheat. Sourdough fermentation is standard.",
+      "data_sources": []
+    },
+    {
+      "name": "Swiss Simmental beef",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "beef round raw",
+      "fdc_id": 174426,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "21.81 g/100g [USDA FDC 174426]",
+          "lipid_content": "8.15 g/100g [USDA FDC 174426]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [beef — Ninomiya 1998]",
+          "inosinate": "~0.3 g/100g IMP"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Simmental (Fleckvieh) cattle — the dual-purpose Swiss breed. Pre-alpine grass-fed. Fatty acid profile reflects diverse Jura pasture.",
+      "data_sources": [
+        "Ninomiya (1998) — free glutamate in meat"
+      ]
+    },
+    {
+      "name": "Gruyère AOP (cave-aged, 6-24 months)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "gruyere cheese",
+      "fdc_id": 172178,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "29.8 g/100g [USDA FDC 172178]",
+          "lipid_content": "32.3 g/100g [USDA FDC 172178]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.3-0.8 g/100g [hard pressed cheese — reduced after extended aging]",
+          "acetic_acid": "trace [Gruyère propionic acid fermentation produces mainly propionic + acetic]"
+        },
+        "umami_compounds": {
+          "glutamate": "4-8 g/100g free glutamate [Gruyère 12-24 month aged — extensive proteolysis; McSweeney & Sousa 2000 Lait 80:293]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Gruyère AOP (Fribourg, Vaud, Neuchâtel cantons) is produced from milk of cows grazing at exactly this RSU's altitude zone. Propionic acid bacteria (Propionibacterium freudenreichii) produce the characteristic large eyes and nutty flavor. Extended cave aging (12-24 months) produces very high free glutamate — one of the highest umami concentrations in any food globally.",
+      "data_sources": [
+        "McSweeney & Sousa (2000) — Biochemical pathways for flavour in cheese, Lait 80:293"
+      ]
+    },
+    {
+      "name": "gentian root schnapps (Enzian Schnaps)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "herbal bitters spirits",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "200-500 mg GAE/100mL [gentian-based spirits — gentiopicroside and amarogentin bitters; ESCOP monograph]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Gentiana lutea (yellow gentian)",
+      "notes": "Gentian root (Gentiana lutea) is harvested from alpine and pre-alpine meadows at 700-2000m and macerated to produce Enzian Schnaps — the bitter digestif of Swiss/Austrian/German mountain tradition. The bitter compounds (gentiopicroside, amarogentin) are among the most bitter substances known. Pre-alpine gentian harvesting is regulated due to wild-plant pressure. Placed in aromatic slot as a flavor-active ingredient.",
+      "data_sources": [
+        "ESCOP monographs (2009) — Gentianae radix (Gentian Root)"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "cheese (Gruyère, Vacherin Fribourgeois)",
+      "butter",
+      "beef/veal",
+      "rye bread",
+      "potatoes",
+      "gentian spirits"
+    ],
+    "known_processing_methods": [
+      "cave cheese aging (Gruyère, Vacherin)",
+      "sourdough rye bread fermentation",
+      "transhumance seasonal dairy",
+      "maceration spirits (Enzian)"
+    ],
+    "fermentation_prevalence": 0.75
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.45,
+    "industrial_processing_index": 0.40
+  },
+  "notes": "Swiss Jura plateau / Vaud pre-Alps (~900m, Fribourg / Vaud cantons). Sedimentary limestone soils (pH 6.8), temperate mountain climate. Key natural experiment RSU: grass-fed butter at 900m — fills the 700-1200m altitude gap below RSU-36 Alpine (1200m). CLA 3.3-4.5 g/100g fat: approaching Alpine values, substantially above lowland butter. The Leiber et al. (2005) study directly measured this altitude zone in Switzerland and is the primary citation for CLA values. Gruyère AOP is made from the milk of cows at exactly this altitude zone — the cheese terroir claim (Gruyère taste changes with altitude of pasture) is supported by the measurable CLA and tocopherol gradient."
+}

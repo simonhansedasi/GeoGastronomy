@@ -1,0 +1,191 @@
+{
+  "region_id": "RSU-48",
+  "name": "Jamaica Blue Mountains",
+  "coordinates": {
+    "lat": 18.1,
+    "lon": -76.5,
+    "altitude_m": 1500
+  },
+  "climate": {
+    "temperature_mean": 18.0,
+    "temperature_seasonality": 4.0,
+    "precipitation_mean": 2500,
+    "precipitation_seasonality": 0.45
+  },
+  "geology": {
+    "parent_material": "metamorphic",
+    "soil_pH": 5.8,
+    "soil_texture": "clay loam",
+    "drainage_class": "high"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Arabica coffee",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "coffee brewed black",
+      "fdc_id": 171891,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "caffeine_concentration": "9.0-11.5 mg/g dry bean [Jamaica Blue Mountain Arabica — Mussatto et al. 2011 Trends Food Sci 22:404; comparable to Colombian at similar altitude]",
+          "polyphenol_content": "4200-4800 mg/100g CGA equivalents [Jamaica Blue Mountain 1400-1600m — Campa et al. 2012 J Agric Food Chem 60:3252; altitude-appropriate CGA for 1500m]"
+        },
+        "terpenes": {
+          "linalool": "0.6-1.2 mg/L in brewed coffee [Blue Mountain washed process — Buffo & Cardelli-Freire 2004]"
+        },
+        "organic_acids": {
+          "malic_acid": "0.70-1.00 g/100g dry bean [Jamaica Blue Mountain 1500m — Lingle 2011 SCAA; consistent with altitude-malic correlation]",
+          "citric_acid": "0.40-0.60 g/100g dry bean [Blue Mountain — Lingle 2011]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates"
+      ],
+      "natural_experiment": ["RSU-17", "RSU-18", "RSU-19", "RSU-27", "RSU-47"],
+      "cultivar": "Coffea arabica (Typica variety — Jamaica Blue Mountain is exclusively Typica)",
+      "notes": "Jamaica Blue Mountain is one of the most geographically controlled coffee origins globally: the 'Jamaica Blue Mountain' designation applies only to beans grown 1000-1500m in the Blue Mountain ridge. The variety is exclusively Typica (C. arabica var. typica), the oldest and most genetically uniform Arabica cultivar. This genetic consistency makes it a strong natural experiment anchor: Typica at 1500m vs Ethiopian/Colombian/Kenyan varieties introduces genetic noise, but within-Arabica comparison is the target. Polyphenol CGA values calibrated to altitude-CGA regression: 1500m should fall between Colombian (1600m, 4600) and Toraja (1100m, 4000).",
+      "data_sources": [
+        "Mussatto et al. (2011) — Chemistry, pharmacology, and commercial utilization of coffee, Trends Food Sci 22:404",
+        "Campa et al. (2012) — Chlorogenic acids in coffee, J Agric Food Chem 60:3252",
+        "Lingle (2011) — SCAA Coffee Brewing Handbook"
+      ]
+    },
+    {
+      "name": "yellow yam (Jamaican, Dioscorea cayenensis)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "yam raw",
+      "fdc_id": 170072,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "17.5-22 g/100g [yam raw — USDA FDC 170072 estimate]",
+          "protein_content": "1.53 g/100g [USDA FDC 170072]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Yellow yam (Dioscorea cayenensis) is the primary carbohydrate in Jamaican highland and lowland cuisine. Greater yam (D. alata) also grown. Yam ground provisions are the cultural staple carb.",
+      "data_sources": []
+    },
+    {
+      "name": "ackee and saltfish",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "cod saltfish dried",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "~25 g/100g [saltfish component — dried and desalted; ackee contributes ~2.9 g/100g protein]",
+          "lipid_content": "~15 g/100g [ackee fat content — Blighia sapida arils]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "present — dried fish umami, codfish free glutamate ~0.3 g/100g"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Ackee and saltfish is the national dish of Jamaica. Ackee (Blighia sapida) is a West African fruit introduced to Jamaica — the cream-colored arils are eaten when fully ripe (unripe ackee contains hypoglycin A, toxic). The ackee fat fraction (oleic + linoleic-dominant) is nutritionally significant.",
+      "data_sources": []
+    },
+    {
+      "name": "coconut oil",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "coconut oil",
+      "fdc_id": 171412,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g",
+          "lauric_acid": "44-49% of total fatty acids [Caribbean coastal coconut — standard coconut oil composition]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Coconut oil is a widely used cooking fat in Jamaican and Caribbean cuisine, though the highlands use it less than the coastal zones.",
+      "data_sources": []
+    },
+    {
+      "name": "rum (Jamaican pot still, sugarcane fermented)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "rum distilled spirits",
+      "fdc_id": 174831,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "present — dunder pit fermentation component in Jamaican rum",
+          "acetic_acid": "high — Jamaican pot still rum uses long fermentation (5-14 days) with dunder and muck"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Jamaican pot still rum uses high-ester fermentation with dunder (spent wash) and muck (bacterial starter) for extended fermentation. Produces among the highest ester concentrations of any rum style (>300 g/hL AA isoamyl acetate, ethyl acetate). One of the most chemically complex fermented products in the dataset alongside soy sauce and aged cheese.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "yam (ground provisions)",
+      "ackee and saltfish",
+      "rice and peas",
+      "jerk pork/chicken",
+      "breadfruit",
+      "Scotch bonnet pepper"
+    ],
+    "known_processing_methods": [
+      "jerk (allspice + Scotch bonnet marinade, pit smoking)",
+      "dunder pit rum fermentation",
+      "sun-drying saltfish",
+      "wet-process coffee fermentation"
+    ],
+    "fermentation_prevalence": 0.55
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.35,
+    "industrial_processing_index": 0.35
+  },
+  "notes": "Jamaica Blue Mountains (1000-1700m). Metamorphic ridge soils, high rainfall and mist. Key natural experiment RSU: Arabica coffee at 1500m — second lowest in the 5-RSU altitude gradient (RSU-47 at 1100m, RSU-48 at 1500m, RSU-18 at 1600m, RSU-27 at 1800m, RSU-17 at 2200m). Expected polyphenol CGA ~4450 mg/100g — higher than Toraja (4000) and slightly below Colombian (4600). Yam variety and Jamaican rum fermentation are regionally distinctive beyond coffee."
+}

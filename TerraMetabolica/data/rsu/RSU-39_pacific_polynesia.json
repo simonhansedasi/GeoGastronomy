@@ -1,0 +1,217 @@
+{
+  "region_id": "RSU-39",
+  "name": "Pacific Islands Polynesia (Samoa / Tonga)",
+  "coordinates": {
+    "lat": -13.8,
+    "lon": -172.0,
+    "altitude_m": 10
+  },
+  "climate": {
+    "temperature_mean": 27.0,
+    "temperature_seasonality": 2.5,
+    "precipitation_mean": 2800,
+    "precipitation_seasonality": 0.35
+  },
+  "geology": {
+    "parent_material": "volcanic",
+    "soil_pH": 6.5,
+    "soil_texture": "clay loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "coconut cream / oil (Pacific island lowland)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "coconut cream raw",
+      "fdc_id": 168574,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "23.84 g/100g [coconut cream — USDA FDC 168574]",
+          "lauric_acid": "43.8-46.5% of total fatty acids [Cocos nucifera, Pacific lowland sea level — Mansor et al. 2012 J Oleo Sci 61:735; sea-level equatorial production at lowest altitude in coconut experiment]",
+          "myristic_acid": "16.0-17.5% of total fatty acids [Pacific coconut — Mansor et al. 2012]",
+          "oleic_acid": "6.5-8.5% of total fatty acids [Pacific lowland coconut oil — slightly higher than Philippine at same latitude; Mansor et al. 2012]",
+          "linoleic_acid": "2.0-2.8% of total fatty acids [Pacific coconut oil — Mansor et al. 2012]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "40-70 mg GAE/100g [Pacific virgin coconut oil — lower latitude, slightly lower polyphenols]",
+          "tocopherol_content": "0.4-0.8 mg/100g [Pacific coconut oil tocopherols]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "fat_g": 23.84
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": ["RSU-32", "RSU-33"],
+      "cultivar": "Cocos nucifera (Pacific Tall, sea-level equatorial)",
+      "notes": "Pacific island coconut cream from sea-level equatorial growing conditions — the lowest-altitude anchor in the three-point coconut fat natural experiment (RSU-39 sea-level equatorial, RSU-32 Philippine lowland 50m, RSU-33 Sri Lankan highland 500m). At true sea level with equatorial temperatures (~27°C), lauric acid proportions are at the lower end of the coconut range. The altitude-temperature gradient across three RSUs provides the cleanest coconut fat terroir experiment in the dataset.",
+      "data_sources": [
+        "Mansor et al. (2012) — Physicochemical properties of virgin coconut oil extracted by different methods, J Oleo Sci 61:735"
+      ]
+    },
+    {
+      "name": "taro (Colocasia esculenta)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "taro root raw",
+      "fdc_id": 170072,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "26.46 g/100g [USDA FDC 170072]",
+          "protein_content": "1.5 g/100g [USDA FDC 170072]",
+          "lipid_content": "0.2 g/100g [USDA FDC 170072]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 1.5,
+          "fat_g": 0.2,
+          "carb_g": 26.46
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Colocasia esculenta (Giant Taro, Pacific varieties)",
+      "notes": "Taro is the foundational carbohydrate of Polynesian food culture — cultivated in Pacific islands for 3000+ years. The starchy corm is eaten boiled, pounded into poi (Hawaii/Samoa), or roasted in earth ovens (umu/imu). The extremely fine-grained starch granules (2-4 μm vs 10-20 μm for potato) make taro highly digestible.",
+      "data_sources": []
+    },
+    {
+      "name": "fresh reef fish (raw, sashimi-style)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "yellowfin tuna raw",
+      "fdc_id": 175159,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "24.4 g/100g [USDA FDC 175159]",
+          "lipid_content": "0.49 g/100g [USDA FDC 175159]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.18-0.28 g/100g free glutamate [lean tuna/reef fish — Nishimura & Kato 1988]",
+          "inosinate": "0.65-1.20 g/100g IMP [yellowfin tuna — among highest IMP of any fish; Nishimura & Kato 1988 J Food Sci 53:1217]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 24.4,
+          "fat_g": 0.49
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Thunnus albacares (yellowfin tuna) / reef fish",
+      "notes": "Fresh reef fish and tuna — the primary protein of Pacific Polynesian food systems. Eaten raw (oka — raw fish in coconut cream), grilled on stone, or baked in earth ovens. The IMP content of yellowfin tuna (0.65-1.2 g/100g) is among the highest measured for any fish. The combination of high IMP with coconut cream creates a distinctive umami-fat flavor profile.",
+      "data_sources": [
+        "Nishimura & Kato (1988) — Taste compounds in meat and fish extracts, J Food Sci 53:1217"
+      ]
+    },
+    {
+      "name": "breadfruit (Artocarpus altilis)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "breadfruit raw",
+      "fdc_id": 174687,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "27.12 g/100g [breadfruit — Roberts-Nkrumah 2014 Trop Agric 91:1]",
+          "protein_content": "1.07 g/100g [breadfruit — Roberts-Nkrumah 2014]",
+          "lipid_content": "0.23 g/100g [breadfruit — Roberts-Nkrumah 2014]",
+          "ascorbic_acid": "29 mg/100g [breadfruit — USDA FDC 174687 proxy]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "100-250 mg GAE/100g [breadfruit — Liu et al. 2015 Food Chem 186:90]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Artocarpus altilis (Ma'afala, Pacific varieties)",
+      "notes": "Breadfruit is a secondary starch/carbohydrate of Pacific Polynesia — placed in aromatic slot as roasted breadfruit is primarily eaten as a side accompaniment (aromatic function in the meal). Starchy tropical fruit, eaten roasted on open fire or baked. The roasting creates significant Maillard flavor compounds not captured in raw metabolite data.",
+      "data_sources": [
+        "Roberts-Nkrumah (2014) — Breadfruit, Trop Agric 91:1"
+      ]
+    },
+    {
+      "name": "palusami (fermented taro leaves in coconut cream)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "taro leaves cooked coconut",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "8-12 g/100g [palusami — coconut cream absorbed into taro leaves; estimate]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "150-350 mg GAE/100g [taro leaves — chlorogenic acid and flavonoids; mild fermentation effect]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.2-0.5 g/100g [palusami mild LAB fermentation in wrapped leaf parcels during earth-oven cooking]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Palusami — a traditional Samoan dish of young taro leaves wrapped around coconut cream and baked in an earth oven (umu). The slow baking process creates mild fermentation and Maillard products. The coconut fat is absorbed by the taro leaves during cooking. Represents the integration of coconut fat (fat RSU signal) with leafy green (mineral/polyphenol signal) in a single dish.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "taro",
+      "coconut cream/oil",
+      "fresh fish/tuna",
+      "breadfruit",
+      "palusami"
+    ],
+    "known_processing_methods": [
+      "earth oven (umu/imu) baking",
+      "raw fish marination in citrus (oka)",
+      "taro pounding (poi)",
+      "coconut cream extraction",
+      "breadfruit fermentation (masi — preserved breadfruit pit fermentation)"
+    ],
+    "fermentation_prevalence": 0.45
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.25,
+    "industrial_processing_index": 0.20
+  },
+  "notes": "Samoa/Tonga, Pacific Ocean (~10m, essentially sea level). Volcanic island soils, equatorial tropical climate. Lowest altitude in the coconut natural experiment group — RSU-39 extends the RSU-32/RSU-33 altitude gradient to sea-level equatorial. Also provides the raw high-IMP fish protein signal complementary to the umami-fermentation data from other RSUs. One of the lowest agricultural intensification profiles in the dataset — a near-subsistence Pacific food system centered on taro/coconut/fish."
+}

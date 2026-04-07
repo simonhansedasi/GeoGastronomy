@@ -1,0 +1,227 @@
+{
+  "region_id": "RSU-29",
+  "name": "Georgian Caucasus Highlands",
+  "coordinates": {
+    "lat": 42.0,
+    "lon": 44.5,
+    "altitude_m": 900
+  },
+  "climate": {
+    "temperature_mean": 11.5,
+    "temperature_seasonality": 22.0,
+    "precipitation_mean": 1100,
+    "precipitation_seasonality": 0.40
+  },
+  "geology": {
+    "parent_material": "volcanic",
+    "soil_pH": 6.0,
+    "soil_texture": "clay loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Rkatsiteli / Saperavi wine (qvevri fermented)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "red wine dry",
+      "fdc_id": 174837,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "1500-3500 mg GAE/L [qvevri Georgian wine — Eimantas et al. 2021 Foods 10:1825; extended skin contact in qvevri produces amber/orange wine with very high polyphenols]",
+          "tannin_content": "1.5-4.0 g/L [Georgian qvevri amber wine — prolonged skin+stem maceration; Eimantas et al. 2021]"
+        },
+        "terpenes": {
+          "linalool": "0.1-0.5 mg/L [Rkatsiteli wine — floral terpene from grape variety; Maul et al. 2018]",
+          "limonene": "trace",
+          "myrcene": "trace"
+        },
+        "organic_acids": {
+          "malic_acid": "2.0-4.5 g/L [Georgian wine — high altitude cool climate retains malic acid; Eimantas et al. 2021]",
+          "lactic_acid": "0.5-2.0 g/L [malolactic fermentation partial — some MLF converts malic to lactic; Eimantas et al. 2021]",
+          "citric_acid": "0.1-0.3 g/L [wine — minor contributor]",
+          "tartaric_acid": "3.5-7.0 g/L [Georgian wine — tartaric dominant acid; Eimantas et al. 2021]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates",
+        "inosinate"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Vitis vinifera (Rkatsiteli for amber; Saperavi for red)",
+      "notes": "Georgia is the world's oldest wine-making culture — 8000 years of continuous wine production. The qvevri (clay amphora buried in ground) fermentation method is unique: whole-cluster fermentation with extended skin+stem maceration (6 months) produces high tannin, high polyphenol amber wines from white Rkatsiteli grapes. This is the only RSU tracking tartaric acid (organic_acids schema has tartaric_acid field — the defining acid of wine/grapes). Malic acid in cool-climate Georgian wine (2.0-4.5 g/L) is directly comparable to coffee malic acid as an altitude-driven organic acid signal. This RSU adds the first wine fermentation system to the pilot set.",
+      "data_sources": [
+        "Eimantas et al. (2021) — Georgian qvevri wine chemistry, Foods 10:1825"
+      ]
+    },
+    {
+      "name": "mchadi (corn bread)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "corn bread",
+      "fdc_id": 174961,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "6.48 g/100g [USDA FDC 174961]",
+          "lipid_content": "4.69 g/100g [USDA FDC 174961]",
+          "starch_content": "43.0 g/100g [USDA FDC 174961]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Mchadi (Georgian corn flatbread) is the carbohydrate foundation of Georgian cuisine, reflecting the adoption of New World corn as a staple after the 16th century. Baked on a skillet (ketsi) without leavening. FDC cornbread used as approximate proxy.",
+      "data_sources": []
+    },
+    {
+      "name": "walnut (for satsivi and pkhali)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "walnut raw",
+      "fdc_id": 170187,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "15.23 g/100g [USDA FDC 170187]",
+          "lipid_content": "65.21 g/100g [USDA FDC 170187]",
+          "fiber_content": "6.7 g/100g [USDA FDC 170187]",
+          "linoleic_acid": "38.1 g/100g [USDA FDC 170187 — very high ALA+LA polyunsaturated]",
+          "oleic_acid": "8.9 g/100g [USDA FDC 170187]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "1500-2500 mg GAE/100g [walnut skin — ellagitannins+pedunculagin; Vinson et al. 2012 Food Funct 3:134]",
+          "tannin_content": "0.8-1.5 g/100g [walnut ellagitannins — Vinson et al. 2012]",
+          "tocopherol_content": "20.8 mg/100g [USDA FDC 170187 gamma-tocopherol]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 15.23,
+          "fat_g": 65.21,
+          "fiber_g": 6.7
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Juglans regia",
+      "notes": "Walnut is the defining fat source and flavor vehicle of Georgian cuisine — used in satsivi (walnut-garlic sauce for poultry), pkhali (walnut-herb vegetable preparations), and churchkhela (walnut candy). Georgia is a center of Juglans regia diversity. Walnut linoleic acid (38 g/100g) is among the highest of any nut — the fatty acid profile is distinct from olive, argan, and sesame oils in other RSUs. Ellagitannin polyphenols from walnut skin are the highest of any nut.",
+      "data_sources": [
+        "Vinson et al. (2012) — Polyphenol content of nuts, Food Funct 3:134"
+      ]
+    },
+    {
+      "name": "churchkhela / grape must candy",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "grape juice concentrated",
+      "fdc_id": 167798,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "glucose_concentration": "40-55 g/100g [concentrated grape must — tatara/pelamushi; FDC concentrate proxy]",
+          "fructose_concentration": "38-50 g/100g [grape must concentrate]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "500-800 mg anthocyanins/100g [Saperavi red grape concentrate — Eimantas et al. 2021; Saperavi is one of the most anthocyanin-rich grape varieties]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "tartaric_acid": "4.0-7.0 g/L equivalent [grape must concentrate — tartaric dominant]",
+          "malic_acid": "1.5-3.0 g/L equivalent [grape must — altitude climate retains malic]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Vitis vinifera Saperavi (for red concentrate)",
+      "notes": "Churchkhela (walnuts threaded on string, dipped in grape must concentrate) and pelamushi (thickened grape must pudding) are the traditional sweet preparations of Georgia. Placed in aromatic slot as a flavor/sweet component. The Saperavi grape concentrate used for churchkhela is extremely rich in anthocyanins — one of the most deeply pigmented grape varieties in the world. Sugar profile (glucose+fructose from grape) is the primary metabolite.",
+      "data_sources": [
+        "Eimantas et al. (2021) — Georgian wine and grape must chemistry, Foods 10:1825"
+      ]
+    },
+    {
+      "name": "matsoni (Georgian yogurt)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "yogurt plain whole milk",
+      "fdc_id": 171284,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "3.47 g/100g [USDA FDC 171284 proxy]",
+          "lipid_content": "3.25 g/100g [USDA FDC 171284]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.8-1.5 g/100g [matsoni LAB fermentation — wild Caucasian strains including Lactobacillus delbrueckii, L. helveticus]",
+          "acetic_acid": "0.05-0.1 g/100g [matsoni — slight acetic note from mixed fermentation]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.05-0.12 g/100g [matsoni — minimal proteolysis, fresh product]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Matsoni is the traditional Georgian cultured milk product — fermented at room temperature using a wild-type starter culture passed down generationally. The Caucasian LAB community (Lactobacillus delbrueckii subsp. bulgaricus, L. helveticus, Streptococcus thermophilus, yeasts) differs from Turkish yogurt starters despite geographic proximity. Georgia sits at the intersection of the yogurt culture 'Belt' extending from the Caucasus through Turkey, Iran, and Central Asia. Compare to süt yogurt (RSU-24), leben (RSU-15) for a multi-RSU fermented dairy comparison.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "qvevri wine (Rkatsiteli/Saperavi)",
+      "walnut",
+      "mchadi (corn bread)",
+      "matsoni",
+      "churchkhela",
+      "tkemali (wild plum sauce)"
+    ],
+    "known_processing_methods": [
+      "qvevri clay amphora fermentation (6 months skin contact)",
+      "walnut sauce preparation (satsivi)",
+      "matsoni room-temperature fermentation",
+      "grape must reduction (tatara/pelamushi)",
+      "churchkhela production (repeated grape-must dipping)"
+    ],
+    "fermentation_prevalence": 0.80
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.45,
+    "industrial_processing_index": 0.30
+  },
+  "notes": "Georgian Caucasus (Kakheti wine region, ~900m). Volcanic parent material (Lesser Caucasus volcanic belt) with fertile clay soils. Georgia as the world's oldest wine culture (8000+ years, UNESCO intangible heritage for qvevri winemaking) is the unique anchor of this RSU. The qvevri fermentation system produces organic acid profiles (tartaric acid — the ONLY RSU in the pilot set tracking tartaric acid) and polyphenol levels that are distinct from any other fermentation in the set. Walnut as the primary fat/flavor vehicle gives a polyunsaturated fatty acid profile completely distinct from olive/sesame/argan systems. High fermentation prevalence (0.80) reflects the wine + matsoni + churchkhela culture."
+}

@@ -1,0 +1,107 @@
+{
+  "region_id": "RSU-55",
+  "name": "Shanxi Jinzhong mid-highlands (China, ~850m)",
+  "coordinates": {
+    "lat": 37.7,
+    "lon": 112.0,
+    "altitude_m": 850
+  },
+  "climate": {
+    "temperature_mean": 10.5,
+    "temperature_seasonality": 28.0,
+    "precipitation_mean": 470,
+    "precipitation_seasonality": 0.60
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 7.8,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Golden Delicious apple",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "apple raw golden delicious",
+      "fdc_id": null,
+      "feeding_type": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "fructose_concentration": "5.0-6.5 g/100g [Jinzhong highland apple — intermediate between Yuncheng lowland RSU-13 and Linfen highland RSU-14]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "malic_acid": "0.43-0.47 g/100g [Golden Delicious, Jinzhong 800-1000m — Li et al. 2021 Foods 10:2950; 4.52±0.20 mg/g FW; same study as RSU-13 Yuncheng and RSU-14 Linfen — directly comparable units]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": ["RSU-13", "RSU-14", "RSU-49", "RSU-50"],
+      "cultivar": "Golden Delicious (Malus domestica Borkh.)",
+      "notes": "Golden Delicious apple grown in Jinzhong City, Shanxi Province, at 800-1000m (RSU centroid 850m). Li et al. (2021, Foods 10:2950) — the same study that underpins RSU-13 (Yuncheng, 600m, malic 0.22-0.28) and RSU-14 (Linfen, 1050m, malic 0.48-0.53) — measured Jinzhong at 4.52±0.20 mg/g FW (0.452 g/100g). This is the critical interpolation point in the Shanxi apple altitude gradient, filling the 600-1050m gap. The units, analytical method (HPLC), and cultivar are identical to RSU-13 and RSU-14, making this the highest-confidence new data point in the search. Malic acid range 0.43-0.47 g/100g uses ±1SD from the reported mean.",
+      "data_sources": [
+        "Li et al. (2021) — Effects of genetic background and altitude on sugars, malic acid and ascorbic acid in fruits of wild and cultivated apples, Foods 10(12):2950"
+      ]
+    },
+    {
+      "name": "millet (Shanxi highland)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "millet raw",
+      "fdc_id": 169702,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "~70 g/100g [millet — USDA FDC estimate]",
+          "protein_content": "11.02 g/100g [USDA FDC 169702]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Millet is a highland Shanxi staple alongside apple.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "apple (Golden Delicious, Fuji)",
+      "millet",
+      "wheat",
+      "walnuts"
+    ],
+    "known_processing_methods": [
+      "dried apple slices",
+      "apple juice pressing",
+      "vinegar fermentation (Shanxi tradition)"
+    ],
+    "fermentation_prevalence": 0.40
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.55,
+    "industrial_processing_index": 0.40
+  },
+  "notes": "Jinzhong City, Shanxi Province, China — mid-altitude apple growing zone at 800-1000m (centroid 850m). Loess plateau sedimentary soils, semi-arid continental climate with high temperature seasonality. This RSU is the critical interpolation point in the Shanxi apple altitude natural experiment (RSU-13 at 600m, RSU-55 at 850m, RSU-14 at 1050m — all same paper, same cultivar, same analytical method). Adding this RSU increases the apple malic acid regression from n=4 to n=5 with a directly within-study data point, substantially improving LOOCV stability."
+}

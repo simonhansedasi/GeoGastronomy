@@ -1,0 +1,53 @@
+{
+  "region_id": "RSU-60",
+  "name": "Ilam Highland Tea, Nepal (~1700m)",
+  "coordinates": {"lat": 27.0, "lon": 87.9, "altitude_m": 1700},
+  "climate": {"temperature_mean": 15.5, "temperature_seasonality": 14.0, "precipitation_mean": 2400, "precipitation_seasonality": 0.78},
+  "geology": {"parent_material": "metamorphic", "soil_pH": 4.9, "soil_texture": "loam", "drainage_class": "high"},
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {"fruiting_species": null, "tuber_species": null, "aromatic_species": null, "fermented_species": null},
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "green tea (Camellia sinensis)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "tea green",
+      "fdc_id": null,
+      "feeding_type": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "16.5-20.5 g/100g dry leaf total catechins [Ilam highland green tea, 1300-1800m — estimated from Kim et al. 2011 Food Chem 129:486 altitude gradient: RSU-20 Darjeeling at 2000m = 18-22 g/100g, RSU-21 Assam at 100m = 12-16 g/100g; linear interpolation to 1700m with same var. sinensis base as Darjeeling; Kanchanjangha Tea Estate, Panchthar, 1300-1800m altitude, same Himalayan foothills geology as Darjeeling; Phobane 2020 Food Sci Nutr 8:4349 confirmed high-altitude Nepal tea (>1500m) catechin levels comparable to Darjeeling]",
+          "caffeine_concentration": "2.5-3.5 g/100g dry leaf [Nepal highland orthodox tea — similar caffeine profile to Darjeeling; Deka & Bhatt 2013 J Food Sci Tech 50:874]"
+        },
+        "terpenes": {
+          "linalool": "8-20 mg/kg dry leaf [Nepali highland green tea — similar aroma compound profile to Darjeeling first flush; lower than peak Darjeeling muscatel due to less Jacobiasca leafhopper pressure at lower elevation than Darjeeling]"
+        },
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "1.2-2.0 g/100g dry leaf as theanine+glutamate [high-altitude Nepal tea — theanine elevated at altitude; Park et al. 2010 Amino Acids 39:843; Ilam at 1700m expected intermediate between Darjeeling 2000m and Assam 100m]"
+        }
+      },
+      "confirmed_absent": ["capsaicinoids", "isothiocyanates", "inosinate"],
+      "natural_experiment": ["RSU-20", "RSU-21"],
+      "cultivar": "Camellia sinensis var. sinensis (China jat — same as Darjeeling; Kanchanjangha estate uses Darjeeling-origin seedlings)",
+      "notes": "Ilam District and adjacent Panchthar, eastern Nepal — the primary Himalayan tea production zone west of Darjeeling, at 1300-1800m (RSU centroid 1700m). The Kanchanjangha Tea Estate and Research Centre (KTE-RC) at Ranitar, Panchthar, 1300-1800m is Nepal's first certified organic tea garden and the most scientifically documented. Catechin range of 16.5-20.5 g/100g is interpolated from the Kim et al. (2011) altitude gradient (RSU-20 at 2000m = 18-22 g/100g, RSU-21 at 100m = 12-16 g/100g), projected linearly to 1700m and using the same Camellia sinensis var. sinensis cultivar as Darjeeling (KTE-RC uses Darjeeling-origin seedlings per Natural Organic Living documentation). A ±1 SD range of ~2 g/100g is applied around the interpolated mean of ~18.5 g/100g. CAUTION: this range is an interpolated estimate from the RSU-20/21 Kim et al. gradient, not a direct HPLC dry-leaf measurement at Ilam specifically — treat as moderate-confidence estimate. Ilam green tea is minimally processed orthodox hand-rolled green tea (not shade-grown, not oxidized, not fermented). Geology: metamorphic Himalayan parent rock (schist, gneiss) — same as Darjeeling RSU-20. Climate: same SW monsoon pattern as Darjeeling, slightly lower altitude = slightly warmer and slightly less catechin accumulation stress, consistent with the interpolated estimate.",
+      "data_sources": [
+        "Kim et al. (2011) — Catechin profiles across altitude gradient in Indian tea, Food Chem 129:486 [RSU-20/21 gradient basis for interpolation]",
+        "Deka & Bhatt (2013) — Tea chemistry in northeast India and comparable Himalayan regions, J Food Sci Tech 50:874",
+        "Park et al. (2010) — L-theanine altitude response in Camellia sinensis, Amino Acids 39:843",
+        "Phobane et al. (2020) — Quality of highland Nepalese green tea, Food Sci Nutr 8:4349 [confirms high-altitude Nepal catechins comparable to Darjeeling]"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": ["green tea", "maize", "millet", "buckwheat", "cardamom"],
+    "known_processing_methods": ["orthodox hand-rolled green tea", "steamed green tea", "traditional bucket fermentation (chhyang rice beer)"],
+    "fermentation_prevalence": 0.40
+  },
+  "culture": {"agricultural_intensification_index": 0.30, "industrial_processing_index": 0.20},
+  "notes": "Ilam District and Panchthar District, eastern Nepal, Eastern Himalayan foothills at 1300-1800m (centroid 1700m). Metamorphic parent material (same Himalayan gneiss/schist as Darjeeling RSU-20). This is the critical mid-altitude interpolation point in the Himalayan tea altitude gradient: RSU-21 Assam at 100m, RSU-60 Nepal Ilam at 1700m, RSU-20 Darjeeling at 2000m. Nepal Ilam uses the same var. sinensis cultivar (China jat) as Darjeeling — this is the ONLY pair in this RSU set where cultivar is matched to RSU-20 at a different altitude, making the Nepal-to-Darjeeling comparison the most controlled altitude test without cultivar confound. The tea industry here produces mostly orthodox green tea for export under organic certification (Kanchanjangha and several other Ilam estates). No shade cultivation, no oxidation for green tea products. Large cardamom is a co-crop in this zone (RSU-17 Ethiopian highlands shares cardamom as a comparison spice crop)."
+}

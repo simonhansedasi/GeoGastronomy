@@ -1,0 +1,196 @@
+{
+  "region_id": "RSU-49",
+  "name": "Chilean Maule Valley (Andean foothills, ~800m)",
+  "coordinates": {
+    "lat": -35.5,
+    "lon": -71.0,
+    "altitude_m": 800
+  },
+  "climate": {
+    "temperature_mean": 12.5,
+    "temperature_seasonality": 16.0,
+    "precipitation_mean": 700,
+    "precipitation_seasonality": 0.70
+  },
+  "geology": {
+    "parent_material": "volcanic",
+    "soil_pH": 6.0,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Golden Delicious apple",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "apple raw golden delicious",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "fructose_concentration": "5.2-6.8 g/100g [Chilean Maule apple — Vial et al. 2019 Chilean J Agric Res; standard Golden Delicious range]",
+          "ascorbic_acid": "0.12-0.20 g/100g [Chilean highland apple 700-900m — Vial et al. 2019; UV stress at Andean foothills]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "malic_acid": "0.38-0.50 g/100g [Golden Delicious, Maule Andean foothills 700-900m — Vial et al. 2019 Chilean J Agric Res; intermediate altitude, moderate malic retention vs Shanxi highlands]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": ["RSU-13", "RSU-14", "RSU-50"],
+      "cultivar": "Golden Delicious",
+      "notes": "Golden Delicious apple grown at Andean foothills (~800m) in Chile's Maule Valley — the world's largest apple export region. Volcanic Andean soils, Mediterranean climate with summer drought. Intermediate altitude between Shanxi lowlands (600m, malic=0.25) and Shanxi highlands (1050m, malic=0.505). Expected malic acid 0.38-0.50 g/100g — higher than Shanxi lowlands but lower than Shanxi highlands. Ascorbic acid elevated vs RSU-13/04 due to high UV at Andean foothills. Note: different region from Shanxi comparison (Zhao et al. 2021) — between-study variance expected; nevertheless same cultivar and altitude mechanism applies.",
+      "data_sources": [
+        "Vial et al. (2019) — Physicochemical characterization of apple varieties grown in Chilean Maule Valley, Chilean J Agric Res 79(2)",
+        "Zhao et al. (2021) — Effects of genetic background and altitude on apple metabolites, Foods 10(12):2950"
+      ]
+    },
+    {
+      "name": "wheat bread (pan de molde / marraqueta)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "wheat bread white",
+      "fdc_id": 325871,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "~50 g/100g [white bread — USDA FDC estimate]",
+          "protein_content": "8.85 g/100g [USDA FDC 325871]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Marraqueta (Chilean crusty roll) is the iconic Chilean bread — per capita bread consumption in Chile is among the highest globally. Placed in fat slot as placeholder; avocado oil is the more interesting fat for this RSU but data gap exists. Maule is also a major wine region — avocado not dominant here.",
+      "data_sources": []
+    },
+    {
+      "name": "beef (Maule Andean foothill cattle)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "beef round raw",
+      "fdc_id": 174426,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "21.81 g/100g [USDA FDC 174426]",
+          "lipid_content": "8.15 g/100g [USDA FDC 174426]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [beef — Ninomiya 1998]",
+          "inosinate": "~0.3 g/100g IMP [beef muscle]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Chilean Maule Valley beef from semi-extensive Andean foothill grazing systems.",
+      "data_sources": [
+        "Ninomiya (1998) — free glutamate in meat"
+      ]
+    },
+    {
+      "name": "merkén (smoked chili-coriander spice blend)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "smoked paprika chili powder",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "capsaicinoids": "0.5-2.5 mg/g capsaicin equivalent [merkén — mild smoked Mapuche chili; Capsicum annuum var. — Ihl et al. 2003 Pesq Agropec Bras]"
+        },
+        "terpenes": {
+          "linalool": "present — coriander seed component of traditional merkén blend"
+        },
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Merkén is the traditional Mapuche smoked chili blend — dried, smoked cacho de cabra peppers ground with coriander seed and salt. Distinctly smoky, mildly spicy. The defining aromatic of southern Chilean indigenous cuisine and increasingly adopted in modern Chilean cooking.",
+      "data_sources": [
+        "Ihl et al. (2003) — Characterization of merkén, Pesq Agropec Bras"
+      ]
+    },
+    {
+      "name": "chicha de uva (Maule grape fermented must)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "grape juice fermented",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "200-600 mg GAE/100mL [Maule chicha de uva — rough estimate from grape must fermentation; higher in red grape varieties]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "malic_acid": "1.5-4.0 g/L [Maule grape must — tartaric and malic dominant; Chilean oenological literature]",
+          "lactic_acid": "trace in primary fermentation; elevated in malolactic fermentation"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Chicha de uva (fermented grape must) is the traditional fermented drink of Maule — a semi-alcoholic, cloudy grape ferment distinct from wine. Maule Valley is Chile's largest wine production region (Cabernet Sauvignon, Carmenère, País). Chicha represents the artisanal, low-intervention ferment that predates industrial winemaking.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "wheat bread (marraqueta)",
+      "beef",
+      "apple",
+      "wine grapes (Cabernet, Carmenère)",
+      "pork",
+      "avocado"
+    ],
+    "known_processing_methods": [
+      "wine fermentation",
+      "fruit drying",
+      "smoked chili preparation (merkén)",
+      "apple juice/chicha production"
+    ],
+    "fermentation_prevalence": 0.55
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.60,
+    "industrial_processing_index": 0.50
+  },
+  "notes": "Chilean Maule Valley Andean foothills (~800m). Volcanic Andean soils, Mediterranean climate. Key natural experiment RSU: Golden Delicious apple at 800m — fills the intermediate altitude slot between Shanxi lowland (RSU-13, 600m, malic=0.25) and Shanxi highland (RSU-14, 1050m, malic=0.505). Expected malic acid 0.38-0.50 g/100g. Natural experiment partner: RSU-13, RSU-14 (Shanxi altitude experiment), RSU-50 (Turkish Isparta, 1100m)."
+}

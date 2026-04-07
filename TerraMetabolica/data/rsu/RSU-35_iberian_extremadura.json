@@ -1,0 +1,216 @@
+{
+  "region_id": "RSU-35",
+  "name": "Iberian Peninsula (Extremadura / Andalusia dehesa)",
+  "coordinates": {
+    "lat": 39.0,
+    "lon": -6.4,
+    "altitude_m": 400
+  },
+  "climate": {
+    "temperature_mean": 16.5,
+    "temperature_seasonality": 20.0,
+    "precipitation_mean": 490,
+    "precipitation_seasonality": 0.65
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 6.0,
+    "soil_texture": "sand",
+    "drainage_class": "high"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Iberian pork fat (lard from bellota-fed pigs)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "lard pork fat",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [pure fat]",
+          "oleic_acid": "53.5-57.8% of total fatty acids [Iberian pig, bellota-fed — Ruiz et al. 1998 Meat Sci 49:409; dramatically elevated vs commodity lard due to acorn monounsaturated fat diet]",
+          "linoleic_acid": "7.5-10.2% of total fatty acids [Iberian bellota lard — Ruiz et al. 1998]",
+          "palmitic_acid": "17.5-20.0% of total fatty acids [Iberian lard — Ruiz et al. 1998]",
+          "stearic_acid": "8.5-11.0% of total fatty acids [Iberian bellota lard — Ruiz et al. 1998]"
+        },
+        "key_flavor_bioactives": {
+          "tocopherol_content": "20-35 mg/kg [Iberian pork backfat tocopherols — Isabel et al. 2003 Meat Sci 65:1047; higher in free-range dehesa-raised pigs]",
+          "polyphenol_content": "trace [lard — minimal polyphenol directly measurable in rendered fat]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": ["RSU-05"],
+      "cultivar": "Sus scrofa domesticus (Iberian breed, pata negra, bellota montanera-fed)",
+      "notes": "Iberian bellota lard — the most oleic-acid-rich pork fat in the world. The bellota (acorn) diet of Iberian pigs during the montanera (autumn acorn season) in the dehesa agroforestry landscape of Extremadura and western Andalusia results in a dramatically elevated oleic acid content (53-57%) vs commodity lard from grain-fed industrial pigs (~45%). This is a clean diet-terroir signal: the acorn fat composition (high oleic, low linoleic) transfers directly to pig adipose tissue. Natural experiment pair with RSU-05 (Central European lard from grain-fed pigs) — the diet/environment gradient is the experimental variable. Literature: Ruiz et al. (1998) is the canonical reference.",
+      "data_sources": [
+        "Ruiz et al. (1998) — Influence of montanera period and live weight on fatty acid profile of Iberian pig fat, Meat Sci 49:409",
+        "Isabel et al. (2003) — Vitamin E in Iberian pig adipose tissue, Meat Sci 65:1047"
+      ]
+    },
+    {
+      "name": "jamon iberico de bellota",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "jamon iberico cured ham",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "30-35 g/100g [dry-cured jamon — 18-36 month aging; Toldrá 2002 Dry-Cured Meat Products]",
+          "lipid_content": "12-18 g/100g [jamon iberico intermuscular fat — Toldrá 2002]",
+          "oleic_acid": "50-56% of intramuscular lipid [jamon iberico bellota — Ventanas et al. 2007 Food Chem 102:396; oleic inherited from bellota diet]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "1.8-3.2 g/100g free glutamate [jamon iberico de bellota — Toldrá 2002; extensive 36-month proteolysis produces very high free glutamate]",
+          "inosinate": "~0.4 g/100g IMP [jamon iberico — partially hydrolyzed during aging]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Sus scrofa domesticus (Iberian breed, 36-month aged)",
+      "notes": "Jamon iberico de bellota — 36-month dry-cured Iberian ham. The extended aging and Iberian pig genetics produce a free glutamate concentration (1.8-3.2 g/100g) comparable to aged parmigiano reggiano. The oleic acid content of the intramuscular fat directly reflects the bellota acorn diet and is the second fat terroir signal in this RSU (alongside rendered lard). Both fat signals point in the same direction: high oleic, moderately low palmitic, from acorn diet.",
+      "data_sources": [
+        "Toldrá (2002) — Dry-Cured Meat Products, Food & Nutrition Press",
+        "Ventanas et al. (2007) — Lipid composition of Iberian ham, Food Chem 102:396"
+      ]
+    },
+    {
+      "name": "pan de masa madre (sourdough wheat bread)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "sourdough bread whole wheat",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "48-55 g/100g [sourdough bread — Hammes et al. 2005 Food Microbiol 22:79]",
+          "protein_content": "9-11 g/100g [wheat bread — Hammes et al. 2005]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.4-0.8 g/100g [sourdough bread — LAB dominant; Hammes et al. 2005]",
+          "acetic_acid": "0.1-0.3 g/100g [sourdough bread — Lactobacillus sanfranciscensis contribution; Hammes et al. 2005]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Traditional sourdough bread (masa madre) — the carbohydrate anchor of Extremaduran food culture. LAB fermentation (Lactobacillus sp.) produces lactic and acetic acid. Used to accompany jamon, cheese, and olive oil.",
+      "data_sources": [
+        "Hammes et al. (2005) — Microbiology of sourdough bread fermentation, Food Microbiol 22:79"
+      ]
+    },
+    {
+      "name": "Extremadura EVOO (Manzanilla Cacereña)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "olive oil extra virgin",
+      "fdc_id": 171413,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [pure oil]",
+          "oleic_acid": "70-76% of total fatty acids [Manzanilla Cacereña EVOO, Extremadura — Ramos-Escudero et al. 2021 J Food Compos Anal 102:104029]",
+          "linoleic_acid": "7.5-10.0% of total fatty acids [Extremadura EVOO — Ramos-Escudero et al. 2021]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "300-550 ppm [Extremadura EVOO — Ramos-Escudero et al. 2021; moderate-low for Mediterranean EVOO]",
+          "tocopherol_content": "130-200 mg/kg [Extremadura EVOO — Ramos-Escudero et al. 2021]",
+          "hydroxytyrosol": "30-80 ppm [Extremadura EVOO — Ramos-Escudero et al. 2021]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": ["RSU-15", "RSU-16"],
+      "cultivar": "Olea europaea (Manzanilla Cacereña)",
+      "notes": "Placed in fermented slot as olive oil completes the fat-fermented pairing for Spain. Extremadura EVOO from the Manzanilla Cacereña cultivar — the primary regional variety. Moderate polyphenol content compared to water-stressed North African olives (RSU-16). Oleic acid (70-76%) is high, reflecting the continental Mediterranean heat.",
+      "data_sources": [
+        "Ramos-Escudero et al. (2021) — Physicochemical and antioxidant properties of Extremadura EVOO, J Food Compos Anal 102:104029"
+      ]
+    },
+    {
+      "name": "pimentón de la Vera (smoked paprika)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "paprika smoked ground",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "ascorbic_acid": "20-50 mg/100g [dried paprika — significantly reduced from fresh capsicum but non-zero]"
+        },
+        "key_flavor_bioactives": {
+          "capsaicinoids": "0.1-0.5 mg/g [sweet/semi-sweet pimentón de la Vera — low capsaicin in smoked paprika variety]",
+          "polyphenol_content": "2500-5000 mg GAE/100g [paprika carotenoids+polyphenols — Pérez-Gálvez et al. 2005 Eur Food Res Technol 221:260]",
+          "tocopherol_content": "40-80 mg/100g [paprika tocopherols — Pérez-Gálvez et al. 2005; high alpha-tocopherol in peppers]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Capsicum annuum (Ocales variety, oak-smoked)",
+      "notes": "Pimentón de la Vera is the signature aromatic spice of Extremadura — slow oak-smoked paprika from the Vera valley, with DOP status. The smoking process imparts complex phenolic compounds from wood smoke. Carotenoids (capsanthin, capsorubin) are the dominant polyphenol fraction alongside the red color pigments. Used in chorizo, stews, and as a direct condiment.",
+      "data_sources": [
+        "Pérez-Gálvez et al. (2005) — Carotenoids from paprika, Eur Food Res Technol 221:260"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "jamon iberico",
+      "Iberian pork lard",
+      "EVOO",
+      "sourdough bread",
+      "pimentón"
+    ],
+    "known_processing_methods": [
+      "36-month jamon dry-curing (salt + mountain air aging)",
+      "traditional lard rendering",
+      "cold-pressing olive oil",
+      "oak-smoking paprika",
+      "sourdough LAB fermentation"
+    ],
+    "fermentation_prevalence": 0.65
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.45,
+    "industrial_processing_index": 0.40
+  },
+  "notes": "Extremadura, western Spain (~400m). Sandy acidic soils (siliceous geology), Mediterranean continental climate. The defining feature is the dehesa — a traditional silvopasture agroforestry system of scattered Quercus ilex (holm oak) over open pasture where Iberian pigs forage on acorns (bellotas). The bellota diet is the primary terroir driver: it transfers acorn fatty acids (high oleic) directly into pork fat, creating a unique fatty acid signature unmatched by any other pig fat system. Natural experiment pair with RSU-05 (Central European grain-fed lard). The combination of Iberian lard fat signal and jamon aged protein signal makes this one of the richest RSUs in the fat category."
+}

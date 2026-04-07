@@ -1,0 +1,234 @@
+{
+  "region_id": "RSU-17",
+  "name": "Ethiopian Highlands",
+  "coordinates": {
+    "lat": 9.0,
+    "lon": 38.7,
+    "altitude_m": 2200
+  },
+  "climate": {
+    "temperature_mean": 16.0,
+    "temperature_seasonality": 5.0,
+    "precipitation_mean": 1100,
+    "precipitation_seasonality": 0.70
+  },
+  "geology": {
+    "parent_material": "basalt",
+    "soil_pH": 5.8,
+    "soil_texture": "clay loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "teff",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "teff grain raw",
+      "fdc_id": 170285,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "13.3 g/100g [USDA FDC 170285]",
+          "lipid_content": "2.38 g/100g [USDA FDC 170285]",
+          "starch_content": "68.7 g/100g [USDA FDC 170285]",
+          "fiber_content": "8.0 g/100g [USDA FDC 170285]",
+          "ascorbic_acid": "trace — minimal in dry grain [USDA FDC]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "350-500 mg GAE/100g [teff grain — Abebe et al. 2015 J Nutr Food Sci 5:376]",
+          "tannin_content": "0.12-0.34 g/100g condensed tannins [white vs dark teff varieties — Zhu 2018 Food Chem 244:344]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.6-1.2 g/100g [injera sourdough fermentation — Girma et al. 2019 Food Chem 297:124906]",
+          "acetic_acid": "0.1-0.3 g/100g [injera fermentation — Girma et al. 2019]"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 13.3,
+          "fat_g": 2.38,
+          "carb_g": 68.7,
+          "fiber_g": 8.0
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "limonene"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Teff (Eragrostis tef) is Ethiopia's foundational grain — the primary substrate for injera flatbread. The 3-day sourdough fermentation is a defining feature of Ethiopian food chemistry: lactic acid bacteria and wild yeast acidify the batter, producing the sour, spongy injera. Polyphenol content is variety-dependent (dark > white teff). Basaltic highland soils contribute available iron — teff has unusually high iron content for a cereal (5.2 mg/100g).",
+      "data_sources": [
+        "Abebe et al. (2015) — Phenolic composition of teff, J Nutr Food Sci 5:376",
+        "Zhu (2018) — Teff grain polyphenols, Food Chem 244:344",
+        "Girma et al. (2019) — Injera fermentation organic acids, Food Chem 297:124906"
+      ]
+    },
+    {
+      "name": "Arabica coffee",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "coffee brewed black",
+      "fdc_id": 171891,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "caffeine_concentration": "8.0-10.5 mg/g dry bean [Ethiopian highland Arabica — Mussatto et al. 2011 Trends Food Sci 22:404; altitude >1800m]",
+          "polyphenol_content": "4500-6200 mg/100g CGA equivalents [Ethiopian washed process — Campa et al. 2012 J Agric Food Chem 60:3252]"
+        },
+        "terpenes": {
+          "linalool": "0.8-2.1 mg/L in brewed coffee [Ethiopian natural process — Buffo & Cardelli-Freire 2004 Flavour Fragrance J 19:99]"
+        },
+        "organic_acids": {
+          "malic_acid": "0.9-1.4 g/100g dry bean [Ethiopian highland — Lingle 2011 SCAA protocols; altitude effect on malic acid accumulation]",
+          "citric_acid": "0.5-0.8 g/100g dry bean [Ethiopian Arabica — Lingle 2011]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates"
+      ],
+      "natural_experiment": ["RSU-18", "RSU-19"],
+      "cultivar": "Coffea arabica (Yirgacheffe/Sidama landrace)",
+      "notes": "Ethiopia is the center of origin and genetic diversity for Arabica coffee. The Yirgacheffe and Sidama highland zones (1800-2200m) produce the most complex cup profiles globally: floral linalool aromatics, high malic acid brightness, and elevated chlorogenic acid concentrations driven by high UV, cool nights, and slow cherry maturation. This is the high-altitude anchor for the coffee natural experiment (RSU-17 at 2200m vs RSU-18 at 1600m vs RSU-19 at 700m). Note: chlorogenic acid (CGA) is a subclass of polyphenols tracked under polyphenol_content here.",
+      "data_sources": [
+        "Mussatto et al. (2011) — Chemistry, pharmacology, and commercial utilization of coffee, Trends Food Sci 22:404",
+        "Campa et al. (2012) — Chlorogenic acids in coffee, J Agric Food Chem 60:3252",
+        "Lingle (2011) — SCAA Coffee Brewing Handbook, organic acid protocols",
+        "Buffo & Cardelli-Freire (2004) — Coffee flavor: an overview, Flavour Fragrance J 19:99"
+      ]
+    },
+    {
+      "name": "injera",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "injera Ethiopian flatbread",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "5.4-6.8 g/100g [injera, teff-based — Belay et al. 2009 Ethiopian J Health Dev 23:192]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.8-1.5 g/100g [fermented injera batter — Girma et al. 2019 Food Chem 297:124906]",
+          "acetic_acid": "0.15-0.40 g/100g [injera — Girma et al. 2019]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Injera is both the bread and the plate in Ethiopian cuisine — a large spongy sourdough fermented from teff flour over 2-3 days. The LAB community (predominantly Lactobacillus plantarum, L. fermentum) produces the characteristic sour flavor profile. Fermentation reduces phytate content by 50-70%, improving mineral bioavailability from the iron-rich teff.",
+      "data_sources": [
+        "Girma et al. (2019) — Organic acids in injera, Food Chem 297:124906",
+        "Belay et al. (2009) — Nutritional composition of Ethiopian foods, Ethiopian J Health Dev 23:192"
+      ]
+    },
+    {
+      "name": "lamb",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "lamb leg raw",
+      "fdc_id": 174382,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "20.9 g/100g [USDA FDC 174382]",
+          "lipid_content": "14.8 g/100g [USDA FDC 174382]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [lamb meat — Maga 1983 CRC Crit Rev Food Sci Nutr 18:231]",
+          "inosinate": "~0.25 g/100g IMP [muscle meat — standard IMP literature]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 20.9,
+          "fat_g": 14.8
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Lamb and goat are the primary meat proteins in highland Ethiopian cuisine, consumed especially during holidays (Timkat, Meskel). Ethiopian lamb is grass-fed on highland pasture — fatty acid profile reflects diverse highland grasses.",
+      "data_sources": [
+        "Maga (1983) — Flavor potentiators, CRC Crit Rev Food Sci Nutr 18:231"
+      ]
+    },
+    {
+      "name": "berbere spice blend",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "berbere spice blend",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "~5 g/100g [spice blend, fat from fenugreek and nigella — estimate]"
+        },
+        "key_flavor_bioactives": {
+          "capsaicinoids": "1.5-4.0 mg/g capsaicin equivalent [berbere base chili — Ethiopian Capsicum varieties; Lemma et al. 2014 Int J Food Sci]",
+          "polyphenol_content": "800-1200 mg GAE/100g [berbere total polyphenols — multiple spice components contribute]"
+        },
+        "terpenes": {
+          "linalool": "present in coriander and cardamom components of berbere",
+          "limonene": "present in citrusy spice components"
+        },
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Berbere is the defining flavor architecture of Ethiopian highland cuisine — a complex spice blend combining chili, fenugreek, coriander, cardamom, black pepper, and other aromatics. Placed in 'fat' category as the nit'ir qibe (spiced clarified butter) in which berbere is cooked is the fat vehicle of the cuisine. The polyphenol contribution from multi-spice blending is one of the most complex in the pilot set.",
+      "data_sources": [
+        "Lemma et al. (2014) — Capsaicinoid content of Ethiopian chilies, Int J Food Sci"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "teff (injera)",
+      "lamb",
+      "lentils",
+      "chickpeas",
+      "Arabica coffee",
+      "berbere"
+    ],
+    "known_processing_methods": [
+      "3-day sourdough fermentation (injera)",
+      "dry spice blending (berbere)",
+      "spiced butter clarification (nit'ir qibe)",
+      "traditional coffee ceremony roasting",
+      "pulse boiling and stewing (wot)"
+    ],
+    "fermentation_prevalence": 0.75
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.35,
+    "industrial_processing_index": 0.15
+  },
+  "notes": "Ethiopian Highlands (Addis Ababa / Oromia region, ~2200m). Basaltic parent material from the East African Rift contributes high iron and mineral availability. Key natural experiment anchor: Arabica coffee at 2200m altitude (RSU-17) vs Colombian Andes at 1600m (RSU-18) vs Vietnamese lowlands at 700m (RSU-19) — same species, 3-altitude gradient. Ethiopian wild-type Arabica landrace vs Colombian cultivated varieties introduces genetic noise, but the altitude effect on CGA, malic acid, and linalool is the primary signal of interest. Teff + injera fermentation system is unique in the pilot set."
+}

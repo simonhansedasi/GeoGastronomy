@@ -1,0 +1,242 @@
+{
+  "region_id": "RSU-06",
+  "name": "East Asian Temperate",
+  "coordinates": {
+    "lat": 35.0,
+    "lon": 115.0,
+    "altitude_m": 50
+  },
+  "climate": {
+    "temperature_mean": 13.0,
+    "temperature_seasonality": 25.0,
+    "precipitation_mean": 800,
+    "precipitation_seasonality": 0.65
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 6.8,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "rice",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "white rice raw long-grain",
+      "fdc_id": 2512381,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "7.039 g/100g [USDA FDC 2512381]",
+          "lipid_content": "1.033 g/100g [USDA FDC 2512381]",
+          "starch_content": "80.313 g/100g [USDA FDC 2512381]",
+          "fiber_content": "0.149 g/100g [USDA FDC 2512381]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 7.039,
+          "fat_g": 1.033,
+          "carb_g": 80.313,
+          "fiber_g": 0.149
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "tannin_content"
+      ],
+      "notes": "Polished white rice — minimal metabolite complexity. Brown rice would add more bioactives. FDC has complete macro profile.",
+      "data_sources": []
+    },
+    {
+      "name": "sesame oil",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "sesame oil",
+      "fdc_id": 2262073,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "19.705 g/100g [USDA FDC 2262073]",
+          "lipid_content": "62.4 g/100g [USDA FDC 2262073]",
+          "starch_content": "14.179 g/100g [USDA FDC 2262073]",
+          "fiber_content": "8.372 g/100g [USDA FDC 2262073]",
+          "saturated_fat_g": "8.966 g/100g [USDA FDC 2262073]"
+        },
+        "key_flavor_bioactives": {
+          "tannin_content": "sesamol and sesamin are key antioxidants — not standard tannins but phenolic class"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 19.705,
+          "fat_g": 62.4,
+          "carb_g": 14.179,
+          "fiber_g": 8.372,
+          "saturated_fat_g": 8.966,
+          "monounsaturated_fat_g": 22.57,
+          "polyunsaturated_fat_g": 26.37
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "lactic_acid"
+      ],
+      "notes": "Toasted sesame oil is the defining fat in East Asian cuisine. High in linoleic acid (omega-6) and sesamol. FDC fatty acid profile available.",
+      "data_sources": []
+    },
+    {
+      "name": "tofu",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "tofu firm raw",
+      "fdc_id": 172475,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "17.27 g/100g [USDA FDC 172475]",
+          "lipid_content": "8.72 g/100g [USDA FDC 172475]",
+          "starch_content": "2.78 g/100g [USDA FDC 172475]",
+          "fiber_content": "2.3 g/100g [USDA FDC 172475]",
+          "energy_kcal": "144.0 g/100g [USDA FDC 172475]",
+          "saturated_fat_g": "1.261 g/100g [USDA FDC 172475]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.1 g/100g free glutamate [fresh tofu — lower than fermented soy products]"
+        },
+        "_fdc_macros_raw": {
+          "energy_kcal": 144.0,
+          "protein_g": 17.27,
+          "fat_g": 8.72,
+          "carb_g": 2.78,
+          "fiber_g": 2.3,
+          "saturated_fat_g": 1.261,
+          "monounsaturated_fat_g": 1.925,
+          "polyunsaturated_fat_g": 4.921
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Soybean is the protein foundation. Tofu is the unfermented form — comparatively low glutamate vs. soy sauce or miso.",
+      "data_sources": []
+    },
+    {
+      "name": "ginger",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "ginger root raw",
+      "fdc_id": 2727584,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "1.468 g/100g [USDA FDC 2727584]",
+          "fiber_content": "3.0 g/100g [USDA FDC 2727584]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {
+          "myrcene": "beta-myrcene present in ginger essential oil — minor component",
+          "linalool": "trace in ginger oil"
+        },
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 1.468,
+          "fiber_g": 3.0
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "notes": "Ginger represents the aromatic class. Key compounds are gingerols and shogaols — not captured in schema terpene fields, schema extension needed. Zingiberene is the dominant terpene (missing from schema).",
+      "data_sources": [
+        "Lawrence (1984) — ginger essential oil composition"
+      ]
+    },
+    {
+      "name": "soy sauce",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "soy sauce",
+      "fdc_id": 1104705,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "51.1 g/100g [USDA FDC 1104705]",
+          "lipid_content": "3.33 g/100g [USDA FDC 1104705]",
+          "starch_content": "32.9 g/100g [USDA FDC 1104705]",
+          "energy_kcal": "366.0 g/100g [USDA FDC 1104705]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "present — co-fermentation with lactic acid bacteria during koji process",
+          "acetic_acid": "trace — secondary fermentation"
+        },
+        "umami_compounds": {
+          "glutamate": "10-20 g/L free glutamate [aged soy sauce — Lioe et al. 2010]",
+          "inosinate": "trace — some varieties"
+        },
+        "_fdc_macros_raw": {
+          "energy_kcal": 366.0,
+          "protein_g": 51.1,
+          "fat_g": 3.33,
+          "carb_g": 32.9
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Highest measured free glutamate of any fermented product in the pilot set. Best-documented umami compound concentration alongside fish sauce (RSU-12). Key anchor for umami dimension.",
+      "data_sources": [
+        "Lioe et al. (2010) — soy sauce umami composition",
+        "USDA FoodData Central"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "rice",
+      "soybean",
+      "wheat",
+      "cabbage",
+      "ginger",
+      "garlic"
+    ],
+    "known_processing_methods": [
+      "koji fermentation",
+      "brine fermentation",
+      "vinegar production",
+      "drying"
+    ],
+    "fermentation_prevalence": 0.9
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.75,
+    "industrial_processing_index": 0.6
+  },
+  "notes": "Highest umami compound concentration in pilot set. Loess + alluvial soils. Key H5 test: industrial processing (soy sauce industrialization) may inflate cultural signal over environmental signal. Ginger terpenes require schema extension — zingiberene is the key compound."
+}

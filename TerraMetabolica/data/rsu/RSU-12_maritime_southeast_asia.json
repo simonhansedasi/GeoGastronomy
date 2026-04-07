@@ -1,0 +1,260 @@
+{
+  "region_id": "RSU-12",
+  "name": "Maritime Southeast Asia",
+  "coordinates": {
+    "lat": -3.0,
+    "lon": 118.0,
+    "altitude_m": 50
+  },
+  "climate": {
+    "temperature_mean": 27.5,
+    "temperature_seasonality": 1.5,
+    "precipitation_mean": 2800,
+    "precipitation_seasonality": 0.25
+  },
+  "geology": {
+    "parent_material": "volcanic",
+    "soil_pH": 5.5,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "rice",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "white rice raw long-grain",
+      "fdc_id": 2512381,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "7.039 g/100g [USDA FDC 2512381]",
+          "lipid_content": "1.033 g/100g [USDA FDC 2512381]",
+          "starch_content": "80.313 g/100g [USDA FDC 2512381]",
+          "fiber_content": "0.149 g/100g [USDA FDC 2512381]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 7.039,
+          "fat_g": 1.033,
+          "carb_g": 80.313,
+          "fiber_g": 0.149
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "tannin_content"
+      ],
+      "notes": "Rice appears in RSU-06, RSU-11, RSU-12. Three-way comparison across loess (RSU-06), laterite (RSU-11), and volcanic (RSU-12) soils — natural experiment for H2.",
+      "data_sources": []
+    },
+    {
+      "name": "coconut milk",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "coconut milk raw",
+      "fdc_id": 170169,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "3.33 g/100g [USDA FDC 170169]",
+          "lipid_content": "33.49 g/100g [USDA FDC 170169]",
+          "starch_content": "15.23 g/100g [USDA FDC 170169]",
+          "fiber_content": "9.0 g/100g [USDA FDC 170169]",
+          "energy_kcal": "354.0 g/100g [USDA FDC 170169]",
+          "glucose_concentration": "6.23 g/100g [USDA FDC 170169]",
+          "saturated_fat_g": "29.698 g/100g [USDA FDC 170169]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "energy_kcal": 354.0,
+          "protein_g": 3.33,
+          "fat_g": 33.49,
+          "carb_g": 15.23,
+          "fiber_g": 9.0,
+          "sugars_g": 6.23,
+          "saturated_fat_g": 29.698,
+          "monounsaturated_fat_g": 1.425,
+          "polyunsaturated_fat_g": 0.366
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "lactic_acid"
+      ],
+      "notes": "Coconut milk (vs. coconut oil in RSU-11) — distinct water-emulsion fat matrix with different bioavailability. Lauric acid dominant as in RSU-11. Medium-chain fatty acid comparison between RSU-11 and RSU-12 possible.",
+      "data_sources": []
+    },
+    {
+      "name": "tempeh",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "tempeh",
+      "fdc_id": 174272,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "20.29 g/100g [USDA FDC 174272]",
+          "lipid_content": "10.8 g/100g [USDA FDC 174272]",
+          "starch_content": "7.64 g/100g [USDA FDC 174272]",
+          "energy_kcal": "192.0 g/100g [USDA FDC 174272]",
+          "saturated_fat_g": "2.539 g/100g [USDA FDC 174272]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "trace — Rhizopus fermentation with co-occurring lactic bacteria [Nout & Kiers 2005]",
+          "acetic_acid": "trace"
+        },
+        "umami_compounds": {
+          "glutamate": "moderate — free glutamate elevated compared to unfermented soy [Nout & Kiers 2005]"
+        },
+        "_fdc_macros_raw": {
+          "energy_kcal": 192.0,
+          "protein_g": 20.29,
+          "fat_g": 10.8,
+          "carb_g": 7.64,
+          "saturated_fat_g": 2.539,
+          "monounsaturated_fat_g": 3.205,
+          "polyunsaturated_fat_g": 4.3
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "notes": "Tempeh is a mold-fermented soy product (Rhizopus oligosporus). FDC likely has tempeh. Glutamate elevated vs. tofu (RSU-06) but lower than soy sauce. Both protein and fermented aspects captured here.",
+      "data_sources": [
+        "Nout & Kiers (2005) — tempeh fermentation chemistry and nutrition"
+      ]
+    },
+    {
+      "name": "lemongrass",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "lemongrass raw",
+      "fdc_id": 2685576,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "1.688 g/100g [USDA FDC 2685576]",
+          "lipid_content": "0.302 g/100g [USDA FDC 2685576]",
+          "starch_content": "8.787 g/100g [USDA FDC 2685576]",
+          "fiber_content": "3.119 g/100g [USDA FDC 2685576]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {
+          "limonene": "limonene 5-15% of lemongrass essential oil",
+          "myrcene": "myrcene 10-25% of lemongrass essential oil [Lawrence 1979]",
+          "linalool": "linalool trace in lemongrass oil — minor component"
+        },
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 1.688,
+          "fat_g": 0.302,
+          "carb_g": 8.787,
+          "fiber_g": 3.119
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "notes": "Lemongrass (Cymbopogon citratus) — primary aromatic. Citral (neral + geranial) is the key compound — not in schema terpene fields, schema extension needed. Myrcene and limonene data available. Convergent terroir candidate with RSU-11 (black pepper terpenes overlap with lemongrass myrcene/limonene).",
+      "data_sources": [
+        "Lawrence (1979) — lemongrass essential oil composition"
+      ]
+    },
+    {
+      "name": "fish sauce",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "fish sauce",
+      "fdc_id": 174531,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "5.06 g/100g [USDA FDC 174531]",
+          "lipid_content": "0.01 g/100g [USDA FDC 174531]",
+          "starch_content": "3.64 g/100g [USDA FDC 174531]",
+          "energy_kcal": "35.0 g/100g [USDA FDC 174531]",
+          "glucose_concentration": "3.64 g/100g [USDA FDC 174531]",
+          "saturated_fat_g": "0.003 g/100g [USDA FDC 174531]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "trace — minor component of fish sauce fermentation"
+        },
+        "umami_compounds": {
+          "glutamate": "10-20 g/L free glutamate [fish sauce — Lopetcharat et al. 2001]",
+          "inosinate": "high — fish IMP concentrated through fermentation and drying",
+          "guanylate": "detectable — some fish sauce varieties"
+        },
+        "_fdc_macros_raw": {
+          "energy_kcal": 35.0,
+          "protein_g": 5.06,
+          "fat_g": 0.01,
+          "carb_g": 3.64,
+          "sugars_g": 3.64,
+          "saturated_fat_g": 0.003,
+          "monounsaturated_fat_g": 0.002,
+          "polyunsaturated_fat_g": 0.003
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Fish sauce and soy sauce (RSU-06) are the two best-measured umami food sources in the pilot set. Fish sauce uniquely provides all three umami compounds (glutamate + inosinate + guanylate). Direct comparison with soy sauce tests H4 (convergent terroir through different substrate but similar umami outcome).",
+      "data_sources": [
+        "Lopetcharat et al. (2001) — fish sauce chemistry review",
+        "USDA FoodData Central"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "rice",
+      "fish sauce",
+      "coconut",
+      "chili",
+      "lemongrass",
+      "galangal",
+      "tempeh",
+      "clove",
+      "nutmeg"
+    ],
+    "known_processing_methods": [
+      "fish sauce fermentation",
+      "tempeh fermentation",
+      "belacan production",
+      "spice blending"
+    ],
+    "fermentation_prevalence": 0.85
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.55,
+    "industrial_processing_index": 0.4
+  },
+  "notes": "Volcanic + humid tropical. Highest combined terpene + umami signal. Only RSU with all three umami compounds measured. Fish sauce vs. soy sauce is the key cross-RSU umami comparison. Spice diversity (clove, nutmeg — Maluku native) extends beyond current schema terpene fields. Key RSU for H2 (volcanic soil) and H4 (convergent umami outcome with RSU-06)."
+}

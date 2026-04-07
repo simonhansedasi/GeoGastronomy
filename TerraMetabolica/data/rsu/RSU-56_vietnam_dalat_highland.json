@@ -1,0 +1,49 @@
+{
+  "region_id": "RSU-56",
+  "name": "Da Lat Central Highlands, Vietnam (~1500m)",
+  "coordinates": {"lat": 11.9, "lon": 108.4, "altitude_m": 1500},
+  "climate": {"temperature_mean": 18.0, "temperature_seasonality": 5.0, "precipitation_mean": 1800, "precipitation_seasonality": 0.65},
+  "geology": {"parent_material": "basaltic", "soil_pH": 5.2, "soil_texture": "loam", "drainage_class": "high"},
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {"fruiting_species": null, "tuber_species": null, "aromatic_species": null, "fermentable_species": null},
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "green tea (Camellia sinensis)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "tea green",
+      "fdc_id": null,
+      "feeding_type": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "11.5-17.0 g/100g dry leaf total catechins [Da Lat highland green teas, 4 cultivated samples at ~1500m — Nguyen et al. 2023 Antioxidants 12:1003; PMC10142074; individual sample totals: 114.9, 146.6, 151.7, 169.6 mg/g DM]",
+          "caffeine_concentration": "2.0-3.0 g/100g dry leaf [green tea caffeine — Vuong et al. 2011 Int Food Res J 18:247; Vietnamese green tea 21 mg/g caffeine mean]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.8-1.5 g/100g dry leaf as theanine+glutamate [highland green tea theanine — elevated at altitude relative to lowland; Vuong et al. 2011]"
+        }
+      },
+      "confirmed_absent": ["capsaicinoids", "isothiocyanates", "inosinate"],
+      "natural_experiment": ["RSU-20", "RSU-21", "RSU-57"],
+      "cultivar": "Camellia sinensis (cultivated clones, Lam Dong province)",
+      "notes": "Da Lat (Lam Dong Province) green teas, grown on the Lang Biang Plateau at ~1500m. Nguyen et al. (2023) directly measured EGCG, EGC, ECG, EC, and C by HPLC in 4 cultivated green tea samples from Da Lat; total catechin values were 114.9, 146.6, 151.7, and 169.6 mg/g DM, giving a range of 11.5-17.0 g/100g DM (mid-range ~14.6 g/100g). This is dry-leaf data from minimally processed green tea — no shade cultivation, no oxidation. Da Lat sits between RSU-21 (Assam, 100m, 12.0-16.0 g/100g) and RSU-57 (Suoi Giang wild tea, ~1400m, 16.6-20.7 g/100g) in the altitude-catechin gradient. The wide within-site spread (114.9-169.6) reflects cultivar and seasonal variation across the 4 samples, not measurement error. Compare RSU-57 (wild ancient-tree tea at similar altitude but different genetic background) to separate altitude from domestication effects. Basaltic parent material (Lang Biang Plateau) distinguishes this site from metamorphic Darjeeling and alluvial Assam soils.",
+      "data_sources": [
+        "Nguyen et al. (2023) — Characteristics and Relationships between Total Polyphenol and Flavonoid Contents, Antioxidant Capacities, and the Content of Caffeine, Gallic Acid, and Major Catechins in Wild/Ancient and Cultivated Teas in Vietnam, Antioxidants 12(5):1003 [PMC10142074]",
+        "Vuong et al. (2011) — The content of bioactive constituents as a quality index for Vietnamese teas, Int Food Res J 18(1):247-252"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": ["green tea", "arabica coffee", "artichoke", "temperate vegetables"],
+    "known_processing_methods": ["pan-fired green tea", "steamed green tea", "orthodox rolling"],
+    "fermentation_prevalence": 0.15
+  },
+  "culture": {"agricultural_intensification_index": 0.45, "industrial_processing_index": 0.30},
+  "notes": "Da Lat, Lam Dong Province, Central Highlands, Vietnam (~1500m). Basaltic red soils on the Lang Biang Plateau, temperate highland climate (mean ~18°C, frostless year-round). Da Lat is Vietnam's main highland agricultural zone, producing temperate crops unusual for equatorial Southeast Asia. Green tea grown here is minimally processed orthodox tea — not shade-grown (no matcha/gyokuro confound), not fully oxidized (no black tea confound). This RSU anchors the Vietnamese altitude gradient alongside RSU-57 (Suoi Giang wild ancient trees, ~1400m) and RSU-19 (Vietnamese lowlands). The catechin data (Nguyen et al. 2023) are HPLC-validated dry-leaf measurements on cultivated (non-wild) green tea, making them directly comparable to the Darjeeling/Assam RSU-20/21 pair."
+}

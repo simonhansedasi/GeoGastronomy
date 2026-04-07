@@ -1,0 +1,255 @@
+{
+  "region_id": "RSU-43",
+  "name": "Nordic Lowlands (Denmark / Netherlands)",
+  "coordinates": {
+    "lat": 55.5,
+    "lon": 10.0,
+    "altitude_m": 30
+  },
+  "climate": {
+    "temperature_mean": 9.0,
+    "temperature_seasonality": 16.0,
+    "precipitation_mean": 700,
+    "precipitation_seasonality": 0.2
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 6.8,
+    "soil_texture": "clay loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "lowland dairy butter (conventional/mixed feed)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "butter unsalted",
+      "fdc_id": 173410,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "81.11 g/100g [USDA FDC 173410]",
+          "palmitic_acid": "27-32% of total fatty acids [Danish lowland butter \u2014 van Amburgh et al. 2015 J Dairy Sci 98:7447]",
+          "oleic_acid": "20-24% of total fatty acids [conventional Danish butter \u2014 van Amburgh et al. 2015]",
+          "stearic_acid": "9-12% of total fatty acids [conventional Danish butter]",
+          "linoleic_acid": "1.5-2.2% of total fatty acids [conventional Danish butter \u2014 van Amburgh et al. 2015]"
+        },
+        "key_flavor_bioactives": {
+          "conjugated_linoleic_acid": "0.6-1.5 g/100g fat [conventional lowland Danish/Dutch butter CLA \u2014 Collomb et al. 2002 J Dairy Sci 85:1239; lowest CLA in the butter natural experiment; year-round indoor feeding with silage/grain supplementation]",
+          "tocopherol_content": "12-22 mg/kg [conventional lowland butter \u2014 lowest tocopherol in butter experiment; grain feed has less vitamin E than fresh alpine herb grass]",
+          "polyphenol_content": "3-8 mg GAE/100g [conventional butter \u2014 trace from silage-based feed]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "fat_g": 81.11
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [
+        "RSU-36",
+        "RSU-37",
+        "RSU-42"
+      ],
+      "cultivar": "Bos taurus (Holstein-Friesian, mixed silage/grain-fed, lowland ~30m)",
+      "notes": "Nordic lowland dairy butter \u2014 the low-CLA baseline anchor of the butter natural experiment. Danish and Dutch butter from Holstein-Friesian cows in intensive lowland dairy systems with indoor winter housing and silage/grain supplementation. CLA content (0.6-1.5 g/100g fat) is the lowest in the butter CLA gradient: RSU-43 lowland 30m ~0.6-1.5 g \u2192 RSU-37 Irish Atlantic 100m ~2-3.5 g \u2192 RSU-36 Alpine 1200m ~3-5.5 g \u2192 RSU-42 Himalayan yak 3800m ~3.5-6.5 g. The diet composition (silage/grain vs fresh alpine grass herbs) is the principal driver of the CLA gradient \u2014 altitude is correlated with forage quality rather than being directly causal.",
+      "data_sources": [
+        "Collomb et al. (2002) \u2014 Conjugated linoleic acids and trans fatty acids in alpine and lowland milk, J Dairy Sci 85:1239",
+        "van Amburgh et al. (2015) \u2014 Dairy cow feed and milk fatty acid composition, J Dairy Sci 98:7447"
+      ],
+      "feeding_type": "mixed-feed"
+    },
+    {
+      "name": "rye bread (rugbr\u00f8d, Danish sourdough rye)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "rye bread pumpernickel",
+      "fdc_id": 172687,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "47.54 g/100g [USDA FDC 172687]",
+          "protein_content": "8.46 g/100g [USDA FDC 172687]",
+          "lipid_content": "3.3 g/100g [USDA FDC 172687]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "400-700 mg GAE/100g [Danish rugbr\u00f8d \u2014 ferulic acid dominant; Andersson et al. 2010 Food Chem 119:240]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.6-1.4 g/100g [Danish rugbr\u00f8d sourdough \u2014 strong LAB acidification; Arendt et al. 2007]",
+          "acetic_acid": "0.3-0.6 g/100g [rugbr\u00f8d \u2014 higher acetic than wheat sourdough]"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 8.46,
+          "fat_g": 3.3,
+          "carb_g": 47.54
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Secale cereale (Danish whole-rye, high-fiber rugbr\u00f8d varieties)",
+      "notes": "Danish rugbr\u00f8d \u2014 the most fiber-dense mainstream bread in the world. 100% whole rye sourdough, dense texture, intensely fermented LAB profile. The strong acetic acid signal distinguishes it from other sourdough breads in the dataset. Eaten daily by Danes as sm\u00f8rrebr\u00f8d (open-faced sandwich) base.",
+      "data_sources": [
+        "Andersson et al. (2010) \u2014 Phenolic antioxidants in rye bread, Food Chem 119:240"
+      ]
+    },
+    {
+      "name": "North Sea herring (pickled/fermented)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "herring atlantic raw",
+      "fdc_id": 174200,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "17.96 g/100g [USDA FDC 174200]",
+          "lipid_content": "9.04 g/100g [USDA FDC 174200]",
+          "oleic_acid": "11-16% of total fatty acids [Atlantic herring \u2014 Ackman & Takeuchi 1986 Lipids 21:117]",
+          "linoleic_acid": "1-2% of total fatty acids [herring \u2014 very low plant omega-6]"
+        },
+        "key_flavor_bioactives": {
+          "tocopherol_content": "1.5-2.5 mg/100g [herring \u2014 significant vitamin E; Ackman & Takeuchi 1986]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.3-0.8 g/100g [pickled/matjes herring LAB fermentation during salt-maturing]",
+          "acetic_acid": "0.2-0.5 g/100g [pickled herring vinegar brine contribution]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.20-0.35 g/100g free glutamate [mature herring \u2014 Maga 1983]",
+          "inosinate": "0.30-0.50 g/100g IMP [Atlantic herring \u2014 Nishimura & Kato 1988]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 17.96,
+          "fat_g": 9.04
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Clupea harengus (North Sea Atlantic herring)",
+      "notes": "North Sea herring \u2014 the foundational protein-fat of Nordic coastal food culture. Matjes herring (mild salt-cured immature herring) and pickled herring (\u00e4ttikssill style) are both fermented/salt-cured preparations. High marine omega-3 fat (DHA/EPA) content, moderate IMP. Used as sm\u00f8rrebr\u00f8d topping, pickled condiment, and festival food.",
+      "data_sources": [
+        "Ackman & Takeuchi (1986) \u2014 Fatty acids of Atlantic herring, Lipids 21:117",
+        "Nishimura & Kato (1988) \u2014 Taste compounds in meat and fish, J Food Sci 53:1217"
+      ]
+    },
+    {
+      "name": "Gouda cheese (aged)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "gouda cheese aged",
+      "fdc_id": 173440,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "24.94 g/100g [USDA FDC 173440]",
+          "lipid_content": "27.44 g/100g [USDA FDC 173440]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.5-1.0 g/100g [aged Gouda \u2014 residual lactic acid; Kosikowski & Mistry 1997]",
+          "propionic_acid": "trace [Gouda does not use Propionibacterium unlike Swiss cheese]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.8-1.8 g/100g free glutamate [aged Gouda 18+ month \u2014 Weimer et al. 2016 J Dairy Sci; proteolysis-driven]",
+          "guanylate": "trace"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 24.94,
+          "fat_g": 27.44
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Bos taurus (Holstein, Dutch lowland milk \u2014 Gouda PDO)",
+      "notes": "Aged Gouda from Dutch lowland Holstein milk. Washed-curd semi-hard cheese aged 18+ months (Old Amsterdam style) produces significant free glutamate from proteolysis. The fat fraction reflects the lowland conventional dairy feed \u2014 lower CLA than Alpine Gruy\u00e8re (RSU-36). Provides a direct comparison with RSU-36 alpine Gruy\u00e8re for the altitude-forage-dairy fat signal.",
+      "data_sources": [
+        "Kosikowski & Mistry (1997) \u2014 Cheese and Fermented Milk Foods, vol 1"
+      ]
+    },
+    {
+      "name": "dill (Anethum graveolens)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "dill weed fresh",
+      "fdc_id": 172232,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "ascorbic_acid": "85 mg/100g [USDA FDC 172232]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "600-1200 mg GAE/100g [dill herb \u2014 flavonoids and hydroxycinnamic acids; Zheljazkov et al. 2008]"
+        },
+        "terpenes": {
+          "limonene": "20-50% of dill EO [Anethum graveolens EO \u2014 Singh & Shushni 2011 J Agric Food Chem 59:6301; dominant terpene]",
+          "myrcene": "1-5% of dill EO [Singh & Shushni 2011]"
+        },
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 3.46,
+          "ascorbic_acid_mg": 85
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Anethum graveolens (Scandinavian dill varieties)",
+      "notes": "Dill is the defining aromatic herb of Nordic cuisine \u2014 the ubiquitous flavoring of pickled fish, potato dishes, and fermented dairy. The limonene-dominant essential oil (20-50% limonene) creates the characteristic fresh, clean, slightly citrus-anise aroma. Used in vast quantities in Danish, Swedish, and Dutch food culture. The high ascorbic acid content (85 mg/100g) reflects the fresh herb's role as a vitamin C source in northern diets.",
+      "data_sources": [
+        "Singh & Shushni (2011) \u2014 Chemical composition of dill essential oil, J Agric Food Chem 59:6301"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "dairy (butter, Gouda, cream)",
+      "North Sea herring",
+      "rye bread (rugbr\u00f8d)",
+      "root vegetables (potato, beet)",
+      "dill"
+    ],
+    "known_processing_methods": [
+      "butter churning (continuous/batch industrial)",
+      "pickled/matjes herring salt fermentation",
+      "Gouda LAB pressed-curd aging",
+      "rugbr\u00f8d sourdough rye baking",
+      "cold-smoking fish"
+    ],
+    "fermentation_prevalence": 0.65
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.8,
+    "industrial_processing_index": 0.75
+  },
+  "notes": "Denmark/Netherlands coastal lowlands (~30m), sedimentary clay-loam soils, temperate maritime climate. The highest agricultural intensification index in this batch \u2014 intensive lowland dairy, precision fertilization, year-round silage. Critical function: provides the low-altitude, low-CLA baseline for the butter natural experiment (RSU-43 \u2192 RSU-37 \u2192 RSU-36 \u2192 RSU-42). The contrast between this conventionally-fed lowland dairy fat and the alpine/highland grass-fed systems is the cleanest diet-altitude-terroir experiment in the dataset. Dill adds the most Nordic-specific terpene fingerprint (limonene-dominant EO) in the dataset."
+}

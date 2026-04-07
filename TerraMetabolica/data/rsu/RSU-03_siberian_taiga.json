@@ -1,0 +1,228 @@
+{
+  "region_id": "RSU-03",
+  "name": "Siberian Taiga",
+  "coordinates": {
+    "lat": 62.0,
+    "lon": 105.0,
+    "altitude_m": 200
+  },
+  "climate": {
+    "temperature_mean": -5.0,
+    "temperature_seasonality": 45.0,
+    "precipitation_mean": 400,
+    "precipitation_seasonality": 0.5
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 5.5,
+    "soil_texture": "loam",
+    "drainage_class": "low"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "buckwheat",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "buckwheat groats raw",
+      "fdc_id": 2512374,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "8.885 g/100g [USDA FDC 2512374]",
+          "lipid_content": "2.484 g/100g [USDA FDC 2512374]",
+          "starch_content": "75.018 g/100g [USDA FDC 2512374]",
+          "fiber_content": "10.35 g/100g [USDA FDC 2512374]"
+        },
+        "key_flavor_bioactives": {
+          "tannin_content": "rutin 1-8 mg/g [buckwheat rutin literature — high vs. common varieties]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 8.885,
+          "fat_g": 2.484,
+          "carb_g": 75.018,
+          "fiber_g": 10.35
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Dominant grain across Siberian food systems where wheat is less viable. Rutin (flavonoid) content is distinctive and well-documented.",
+      "data_sources": [
+        "Kreft et al. (2006) — buckwheat rutin composition"
+      ]
+    },
+    {
+      "name": "reindeer",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "reindeer meat raw",
+      "fdc_id": 171488,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "19.81 g/100g [USDA FDC 171488]",
+          "lipid_content": "8.97 g/100g [USDA FDC 171488]",
+          "starch_content": "0.15 g/100g [USDA FDC 171488]",
+          "energy_kcal": "166.0 g/100g [USDA FDC 171488]",
+          "glucose_concentration": "0.1 g/100g [USDA FDC 171488]",
+          "saturated_fat_g": "2.413 g/100g [USDA FDC 171488]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "inosinate": "present — game meat IMP"
+        },
+        "_fdc_macros_raw": {
+          "energy_kcal": 166.0,
+          "protein_g": 19.81,
+          "fat_g": 8.97,
+          "carb_g": 0.15,
+          "sugars_g": 0.1,
+          "saturated_fat_g": 2.413,
+          "monounsaturated_fat_g": 3.091,
+          "polyunsaturated_fat_g": 2.443
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Primary fat and protein source. Lean meat with distinct fatty acid profile from reindeer diet of lichen and sedge.",
+      "data_sources": []
+    },
+    {
+      "name": "Arctic char",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "arctic char raw",
+      "fdc_id": 2685576,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "1.688 g/100g [USDA FDC 2685576]",
+          "lipid_content": "0.302 g/100g [USDA FDC 2685576]",
+          "starch_content": "8.787 g/100g [USDA FDC 2685576]",
+          "fiber_content": "3.119 g/100g [USDA FDC 2685576]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "inosinate": "present — cold-water fish IMP"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 1.688,
+          "fat_g": 0.302,
+          "carb_g": 8.787,
+          "fiber_g": 3.119
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "notes": "Counterpart to pike (RSU-01) and walleye (RSU-02). Cold-water fish with omega-3 profile.",
+      "data_sources": []
+    },
+    {
+      "name": "wild lingonberries",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "lingonberries raw",
+      "fdc_id": 2685576,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "1.688 g/100g [USDA FDC 2685576]",
+          "lipid_content": "0.302 g/100g [USDA FDC 2685576]",
+          "starch_content": "8.787 g/100g [USDA FDC 2685576]",
+          "fiber_content": "3.119 g/100g [USDA FDC 2685576]"
+        },
+        "key_flavor_bioactives": {
+          "tannin_content": "proanthocyanidins documented [Phenol-Explorer]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "citric_acid": "1.5-3.0 g/100g [Nordic berry literature]",
+          "malic_acid": "0.5-1.5 g/100g"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 1.688,
+          "fat_g": 0.302,
+          "carb_g": 8.787,
+          "fiber_g": 3.119
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "notes": "No spice aromatics native to Siberian taiga. Lingonberry fills the aromatic/bioactive slot — major source of benzoic acid and proanthocyanidins.",
+      "data_sources": [
+        "Phenol-Explorer — proanthocyanidins in lingonberry"
+      ]
+    },
+    {
+      "name": "fermented reindeer milk",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "kefir whole milk",
+      "fdc_id": 746766,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "4-10 g/L [traditional fermented reindeer dairy — closest analog: kefir fermentation literature]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Fermented reindeer milk is traditional but poorly documented in standard databases. Kefir is the closest FDC analog for lactic acid profile. FDC search term is an approximation — flag as ethnobotanical gap.",
+      "data_sources": [
+        "Lopitz-Otsoa et al. (2006) — kefir organic acid profile as proxy"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "reindeer",
+      "freshwater fish",
+      "wild mushrooms",
+      "wild berries",
+      "rye",
+      "buckwheat"
+    ],
+    "known_processing_methods": [
+      "fermentation",
+      "freeze-drying",
+      "smoking",
+      "burial fermentation"
+    ],
+    "fermentation_prevalence": 0.8
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.15,
+    "industrial_processing_index": 0.2
+  },
+  "notes": "Extreme continental subarctic. Highest fermentation prevalence and lowest biodiversity signal in boreal trio. Burial fermentation (unique processing method) not capturable in FDC — requires ethnobotanical literature. Strong H1 test case."
+}

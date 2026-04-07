@@ -1,0 +1,241 @@
+{
+  "region_id": "RSU-10",
+  "name": "Andean Highlands",
+  "coordinates": {
+    "lat": -13.5,
+    "lon": -72.0,
+    "altitude_m": 3500
+  },
+  "climate": {
+    "temperature_mean": 8.0,
+    "temperature_seasonality": 8.0,
+    "precipitation_mean": 800,
+    "precipitation_seasonality": 0.75
+  },
+  "geology": {
+    "parent_material": "volcanic",
+    "soil_pH": 5.5,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "potato",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "potato raw flesh",
+      "fdc_id": 2346404,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "1.578 g/100g [USDA FDC 2346404]",
+          "lipid_content": "0.375 g/100g [USDA FDC 2346404]",
+          "starch_content": "17.328 g/100g [USDA FDC 2346404]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "citric_acid": "0.7-0.9 g/100g [Andean accessions significantly higher than cultivated varieties p<0.05 — Sampaio et al. 2021 Food Chemistry 345:128853]",
+          "malic_acid": "0.23-0.33 g/100g [Andean accessions — Sampaio et al. 2021]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.07-0.25 g/100g free glutamate [S. phureja Andean type 2.3-6.5x higher EUC than S. tuberosum — Morris et al. 2007 J Agric Food Chem 55:9627]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 1.578,
+          "fat_g": 0.375,
+          "carb_g": 17.328
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "myrcene"
+      ],
+      "notes": "GENETICS CONFOUND: RSU-05 vs RSU-10 potato comparison conflates variety effects with terroir. Citric acid is ~75% genetically controlled (Eldem et al. 2022) — the higher values here reflect Andean genetic heritage (S. phureja/andigenum), not necessarily the volcanic soil. Malic acid is more environment-sensitive and is a partial terroir signal. For a clean same-cultivar terroir comparison use apple RSU-13 vs RSU-14. Retaining values as genotype signal — the variety × environment interaction is itself scientifically interesting.",
+      "data_sources": [
+        "Sampaio et al. (2021) — Potato biodiversity: fifty genotypes, Food Chemistry 345:128853",
+        "Morris et al. (2007) — Umami compounds determine potato flavor, J Agric Food Chem 55:9627",
+        "Kozukue & Friedman (2003) — glycoalkaloids in Andean potato varieties"
+      ]
+    },
+    {
+      "name": "quinoa",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "quinoa raw",
+      "fdc_id": 2512372,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "11.922 g/100g [USDA FDC 2512372]",
+          "lipid_content": "6.601 g/100g [USDA FDC 2512372]",
+          "starch_content": "69.525 g/100g [USDA FDC 2512372]",
+          "fiber_content": "6.295 g/100g [USDA FDC 2512372]"
+        },
+        "key_flavor_bioactives": {
+          "tannin_content": "saponins 0.1-5 g/100g [quinoa saponin literature — surface concentration varies by variety]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 11.922,
+          "fat_g": 6.601,
+          "carb_g": 69.525,
+          "fiber_g": 6.295
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Quinoa is both a fat and protein source — the fat/oil category is poorly represented in this RSU, as guinea pig fat is more culturally primary but nutritionally similar to other game fats. Quinoa placed in fat slot for its fat profile (unusually high for a grain). Saponins are the key bioactive — bitter if unwashed.",
+      "data_sources": []
+    },
+    {
+      "name": "guinea pig",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "guinea pig meat raw",
+      "fdc_id": 172416,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "23.4 g/100g [USDA FDC 172416]",
+          "lipid_content": "6.45 g/100g [USDA FDC 172416]",
+          "energy_kcal": "158.0 g/100g [USDA FDC 172416]",
+          "saturated_fat_g": "1.77 g/100g [USDA FDC 172416]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "inosinate": "likely present — small mammal IMP"
+        },
+        "_fdc_macros_raw": {
+          "energy_kcal": 158.0,
+          "protein_g": 23.4,
+          "fat_g": 6.45,
+          "saturated_fat_g": 1.77,
+          "monounsaturated_fat_g": 2.43,
+          "polyunsaturated_fat_g": 1.41
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Cuy (guinea pig) is the primary domestic protein. Likely not in FDC. Flag as data gap — will need USDA Animal Agriculture research literature or Peruvian food chemistry studies.",
+      "data_sources": []
+    },
+    {
+      "name": "aji amarillo",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "aji amarillo pepper",
+      "fdc_id": 2258588,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "0.715 g/100g [USDA FDC 2258588]",
+          "lipid_content": "0.106 g/100g [USDA FDC 2258588]",
+          "starch_content": "4.778 g/100g [USDA FDC 2258588]",
+          "fiber_content": "0.942 g/100g [USDA FDC 2258588]"
+        },
+        "key_flavor_bioactives": {
+          "capsaicinoids": "3-8 mg/g dry weight capsaicin equivalent [Peruvian chili varieties — regional pepper literature]"
+        },
+        "terpenes": {
+          "linalool": "present in aji amarillo aroma fraction"
+        },
+        "organic_acids": {
+          "citric_acid": "detectable in fresh pepper"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 0.715,
+          "fat_g": 0.106,
+          "carb_g": 4.778,
+          "fiber_g": 0.942
+        }
+      },
+      "confirmed_absent": [
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "notes": "Aji amarillo (Capsicum baccatum) is the defining Andean pepper — fruity, medium heat, distinct from Scotch bonnet (RSU-08) and bird's eye (RSU-12). Direct capsaicinoid comparison across RSU-08/10/11/12 is one of the most data-rich dimensions in the pilot set.",
+      "data_sources": [
+        "Barbero et al. (2014) — capsaicinoid profiles in Capsicum species"
+      ]
+    },
+    {
+      "name": "chicha de jora",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "chicha de jora corn beer",
+      "fdc_id": 168921,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "8.75 g/100g [USDA FDC 168921]",
+          "lipid_content": "5.09 g/100g [USDA FDC 168921]",
+          "starch_content": "73.89 g/100g [USDA FDC 168921]",
+          "fiber_content": "8.4 g/100g [USDA FDC 168921]",
+          "energy_kcal": "364.0 g/100g [USDA FDC 168921]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "present — lacto-fermentation in chicha production",
+          "acetic_acid": "trace"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "energy_kcal": 364.0,
+          "protein_g": 8.75,
+          "fat_g": 5.09,
+          "carb_g": 73.89,
+          "fiber_g": 8.4
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "notes": "Maize-based fermented beer. Likely not in FDC — manual entry from Andean food chemistry literature required. Malted maize (jora) fermentation produces different acid profile than cassava chicha (RSU-09).",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "potato (3,000+ varieties)",
+      "quinoa",
+      "maize",
+      "aji pepper",
+      "guinea pig",
+      "chuño (freeze-dried potato)"
+    ],
+    "known_processing_methods": [
+      "freeze-drying (chuño)",
+      "fermentation (chicha)",
+      "roasting",
+      "boiling"
+    ],
+    "fermentation_prevalence": 0.55
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.45,
+    "industrial_processing_index": 0.25
+  },
+  "notes": "Volcanic + mountain soils. Highest tuber diversity in pilot set. Potato appears in RSU-05 and RSU-10 as natural experiment for H2. Aji amarillo capsaicinoid measurable and directly comparable to RSU-08/11/12. Guinea pig and chicha are data gaps requiring specialized literature."
+}

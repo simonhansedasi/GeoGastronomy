@@ -1,0 +1,81 @@
+{
+  "region_id": "RSU-54",
+  "name": "Mexican Guerrero Highlands (Malinaltepec, ~1980m)",
+  "coordinates": {
+    "lat": 17.1,
+    "lon": -98.6,
+    "altitude_m": 1980
+  },
+  "climate": {
+    "temperature_mean": 14.0,
+    "temperature_seasonality": 10.0,
+    "precipitation_mean": 1200,
+    "precipitation_seasonality": 0.50
+  },
+  "geology": {
+    "parent_material": "metamorphic",
+    "soil_pH": 6.2,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Arabica coffee (Bourbon, Guerrero highlands)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "coffee green bean arabica",
+      "fdc_id": null,
+      "feeding_type": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "5350-5800 mg/100g CGA equivalents [Bourbon cv., Guerrero highlands 1980m — Gallardo-Ignacio et al. 2023 Molecules 28:4685; green bean dry weight; Bourbon 5575±231 mg/100g]",
+          "caffeine_concentration": "10.0-13.0 mg/g dry bean [Guerrero highland Arabica — Gallardo-Ignacio et al. 2023; Bourbon cultivar at 1980m]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": ["RSU-17", "RSU-18", "RSU-27", "RSU-47", "RSU-48"],
+      "cultivar": "Coffea arabica cv. Bourbon",
+      "notes": "Arabica coffee from the Región de la Montaña, Guerrero State, Mexico — specifically municipalities of La Soledad and Paraje Montero, Malinaltepec, at 1980m. Three cultivars were studied by Gallardo-Ignacio et al. (2023): Bourbon (5575±231 mg/100g CGA), Oro Azteca (5463±243 mg/100g), and Typica (3681±10 mg/100g). This RSU uses Bourbon as the primary cultivar for comparability with other high-quality Arabica natural experiment RSUs. The Bourbon range (5350-5800 mg/100g) is consistent with altitude expectations: between Kenyan AA at 1800m (~4750 midpoint) and Ethiopian highland at 2200m (~5350 midpoint). Guerrero highland Arabica is shade-grown under cloud forest at 1700-2100m — among the highest-altitude Mexican coffee zones. This is the first Mexican RSU in the dataset and adds a North American/Mesoamerican data point to the cross-continental coffee altitude gradient.",
+      "data_sources": [
+        "Gallardo-Ignacio et al. (2023) — Chemical and Biological Characterization of Green and Processed Coffee Beans from Coffea arabica Varieties, Molecules 28(12):4685"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "coffee (Bourbon, Oro Azteca, Typica)",
+      "maize",
+      "beans",
+      "chili peppers"
+    ],
+    "known_processing_methods": [
+      "wet-processed washed coffee",
+      "shade-grown mountain cultivation",
+      "traditional nixtamal maize processing"
+    ],
+    "fermentation_prevalence": 0.35
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.20,
+    "industrial_processing_index": 0.15
+  },
+  "notes": "Guerrero State highland coffee zone (~1980m, Región de la Montaña). Metamorphic mountain soils, cloud forest microclimate. Coffee is the primary cash crop for indigenous Mixtec and Nahua communities in this region. Grown at 1700-2100m under shade trees — among the highest-altitude Arabica zones in Mexico. Green bean CGA data from Gallardo-Ignacio et al. (2023, Molecules) — open access PMC article providing direct green bean dry weight measurements. Fills the altitude gap between RSU-27 (Kenya 1800m) and RSU-17 (Ethiopia 2200m) with a geographically independent (North American) data point."
+}

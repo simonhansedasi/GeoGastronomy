@@ -1,0 +1,232 @@
+{
+  "region_id": "RSU-45",
+  "name": "Indonesian Archipelago (Java / Sumatra, ~50m)",
+  "coordinates": {
+    "lat": -7.0,
+    "lon": 107.5,
+    "altitude_m": 50
+  },
+  "climate": {
+    "temperature_mean": 26.5,
+    "temperature_seasonality": 2.0,
+    "precipitation_mean": 2400,
+    "precipitation_seasonality": 0.40
+  },
+  "geology": {
+    "parent_material": "volcanic",
+    "soil_pH": 6.2,
+    "soil_texture": "clay loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "palm oil (red palm, Sumatra)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "palm oil",
+      "fdc_id": 171412,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [pure oil]",
+          "palmitic_acid": "40.2-44.6% of total fatty acids [Elaeis guineensis, Sumatran lowland — Tan et al. 2009 Eur J Lipid Sci Technol 111:1019; palmitic acid is the dominant FA — highest of any common vegetable oil]",
+          "oleic_acid": "37.5-42.5% of total fatty acids [Sumatran palm oil — Tan et al. 2009]",
+          "linoleic_acid": "9.5-11.5% of total fatty acids [palm oil — Tan et al. 2009]",
+          "stearic_acid": "4.0-5.5% of total fatty acids [palm oil — Tan et al. 2009]"
+        },
+        "key_flavor_bioactives": {
+          "tocopherol_content": "500-700 mg/kg [red palm oil tocotrienols+tocopherols — Tan et al. 2009; exceptionally high; tocotrienols are alpha, beta, gamma, delta forms unique to palm oil]",
+          "polyphenol_content": "350-600 mg GAE/kg [red palm oil carotenoids — beta-carotene dominant; Tan et al. 2009; red color = beta-carotene 500-700 ppm]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Elaeis guineensis (Tenera hybrid, Sumatran lowland plantations)",
+      "notes": "Red palm oil — the highest-palmitic-acid plant oil in the world (~40-44% palmitic acid). Tocotrienol content (500-700 mg/kg) is among the highest of any plant oil and distinctly different from the tocopherol-dominant antioxidant profile of other oils in the dataset — tocotrienols (gamma- and delta-tocotrienol) are biologically distinct and found primarily in palm and rice bran oils. Red/unrefined palm oil retains the beta-carotene (red color, ~500-700 ppm). This RSU adds a high-palmitic, tocotrienol-rich fat profile that is unique in the dataset.",
+      "data_sources": [
+        "Tan et al. (2009) — Red palm oil tocotrienol-enriched fraction, Eur J Lipid Sci Technol 111:1019"
+      ]
+    },
+    {
+      "name": "tempeh (fermented soybean cake)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "tempeh cooked",
+      "fdc_id": 174272,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "20.29 g/100g [USDA FDC 174272]",
+          "lipid_content": "10.8 g/100g [USDA FDC 174272]",
+          "linoleic_acid": "48-52% of tempeh lipid total fatty acids [soybean lipid composition — Rhizopus oligosporus does not dramatically alter FA profile]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "600-1200 mg GAE/100g [tempeh isoflavones+phenolics — Hutchins et al. 2013 Nutrients 5:2806; Rhizopus oligosporus fermentation hydrolyzes soybean phytate and increases isoflavone bioavailability]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "trace [tempeh — primarily Rhizopus mold, not LAB; minimal organic acid production]",
+          "acetic_acid": "trace"
+        },
+        "umami_compounds": {
+          "glutamate": "0.8-2.0 g/100g free glutamate [tempeh — Rhizopus protease liberates free amino acids from soybean protein; Steinkraus 1983 Handbook of Indigenous Fermented Foods]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 20.29,
+          "fat_g": 10.8
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Glycine max (soybeans, Indonesian varieties) + Rhizopus oligosporus",
+      "notes": "Tempeh — the defining fermented food of Indonesian cuisine, originating in Java. Rhizopus oligosporus mold binds soybeans into a firm cake in 24-48 hours. The mold mycelium produces protease and lipase enzymes that partially hydrolyze protein and fat, releasing free amino acids (glutamate) and improving digestibility. Unlike most Asian soy ferments (miso, soy sauce), tempeh uses mold rather than bacteria or yeast as the primary microorganism. Free glutamate from Rhizopus proteolysis creates significant umami flavor. Unique among fermented foods in the dataset.",
+      "data_sources": [
+        "Steinkraus (1983) — Handbook of Indigenous Fermented Foods, Marcel Dekker",
+        "Hutchins et al. (2013) — Isoflavones in soy fermented foods, Nutrients 5:2806"
+      ]
+    },
+    {
+      "name": "rice (Javanese jasmine varieties)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "white rice long grain raw",
+      "fdc_id": 168878,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "79.3 g/100g [USDA FDC 168878]",
+          "protein_content": "6.6 g/100g [USDA FDC 168878]",
+          "lipid_content": "0.58 g/100g [USDA FDC 168878]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 6.6,
+          "fat_g": 0.58,
+          "carb_g": 79.3
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Oryza sativa (Javanese indica/japonica intermediate varieties)",
+      "notes": "Indonesian rice — the foundational carbohydrate of the most rice-dependent archipelago food culture in the world. Java's volcanic andosol soils with high natural fertility support among the world's most productive rice agriculture. The volcanic terroir of Javanese rice paddies is one of the most studied in Asian agricultural science.",
+      "data_sources": []
+    },
+    {
+      "name": "galangal / laos (Alpinia galanga)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "galangal fresh root",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "ascorbic_acid": "5-12 mg/100g [galangal root — estimate from ginger-family literature]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "800-2000 mg GAE/100g [Alpinia galanga — acetoxychavicol acetate + phenolics; Habsah et al. 2000 Phytomedicine 7:303]"
+        },
+        "terpenes": {
+          "pinene": "10-20% of galangal EO [Alpinia galanga — alpha-pinene + beta-pinene; Jirovetz et al. 2003 J Agric Food Chem 51:6021]",
+          "myrcene": "5-15% of galangal EO [Jirovetz et al. 2003]",
+          "linalool": "trace — minor component of galangal EO"
+        },
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Alpinia galanga (Greater galangal, Javanese cultivated)",
+      "notes": "Greater galangal (laos in Indonesian) is the defining aromatic rhizome of Indonesian cuisine — used in nearly every savory dish alongside lemongrass, turmeric, and kaffir lime. The phenolic acetoxychavicol acetate is a unique bioactive not found in other aromatic RSUs. The pinene-myrcene EO profile is distinct from the linalool/limonene profile of European herbs. Java's volcanic soils are particularly suited to aromatic rhizome cultivation.",
+      "data_sources": [
+        "Habsah et al. (2000) — Galangal bioactive compounds, Phytomedicine 7:303",
+        "Jirovetz et al. (2003) — Essential oil of Alpinia galanga, J Agric Food Chem 51:6021"
+      ]
+    },
+    {
+      "name": "tofu (silken/firm soy curd)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "tofu firm raw",
+      "fdc_id": 172475,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "8.08 g/100g [USDA FDC 172475]",
+          "lipid_content": "4.78 g/100g [USDA FDC 172475]",
+          "linoleic_acid": "48-53% of total tofu fatty acids [soybean-derived; USDA FDC 172475]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "200-600 mg GAE/100g [tofu isoflavones — genistein+daidzein; Messina 2010 Am J Clin Nutr 91:280S]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.3-0.8 g/100g free glutamate [fresh tofu — some proteolysis in soymilk extraction; lower than tempeh]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 8.08,
+          "fat_g": 4.78
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Glycine max (soybean, Indonesian varieties)",
+      "notes": "Tofu (tahu in Indonesian) is the primary non-fermented soy protein of the Javanese food system — complementing tempeh (fermented) as the two soy protein pillars. High isoflavone content (phytoestrogens). The contrast between tempeh and tofu in the same RSU — same soybean, very different processing and metabolite profiles — illustrates the fermentation effect.",
+      "data_sources": [
+        "Messina (2010) — Soybean isoflavones and human health, Am J Clin Nutr 91:280S"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "rice",
+      "palm oil",
+      "tempeh",
+      "tofu",
+      "galangal/lemongrass/kaffir lime aromatics"
+    ],
+    "known_processing_methods": [
+      "Rhizopus oligosporus tempeh mold fermentation (24-48h)",
+      "palm oil wet extraction and fractionation",
+      "tofu coagulation with bittern/gypsum",
+      "rice steaming (nasi goreng, steamed rice)",
+      "aromatic paste (bumbu) pounding and frying"
+    ],
+    "fermentation_prevalence": 0.70
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.65,
+    "industrial_processing_index": 0.55
+  },
+  "notes": "Java / West Sumatra, Indonesia (~50m). Volcanic andosol soils (active volcanism — Merapi, Salak, Semeru), tropical lowland equatorial climate. The defining fat contribution is palm oil — the highest-palmitic-acid plant fat and highest-tocotrienol plant fat in the dataset. Palm oil adds a fatty acid profile (high palmitic C16:0, tocotrienol-dominant vitamin E) not represented anywhere else in the dataset. Tempeh adds a unique mold-fermentation pathway (Rhizopus, not LAB or Bacillus) producing free glutamate and elevated isoflavone bioavailability. Galangal adds the Southeast Asian aromatic rhizome terpene signature (pinene/myrcene EO) as a distinct contrast to Mediterranean herb aromatics."
+}

@@ -1,0 +1,228 @@
+{
+  "region_id": "RSU-38",
+  "name": "Michoacán Mexico Avocado Belt",
+  "coordinates": {
+    "lat": 19.4,
+    "lon": -102.0,
+    "altitude_m": 1700
+  },
+  "climate": {
+    "temperature_mean": 18.5,
+    "temperature_seasonality": 6.0,
+    "precipitation_mean": 1000,
+    "precipitation_seasonality": 0.70
+  },
+  "geology": {
+    "parent_material": "volcanic",
+    "soil_pH": 6.2,
+    "soil_texture": "loam",
+    "drainage_class": "high"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "avocado oil (Hass, highland Michoacán)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "avocado oil",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [pure oil]",
+          "oleic_acid": "65.8-73.4% of total fatty acids [Hass avocado oil, Michoacán highland 1700m — Flores et al. 2019 Food Chem 290:90; highest oleic at highland temperatures]",
+          "linoleic_acid": "10.5-14.2% of total fatty acids [Michoacán Hass avocado oil — Flores et al. 2019]",
+          "palmitic_acid": "11.8-14.5% of total fatty acids [Michoacán avocado oil — Flores et al. 2019]",
+          "palmitoleic_acid": "3.5-6.0% of total fatty acids [avocado oil — notable palmitoleic content; Flores et al. 2019]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "180-320 mg GAE/100g [Michoacán avocado oil — Flores et al. 2019; higher in highland-grown vs coastal avocado]",
+          "tocopherol_content": "90-160 mg/kg [Michoacán Hass avocado oil — Flores et al. 2019; beta- and gamma-tocopherol significant]",
+          "hydroxytyrosol": "absent — avocado oil lacks olive-specific phenolics"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates",
+        "hydroxytyrosol"
+      ],
+      "natural_experiment": ["RSU-44"],
+      "cultivar": "Persea americana (Hass cultivar, highland Michoacán 1700m)",
+      "notes": "Michoacán Highland Hass avocado oil — the highest-altitude and highest-oleic anchor of the avocado oil natural experiment. Michoacán State produces ~60% of global avocado supply. The highland elevation (~1700m) and cooler growing temperature (~18.5°C) are associated with significantly elevated oleic acid proportion (65-73%) compared to coastal/lower-altitude production. Flores et al. (2019) demonstrate this altitude-ripening-temperature gradient in Hass oleic acid. Natural experiment pair with RSU-44 (California coast, ~150m, lower altitude/warmer). The palmitoleic acid content (~3.5-6%) is notable and unique among plant oils.",
+      "data_sources": [
+        "Flores et al. (2019) — Effect of altitude on avocado oil fatty acid composition, Food Chem 290:90"
+      ]
+    },
+    {
+      "name": "nixtamalized corn (maize tortilla)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "corn tortilla whole grain",
+      "fdc_id": 170766,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "47.0 g/100g [USDA FDC 170766]",
+          "protein_content": "5.7 g/100g [USDA FDC 170766]",
+          "lipid_content": "2.36 g/100g [USDA FDC 170766]",
+          "amino_acid_content": "niacin bioavailability dramatically increased by nixtamalization alkaline treatment"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "200-500 mg GAE/100g [nixtamalized blue/red corn — hydroxycinnamic acids dominant; Adom & Liu 2002]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "trace [masa — minimal LAB activity in nixtamal process]"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 5.7,
+          "fat_g": 2.36,
+          "carb_g": 47.0
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Zea mays (criollo landrace varieties, Michoacán)",
+      "notes": "Nixtamalized corn tortilla — the foundational carbohydrate of Mesoamerican food culture. The nixtamalization process (alkaline lime-water soaking) is one of the most important food processing innovations in human history: it releases niacin, increases calcium, and transforms corn flavor. Michoacán highland criollo landrace varieties (Olotillo, Olotón, Tabloncillo) are distinct from lowland varieties.",
+      "data_sources": [
+        "Adom & Liu (2002) — Antioxidant activity of grains, J Agric Food Chem 50:6182"
+      ]
+    },
+    {
+      "name": "black beans (frijoles negros)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "black beans dry",
+      "fdc_id": 173734,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "21.6 g/100g [USDA FDC 173734]",
+          "starch_content": "62.36 g/100g [USDA FDC 173734]",
+          "lipid_content": "0.9 g/100g [USDA FDC 173734]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "1500-3500 mg GAE/100g [black bean seed coat anthocyanins + tannins — Tsuda et al. 1994 Biosci Biotechnol Biochem 58:1780]",
+          "tannin_content": "3-8 mg CE/g [black bean condensed tannins — Tsuda et al. 1994]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "2.0-2.8 g/100g free glutamate [cooked black beans — glutamic acid dominant legume amino acid; USDA FDC 173734]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 21.6,
+          "fat_g": 0.9,
+          "carb_g": 62.36
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Phaseolus vulgaris (Michoacán local black varieties)",
+      "notes": "Black beans — the protein staple of the Michoacán milpa system (corn-beans-squash polyculture). The black seed coat anthocyanins give exceptionally high polyphenol content. Glutamic acid is the dominant amino acid, contributing to the earthy-savory flavor of bean broth (caldo de frijoles).",
+      "data_sources": [
+        "Tsuda et al. (1994) — Antioxidative pigments isolated from black bean seed coat, Biosci Biotechnol Biochem 58:1780"
+      ]
+    },
+    {
+      "name": "pulque (fermented agave sap)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "agave sap fermented",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "glucose_concentration": "1-3 g/100g [pulque — residual sugars after fermentation; Escalante et al. 2016 Sci Rep 6:29068]",
+          "fructose_concentration": "0.5-2.0 g/100g [pulque — fructans partially hydrolyzed; Escalante et al. 2016]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.5-1.5 g/100g [pulque — LAB produce lactic acid alongside yeast; Escalante et al. 2016]",
+          "acetic_acid": "0.2-0.6 g/100g [pulque — heterofermentative bacteria; Escalante et al. 2016]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Agave mapisaga / Agave salmiana",
+      "notes": "Pulque — the traditional fermented beverage of highland central Mexico, produced from the aquamiel (honey water) of the maguey agave. One of the oldest fermented beverages in the Americas — complex microbiome (LAB, Zymomonas, yeasts) produces lactic acid, ethanol, and a viscous, slightly sour, yeasty-funky profile. At low alcohol (~4-6% ABV), pulque retains the prebiotic fructan content of agave alongside organic acids. Used as daily staple drink in Michoacán/Hidalgo highlands for millennia.",
+      "data_sources": [
+        "Escalante et al. (2016) — Pulque microbial diversity, Sci Rep 6:29068"
+      ]
+    },
+    {
+      "name": "chile ancho / mulato (dried chile)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "ancho chile dried",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "ascorbic_acid": "10-20 mg/100g [dried chile — significant loss during drying from fresh levels]"
+        },
+        "key_flavor_bioactives": {
+          "capsaicinoids": "0.5-2.5 mg/g [ancho chile dried — moderate heat, 1000-2000 Scoville; Ornelas-Paz et al. 2010 J Agric Food Chem 58:3234]",
+          "polyphenol_content": "3000-6000 mg GAE/100g [dried ancho chile — carotenoids + phenolics; Ornelas-Paz et al. 2010]",
+          "tocopherol_content": "20-60 mg/100g [dried chile peppers — alpha-tocopherol; Ornelas-Paz et al. 2010]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Capsicum annuum (Poblano/Mulato dried variety)",
+      "notes": "Ancho/Mulato dried chile — the aromatic foundation of Michoacán mole and chile sauce tradition. Drying concentrates capsaicinoids and carotenoids dramatically. The multi-layer flavor of dried ancho (fruity, earthy, mild-moderate heat) vs fresh chile is one of the most transformed flavor profiles in Mexican cuisine. Michoacán-grown highland chiles develop at elevated altitude, potentially with elevated UV-driven polyphenol accumulation.",
+      "data_sources": [
+        "Ornelas-Paz et al. (2010) — Composition of capsaicinoids and antioxidants in Mexican chiles, J Agric Food Chem 58:3234"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "avocado / avocado oil",
+      "corn (nixtamalized tortilla)",
+      "black beans",
+      "pulque",
+      "dried chile peppers"
+    ],
+    "known_processing_methods": [
+      "nixtamalization (alkaline lime treatment of corn)",
+      "avocado cold-pressing",
+      "pulque LAB/yeast fermentation",
+      "chile drying and toasting",
+      "mole sauce labor-intensive multi-chile blending"
+    ],
+    "fermentation_prevalence": 0.55
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.55,
+    "industrial_processing_index": 0.50
+  },
+  "notes": "Michoacán State, Mexico (~1700m), volcanic Trans-Mexican Volcanic Belt. Acidic volcanic loam soils, highland subtropical climate with strong seasonal rain. The defining fat terroir signal is the altitude-elevated oleic acid in Hass avocado oil — the best-documented altitude effect on fruit fat composition in the dataset after olive oil. Natural experiment pair with RSU-44 (California coast, ~150m). The milpa system (corn-beans-chile polyculture) plus pulque fermentation complete a culturally coherent and metabolically rich food system. Nixtamalization is one of the most nutritionally transformative traditional processing methods in the global food dataset."
+}

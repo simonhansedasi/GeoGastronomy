@@ -1,0 +1,238 @@
+{
+  "region_id": "RSU-36",
+  "name": "Alpine Central Europe (Switzerland / Austria, ~1200m)",
+  "coordinates": {
+    "lat": 46.8,
+    "lon": 9.5,
+    "altitude_m": 1200
+  },
+  "climate": {
+    "temperature_mean": 6.5,
+    "temperature_seasonality": 22.0,
+    "precipitation_mean": 1400,
+    "precipitation_seasonality": 0.3
+  },
+  "geology": {
+    "parent_material": "metamorphic",
+    "soil_pH": 5.5,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "alpine butter (Alpbutter/Bergbutter)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "butter unsalted grass fed",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "82-84 g/100g [alpine grass-fed butter \u2014 Leiber et al. 2005 J Dairy Sci 88:1316]",
+          "oleic_acid": "21-25% of total fatty acids [alpine grass-fed butter \u2014 Leiber et al. 2005; higher than lowland butter]",
+          "linoleic_acid": "2.0-2.8% of total fatty acids [alpine butter \u2014 Leiber et al. 2005]",
+          "palmitic_acid": "24-27% of total fatty acids [alpine butter \u2014 Leiber et al. 2005]",
+          "stearic_acid": "10-13% of total fatty acids [alpine butter \u2014 Leiber et al. 2005]"
+        },
+        "key_flavor_bioactives": {
+          "conjugated_linoleic_acid": "3.0-5.5 g/100g fat [alpine grass-fed butter CLA \u2014 Leiber et al. 2005 J Dairy Sci 88:1316; 3-4x higher than lowland grain-fed butter; Alpine herb-rich pasture CLA signal]",
+          "tocopherol_content": "35-60 mg/kg [alpine butter \u2014 Leiber et al. 2005; higher alpha-tocopherol vs lowland butter from carotenoid-rich alpine grasses]",
+          "polyphenol_content": "10-25 mg GAE/100g [butter polyphenols \u2014 minor but measurable in grass-fed alpine butter; Collomb et al. 2002]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [
+        "RSU-37",
+        "RSU-43"
+      ],
+      "cultivar": "Bos taurus (Brown Swiss / Simmental, alpine grass-fed)",
+      "notes": "Alpine grass-fed butter from summer alpine pasture (Alp) \u2014 the flagship fat of Swiss and Austrian mountain food culture. The high CLA content (3-5.5 g/100g fat) is 3-4x higher than lowland dairy butter and is the defining terroir fat biomarker. Alpine pastures with diverse herbs (clover, plantain, chicory, alpine flowers) at elevation transfer specific fatty acids and fat-soluble vitamins to bovine milk fat. Leiber et al. (2005) is the canonical reference demonstrating the altitude/forage diet signal in dairy fat. Natural experiment group: RSU-36 (alpine, ~1200m), RSU-37 (Irish Atlantic, ~100m), RSU-43 (Nordic lowland, ~30m) \u2014 same fat category (bovine butter), contrasting altitude/forage environments.",
+      "data_sources": [
+        "Leiber et al. (2005) \u2014 Effect of high altitude grazing on milk composition and fatty acid patterns, J Dairy Sci 88:1316",
+        "Collomb et al. (2002) \u2014 Conjugated linoleic acid and trans fatty acids in alpine and lowland milk, J Dairy Sci 85:1239"
+      ],
+      "feeding_type": "grass-fed"
+    },
+    {
+      "name": "rye bread (Walliser Roggenbrot)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "rye bread whole grain",
+      "fdc_id": 172687,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "47.54 g/100g [USDA FDC 172687]",
+          "protein_content": "8.46 g/100g [USDA FDC 172687]",
+          "lipid_content": "3.3 g/100g [USDA FDC 172687]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "300-600 mg GAE/100g [rye bread \u2014 ferulic acid dominant; Andersson et al. 2010 Food Chem 119:240]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.5-1.2 g/100g [sourdough rye bread \u2014 strong LAB acidification; Arendt et al. 2007]",
+          "acetic_acid": "0.2-0.5 g/100g [sourdough rye \u2014 acetic acid from heterofermentative LAB]"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 8.46,
+          "fat_g": 3.3,
+          "carb_g": 47.54
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Secale cereale (Walliser Roggenbrot \u2014 Valais rye)",
+      "notes": "Walliser Roggenbrot is a traditional Swiss Alpine sourdough rye bread with IGP status \u2014 among the densest, most intensely fermented breads in the European tradition. The high-altitude Valais rye has historically been the survival carbohydrate of alpine communities. Strong LAB sourdough fermentation produces a complex organic acid profile.",
+      "data_sources": [
+        "Andersson et al. (2010) \u2014 Phenolic antioxidants in rye bread, Food Chem 119:240"
+      ]
+    },
+    {
+      "name": "alpine cheese (Gruy\u00e8re / Appenzeller)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "gruyere cheese",
+      "fdc_id": 173414,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "29.81 g/100g [USDA FDC 173414]",
+          "lipid_content": "32.34 g/100g [USDA FDC 173414]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.3-0.6 g/100g [aged alpine cheese \u2014 partially consumed during aging]",
+          "propionic_acid": "0.3-0.8 g/100g [Gruy\u00e8re \u2014 Propionibacterium fermentation produces characteristic nutty notes; Thierry et al. 2002 Lait 82:31]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.8-1.5 g/100g free glutamate [Gruy\u00e8re 10-12 month aged \u2014 Weimer et al. 2016]",
+          "guanylate": "trace [cheese \u2014 present at low concentration]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 29.81,
+          "fat_g": 32.34
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Bos taurus (Brown Swiss, alpine milk \u2014 Gruy\u00e8re AOP)",
+      "notes": "Gruy\u00e8re AOP \u2014 Swiss hard alpine cheese, 10-12 month aging on mountain pasture milk. The Propionibacterium freudenreichii fermentation during aging produces propionic acid (characteristic nutty/sweet flavor) and characteristic eyes. The alpine milk \u2014 from grass-fed cows at elevation \u2014 has elevated CLA and tocopherol in the fat fraction that is partially retained in the cheese. Free glutamate from proteolysis is significant after 10+ months aging.",
+      "data_sources": [
+        "Thierry et al. (2002) \u2014 Propionic acid bacteria in Swiss cheeses, Lait 82:31"
+      ]
+    },
+    {
+      "name": "sauerkraut (fermented white cabbage)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "sauerkraut canned",
+      "fdc_id": 169279,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "ascorbic_acid": "14.7 mg/100g [USDA FDC 169279]"
+        },
+        "key_flavor_bioactives": {
+          "isothiocyanates": "trace [sauerkraut \u2014 glucosinolates partially hydrolyzed during fermentation; degraded by LAB; Ciska et al. 2009]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "1.0-2.0 g/100g [sauerkraut \u2014 dominant LAB product; Joshi et al. 2016]",
+          "acetic_acid": "0.2-0.6 g/100g [sauerkraut heterofermentative LAB]"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 0.91,
+          "fat_g": 0.14,
+          "carb_g": 4.3
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Brassica oleracea (white cabbage, traditional Alsace/Swiss type)",
+      "notes": "Sauerkraut \u2014 the central fermented food of the Alpine and Germanic tradition. LAB fermentation (Leuconostoc, Lactobacillus) of shredded white cabbage produces a highly acidified, preserved product. Strong lactic acid signal. Historically critical for vitamin C provision during Alpine winters (preserved ascorbic acid).",
+      "data_sources": [
+        "Joshi et al. (2016) \u2014 Fermentation of vegetables, Food Biotechnol 30:1"
+      ]
+    },
+    {
+      "name": "wild alpine herbs (Kr\u00e4uter: yarrow, thyme, gentian)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "thyme dried",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "4000-8000 mg GAE/100g [dried alpine herbs \u2014 thyme, yarrow, gentian; Zitterl-Eglseer et al. 2015 Nat Prod Commun 10:1697]"
+        },
+        "terpenes": {
+          "linalool": "present \u2014 thyme chemotype linalool present in some strains",
+          "pinene": "present \u2014 alpha-pinene in Artemisia and related alpine herbs",
+          "myrcene": "present \u2014 thyme essential oil secondary terpene"
+        },
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Alpine wild herb complex \u2014 the aromatic signature of high-altitude Alpine food culture. Includes thyme, yarrow, gentian (bitters), alpine clover, and various Apiaceae. The high UV at altitude drives elevated secondary metabolite production. Alpine herb teas, herb schnapps (Kr\u00e4uterlik\u00f6r), and fresh herb use in alpine cheese production are the primary applications. The polyphenol and terpene profiles from altitude-stressed plants at 1200m are significantly higher than lowland counterparts.",
+      "data_sources": [
+        "Zitterl-Eglseer et al. (2015) \u2014 Antioxidant properties of alpine medicinal plants, Nat Prod Commun 10:1697"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "alpine butter",
+      "hard cheese (Gruy\u00e8re/Appenzeller)",
+      "rye bread",
+      "sauerkraut",
+      "alpine herbs"
+    ],
+    "known_processing_methods": [
+      "alpine cheese production (thermophilic LAB + Propionibacterium aging)",
+      "butter churning from alpine cream",
+      "sourdough rye bread baking",
+      "lacto-fermented sauerkraut",
+      "herb schnapps distillation"
+    ],
+    "fermentation_prevalence": 0.8
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.5,
+    "industrial_processing_index": 0.4
+  },
+  "notes": "Swiss/Austrian Alpine zone (~1200m), metamorphic basement geology, cold-cool climate (mean 6.5\u00b0C), high precipitation. The central fat signal here is CLA in alpine butter \u2014 arguably the cleanest altitude-forage-terroir signal in the entire dataset. The Leiber et al. (2005) study directly demonstrates that altitude and alpine herb-rich pasture drive CLA elevation. This RSU anchors the alpine end of the butter natural experiment group (RSU-36 alpine, RSU-37 Irish Atlantic, RSU-43 Nordic lowland). The cheese-rye-sauerkraut fermentation system is one of the most fermentation-dense food cultures in the dataset."
+}

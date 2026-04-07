@@ -1,0 +1,227 @@
+{
+  "region_id": "RSU-41",
+  "name": "Australian Subtropical (Queensland)",
+  "coordinates": {
+    "lat": -26.5,
+    "lon": 152.5,
+    "altitude_m": 100
+  },
+  "climate": {
+    "temperature_mean": 20.5,
+    "temperature_seasonality": 12.0,
+    "precipitation_mean": 1100,
+    "precipitation_seasonality": 0.55
+  },
+  "geology": {
+    "parent_material": "volcanic",
+    "soil_pH": 6.0,
+    "soil_texture": "loam",
+    "drainage_class": "high"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "macadamia oil (Queensland subtropical)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "macadamia nut oil",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [pure oil]",
+          "oleic_acid": "56.5-62.8% of total fatty acids [Macadamia integrifolia/tetraphylla, Queensland — Maguire et al. 2004 Eur J Nutr 43:236]",
+          "palmitoleic_acid": "16.5-22.4% of total fatty acids [Queensland macadamia oil — Maguire et al. 2004; exceptionally high palmitoleic acid, unique among plant oils — the defining macadamia fatty acid signature]",
+          "palmitic_acid": "7.8-10.2% of total fatty acids [macadamia oil — Maguire et al. 2004]",
+          "stearic_acid": "2.5-5.5% of total fatty acids [macadamia oil — Maguire et al. 2004]",
+          "linoleic_acid": "0.9-2.5% of total fatty acids [macadamia oil — very low linoleic; Maguire et al. 2004]"
+        },
+        "key_flavor_bioactives": {
+          "tocopherol_content": "10-25 mg/kg [macadamia oil tocopherols — modest; Maguire et al. 2004]",
+          "polyphenol_content": "120-280 mg GAE/100g [macadamia nut phenolics — Liu et al. 2001 J Nutr 131:2102]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Macadamia integrifolia / M. tetraphylla (Queensland varieties)",
+      "notes": "Macadamia oil — the most palmitoleic-acid-rich plant oil in the world (~17-22%). This unique fatty acid signature (C16:1 palmitoleic) is the defining chemical identity of macadamia fat and is not found at this level in any other common plant oil. Queensland volcanic basalt soil on the subtropical plateau supports the primary macadamia production zone globally. Palmitoleic acid at these concentrations is otherwise found mainly in sea buckthorn and animal adipose tissue. No direct natural experiment pair yet — Hawaii volcanic macadamia (RSU-45 future) would complete this.",
+      "data_sources": [
+        "Maguire et al. (2004) — Fatty acid composition of macadamia nut oil, Eur J Nutr 43:236",
+        "Liu et al. (2001) — Antioxidant properties of macadamia nuts, J Nutr 131:2102"
+      ]
+    },
+    {
+      "name": "sugarcane (raw cane, Queensland)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "sugarcane raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "sucrose_concentration": "12-16 g/100g [fresh sugarcane juice — Paton 1992 Trop Sci 32:123]",
+          "glucose_concentration": "0.5-1.2 g/100g [sugarcane juice — Paton 1992]",
+          "fructose_concentration": "0.4-1.0 g/100g [sugarcane juice — Paton 1992]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "200-500 mg GAE/100g [sugarcane bagasse phenolics — flavonoids and hydroxycinnamic acids]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "citric_acid": "trace",
+          "malic_acid": "0.1-0.3 g/100g [sugarcane juice organic acids — minor]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Saccharum officinarum (Q124, Q183 Queensland varieties)",
+      "notes": "Queensland sugarcane — Australia's primary carbohydrate export crop. The subtropical volcanic red basalt soils of the Sunshine Coast/Bundaberg region produce high-sucrose cane. Treated as the primary carbohydrate staple here representing the dominant agriculture of the Queensland food economy. Raw cane juice is the traditional fresh-drinking product; processed into raw sugar for commercial use.",
+      "data_sources": [
+        "Paton (1992) — Sugarcane composition, Trop Sci 32:123"
+      ]
+    },
+    {
+      "name": "beef (subtropical pasture-fed, Brahman cross)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "beef sirloin raw",
+      "fdc_id": 174032,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "20.95 g/100g [USDA FDC 174032]",
+          "lipid_content": "10.5 g/100g [USDA FDC 174032]",
+          "oleic_acid": "38-44% of total fatty acids [subtropical grass-fed beef — Wood et al. 2008 Meat Sci 78:343]",
+          "linoleic_acid": "4-7% of total fatty acids [subtropical grass-fed beef — Wood et al. 2008]"
+        },
+        "key_flavor_bioactives": {
+          "conjugated_linoleic_acid": "0.5-1.2 g/100g fat [subtropical Australian grass-fed beef CLA — Wood et al. 2008; lower than temperate-grass-fed due to high ambient temperature and dry season effects on pasture]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.30-0.45 g/100g free glutamate [beef muscle — Maga 1983; slightly higher in older grass-fed animals]",
+          "inosinate": "0.15-0.25 g/100g IMP [beef — Maga 1983]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 20.95,
+          "fat_g": 10.5
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Bos indicus x Bos taurus (Brahman cross, subtropical Queensland)",
+      "notes": "Queensland subtropical pasture-fed beef — Brahman-cross cattle adapted to the subtropical climate. Grass-fed CLA content (0.5-1.2 g/100g fat) is lower than temperate-grass-fed Alpine beef (RSU-36) because the subtropical Queensland dry season reduces green grass quality. Demonstrates how climate within the same broad 'grass-fed' category still differentiates fat chemistry.",
+      "data_sources": [
+        "Wood et al. (2008) — Fat deposition, fatty acid composition and meat quality, Meat Sci 78:343",
+        "Maga (1983) — Flavor potentiators, CRC Crit Rev Food Sci Nutr 18:231"
+      ]
+    },
+    {
+      "name": "lemon myrtle (Backhousia citriodora)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "lemon myrtle dried herb",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "3000-7000 mg GAE/100g [lemon myrtle dried — Brophy et al. 2006 J Essent Oil Res 18:282]"
+        },
+        "terpenes": {
+          "linalool": "90-98% of lemon myrtle essential oil [Backhousia citriodora — Brophy et al. 2006 J Essent Oil Res 18:282; exceptionally high linalool — highest of any known plant EO]"
+        },
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Backhousia citriodora (Queensland endemic)",
+      "notes": "Lemon myrtle — endemic to Queensland subtropical rainforest. The linalool content of its essential oil (90-98%) is the highest recorded for any plant EO globally. An extraordinarily intense lemon-lime aroma from pure linalool. Used as an aromatic herb in Queensland cuisine and growing commercial production. This RSU adds the strongest linalool signal in the entire dataset by a large margin — a geographically unique aromatic fingerprint.",
+      "data_sources": [
+        "Brophy et al. (2006) — Lemon myrtle essential oil, J Essent Oil Res 18:282"
+      ]
+    },
+    {
+      "name": "kombucha / jun (fermented tea, subtropical)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "kombucha fermented tea",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "glucose_concentration": "2-8 g/100g [kombucha — residual after SCOBY fermentation; Chakravorty et al. 2016]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "100-300 mg GAE/100ml [kombucha — tea polyphenols partially preserved; Jayabalan et al. 2014 Compr Rev Food Sci F 13:538]",
+          "caffeine_concentration": "5-20 mg/100ml [kombucha — caffeine partially metabolized by SCOBY; Jayabalan et al. 2014]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "acetic_acid": "0.3-0.8 g/100ml [kombucha — acetic acid bacteria contribution; Jayabalan et al. 2014]",
+          "lactic_acid": "0.1-0.4 g/100ml [kombucha LAB minor contribution]",
+          "citric_acid": "trace [kombucha]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Kombucha (SCOBY-fermented sweetened tea) is the contemporary fermented beverage of the Queensland/Australian food culture, placed here as the fermented category representative. The acetic acid bacteria + LAB + yeast consortia of the SCOBY produce a complex organic acid mix. Not a traditional Indigenous food but now deeply embedded in Australian subtropical food culture. The subtropical temperature of Queensland (mean 20.5°C) is near-optimal for SCOBY fermentation kinetics.",
+      "data_sources": [
+        "Jayabalan et al. (2014) — Review on kombucha tea, Compr Rev Food Sci F 13:538"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "macadamia nut/oil",
+      "beef (subtropical pasture)",
+      "sugarcane",
+      "lemon myrtle",
+      "kombucha"
+    ],
+    "known_processing_methods": [
+      "macadamia cold-pressing",
+      "sugarcane milling",
+      "beef grass-finishing",
+      "lemon myrtle steam distillation",
+      "SCOBY kombucha fermentation"
+    ],
+    "fermentation_prevalence": 0.40
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.65,
+    "industrial_processing_index": 0.60
+  },
+  "notes": "Southeast Queensland, Australia (~100m), volcanic basalt soils (Atherton Tablelands and coastal hinterland). Subtropical climate. The defining contribution is macadamia oil — the most palmitoleic-rich plant oil in the dataset. Lemon myrtle adds the highest linalool signal in the dataset. Together these create an aromatic-fat fingerprint that is geographically unique to Queensland. Subtropical grass-fed beef CLA (lower than Alpine) adds to the altitude-forage CLA gradient story."
+}

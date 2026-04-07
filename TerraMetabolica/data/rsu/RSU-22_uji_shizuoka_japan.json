@@ -1,0 +1,241 @@
+{
+  "region_id": "RSU-22",
+  "name": "Uji-Shizuoka Japanese Green Tea Region",
+  "coordinates": {
+    "lat": 34.9,
+    "lon": 135.8,
+    "altitude_m": 300
+  },
+  "climate": {
+    "temperature_mean": 15.0,
+    "temperature_seasonality": 20.0,
+    "precipitation_mean": 1800,
+    "precipitation_seasonality": 0.50
+  },
+  "geology": {
+    "parent_material": "granite",
+    "soil_pH": 4.5,
+    "soil_texture": "loam",
+    "drainage_class": "high"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "matcha / gyokuro green tea",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "matcha green tea powder",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "~30 g/100g dry leaf [tea — shade-grown increases protein/chlorophyll; USDA FDC proxy]",
+          "ascorbic_acid": "180-260 mg/100g dry leaf [green tea — heat-sensitive, protected by shade; Deka & Bhatt 2013]"
+        },
+        "key_flavor_bioactives": {
+          "caffeine_concentration": "2.5-3.5 g/100g dry leaf [matcha/gyokuro — Cabrera et al. 2006 J Am Coll Nutr 25:79S; shade-growing increases caffeine]",
+          "polyphenol_content": "20.0-28.0 g/100g dry leaf EGCG equivalent [shade-grown matcha — Weiss et al. 2003 J Nutr 133:3275S; highest catechin in the tea natural experiment]",
+          "tannin_content": "9.0-13.0 g/100g dry leaf [matcha EGCG+EGC dominant — Weiss et al. 2003]"
+        },
+        "terpenes": {
+          "linalool": "8-20 mg/kg dry leaf [Japanese green tea linalool — Kobayashi et al. 1994 Biosci Biotech Biochem 58:592; shade-grown retains more than unshaded]",
+          "limonene": "trace"
+        },
+        "organic_acids": {
+          "malic_acid": "0.3-0.6 g/100g dry leaf [Japanese green tea — Hilal & Engelhardt 2007; moderate altitude, non-oxidized]",
+          "citric_acid": "0.1-0.3 g/100g dry leaf [green tea — Hilal & Engelhardt 2007]"
+        },
+        "umami_compounds": {
+          "glutamate": "2.5-4.0 g/100g dry leaf as theanine [shade-grown matcha/gyokuro — highest theanine in pilot set; Cabrera et al. 2006; shading reduces theanine breakdown by blocking light-driven conversion to glutamate]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates",
+        "inosinate"
+      ],
+      "natural_experiment": ["RSU-20", "RSU-21"],
+      "cultivar": "Camellia sinensis var. sinensis (Yabukita cultivar, shade-grown for matcha)",
+      "notes": "This RSU represents the third node of the tea natural experiment — the Japanese shade-growing (tana covering) technique introduces a THIRD experimental variable beyond altitude: light manipulation. Shade-grown matcha and gyokuro accumulate exceptionally high L-theanine (2.5-4.0 g/100g, highest in the natural experiment) because shading blocks UV-driven oxidation of theanine to glutamate. EGCG also peaks in shade-grown conditions (20-28 g/100g), higher than Darjeeling (18-22 g/100g) despite lower altitude (300m vs 2000m). This demonstrates that the tea catechin-altitude correlation is partially mediated through UV: shade artificially replicates some high-altitude shading effects. Uji (Kyoto) and Shizuoka are combined as a single RSU since both produce premium green tea on granite-derived acidic soils at similar altitude.",
+      "data_sources": [
+        "Cabrera et al. (2006) — Beneficial effects of green tea, J Am Coll Nutr 25:79S",
+        "Weiss et al. (2003) — Catechins in shade-grown tea, J Nutr 133:3275S",
+        "Kobayashi et al. (1994) — Linalool in green tea, Biosci Biotech Biochem 58:592",
+        "Hilal & Engelhardt (2007) — Organic acids in tea, J Consum Prot Food Saf 2:414",
+        "Deka & Bhatt (2013) — Tea chemistry, J Food Sci Tech 50:874"
+      ]
+    },
+    {
+      "name": "short-grain white rice",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "rice japonica short grain raw",
+      "fdc_id": 169760,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "6.5 g/100g [USDA FDC 169760]",
+          "lipid_content": "0.56 g/100g [USDA FDC 169760]",
+          "starch_content": "79.3 g/100g [USDA FDC 169760]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 6.5,
+          "fat_g": 0.56,
+          "carb_g": 79.3
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Oryza sativa var. japonica",
+      "notes": "Japanese short-grain rice (japonica) has different amylose:amylopectin ratio than indica varieties — stickier, more cohesive, higher glycemic index. Koshihikari is the premium cultivar grown in this region. FDC 169760 used as proxy.",
+      "data_sources": []
+    },
+    {
+      "name": "dashi kombu + bonito",
+      "macronutrient_category": "umami",
+      "fdc_search_term": "kombu seaweed dried",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "5.1-8.3 g/100g [dried kombu — Fleurence 1999 Trends Food Sci Technol 10:25]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "1.0-2.5 g/100g [kombu Laminaria japonica — Ninomiya 1998 Food Rev Int 14:177; free L-glutamate is the defining flavor compound]",
+          "inosinate": "0.4-0.7 g/100g IMP [katsuobushi dried bonito flakes — Ninomiya 1998; IMP+glutamate synergy produces extreme umami]",
+          "guanylate": "trace [kombu — small GMP contribution; Ninomiya 1998]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Dashi (kombu + katsuobushi broth) is the foundational flavor system of Japanese cuisine and the best-documented natural source of synergistic umami. Kombu provides glutamate; katsuobushi provides IMP; their combination at a 1:4 ratio produces 7-8x the perceived umami of either alone (Yamaguchi & Ninomiya 2000). This is the most data-rich umami signal in the pilot set. Placed in a separate macronutrient category 'umami' (non-standard) — could also be considered 'fermented' as katsuobushi is mold-fermented. Compare to nuoc cham (RSU-19) and fish paste (RSU-12) for umami natural experiment.",
+      "data_sources": [
+        "Ninomiya (1998) — Natural occurrence of glutamate in foods, Food Rev Int 14:177",
+        "Yamaguchi & Ninomiya (2000) — Umami and food palatability, J Nutr 130:921S",
+        "Fleurence (1999) — Seaweed proteins, Trends Food Sci Technol 10:25"
+      ]
+    },
+    {
+      "name": "miso",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "miso paste",
+      "fdc_id": 172456,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "11.69 g/100g [USDA FDC 172456]",
+          "lipid_content": "3.51 g/100g [USDA FDC 172456]",
+          "starch_content": "25.4 g/100g [USDA FDC 172456]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "80-150 mg GAE/100g [miso — soybean isoflavones + fermentation phenolics; Yamabe et al. 2007 J Agric Food Chem 55:7749]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.5-1.5 g/100g [miso fermentation — LAB contribution; Kobayashi et al. 2012 Food Chem 130:921]",
+          "acetic_acid": "0.1-0.3 g/100g [miso — Kobayashi et al. 2012]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.5-1.5 g/100g free glutamate [miso — Aspergillus oryzae protease activity during koji fermentation; Ninomiya 1998]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 11.69,
+          "fat_g": 3.51,
+          "carb_g": 25.4
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Miso (fermented soybean paste) is produced by Aspergillus oryzae koji mold acting on soybeans + grain over months to years. The koji proteases generate free glutamate from soy protein. White (shiro) miso ferments 3-6 weeks; red (aka) miso 1-3 years — glutamate and Maillard compounds increase with age. This is the koji-fermentation umami counterpart to the dashi umami entry above.",
+      "data_sources": [
+        "Yamabe et al. (2007) — Miso phenolics, J Agric Food Chem 55:7749",
+        "Kobayashi et al. (2012) — Organic acids in miso, Food Chem 130:921",
+        "Ninomiya (1998) — Glutamate in fermented foods, Food Rev Int 14:177"
+      ]
+    },
+    {
+      "name": "sesame oil",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "sesame oil",
+      "fdc_id": 168930,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [USDA FDC 168930]",
+          "oleic_acid": "39.7 g/100g [USDA FDC 168930 — of total fat]",
+          "linoleic_acid": "41.3 g/100g [USDA FDC 168930]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "400-600 mg sesamol/100g [sesame oil — sesamol and sesaminol are key antioxidants; Suja et al. 2004 Food Chem 84:105]",
+          "tocopherol_content": "1.4 mg/100g [USDA FDC 168930 gamma-tocopherol]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "fat_g": 100
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Toasted sesame oil is the defining fat of Japanese and broader East Asian cuisine — used as a finishing oil for flavor rather than a cooking medium. Sesamol and sesaminol (phenylpropanoid antioxidants) are heat-stable and accumulate during toasting.",
+      "data_sources": [
+        "Suja et al. (2004) — Sesamol in sesame oil, Food Chem 84:105"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "matcha/gyokuro tea",
+      "japonica rice",
+      "dashi (kombu + katsuobushi)",
+      "miso",
+      "sesame oil",
+      "soy sauce"
+    ],
+    "known_processing_methods": [
+      "shade-growing (tana) for tea",
+      "orthodox steaming + grinding (matcha)",
+      "koji mold fermentation (miso, sake, soy sauce)",
+      "salt-drying + smoke-mold (katsuobushi)"
+    ],
+    "fermentation_prevalence": 0.85
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.75,
+    "industrial_processing_index": 0.65
+  },
+  "notes": "Uji (Kyoto) and Shizuoka green tea regions (~300m altitude). Granite parent material with highly acidic, fast-draining soils ideal for Camellia sinensis. Third node in tea natural experiment with RSU-20 (Darjeeling, 2000m) and RSU-21 (Assam, 100m). The shade-growing technique (tana nets 20-30 days before harvest) introduces a unique variable: light manipulation that biochemically mimics some altitude UV effects — L-theanine peaks here at 2.5-4.0 g/100g despite only 300m altitude. This RSU has the most data-rich umami dimension in the pilot set: dashi (glutamate+IMP synergy) and miso (koji glutamate) are both well-documented. High fermentation prevalence reflects deep koji-culture fermentation traditions."
+}

@@ -1,0 +1,49 @@
+{
+  "region_id": "RSU-61",
+  "name": "Yunnan Raw Pu-erh Highlands, China (~1750m)",
+  "coordinates": {"lat": 22.8, "lon": 100.8, "altitude_m": 1750},
+  "climate": {"temperature_mean": 19.0, "temperature_seasonality": 8.0, "precipitation_mean": 1500, "precipitation_seasonality": 0.70},
+  "geology": {"parent_material": "sedimentary", "soil_pH": 4.8, "soil_texture": "loam", "drainage_class": "high"},
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {"fruiting_species": null, "tuber_species": null, "aromatic_species": null, "fermentable_species": null},
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "green tea / raw pu-erh (Camellia sinensis var. assamica)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "tea green",
+      "fdc_id": null,
+      "feeding_type": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "14.0-18.5 g/100g dry leaf total catechins [Yunnan new raw pu-erh / sun-dried green maocha, 1600-1900m — Lv et al. 2013 J Food Sci 78:C1402 reports new raw sheng pu-erh has the highest catechin content of all pu-erh types; Ho et al. 2018 LWT Food Sci Technol 93:109 reports EGCG+EGC+ECG+EC for Yunnan maocha at 14-18 g/100g DM; altitude range 1600-1900m is the Yunnan pu-erh production zone; agro-forested old-tree tea notably higher than terrace-planted]",
+          "caffeine_concentration": "3.0-4.5 g/100g dry leaf [Yunnan var. assamica — characteristically high caffeine; Ho et al. 2018; large-leaf assamica genotype]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.5-1.0 g/100g dry leaf as theanine+glutamate [Yunnan maocha — lower theanine than var. sinensis; warmer Yunnan climate vs. Himalayan foothills reduces theanine accumulation even at altitude]"
+        }
+      },
+      "confirmed_absent": ["isothiocyanates", "inosinate"],
+      "natural_experiment": ["RSU-20", "RSU-21"],
+      "cultivar": "Camellia sinensis var. assamica (Da Ye / large-leaf Yunnan type; wild-arbor and terrace-planted varieties)",
+      "notes": "Yunnan Province, southwest China — the Pu-erh and Xishuangbanna highland tea zones at 1600-1900m (RSU centroid 1750m). CRITICAL DISTINCTION: this RSU captures new raw pu-erh (sheng maocha) — sun-dried, minimally processed green tea used as a precursor before aging or ripe (shu) fermentation. Raw maocha is functionally equivalent to a steamed/sun-dried green tea: catechins are NOT destroyed because there is no full oxidation (unlike black tea) and no microbial fermentation (unlike ripe pu-erh). The catechin range of 14.0-18.5 g/100g is sourced from: (1) Lv et al. (2013) who measured new raw sheng pu-erh and confirmed it has the highest catechin content of any pu-erh type (far exceeding aged or ripe variants); (2) Ho et al. (2018) reporting total catechins in Yunnan maocha at 14-18 g/100g DM from 1600-1900m growing zones. CONFOUNDS: (a) Yunnan uses var. assamica (large leaf) — same cultivar confound as Assam/Nilgiri vs. Darjeeling; (b) 'agro-forested old-tree' versus 'terrace-planted young-tree' status creates within-region variation (old trees reportedly higher catechin); (c) Yunnan altitude range is broad (1600-1900m). COMPARISON VALUE: Yunnan at 1750m (var. assamica) vs. Assam at 100m (var. assamica) cleanly isolates altitude effect within the same variety. Yunnan at 1750m (var. assamica, 14-18.5 g/100g) vs. Kenya Kericho at 2200m (var. assamica, 16-19.4 g/100g) adds another matched-cultivar altitude point. Do NOT use aged raw pu-erh or ripe shu pu-erh as catechin data — catechin content drops dramatically with aging and microbial fermentation.",
+      "data_sources": [
+        "Lv et al. (2013) — Effects of storage period and temperatures on phenolic content, antioxidant activity and chemical composition of Pu-erh tea, J Food Sci 78(8):C1402-C1408",
+        "Ho et al. (2018) — Comprehensive study of Pu-erh tea: Chemical constituents and their impact on bioactivity, LWT Food Sci Technol 93:109-117"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": ["raw pu-erh maocha", "sticky rice", "mushrooms (wild-harvested)", "bamboo shoots"],
+    "known_processing_methods": ["sun-drying maocha", "stone-pressing raw pu-erh cake", "wild forest mushroom drying", "bamboo shoot fermentation"],
+    "fermentation_prevalence": 0.30
+  },
+  "culture": {"agricultural_intensification_index": 0.35, "industrial_processing_index": 0.25},
+  "notes": "Yunnan Province, southwest China — Pu-erh City (Simao), Xishuangbanna, and surrounding highland tea zones at 1600-1900m (centroid ~1750m). Yunnan is the ancestral homeland of Camellia sinensis and the center of tea plant genetic diversity. The large-leaf Da Ye variety (Camellia sinensis var. assamica) is the genetic foundation of Assam, Kenyan, and Sri Lankan tea industries, all of which were developed from Yunnan / Assam germplasm. Raw pu-erh (sheng) is the ecologically important tea product here: harvested from old-growth agro-forestry (gushu, zhengshan) or terraced plantation (tai di), sun-dried into maocha without oxidation or microbial fermentation. The catechin content is comparable to minimally processed green teas from other regions at similar altitude. Note that RSU-26 (existing Yunnan RSU) covers the Yunnan region broadly — RSU-61 specifically zooms into the highland tea zone chemistry and the raw pu-erh catechin signal as a green-tea-comparable data point in the altitude experiment. Sedimentary parent material (limestone-influenced red clay soils of Yunnan plateau) differs from metamorphic Himalayan soils of Darjeeling/Nepal."
+}

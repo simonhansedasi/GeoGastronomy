@@ -1,0 +1,203 @@
+{
+  "region_id": "RSU-51",
+  "name": "Scottish Highlands (Perthshire / Angus glens, ~350m)",
+  "coordinates": {
+    "lat": 56.7,
+    "lon": -3.8,
+    "altitude_m": 350
+  },
+  "climate": {
+    "temperature_mean": 7.5,
+    "temperature_seasonality": 12.0,
+    "precipitation_mean": 1100,
+    "precipitation_seasonality": 0.35
+  },
+  "geology": {
+    "parent_material": "metamorphic",
+    "soil_pH": 5.2,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Scottish Highland grass-fed butter",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "butter unsalted grass fed",
+      "fdc_id": null,
+      "feeding_type": "grass-fed",
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "80-84 g/100g [Scottish upland dairy butter — standard butter fat composition]",
+          "oleic_acid": "22-27% of total fatty acids [Scottish grass-fed butter — elevated vs lowland conventional; Lock & Bauman 2004 J Dairy Sci 87:2283]",
+          "palmitic_acid": "25-30% of total fatty acids [Scottish upland butter]"
+        },
+        "key_flavor_bioactives": {
+          "conjugated_linoleic_acid": "2.8-4.2 g/100g fat [Scottish upland grass-fed, 300-500m — intermediate between Irish lowland (RSU-37) and Alpine (RSU-36); Lock & Bauman 2004 J Dairy Sci 87:2283; Collomb et al. 2002 J Dairy Res 69:598]",
+          "tocopherol_content": "20-30 mg/100g fat [Scottish grass-fed butter — carotenoid and tocopherol elevated vs grain-fed]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": ["RSU-36", "RSU-37", "RSU-42", "RSU-46", "RSU-52", "RSU-53"],
+      "cultivar": null,
+      "notes": "Scottish Highland upland butter from farms at 300-500m (Perthshire/Angus glens, Deeside). Highland and Aberdeen Angus cattle graze rough moorland pasture rich in heather, bent grass (Agrostis), and Yorkshire fog — low-input, semi-extensive system. CLA content 2.8-4.2 g/100g fat: elevated above Irish/NZ sea-level grass-fed (RSU-37, ~2.75 g/100g; RSU-46, ~3.0 g/100g) due to cooler highland temperatures and more diverse upland forage. Below Alpine levels (RSU-36, 4.25 g/100g) reflecting lower altitude and less extreme UV. Fills the 100-1200m gap in the butter CLA altitude gradient. Scotland's acidic metamorphic soils (pH 5.2) produce heather-rich pasture with higher phenolic forage diversity than lowland ryegrass pastures.",
+      "data_sources": [
+        "Lock & Bauman (2004) — Modifying milk fat composition of dairy cows to enhance human health, J Dairy Sci 87:2283",
+        "Collomb et al. (2002) — Conjugated linoleic acid and trans fatty acid composition of cows' milk fat produced in lowlands and highlands, J Dairy Res 69:598"
+      ]
+    },
+    {
+      "name": "oatmeal (Scottish rolled oats)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "oats rolled raw",
+      "fdc_id": 173904,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "55-62 g/100g [rolled oats — USDA FDC 173904]",
+          "protein_content": "16.89 g/100g [USDA FDC 173904]",
+          "fiber_content": "10.6 g/100g [USDA FDC 173904]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Porridge oats are Scotland's defining carbohydrate. Oats (Avena sativa) thrive in the cool, wet Scottish climate where wheat is less reliable. Pinhead oatmeal (steel-cut) is the traditional form. Beta-glucan content is the key bioactive (not currently in schema).",
+      "data_sources": []
+    },
+    {
+      "name": "Aberdeen Angus beef",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "beef sirloin raw",
+      "fdc_id": 174032,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "20.3 g/100g [USDA FDC 174032]",
+          "lipid_content": "15.0 g/100g [USDA FDC 174032]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [beef — Ninomiya 1998]",
+          "inosinate": "~0.3 g/100g IMP [beef muscle]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Aberdeen Angus from Scottish upland grass-fed systems — considered one of the premium beef breeds globally. Well-marbled, grass-fed fatty acid profile.",
+      "data_sources": [
+        "Ninomiya (1998) — free glutamate in meat"
+      ]
+    },
+    {
+      "name": "Scotch whisky (malted barley fermented, pot still)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "whisky distilled spirits",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "50-200 mg GAE/100mL [Scotch whisky — oak barrel extraction; Goldberg et al. 1999 Clin Chem 45:1292]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "trace — wash fermentation residual",
+          "acetic_acid": "trace — ester precursor in wash fermentation"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Scotch malt whisky involves malted barley wash fermentation (48-72h with Saccharomyces cerevisiae, occasionally LAB co-fermentation) followed by pot still distillation and oak aging. The Highland malts (Dalmore, Glenmorangie, Dalwhinnie) are produced adjacent to this RSU's footprint. Polyphenol content from oak (ellagitannins) is the primary measurable bioactive.",
+      "data_sources": [
+        "Goldberg et al. (1999) — Polyphenols in spirits, Clin Chem 45:1292"
+      ]
+    },
+    {
+      "name": "heather honey",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "honey raw",
+      "fdc_id": 169640,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "glucose_concentration": "28-33 g/100g [honey]",
+          "fructose_concentration": "35-40 g/100g [honey]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "150-350 mg GAE/100g [Scottish heather honey (Calluna vulgaris) — elevated polyphenols vs clover honey; Jasicka-Misiak et al. 2018 Molecules 23:2449]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Calluna vulgaris (common heather)",
+      "notes": "Scottish heather honey (from ling heather, Calluna vulgaris) is among the most distinctive mono-floral honeys globally — thixotropic gel texture due to protein content. Harvested at 300-600m in August-September. The heather moorland represents the defining feature of upland Scottish ecology and is maintained by historical burning and grazing management.",
+      "data_sources": [
+        "Jasicka-Misiak et al. (2018) — Phenolic compounds and antioxidant activity of heather honey, Molecules 23:2449"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "oatmeal",
+      "beef (Aberdeen Angus)",
+      "lamb",
+      "dairy (butter, cheddar)",
+      "salmon (smoked)",
+      "venison"
+    ],
+    "known_processing_methods": [
+      "pot still whisky distillation",
+      "cold smoking (salmon, haddock)",
+      "oatcake baking",
+      "heather ale brewing (historical)"
+    ],
+    "fermentation_prevalence": 0.50
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.35,
+    "industrial_processing_index": 0.35
+  },
+  "notes": "Scottish Highlands upland dairy zone (~350m, Perthshire/Angus glens). Metamorphic schist soils, acidic (pH 5.2), high rainfall. Key natural experiment RSU: grass-fed butter at 350m — fills the 100-1200m altitude gap in the CLA gradient (RSU-37 Irish at 100m, RSU-51 Scotland at 350m, RSU-52 Pyrenees at 700m, RSU-53 Swiss Jura at 900m, RSU-36 Alpine at 1200m, RSU-42 Himalayan at 3800m). Expected CLA 2.8-4.2 g/100g — intermediate between Irish sea-level (2.75) and Alpine (4.25). Heather honey is a distinctive regionally-specific aromatic. Scotch whisky fermentation chemistry is unique in the dataset."
+}

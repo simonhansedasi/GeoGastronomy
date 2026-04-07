@@ -1,0 +1,48 @@
+{
+  "region_id": "RSU-63",
+  "name": "Kangra Valley Tea, Himachal Pradesh, India (~1290m)",
+  "coordinates": {"lat": 32.454, "lon": 76.529, "altitude_m": 1290},
+  "climate": {"temperature_mean": 16.0, "temperature_seasonality": 10.0, "precipitation_mean": 2500, "precipitation_seasonality": 0.72},
+  "geology": {"parent_material": "alluvial/metamorphic Himalayan foothills", "soil_pH": 5.2, "soil_texture": "loam", "drainage_class": "moderate"},
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {"fruiting_species": null, "tuber_species": null, "aromatic_species": null, "fermentable_species": null},
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "green tea (Camellia sinensis)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "tea green",
+      "fdc_id": null,
+      "feeding_type": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "12.69-21.24 g/100g dry leaf total catechins (5-catechin HPLC seasonal range April–August, Wah Tea Estate, 1290m — Sourabh et al. 2013 Braz J Microbiol 44:709, PMC3910178; annual mean ~16.5 g/100g)",
+          "caffeine_concentration": "2.5-3.5 g/100g dry leaf [Kangra green tea caffeine; Kangra teas typically 2–4% caffeine dry weight]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.8-1.5 g/100g dry leaf as theanine [mid-altitude Indian tea theanine content]"
+        }
+      },
+      "confirmed_absent": ["capsaicinoids", "isothiocyanates", "inosinate"],
+      "natural_experiment": ["RSU-20", "RSU-62", "RSU-56"],
+      "cultivar": "Camellia sinensis (cultivar not specified; Kangra region uses both var. sinensis and assamica hybrids)",
+      "notes": "Wah Tea Estate, Rajpura, Palampur, Kangra district, Himachal Pradesh, India. Altitude 1290m (GPS: 32°27′15.68″N, 76°31′42.26″E). Catechin data from Sourabh et al. (2013): monthly HPLC of 5 catechins (C, EC, EGC, EGCG, ECG) in processed green tea over 7 months (April–October). Individual month sums (mg/g dry): April 126.9, May 133.5, June 201.5, July 145.7, August 212.4, September 197.6, October 139.2 → annual mean 165.3 mg/g = 16.5 g/100g. EGCG dominates (>50% of total). Peak season (August) gives 21.24 g/100g; early spring (April) gives 12.69 g/100g. For regression purposes the midpoint of the full seasonal range (16.97 g/100g) is used. Kangra is one of India's oldest tea-growing regions, producing a delicate orthodox green tea distinct from Assam CTC teas. No shade cultivation (not a confound). Mid-altitude anchor between lowland Longjing (RSU-62, 100m) and the Darjeeling-Nilgiri-Kericho cluster at 1800–2200m."
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": ["green tea", "wheat", "maize", "pulses", "mountain vegetables"],
+    "known_processing_methods": ["orthodox green tea rolling", "CTC black tea", "pan-firing"],
+    "fermentation_prevalence": 0.10
+  },
+  "culture": {"agricultural_intensification_index": 0.40, "industrial_processing_index": 0.25},
+  "notes": "Kangra Valley, Himachal Pradesh, India. Located in the outer Himalayan foothills at ~1290m, Kangra is one of India's most northerly tea-growing districts. The Wah Tea Estate at Palampur is the primary research site for Sourabh et al. (2013). High rainfall (~2500mm/yr) from monsoon. Tea catechin content shows strong seasonal variation peaking in June–August (monsoon flush). Compared to Darjeeling (RSU-20, 2000m) and Assam (RSU-21, 100m), Kangra sits at an intermediate altitude with intermediate catechin content consistent with the altitude gradient. The Sourabh 2013 paper (Brazilian Journal of Microbiology) provides one of the few peer-reviewed HPLC monthly datasets for Indian highland green tea.",
+  "data_sources": [
+    "Sourabh A et al. (2013) — Seasonal influence on catechin content in green tea. Brazilian Journal of Microbiology 44(3):709-715. doi:10.1590/s1517-83822013000300007. PMC3910178."
+  ]
+}

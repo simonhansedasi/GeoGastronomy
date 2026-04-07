@@ -1,0 +1,49 @@
+{
+  "region_id": "RSU-62",
+  "name": "Hangzhou West Lake Longjing, Zhejiang (~100m)",
+  "coordinates": {"lat": 30.18, "lon": 120.10, "altitude_m": 100},
+  "climate": {"temperature_mean": 17.0, "temperature_seasonality": 12.0, "precipitation_mean": 1400, "precipitation_seasonality": 0.70},
+  "geology": {"parent_material": "granite/sandstone hillslopes", "soil_pH": 4.8, "soil_texture": "loam", "drainage_class": "high"},
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {"fruiting_species": null, "tuber_species": null, "aromatic_species": null, "fermentable_species": null},
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Longjing green tea (pan-fired)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "tea green",
+      "fdc_id": null,
+      "feeding_type": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "13.99 g/100g dry leaf total catechins (5-catechin HPLC sum: EGC 0.62% + EGCG 8.13% + ECG 3.61% + EC 1.08% + C 0.55% — Zhao et al. 2014 Sci World J 2014:863984, PMC4163330)",
+          "caffeine_concentration": "3.5-4.5 g/100g dry leaf [Longjing spring tea caffeine ~4.1% per Chinese compositional standard; You et al. 2012 Food Chem 135:2390]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.5-1.2 g/100g dry leaf as theanine [lowland green tea; lower than high-altitude due to temperature effect on theanine synthesis]"
+        }
+      },
+      "confirmed_absent": ["capsaicinoids", "isothiocyanates", "inosinate"],
+      "natural_experiment": ["RSU-20", "RSU-58", "RSU-59", "RSU-56"],
+      "cultivar": "Camellia sinensis var. sinensis, Longjing 43 and traditional West Lake cultivars",
+      "notes": "Hangzhou West Lake (Xi Hu) Longjing growing area, Zhejiang Province, China. Altitude ~50–200m; centre of production area ~100m. Pan-fired green tea (qing guo process) — no shade, no oxidation, no fermentation. Catechin value (13.99 g/100g) is from Zhao et al. (2014) Scientific World Journal, Table 2: HPLC 5-catechin dry-weight sum for Long jing tea purchased commercially in China. EGCG is the dominant fraction (8.13%). This is the lowest-altitude anchor in the tea altitude regression series, extending the range from 1500–2200m down to ~100m. Longjing is grown on hillside gardens of the West Lake National Tea Park; the West Lake designated-origin zone sits on gently sloping hillsides at 50–200m. Note: commercial sample origin means minor inter-season and inter-grade variation is absorbed into the single point. The value is representative of the Longjing origin and consistent with independent measurements (e.g. 10.1 g/100g for 4 major catechins only, Rietveld & Wiseman 2003 J Nutr). Absent confounds: not shade-grown, not high-altitude, not wild or ancient-tree."
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": ["Longjing green tea", "rice", "freshwater fish", "bamboo shoots"],
+    "known_processing_methods": ["pan-fired green tea (qing guo + hui guo)", "steamed rice", "braising"],
+    "fermentation_prevalence": 0.05
+  },
+  "culture": {"agricultural_intensification_index": 0.70, "industrial_processing_index": 0.20},
+  "notes": "Hangzhou, Zhejiang Province, eastern China. Sub-tropical humid climate (Köppen Cfa), warm summers, mild winters. West Lake Longjing is China's most prestigious green tea; the protected geographic origin zone covers the hills surrounding Xi Hu at ~50–200m. This RSU provides a low-altitude anchor for the tea catechin vs altitude regression (cf. RSU-20 Darjeeling 2000m, RSU-58 Kericho 2200m). The 100m altitude represents the main West Lake production zone.",
+  "data_sources": [
+    "Zhao CN et al. (2014) — The Galloyl Catechins Contributing to Main Antioxidant Capacity of Tea Made from Camellia sinensis in China. Scientific World Journal 2014:863984. doi:10.1155/2014/863984. PMC4163330.",
+    "Rietveld A & Wiseman S (2003) — Antioxidant effects of tea: evidence from human clinical trials. J Nutr 133(10):3275S–3284S."
+  ]
+}

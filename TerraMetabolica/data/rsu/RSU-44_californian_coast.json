@@ -1,0 +1,226 @@
+{
+  "region_id": "RSU-44",
+  "name": "Californian Coast (Central Valley / Coast Ranges, ~150m)",
+  "coordinates": {
+    "lat": 36.5,
+    "lon": -119.5,
+    "altitude_m": 150
+  },
+  "climate": {
+    "temperature_mean": 17.5,
+    "temperature_seasonality": 14.0,
+    "precipitation_mean": 350,
+    "precipitation_seasonality": 0.80
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 7.0,
+    "soil_texture": "clay loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "avocado oil (Hass, California coastal)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "avocado oil",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [pure oil]",
+          "oleic_acid": "60.5-67.8% of total fatty acids [Hass avocado oil, California coast ~150m — Wong et al. 2010 J Agric Food Chem 58:5444; lower oleic than Michoacán highland due to warmer lowland temperatures and faster ripening]",
+          "linoleic_acid": "12.8-16.5% of total fatty acids [California Hass avocado oil — Wong et al. 2010; higher linoleic than highland counterpart]",
+          "palmitic_acid": "12.5-15.8% of total fatty acids [California avocado oil — Wong et al. 2010]",
+          "palmitoleic_acid": "2.8-5.0% of total fatty acids [California avocado oil — Wong et al. 2010]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "130-240 mg GAE/100g [California avocado oil — Wong et al. 2010; lower than highland Michoacán]",
+          "tocopherol_content": "70-120 mg/kg [California Hass avocado oil — Wong et al. 2010]",
+          "hydroxytyrosol": "absent — avocado lacks olive-specific phenolics"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates",
+        "hydroxytyrosol"
+      ],
+      "natural_experiment": ["RSU-38"],
+      "cultivar": "Persea americana (Hass cultivar, California lowland coast ~150m)",
+      "notes": "California coastal Hass avocado oil — the low-altitude counterpart to RSU-38 Michoacán highland avocado (1700m). The same Hass cultivar grown at 150m in California Central Valley/Coast Ranges shows consistently lower oleic acid (60-67% vs 65-73% in Michoacán) and higher linoleic acid. Wong et al. (2010) document the altitude-temperature effects on avocado fatty acid composition. Natural experiment pair with RSU-38. The ~1550m altitude difference and ~5°C cooler mean temperature in Michoacán are associated with measurably elevated oleic acid proportion — consistent with the general principle that cooler temperatures favor more saturated/monounsaturated fat accumulation in plant oils.",
+      "data_sources": [
+        "Wong et al. (2010) — Fatty acid content and lipid profile of avocado oil, J Agric Food Chem 58:5444",
+        "Flores et al. (2019) — Effect of altitude on avocado oil, Food Chem 290:90"
+      ]
+    },
+    {
+      "name": "almond (California Central Valley)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "almonds raw",
+      "fdc_id": 170567,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "21.15 g/100g [USDA FDC 170567]",
+          "lipid_content": "49.93 g/100g [USDA FDC 170567]",
+          "starch_content": "21.55 g/100g [USDA FDC 170567]",
+          "oleic_acid": "62-68% of almond total fatty acids [California almond — Garg et al. 2007 J Am Coll Nutr 26:382; high oleic for a nut]",
+          "linoleic_acid": "23-27% of almond total fat [Garg et al. 2007]"
+        },
+        "key_flavor_bioactives": {
+          "tocopherol_content": "25-28 mg/100g [USDA FDC 170567 — almonds are among the richest vitamin E sources]",
+          "polyphenol_content": "300-600 mg GAE/100g [almond skin phenolics — Milbury et al. 2006 J Agric Food Chem 54:8027]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Prunus dulcis (Nonpareil variety, California Central Valley)",
+      "notes": "California almonds — ~80% of global almond supply. Placed in carb slot as almonds serve the caloric staple role alongside avocado in the modern California diet. High oleic acid for a nut, exceptionally high tocopherol content. The Central Valley Mediterranean-climate, clay-loam soils, and irrigation system produce a standardized almond quality.",
+      "data_sources": [
+        "Garg et al. (2007) — Almond fatty acid composition, J Am Coll Nutr 26:382",
+        "Milbury et al. (2006) — Almond skin polyphenols, J Agric Food Chem 54:8027"
+      ]
+    },
+    {
+      "name": "California EVOO (Mission/Arbequina)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "olive oil extra virgin",
+      "fdc_id": 171413,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [pure oil]",
+          "oleic_acid": "66-74% of total fatty acids [California EVOO, Arbequina — Vossen 2007 Hortscience 42:1073]",
+          "linoleic_acid": "9-13% of total fatty acids [California Arbequina EVOO — Vossen 2007]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "250-500 ppm [California Arbequina EVOO — Vossen 2007; moderate-low polyphenol for a Mediterranean-climate EVOO]",
+          "tocopherol_content": "100-160 mg/kg [California EVOO — Vossen 2007]",
+          "hydroxytyrosol": "25-60 ppm [California EVOO — Vossen 2007]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": ["RSU-15", "RSU-16"],
+      "cultivar": "Olea europaea (Arbequina, California new-world Mediterranean analog)",
+      "notes": "California EVOO — New World Mediterranean analog. Placed in fermented slot to avoid doubling fat staples. Arbequina is the most-planted variety in California — originally Spanish, it produces a mild, fruity oil well-adapted to California's Central Valley. The relatively low polyphenol content vs water-stressed Mediterranean EVOO (RSU-16 Saharan margin, RSU-15 Algerian highlands) reflects the irrigated, relatively low-stress growing conditions of California commercial olive production. A clean comparison point for the olive oil polyphenol-water stress experiment.",
+      "data_sources": [
+        "Vossen (2007) — California olive oil production, Hortscience 42:1073"
+      ]
+    },
+    {
+      "name": "Pacific salmon (king salmon, Chinook)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "salmon chinook raw",
+      "fdc_id": 175168,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "19.94 g/100g [USDA FDC 175168 proxy]",
+          "lipid_content": "10.0-15.0 g/100g [Chinook salmon — higher fat than Atlantic; Foran et al. 2005 AMBIO 34:171]",
+          "oleic_acid": "16-22% of Chinook salmon fat [Foran et al. 2005]",
+          "linoleic_acid": "8-12% [Chinook Pacific salmon — higher than Atlantic; Foran et al. 2005]"
+        },
+        "key_flavor_bioactives": {
+          "tocopherol_content": "3.0-5.5 mg/100g [Chinook salmon — exceptionally high; Foran et al. 2005]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.22-0.35 g/100g free glutamate [Chinook — estimate from fatty fish literature]",
+          "inosinate": "0.50-0.90 g/100g IMP [Chinook king salmon — high IMP rich fish; Nishimura & Kato 1988]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Oncorhynchus tshawytscha (Chinook/King salmon, Pacific)",
+      "notes": "Pacific Chinook (King) salmon — the highest-fat salmon species and a premium protein in California coastal cuisine. Among the richest dietary sources of marine omega-3 fat (DHA/EPA) and tocopherol. The Pacific salmon IMP content (0.5-0.9 g/100g) is among the highest of any fish. California coastal salmon fishing/aquaculture.",
+      "data_sources": [
+        "Foran et al. (2005) — Quantitative analysis of contaminants and fat composition in salmonid species, AMBIO 34:171",
+        "Nishimura & Kato (1988) — Taste compounds in meat and fish, J Food Sci 53:1217"
+      ]
+    },
+    {
+      "name": "sourdough bread (San Francisco style)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "sourdough bread white",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "50-55 g/100g [sourdough bread — Hammes et al. 2005]",
+          "protein_content": "9-11 g/100g [San Francisco sourdough]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.3-0.6 g/100g [SF sourdough — Lactobacillus sanfranciscensis LAB]",
+          "acetic_acid": "0.15-0.35 g/100g [San Francisco sourdough — characteristic acidity from L. sanfranciscensis; Hammes et al. 2005 Food Microbiol 22:79]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "San Francisco sourdough — placed in aromatic slot as the bread character (tangy, complex crust) is the defining aromatic quality of California cuisine. Lactobacillus sanfranciscensis is endemic to SF Bay Area sourdough starters — a location-specific microbiome connected to the cool, foggy Bay climate. The acetic acid to lactic acid ratio is distinctive and higher than most other sourdough styles.",
+      "data_sources": [
+        "Hammes et al. (2005) — Sourdough fermentation, Food Microbiol 22:79"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "avocado / avocado oil",
+      "almonds",
+      "California EVOO",
+      "Pacific salmon",
+      "sourdough bread"
+    ],
+    "known_processing_methods": [
+      "avocado cold-pressing",
+      "almond blanching and slicing",
+      "EVOO cold-pressing",
+      "salmon smoking and curing",
+      "SF sourdough fermentation"
+    ],
+    "fermentation_prevalence": 0.45
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.70,
+    "industrial_processing_index": 0.65
+  },
+  "notes": "Central California / San Joaquin Valley + Coast Ranges (~150m). Sedimentary clay-loam soils, Mediterranean climate with irrigation. New World Mediterranean analog — the primary avocado oil natural experiment pair with RSU-38 (Michoacán highland, 1700m). The same Hass cultivar at 1550m lower altitude and ~5°C warmer mean temperature shows consistently lower oleic acid and higher linoleic acid — the altitude-temperature gradient drives measurable fatty acid composition differences in avocado oil, mirroring the olive oil altitude effect. California EVOO (Arbequina, irrigated, low water stress) adds a third olive oil polyphenol data point alongside RSU-15 (highlands moderate) and RSU-16 (Saharan margin, maximum stress)."
+}

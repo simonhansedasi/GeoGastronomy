@@ -1,0 +1,225 @@
+{
+  "region_id": "RSU-28",
+  "name": "Moroccan Argan Coast (Souss-Massa)",
+  "coordinates": {
+    "lat": 30.4,
+    "lon": -9.2,
+    "altitude_m": 400
+  },
+  "climate": {
+    "temperature_mean": 19.5,
+    "temperature_seasonality": 12.0,
+    "precipitation_mean": 250,
+    "precipitation_seasonality": 0.70
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 7.8,
+    "soil_texture": "sand",
+    "drainage_class": "high"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "argan oil",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "argan oil",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [pure oil]",
+          "oleic_acid": "43-49% of total fatty acids [Argania spinosa — Charrouf & Guillaume 2008 Eur J Lipid Sci Technol 110:632]",
+          "linoleic_acid": "29-36% of total fatty acids [Charrouf & Guillaume 2008; unusually high linoleic for tree fruit oil]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "400-600 mg GAE/kg [argan oil tocopherols+polyphenols — Charrouf & Guillaume 2008]",
+          "tocopherol_content": "500-900 mg/kg [Argania spinosa oil — extremely high tocopherol; Charrouf & Guillaume 2008; 3-4x higher than olive oil]",
+          "hydroxytyrosol": "trace [argan oil — minimal hydroxytyrosol vs olive oil]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Argania spinosa",
+      "notes": "Argan oil is the most valuable tree oil in the world — produced exclusively in the Souss-Massa Biosphere Reserve of southwestern Morocco. Two types: culinary (roasted seeds, nutty flavor) and cosmetic (cold-pressed seeds). Culinary argan oil has dramatically different fatty acid profile from olive oil: much higher linoleic acid (29-36% vs 8-12% in olive) and lower oleic acid (43-49% vs 68-80% in olive). Tocopherol content (500-900 mg/kg) is 3-4x higher than olive oil — the highest of any cold-pressed tree fruit oil. This RSU adds a third fat type to the Mediterranean/North African fat landscape (argan vs olive vs mustard in RSU-21). The Sigoise olive experiment (RSU-15/16) is nearby geographically — argan vs olive on calcareous vs sandy soils adds another dimension.",
+      "data_sources": [
+        "Charrouf & Guillaume (2008) — Argan oil and other products from Argania spinosa tree, Eur J Lipid Sci Technol 110:632"
+      ]
+    },
+    {
+      "name": "couscous (semolina)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "couscous dry",
+      "fdc_id": 169699,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "12.76 g/100g [USDA FDC 169699]",
+          "lipid_content": "0.64 g/100g [USDA FDC 169699]",
+          "starch_content": "71.0 g/100g [USDA FDC 169699]",
+          "fiber_content": "5.0 g/100g [USDA FDC 169699]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 12.76,
+          "fat_g": 0.64,
+          "carb_g": 71.0,
+          "fiber_g": 5.0
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Couscous (steamed semolina granules) is the foundational carbohydrate of Moroccan cuisine. Production from durum wheat semolina; steaming process preserves gluten structure. FDC 169699 used as proxy. Compare to Algerian couscous (RSU-15) for North African wheat culture continuity.",
+      "data_sources": []
+    },
+    {
+      "name": "preserved lemon (hamad m'rakad)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "preserved lemon pickled",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "ascorbic_acid": "10-15 mg/100g [preserved lemon — some loss during salt-pickling]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "150-300 mg hesperidin/100g [preserved lemon peel — González-Molina et al. 2010]"
+        },
+        "terpenes": {
+          "limonene": "8-15 g/kg peel EO [Moroccan lemon peel — Moufida & Marzouk 2003 Food Chem 81:25; slightly lower than Amalfi sfusato]",
+          "linalool": "0.2-0.6 g/kg peel EO [Moroccan lemon — Moufida & Marzouk 2003]"
+        },
+        "organic_acids": {
+          "citric_acid": "4.0-5.5 g/100g fresh juice [Moroccan lemon — lower than sfusato Amalfi but still high; Moufida & Marzouk 2003]",
+          "lactic_acid": "0.3-0.6 g/100g [preserved lemon LAB fermentation — salt + wild LAB pickling]",
+          "acetic_acid": "trace"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Preserved lemon (hamad m'rakad) is the fermented souring agent of Moroccan cuisine — lemons salt-cured in brine for 1-3 months using wild LAB. The salt-lacto-fermentation changes the flavor dramatically: bitter pith softens, rind becomes umami-forward and complex. Used in tagines, salads, and preserved as a condiment. The terpene profile (limonene, linalool from peel EO) is detectable in the preserved product. Compare to RSU-23 (Amalfi sfusato lemon, unpreserved) for fresh vs fermented citrus flavor chemistry.",
+      "data_sources": [
+        "Moufida & Marzouk (2003) — Biochemical characterization of lemon EO, Food Chem 81:25",
+        "González-Molina et al. (2010) — Citric acid in lemon varieties, J Food Comp Anal 23:503"
+      ]
+    },
+    {
+      "name": "lamb tagine",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "lamb shoulder raw",
+      "fdc_id": 175143,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "18.3 g/100g [USDA FDC 175143]",
+          "lipid_content": "20.9 g/100g [USDA FDC 175143]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [lamb — Maga 1983]",
+          "inosinate": "~0.25 g/100g IMP [lamb muscle]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 18.3,
+          "fat_g": 20.9
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Lamb slow-cooked in a conical clay tagine pot with preserved lemon, olives, and ras el hanout spices. The slow clay-pot cooking method retains moisture and develops Maillard flavors differently from grilling (RSU-27 nyama choma) or boiling.",
+      "data_sources": [
+        "Maga (1983) — Flavor potentiators, CRC Crit Rev Food Sci Nutr 18:231"
+      ]
+    },
+    {
+      "name": "ras el hanout spice blend",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "ras el hanout spice",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "1500-3000 mg GAE/100g [ras el hanout — multi-spice blend including cinnamon, curcuma, ginger, coriander; estimate from individual spice literature]"
+        },
+        "terpenes": {
+          "linalool": "present — coriander seed and rose components of ras el hanout",
+          "limonene": "present — coriander and citrus peel components",
+          "myrcene": "present — black pepper component",
+          "pinene": "present — coriander, cardamom components"
+        },
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Ras el hanout ('head of the shop') is the signature Moroccan spice blend — typically 15-30 spices including rose buds, cumin, coriander, ginger, turmeric, cinnamon, cardamom, black pepper, mace, nutmeg, and others. The terpene profile is the most complex in the pilot set (multi-terpene overlap across all major monoterpene classes). Comparable to berbere (RSU-17) and za'atar (RSU-24) as multi-spice aromatic systems but with the most complex terpene fingerprint.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "couscous (semolina)",
+      "argan oil",
+      "lamb tagine",
+      "preserved lemon",
+      "ras el hanout",
+      "mint tea"
+    ],
+    "known_processing_methods": [
+      "salt-lacto preservation of lemon (3 months)",
+      "argan nut roasting and cold-pressing",
+      "couscous steaming (3-pass method)",
+      "clay tagine slow-cooking",
+      "spice blending (ras el hanout)"
+    ],
+    "fermentation_prevalence": 0.45
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.45,
+    "industrial_processing_index": 0.35
+  },
+  "notes": "Souss-Massa region, southwestern Morocco (Anti-Atlas foothills, ~400m). Sandy-calcareous sedimentary soils under semi-arid conditions (250mm precipitation). This RSU fills the westernmost Maghreb gap and introduces argan oil — unique to this geographic rectangle globally. The argan tocopherol signal (500-900 mg/kg) is the highest fat-soluble vitamin E concentration in the pilot set by a large margin. Preserved lemon as a fermented souring agent is distinct from vinegar (acetic fermentation), sumac (organic acid direct), or tamarind (acid fruit) souring systems in other RSUs. The ras el hanout terpene fingerprint is the most complex aromatic profile in the pilot set."
+}

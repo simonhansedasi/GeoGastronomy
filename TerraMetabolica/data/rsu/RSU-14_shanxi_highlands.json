@@ -1,0 +1,170 @@
+{
+  "region_id": "RSU-14",
+  "name": "Shanxi Highlands",
+  "coordinates": {
+    "lat": 36.1,
+    "lon": 111.5,
+    "altitude_m": 1050
+  },
+  "climate": {
+    "temperature_mean": 10.5,
+    "temperature_seasonality": 30.0,
+    "precipitation_mean": 480,
+    "precipitation_seasonality": 0.60
+  },
+  "geology": {
+    "parent_material": "loess",
+    "soil_pH": 7.5,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Golden Delicious apple",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "apple raw golden delicious",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "fructose_concentration": "5.1-5.7 g/100g [Zhao et al. 2021]",
+          "ascorbic_acid": "0.17-0.39 g/100g [Zhao et al. 2021] — 2.8x higher than lowland"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "malic_acid": "0.48-0.53 g/100g [Golden Delicious, Linfen 900-1200m — Zhao et al. 2021 Foods 10(12):2950] — 2x higher than Yuncheng lowland"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [],
+      "natural_experiment": ["RSU-13"],
+      "cultivar": "Golden Delicious",
+      "notes": "Highland Linfen site (900-1200m). Markedly higher malic acid (2x) and ascorbic acid (2.8x) vs. Shanxi Lowlands RSU-13, driven by cooler temperatures and greater UV exposure at elevation. Natural experiment anchor — same cultivar on identical loess parent material at contrasting elevations.",
+      "data_sources": [
+        "Zhao et al. 2021 Foods 10(12):2950 — apple metabolite profiles across Shanxi elevations"
+      ]
+    },
+    {
+      "name": "millet",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "millet raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Foxtail millet (Setaria italica) staple grain shared with RSU-13 lowlands. Highland varieties may differ in growing season length. FDC data needed for full metabolite profile.",
+      "data_sources": []
+    },
+    {
+      "name": "pork",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "pork loin raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [pork muscle — food chemistry literature estimate, FDC data needed]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Pork is the dominant meat protein in Shanxi highland cuisine as in the lowlands. FDC data needed for full macro and fatty acid profile.",
+      "data_sources": []
+    },
+    {
+      "name": "Shanxi aged vinegar",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "rice vinegar",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "acetic_acid": "5-8 g/100g [Shanxi aged vinegar — regional product standard, FDC data needed]",
+          "lactic_acid": "present — co-fermentation with LAB during aged vinegar production"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Shanxi mature vinegar shared cultural product with RSU-13. Production centers are distributed across both highland and lowland zones. FDC data needed.",
+      "data_sources": []
+    },
+    {
+      "name": "walnuts",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "walnuts raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "~65 g/100g [walnut literature estimate, FDC data needed]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "juglone and ellagitannins — distinctive walnut phenolics, FDC data needed"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Walnuts are grown across highland and lowland Shanxi. Highland conditions may affect fatty acid composition. FDC data needed for full metabolite profile.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "millet",
+      "wheat noodles",
+      "pork",
+      "apple",
+      "walnuts",
+      "vinegar"
+    ],
+    "known_processing_methods": [
+      "solid-state acetic acid fermentation",
+      "noodle making",
+      "drying",
+      "pickling"
+    ],
+    "fermentation_prevalence": 0.7
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.55,
+    "industrial_processing_index": 0.45
+  },
+  "notes": "Loess plateau highland site (900-1200m, Linfen region). Natural experiment pair with RSU-13 (Shanxi Lowlands) — same Golden Delicious apple cultivar grown at contrasting elevations on identical loess parent material. Higher elevation produces 2x malic acid and 2.8x ascorbic acid in apple vs. lowland site. Cooler temperatures and greater UV radiation at altitude drive the metabolite elevation signal. Same cultural food system and fermented product (Shanxi aged vinegar) as RSU-13, isolating the environmental elevation effect on apple biochemistry."
+}

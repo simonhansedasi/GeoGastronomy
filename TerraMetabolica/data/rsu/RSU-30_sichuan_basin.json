@@ -1,0 +1,224 @@
+{
+  "region_id": "RSU-30",
+  "name": "Sichuan Basin China",
+  "coordinates": {
+    "lat": 30.7,
+    "lon": 104.1,
+    "altitude_m": 500
+  },
+  "climate": {
+    "temperature_mean": 17.0,
+    "temperature_seasonality": 18.0,
+    "precipitation_mean": 1000,
+    "precipitation_seasonality": 0.55
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 6.5,
+    "soil_texture": "clay loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Sichuan pepper (huajiao)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "Sichuan pepper dried",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "2000-4000 mg GAE/100g [Zanthoxylum bungeanum — Liu et al. 2017 Food Chem 221:1679]"
+        },
+        "terpenes": {
+          "linalool": "15-35 g/100g EO [Sichuan pepper essential oil — linalool is dominant at 20-40%; Liu et al. 2017 Food Chem 221:1679; highest linalool in the pilot set by far]",
+          "limonene": "5-10 g/100g EO [Sichuan pepper EO — Liu et al. 2017]",
+          "myrcene": "2-5 g/100g EO [Sichuan pepper — Liu et al. 2017]",
+          "pinene": "2-4 g/100g EO [alpha-pinene in Sichuan pepper — Liu et al. 2017]"
+        },
+        "organic_acids": {
+          "citric_acid": "trace [Sichuan pepper pericarp]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Zanthoxylum bungeanum (Sichuan pepper)",
+      "notes": "Sichuan pepper is NOT related to black pepper or chili — it is a citrus-family (Rutaceae) pericarp that causes oral tingling/numbness (ma, 麻) through hydroxy-alpha-sanshool, a compound that activates tactile mechano-receptors. It has zero capsaicin (confirmed absent). The linalool content of the essential oil (15-35 g/100g EO) is the highest in the pilot set — Sichuan pepper is essentially concentrated linalool in dried pericarp form. The ma-la (numb-spicy) flavor system (Sichuan pepper + chili) is a unique dual-channel activation not represented elsewhere. This RSU introduces the most terpene-rich aromatic in the pilot set.",
+      "data_sources": [
+        "Liu et al. (2017) — Chemical composition of Sichuan pepper EO, Food Chem 221:1679"
+      ]
+    },
+    {
+      "name": "doubanjiang (fermented bean paste)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "fermented bean paste soybean",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "8-12 g/100g [doubanjiang — soybean+broad bean proteolytic fermentation]",
+          "lipid_content": "3-6 g/100g [doubanjiang]"
+        },
+        "key_flavor_bioactives": {
+          "capsaicinoids": "1.0-5.0 mg/g [Pixian doubanjiang — chili component; Sichuan chili varieties added during fermentation]",
+          "polyphenol_content": "200-500 mg GAE/100g [doubanjiang fermented phenolics — Aspergillus oryzae metabolism of soy isoflavones]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.5-1.2 g/100g [doubanjiang LAB fermentation — long-term aging]",
+          "acetic_acid": "0.2-0.5 g/100g [doubanjiang — acetic fermentation component]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.8-2.0 g/100g free glutamate [Pixian doubanjiang — 3-5 year aged; Aspergillus oryzae protease activity; Jiang et al. 2018 Food Chem 259:217]",
+          "inosinate": "trace [fermented bean paste — minimal IMP in plant-based ferment]"
+        }
+      },
+      "confirmed_absent": [
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Pixian doubanjiang (Pixian fermented broad bean paste with chili) is the 'soul of Sichuan cuisine' — aged 3-5 years in outdoor clay urns using Aspergillus oryzae (similar to miso koji but with chili). The combination of high free glutamate (umami from koji proteolysis) and capsaicin (from chili) in a single fermented product is unique in the pilot set. Compare to miso (RSU-22) for the koji-fermented glutamate dimension; compare to harissa (RSU-15) and gochujang (RSU-06) for chili-fermented paste dimension.",
+      "data_sources": [
+        "Jiang et al. (2018) — Flavor compounds in doubanjiang, Food Chem 259:217"
+      ]
+    },
+    {
+      "name": "rice (Sichuan short/medium grain)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "rice white medium grain raw",
+      "fdc_id": 168878,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "6.61 g/100g [USDA FDC 168878]",
+          "lipid_content": "0.58 g/100g [USDA FDC 168878]",
+          "starch_content": "79.9 g/100g [USDA FDC 168878]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 6.61,
+          "fat_g": 0.58,
+          "carb_g": 79.9
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Oryza sativa (Sichuan indica-japonica transition)",
+      "notes": "Sichuan Basin rice is the foundational carbohydrate — the basin's humid subtropical climate and flat fertile land supports intensive rice cultivation. The Sichuan food system is rice-based, not wheat-based (unlike northern China RSU-13/14).",
+      "data_sources": []
+    },
+    {
+      "name": "pork belly (for hong shao rou)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "pork belly raw",
+      "fdc_id": 168375,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "9.34 g/100g [USDA FDC 168375]",
+          "lipid_content": "35.7 g/100g [USDA FDC 168375]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [pork — Maga 1983]",
+          "inosinate": "~0.3 g/100g IMP [pork muscle]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 9.34,
+          "fat_g": 35.7
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Pork belly (hong shao rou, red-braised) is the defining protein of Sichuan and broader Han Chinese cuisine. Fat-rich cuts are culturally prized. Sichuan cuisine uses pork in countless preparations — mapo tofu (minced pork + doubanjiang + Sichuan pepper) is the single most famous Sichuan dish.",
+      "data_sources": [
+        "Maga (1983) — Flavor potentiators, CRC Crit Rev Food Sci Nutr 18:231"
+      ]
+    },
+    {
+      "name": "rapeseed oil (Sichuan)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "canola oil",
+      "fdc_id": 172336,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [USDA FDC 172336]",
+          "oleic_acid": "63.3 g/100g [USDA FDC 172336 — of total fat]",
+          "linoleic_acid": "18.6 g/100g [USDA FDC 172336]"
+        },
+        "key_flavor_bioactives": {
+          "tocopherol_content": "17.5 mg/100g [USDA FDC 172336 gamma-tocopherol]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "fat_g": 100
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Brassica napus (low-erucic Sichuan rapeseed)",
+      "notes": "Sichuan is one of China's largest rapeseed (canola) producing regions — the bright yellow rapeseed flower carpets are iconic. Traditionally, Sichuan rapeseed oil was high-erucic (pre-canola variety) but modern varieties are low-erucic. Used as the primary cooking fat in all Sichuan stir-frying and chili oil production.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "rice",
+      "pork",
+      "doubanjiang (chili bean paste)",
+      "Sichuan pepper (huajiao)",
+      "rapeseed oil",
+      "chili (erjingtiao variety)"
+    ],
+    "known_processing_methods": [
+      "long-aged outdoor koji fermentation (doubanjiang, 3-5 years)",
+      "chili oil infusion (hong you)",
+      "dry-frying and stir-frying (wok hei)",
+      "mala hotpot broth preparation"
+    ],
+    "fermentation_prevalence": 0.65
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.70,
+    "industrial_processing_index": 0.60
+  },
+  "notes": "Sichuan Basin, southwestern China (~500m altitude). Sedimentary basin surrounded by mountains with humid subtropical climate — low sunlight (overcast year-round), high humidity. The Sichuan food system is defined by the ma-la (numb-spicy) flavor axis: Sichuan pepper linalool/sanshool + chili capsaicin. Sichuan pepper (RSU-30) has the highest linalool concentration of any single food in the pilot set (15-35 g/100g of EO), dwarfing all other linalool sources (coffee 0.8-2.1 mg/L, tea 15-35 mg/kg, lavender-type herbs). The doubanjiang combines capsaicin + glutamate in a single fermented paste — no other fermented product in the pilot set does this. Compare to RSU-13/14 (Shanxi China) and RSU-26 (Yunnan China) for multi-RSU Chinese food system coverage."
+}

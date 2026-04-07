@@ -1,0 +1,239 @@
+{
+  "region_id": "RSU-33",
+  "name": "Sri Lankan Highlands (Kandy)",
+  "coordinates": {
+    "lat": 7.3,
+    "lon": 80.6,
+    "altitude_m": 500
+  },
+  "climate": {
+    "temperature_mean": 23.5,
+    "temperature_seasonality": 4.5,
+    "precipitation_mean": 1900,
+    "precipitation_seasonality": 0.38
+  },
+  "geology": {
+    "parent_material": "metamorphic",
+    "soil_pH": 5.8,
+    "soil_texture": "clay",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "coconut oil (highland)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "coconut oil virgin",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [pure oil]",
+          "lauric_acid": "47.8-50.3% of total fatty acids [Cocos nucifera, Sri Lankan highland ~500m — Jayadas & Nair 2006 J Food Sci 71:C234; slightly elevated lauric at higher altitude/lower temperature]",
+          "myristic_acid": "17.5-19.0% of total fatty acids [Sri Lankan coconut — Jayadas & Nair 2006]",
+          "oleic_acid": "5.2-6.5% of total fatty acids [Sri Lankan highland coconut — Jayadas & Nair 2006]",
+          "linoleic_acid": "1.5-2.1% of total fatty acids [Sri Lankan highland coconut — Jayadas & Nair 2006]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "75-120 mg GAE/100g [virgin coconut oil, Sri Lanka — Seneviratne & Sudarshana 2018 Ceylon J Sci 47:141; slightly higher than Philippine lowland VCO]",
+          "tocopherol_content": "0.7-1.1 mg/100g [Sri Lankan VCO tocopherols — Seneviratne & Sudarshana 2018]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": ["RSU-32"],
+      "cultivar": "Cocos nucifera (Sri Lankan Tall, highland)",
+      "notes": "Sri Lankan highland coconut oil — the higher altitude (~500m) and slightly cooler temperatures relative to Philippine lowlands (RSU-32) are associated with modestly elevated lauric acid proportion (47.8-50.3% vs 45.1-47.5%). The terroir signal here is subtle but consistent: cooler growing temperatures shift the saturated fatty acid profile. Natural experiment pair with RSU-32 (Philippine lowland coconut). Both produce the same Tall variety class. The tocopherol and polyphenol differences between VCO and refined coconut oil are processing-driven, not terroir-driven — the raw lauric/myristic ratio is the clean terroir signal.",
+      "data_sources": [
+        "Jayadas & Nair (2006) — Coconut oil properties, J Food Sci 71:C234",
+        "Seneviratne & Sudarshana (2018) — Antioxidant properties of Sri Lankan VCO, Ceylon J Sci 47:141"
+      ]
+    },
+    {
+      "name": "Ceylon cinnamon",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "cinnamon ground",
+      "fdc_id": 171320,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "1.24 g/100g [USDA FDC 171320]",
+          "protein_content": "3.99 g/100g [USDA FDC 171320]",
+          "starch_content": "79.8 g/100g [USDA FDC 171320]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "8000-12000 mg GAE/100g [Ceylon cinnamon bark — Tung et al. 2010 J Agric Food Chem 58:7379; procyanidins dominant]",
+          "tannin_content": "1.0-2.5 g/100g [cinnamon condensed tannins — Tung et al. 2010]"
+        },
+        "terpenes": {
+          "linalool": "1.0-5.0 g/kg EO [Ceylon cinnamon leaf EO — Senanayake & Wijesekera 1975 Phytochemistry 14:2025; much higher linalool than Cassia cinnamon]"
+        },
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 3.99,
+          "fat_g": 1.24,
+          "carb_g": 79.8
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Cinnamomum verum (Ceylon cinnamon)",
+      "notes": "Ceylon cinnamon (true cinnamon) is endemic to Sri Lanka — the Kandy region and surrounding lowland-highland gradient is the world's primary source. Distinct from Cassia cinnamon (C. cassia) in lower coumarin content, higher cinnamaldehyde, and complex linalool-rich EO. The polyphenol content (8000-12000 mg/100g) is exceptionally high — condensed procyanidins dominate. The high-altitude growing conditions of Kandy are associated with more complex EO compared to sea-level plantations.",
+      "data_sources": [
+        "Tung et al. (2010) — Antioxidant activities of cinnamon, J Agric Food Chem 58:7379",
+        "Senanayake & Wijesekera (1975) — Cinnamon volatile oil composition, Phytochemistry 14:2025"
+      ]
+    },
+    {
+      "name": "jak fruit (jackfruit)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "jackfruit raw",
+      "fdc_id": 174687,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "23.25 g/100g [USDA FDC 174687]",
+          "protein_content": "1.72 g/100g [USDA FDC 174687]",
+          "lipid_content": "0.64 g/100g [USDA FDC 174687]",
+          "glucose_concentration": "6.2-8.4 g/100g [jackfruit arils — Lim 2012 Edible Medicinal Non-Medicinal Plants vol 1]",
+          "fructose_concentration": "4.5-6.0 g/100g [jackfruit arils — Lim 2012]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 1.72,
+          "fat_g": 0.64,
+          "carb_g": 23.25
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Artocarpus heterophyllus",
+      "notes": "Jackfruit is a carbohydrate staple of Sri Lankan cuisine — eaten ripe (sweet, high sugar arils) and unripe (starchy, vegetable application). Sri Lanka consumes jackfruit as a meat substitute (polos = young jackfruit curry) and as a ripe sweet fruit. One of the largest tree fruits in the world. FDC 174687 used.",
+      "data_sources": [
+        "Lim (2012) — Edible Medicinal Non-Medicinal Plants, vol 1, Springer"
+      ]
+    },
+    {
+      "name": "Ceylon black tea",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "black tea brewed",
+      "fdc_id": 171917,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "ascorbic_acid": "0 mg/100g [black tea — oxidized during fermentation]"
+        },
+        "key_flavor_bioactives": {
+          "caffeine_concentration": "20-48 mg/100ml brewed [Ceylon tea — Graham 1992 J Sci Food Agric 59:333]",
+          "tannin_content": "150-350 mg/100ml theaflavins+thearubigins [Ceylon black tea — Graham 1992; theaflavins are the oxidized polyphenol signature of black tea]",
+          "polyphenol_content": "400-800 mg GAE/100ml [Ceylon black tea — Mukherjee et al. 2016 J Food Sci Technol 53:2142]"
+        },
+        "terpenes": {
+          "linalool": "trace [black tea volatile — linalool oxide contributes floral notes in Ceylon tea]"
+        },
+        "organic_acids": {
+          "citric_acid": "trace",
+          "malic_acid": "trace"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Camellia sinensis (Ceylon Uva/Dimbula highland varieties)",
+      "notes": "Ceylon tea — fermented (oxidized) black tea from the Central Highland terroir. The Kandy/Uva/Dimbula elevation gradient (600-1800m) produces distinct flavor profiles: higher altitude = more floral, more linalool oxide contribution. Caffeine and theaflavin content vary with altitude and processing. This is an important non-fat fermented category to pair with the coconut fat staple.",
+      "data_sources": [
+        "Graham (1992) — Chemical composition of tea, J Sci Food Agric 59:333",
+        "Mukherjee et al. (2016) — Tea polyphenols and bioactivity, J Food Sci Technol 53:2142"
+      ]
+    },
+    {
+      "name": "dhal (red lentils)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "red lentils dry",
+      "fdc_id": 172421,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "24.63 g/100g [USDA FDC 172421]",
+          "starch_content": "52.65 g/100g [USDA FDC 172421]",
+          "lipid_content": "0.38 g/100g [USDA FDC 172421]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "500-900 mg GAE/100g [red lentils — Leterme 2002 Br J Nutr 88:S293]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "2.5-3.0 g/100g free glutamate [lentil protein — glutamic acid is the dominant free amino acid in legumes; USDA FDC 172421]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 24.63,
+          "fat_g": 0.38,
+          "carb_g": 52.65
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Lens culinaris (Masoor dhal)",
+      "notes": "Red lentil dhal is the primary protein staple of Sri Lankan cuisine — cooked into a spiced curry (parippu) and eaten daily with rice and coconut sambol. Imported legume but central to the food system. Glutamic acid from legume protein is the major umami contributor.",
+      "data_sources": [
+        "Leterme (2002) — Recommendations by health organizations for pulse consumption, Br J Nutr 88:S293"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "rice",
+      "coconut oil/milk",
+      "dhal",
+      "Ceylon tea",
+      "cinnamon",
+      "jackfruit"
+    ],
+    "known_processing_methods": [
+      "coconut milk extraction",
+      "tea oxidation/fermentation",
+      "dhal curry slow-cooking",
+      "coconut sambol pounding",
+      "cinnamon bark peeling and rolling"
+    ],
+    "fermentation_prevalence": 0.40
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.50,
+    "industrial_processing_index": 0.40
+  },
+  "notes": "Kandy District, Sri Lanka (~500m elevation). Metamorphic highland soils, warm tropical highland with bimodal rainfall. Primary role: highland anchor for the coconut oil natural experiment (paired with RSU-32 Philippine lowland, same Tall coconut variety class). Altitude (~500m) and slightly cooler mean temperature (~23.5°C vs ~27.5°C) are associated with modestly elevated lauric acid proportion. Ceylon cinnamon is one of the most polyphenol-rich spices globally and adds high-value aromatic data. Black tea introduces the altitude-fermentation-caffeine signal."
+}

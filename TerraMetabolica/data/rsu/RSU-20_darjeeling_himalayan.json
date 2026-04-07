@@ -1,0 +1,233 @@
+{
+  "region_id": "RSU-20",
+  "name": "Darjeeling Himalayan Foothills",
+  "coordinates": {
+    "lat": 27.0,
+    "lon": 88.3,
+    "altitude_m": 2000
+  },
+  "climate": {
+    "temperature_mean": 13.0,
+    "temperature_seasonality": 15.0,
+    "precipitation_mean": 3000,
+    "precipitation_seasonality": 0.80
+  },
+  "geology": {
+    "parent_material": "metamorphic",
+    "soil_pH": 4.8,
+    "soil_texture": "loam",
+    "drainage_class": "high"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Darjeeling first flush tea",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "green tea brewed",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "~24 g/100g dry leaf [tea leaf protein — FDC proxy for dried tea]",
+          "ascorbic_acid": "250-300 mg/100g dry leaf [green tea — Deka & Bhatt 2013 J Food Sci Tech 50:874]"
+        },
+        "key_flavor_bioactives": {
+          "caffeine_concentration": "2.5-3.8 g/100g dry leaf [Darjeeling first flush — Deka & Bhatt 2013 J Food Sci Tech 50:874]",
+          "polyphenol_content": "18.0-22.0 g/100g dry leaf as catechins [Darjeeling high-altitude — Kim et al. 2011 Food Chem 129:486]",
+          "tannin_content": "8.0-12.0 g/100g dry leaf [Darjeeling EGCG+ECG — Kim et al. 2011]"
+        },
+        "terpenes": {
+          "linalool": "15-35 mg/kg dry leaf [Darjeeling muscatel aroma — mono- and diterpene alcohols; Ravichandran & Parthiban 1998 Food Chem 62:77]",
+          "limonene": "trace [Darjeeling tea volatile — Ravichandran & Parthiban 1998]"
+        },
+        "organic_acids": {
+          "malic_acid": "0.5-1.2 g/100g dry leaf [tea plant organic acids — altitude-responsive; Hilal & Engelhardt 2007 J Consum Prot Food Saf 2:414]",
+          "citric_acid": "0.2-0.6 g/100g dry leaf [Camellia sinensis — Hilal & Engelhardt 2007]"
+        },
+        "umami_compounds": {
+          "glutamate": "1.0-2.0 g/100g dry leaf as theanine+glutamate [L-theanine 1.5-2.5 g/100g at high altitude — Park et al. 2010 Amino Acids 39:843; shading and altitude elevate theanine]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates",
+        "inosinate"
+      ],
+      "natural_experiment": ["RSU-21", "RSU-22"],
+      "cultivar": "Camellia sinensis var. sinensis (China jat)",
+      "notes": "Darjeeling first flush tea is the high-altitude anchor for the 3-RSU tea natural experiment (RSU-20 at 2000m, RSU-21 Assam at 100m, RSU-22 Uji Japan at 300m). The 'muscatel' character of Darjeeling is driven by linalool oxide and geraniol produced by leafhopper (Jacobiasca formosana) herbivory stress — an insect-mediated terroir signal unique to high-altitude, cool conditions. Catechin (EGCG) content is strongly altitude-dependent: 18-22 g/100g at 2000m vs 12-15 g/100g in Assam lowlands. L-theanine content is also elevated at altitude (cool temperature reduces theanine breakdown). NOTE: 'glutamate' field here represents the theanine+glutamate pool — L-theanine is the dominant form and is a distinct metabolite from free glutamate.",
+      "data_sources": [
+        "Deka & Bhatt (2013) — Caffeine and catechins in Darjeeling tea, J Food Sci Tech 50:874",
+        "Kim et al. (2011) — Catechin profiles in Darjeeling, Food Chem 129:486",
+        "Ravichandran & Parthiban (1998) — Volatile aroma compounds in Darjeeling, Food Chem 62:77",
+        "Hilal & Engelhardt (2007) — Organic acids in Camellia sinensis, J Consum Prot Food Saf 2:414",
+        "Park et al. (2010) — L-theanine in tea by altitude, Amino Acids 39:843"
+      ]
+    },
+    {
+      "name": "buckwheat",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "buckwheat groats raw",
+      "fdc_id": 170286,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "13.25 g/100g [USDA FDC 170286]",
+          "lipid_content": "3.40 g/100g [USDA FDC 170286]",
+          "starch_content": "64.2 g/100g [USDA FDC 170286]",
+          "fiber_content": "10.0 g/100g [USDA FDC 170286]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "400-700 mg rutin/100g [buckwheat — rutin is the dominant flavonoid; Kreft et al. 2006 Food Chem 98:508]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 13.25,
+          "fat_g": 3.40,
+          "carb_g": 64.2,
+          "fiber_g": 10.0
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Fagopyrum esculentum",
+      "notes": "Buckwheat is the highland carbohydrate of Darjeeling and Sikkim — grown above 1500m where wheat and rice cultivation is marginal. Rutin (quercetin-3-rutinoside) is the key bioactive — a flavonoid with documented altitude-elevation response due to UV stress. Comparable to RSU-01 (Boreal Finland) oats as a non-wheat highland grain.",
+      "data_sources": [
+        "Kreft et al. (2006) — Rutin in buckwheat, Food Chem 98:508"
+      ]
+    },
+    {
+      "name": "churpi yak cheese",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "yak cheese hard",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "30-45 g/100g [hard dried churpi — Tamang & Sarkar 1996 J General Appl Microbiol 42:101]",
+          "lipid_content": "8-12 g/100g [churpi — Tamang & Sarkar 1996]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.8-1.4 g/100g [churpi LAB fermentation — Tamang & Sarkar 1996]"
+        },
+        "umami_compounds": {
+          "glutamate": "1.0-2.5 g/100g [aged churpi — protein hydrolysis during prolonged drying; Tamang & Sarkar 1996]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Churpi is the traditional hard yak cheese of the Eastern Himalaya — extraordinarily dense (stone-hard when dried), sucked over hours as a protein ration by herders. Produced by pressing defatted yak milk curd and sun-drying at altitude. The prolonged protein hydrolysis produces elevated free glutamate — a form of natural MSG extraction. Very high altitude protein source.",
+      "data_sources": [
+        "Tamang & Sarkar (1996) — Microflora of traditional fermented foods of Himalaya, J General Appl Microbiol 42:101"
+      ]
+    },
+    {
+      "name": "gundruk fermented greens",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "fermented mustard greens",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "2.5-3.5 g/100g [gundruk — Tamang et al. 2005 Int J Food Microbiol 101:131]"
+        },
+        "key_flavor_bioactives": {
+          "isothiocyanates": "present — Brassica leaf substrate contains glucosinolate precursors [Tamang et al. 2005]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "1.5-2.5 g/100g [gundruk LAB — Tamang et al. 2005 Int J Food Microbiol 101:131]",
+          "acetic_acid": "0.2-0.5 g/100g [gundruk — Tamang et al. 2005]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.3-0.8 g/100g [fermented mustard — Tamang et al. 2005]"
+        }
+      },
+      "confirmed_absent": [
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Gundruk is the traditional fermented leafy vegetable of Nepal and Darjeeling — wilted mustard or radish leaves fermented in a pit or sealed container for 2-3 weeks, then sun-dried. LAB fermentation produces high lactic acid. Glucosinolate compounds (isothiocyanates) from the Brassica substrate are partially preserved. This is the only RSU in the pilot set with confirmed isothiocyanates as a bioactive — a potential distinct signal for cruciferous-vegetable-fermentation cultures.",
+      "data_sources": [
+        "Tamang et al. (2005) — Gundruk microbiology, Int J Food Microbiol 101:131"
+      ]
+    },
+    {
+      "name": "ghee",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "ghee clarified butter",
+      "fdc_id": 173577,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "99.5 g/100g [USDA FDC 173577]",
+          "oleic_acid": "28.7 g/100g [USDA FDC 173577 — of total fat]",
+          "linoleic_acid": "3.7 g/100g [USDA FDC 173577]"
+        },
+        "key_flavor_bioactives": {
+          "tocopherol_content": "2.4 mg/100g [ghee — USDA FDC 173577]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "fat_g": 99.5
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Ghee (clarified butter) is the traditional cooking fat across South Asian highland cultures. Himalayan yak or cow ghee may differ in fatty acid composition from lowland cow ghee — yak ghee is higher in CLA and omega-3. FDC 173577 is regular cow ghee and used as proxy.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "Darjeeling tea",
+      "buckwheat",
+      "millet",
+      "yak cheese (churpi)",
+      "fermented greens (gundruk)",
+      "ghee"
+    ],
+    "known_processing_methods": [
+      "orthodox tea rolling and oxidation",
+      "natural pit fermentation (gundruk)",
+      "LAB cheese fermentation",
+      "altitude sun-drying"
+    ],
+    "fermentation_prevalence": 0.65
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.35,
+    "industrial_processing_index": 0.30
+  },
+  "notes": "Darjeeling / Eastern Himalayan foothills (West Bengal, India, ~2000m). Metamorphic parent material (gneiss, schist) with highly acidic, fast-draining soils. This is the high-altitude tea anchor for the natural experiment with RSU-21 (Assam, 100m) and RSU-22 (Uji/Shizuoka Japan, 300m). The altitude-driven catechin elevation (18-22 vs 12-15 g/100g), linalool muscatel aroma, and theanine elevation are well-documented in the literature and are among the most publishable altitude-metabolite signals in the pilot set. Gundruk fermented greens are a unique signal: Brassica-based, high-lactic-acid fermentation culture not represented elsewhere."
+}

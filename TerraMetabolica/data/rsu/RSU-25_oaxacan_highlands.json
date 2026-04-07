@@ -1,0 +1,248 @@
+{
+  "region_id": "RSU-25",
+  "name": "Oaxacan Highlands Mexico",
+  "coordinates": {
+    "lat": 17.1,
+    "lon": -96.7,
+    "altitude_m": 1550
+  },
+  "climate": {
+    "temperature_mean": 18.0,
+    "temperature_seasonality": 8.0,
+    "precipitation_mean": 650,
+    "precipitation_seasonality": 0.80
+  },
+  "geology": {
+    "parent_material": "metamorphic",
+    "soil_pH": 6.5,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "nixtamalized corn (masa)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "masa harina corn flour",
+      "fdc_id": 170720,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "8.3 g/100g [USDA FDC 170720]",
+          "lipid_content": "3.9 g/100g [USDA FDC 170720]",
+          "starch_content": "70.2 g/100g [USDA FDC 170720]",
+          "fiber_content": "7.3 g/100g [USDA FDC 170720]",
+          "ascorbic_acid": "trace [nixtamalized — lime treatment alters vitamin profile]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "150-300 mg GAE/100g [nixtamalized corn — Adom & Liu 2002; alkali treatment releases bound phenolics]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 8.3,
+          "fat_g": 3.9,
+          "carb_g": 70.2,
+          "fiber_g": 7.3
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Zea mays (Oaxacan native varieties: Bolita, Olotillo)",
+      "notes": "Nixtamalization (lime-alkali processing) is the defining food technology of Mesoamerican corn cultures — developed ~3500 years ago. The lime treatment releases bound niacin (preventing pellagra), modifies amino acid availability, and alters the polyphenol profile by releasing ferulic acid from cell walls. Oaxaca maintains over 35 native corn varieties (Bolita, Olotillo, Zapalote Chico) grown at different altitudes. This is the same food technology as RSU-10 (Andean chicha) but alkaline-processed vs fermented-processed. The contrast is a key processing-effect signal.",
+      "data_sources": [
+        "Adom & Liu (2002) — Antioxidant activity of grains, J Agric Food Chem 50:6182"
+      ]
+    },
+    {
+      "name": "black bean",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "black beans raw",
+      "fdc_id": 173735,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "21.6 g/100g [USDA FDC 173735]",
+          "lipid_content": "1.42 g/100g [USDA FDC 173735]",
+          "starch_content": "47.4 g/100g [USDA FDC 173735]",
+          "fiber_content": "15.5 g/100g [USDA FDC 173735]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "400-800 mg anthocyanins/100g [black bean seed coat — Bazzano et al. 2009 Curr Atheroscler Rep 11:416; anthocyanin pigment is the key bioactive]",
+          "tannin_content": "0.3-0.6 g/100g [black bean tannins — Geil & Anderson 1994]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.2-0.4 g/100g free glutamate [cooked beans — protein hydrolysis during cooking]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 21.6,
+          "fat_g": 1.42,
+          "carb_g": 47.4,
+          "fiber_g": 15.5
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Phaseolus vulgaris (Oaxacan black bean)",
+      "notes": "Black bean is the protein foundation of the Mesoamerican milpa triad (corn + beans + squash). The dark seed coat contains high anthocyanin concentrations — a polyphenol signal distinct from green tea catechins and olive hydroxytyrosol. The milpa system (intercropping) is a traditional agroecology signal distinct from monoculture.",
+      "data_sources": [
+        "Bazzano et al. (2009) — Legume consumption and CVD, Curr Atheroscler Rep 11:416"
+      ]
+    },
+    {
+      "name": "chocolate (cacao mole)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "cocoa powder unsweetened",
+      "fdc_id": 169593,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "19.6 g/100g [USDA FDC 169593]",
+          "lipid_content": "13.7 g/100g [USDA FDC 169593]",
+          "starch_content": "57.9 g/100g [USDA FDC 169593]",
+          "fiber_content": "37.0 g/100g [USDA FDC 169593]"
+        },
+        "key_flavor_bioactives": {
+          "caffeine_concentration": "0.23 g/100g [USDA FDC 169593]",
+          "theobromine_concentration": "2.57 g/100g [USDA FDC 169593]",
+          "polyphenol_content": "3500-5500 mg procyanidin/100g cocoa [Theobroma cacao — Gu et al. 2006 J Agric Food Chem 54:4057; fermentation and roasting degrade phenolics]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "acetic_acid": "1.0-3.0 g/100g [fermented cocoa bean — Schwan & Wheals 2004 Crit Rev Food Sci Nutr 44:205; acetic fermentation stage is critical for flavor development]",
+          "lactic_acid": "0.5-1.5 g/100g [cocoa bean fermentation — Schwan & Wheals 2004]",
+          "citric_acid": "1.5-2.5 g/100g [unfermented cocoa bean — reduced by fermentation; Schwan & Wheals 2004]"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 19.6,
+          "fat_g": 13.7,
+          "carb_g": 57.9,
+          "fiber_g": 37.0
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Theobroma cacao (Oaxacan criollo)",
+      "notes": "Cacao (chocolate) is the defining fat/flavor foundation of Oaxacan mole — used in mole negro, mole coloradito, and drinking chocolate. Placed in fat slot for cocoa butter fat content. The 3-8 day aerobic-to-anaerobic cocoa bean fermentation is a complex multi-stage fermentation (acetic bacteria then LAB) that develops the precursor flavor compounds. Theobromine (2.57 g/100g) and moderate caffeine are the methylxanthine signals. Procyanidin polyphenols are among the highest in any food — this is the primary polyphenol signal for this RSU. Compare to RSU-08 (West Africa) where cacao also appears.",
+      "data_sources": [
+        "Gu et al. (2006) — Procyanidin levels in cocoa, J Agric Food Chem 54:4057",
+        "Schwan & Wheals (2004) — Cocoa bean fermentation, Crit Rev Food Sci Nutr 44:205"
+      ]
+    },
+    {
+      "name": "chile negro (pasilla)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "dried pasilla chili pepper",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "ascorbic_acid": "2-8 mg/100g [dried chili — greatly reduced from fresh by drying process]"
+        },
+        "key_flavor_bioactives": {
+          "capsaicinoids": "0.5-2.0 mg/g dry weight [Pasilla Oaxaqueño — mild heat; Perucka & Materska 2001 Nahrung 45:17]",
+          "polyphenol_content": "800-1500 mg GAE/100g [dried Oaxacan chili — chlorogenic acid, quercetin, capsanthin; Hervert-Hernandez et al. 2010 Plant Foods Hum Nutr 65:117]"
+        },
+        "terpenes": {
+          "linalool": "0.2-0.6 mg/g EO [dried chili aromatic fraction — Perucka & Materska 2001]",
+          "limonene": "trace [dried chili]"
+        },
+        "organic_acids": {
+          "citric_acid": "0.3-0.8 g/100g [dried chili — González-Zamora et al. 2013]",
+          "malic_acid": "0.1-0.4 g/100g [dried chili — González-Zamora et al. 2013]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Capsicum annuum (Pasilla Oaxaqueño)",
+      "notes": "Dried Oaxacan chiles (pasilla, mulato, ancho, chipilín) are the flavor architecture of mole negro — multiple dried chile varieties rehydrated, toasted, and blended. Capsaicinoid levels are moderate (mild to medium heat) — in contrast to RSU-10 aji amarillo (higher heat), RSU-08 Scotch bonnet (extreme heat), and RSU-11 (South Indian). The polyphenol content of dried chile is very high — carotenoids (capsanthin, capsorubin), chlorogenic acid, and quercetin all contribute. This chile is a distinct variety from all other RSUs in the pilot set.",
+      "data_sources": [
+        "Perucka & Materska (2001) — Capsaicin and flavor compounds in dried peppers, Nahrung 45:17",
+        "Hervert-Hernandez et al. (2010) — Polyphenols in Mexican dried chiles, Plant Foods Hum Nutr 65:117"
+      ]
+    },
+    {
+      "name": "mezcal (fermented agave)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "agave spirits mezcal",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "80-200 mg GAE/100g [mezcal — smoke and agave phenolics; Lachenmeier et al. 2007 Anal Bioanal Chem 387:2461]"
+        },
+        "terpenes": {
+          "linalool": "trace in mezcal distillate [agave-derived terpenes — Ruiz-Teran & Owens 1996]"
+        },
+        "organic_acids": {
+          "acetic_acid": "0.1-0.5 g/100g equivalent [mezcal fermentation — acetic acid precursor of esters; Benn & Peppard 1996]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Agave angustifolia / A. espadin",
+      "notes": "Mezcal (from agave hearts/piñas) is the indigenous distilled spirit of Oaxaca — the only RSU in the pilot set with an agave fermentation product. The process: roast piña in earthen pit (creating smoke phenolics), crush, wild-yeast ferment, double-distill in clay pot. The terroir signal is the smoke + agave inulin hydrolysis products. Mezcal is placed in 'fermented' category as the fermentation chemistry is the primary food science interest. Tequila (RSU not yet created for Jalisco) is a related but distinct production system.",
+      "data_sources": [
+        "Lachenmeier et al. (2007) — Chemical composition of mezcal, Anal Bioanal Chem 387:2461"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "nixtamalized corn (masa, tortilla, tlayuda)",
+      "black bean",
+      "cocoa (mole negro)",
+      "dried chile (pasilla, ancho, mulato)",
+      "mezcal (agave)",
+      "squash"
+    ],
+    "known_processing_methods": [
+      "nixtamalization (alkali lime treatment)",
+      "mole preparation (chile+chocolate+spice blending)",
+      "cocoa fermentation and roasting",
+      "mezcal pit-roasting and distillation",
+      "agave inulin fermentation",
+      "solar drying of chiles"
+    ],
+    "fermentation_prevalence": 0.60
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.35,
+    "industrial_processing_index": 0.25
+  },
+  "notes": "Oaxacan highlands (Sierra Juárez / Valley of Oaxaca, ~1550m). Metamorphic parent material (schist and granite) with shallow, mineral-stressed soils. Distinct from RSU-10 (Andean Highlands) despite similar altitude: Mesoamerican vs Andean food culture, corn-centric vs potato-centric, nixtamalization vs fermentation processing, chocolate + chile as fat/aromatic vs quinoa + aji. The milpa agroecological system (corn+beans+squash intercrop) is itself a distinct signal. Mezcal is the only agave-fermented food in the pilot set. Cocoa polyphenols are the highest in the pilot set after tea — the cacao-chocolate metabolite dimension connects to RSU-08 (West Africa) where cacao also grows."
+}

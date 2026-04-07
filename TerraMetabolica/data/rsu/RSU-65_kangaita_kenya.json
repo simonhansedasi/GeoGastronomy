@@ -1,0 +1,48 @@
+{
+  "region_id": "RSU-65",
+  "name": "Kangaita Tea Estate, East Rift Valley, Kenya (~2180m)",
+  "coordinates": {"lat": -0.52, "lon": 37.32, "altitude_m": 2180},
+  "climate": {"temperature_mean": 16.5, "temperature_seasonality": 3.0, "precipitation_mean": 1400, "precipitation_seasonality": 0.50},
+  "geology": {"parent_material": "volcanic, Mount Kenya foothills", "soil_pH": 5.1, "soil_texture": "clay loam", "drainage_class": "moderate"},
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {"fruiting_species": null, "tuber_species": null, "aromatic_species": null, "fermentable_species": null},
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Kenya highland green tea (Camellia sinensis)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "tea green",
+      "fdc_id": null,
+      "feeding_type": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "18.7 g/100g dry matter total catechins (EGCG 7.9%, ECG 3.3%, EGC 5.2%, EC 1.5%, C 0.7%; mean of 60 clones, fresh leaf steamed and dried — Mutuku et al. 2016 Am J Plant Sci 7:562, doi:10.4236/ajps.2016.73049)",
+          "caffeine_concentration": "3.0-4.0 g/100g dry matter [Kenyan highland tea caffeine estimate]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.8-1.5 g/100g dry matter as theanine [Kenyan highland tea estimate]"
+        }
+      },
+      "confirmed_absent": ["capsaicinoids", "isothiocyanates", "inosinate"],
+      "natural_experiment": ["RSU-27", "RSU-58", "RSU-64"],
+      "cultivar": "Camellia sinensis — 60 clones including Kenyan commercial cultivars (AHP, TRFK series); mean across clone panel",
+      "notes": "Kangaita Tea Factory, Kirinyaga County, East Rift Valley, Kenya (Mount Kenya foothills). Altitude 2180m. Data from Mutuku et al. (2016): fresh leaf steamed and dried to green tea equivalent, HPLC catechin quantification, mean across 60 clones. Total catechins 18.7 g/100g DM — highest in the Mutuku study, consistent with altitude. No shade-growing mentioned. Paired with RSU-64 (Timbilil, West Rift Valley, 2020m) from the same study, providing within-study cross-rift comparison. Close in altitude to RSU-58 (Kericho, ~2200m) but independent source and location."
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": ["tea", "maize", "beans", "milk", "beef"],
+    "known_processing_methods": ["CTC black tea (commercial)", "green tea (research processing)"],
+    "fermentation_prevalence": 0.05
+  },
+  "culture": {"agricultural_intensification_index": 0.60, "industrial_processing_index": 0.45},
+  "notes": "Kangaita Tea Factory, Kirinyaga County, East Rift Valley, Kenya. Located at ~2180m on the southern slopes of Mount Kenya. KTDA-operated factory catchment. Paired with Timbilil (West Rift, 2020m) in Mutuku et al. (2016) to compare catechin profiles across Kenya's two main tea-growing rifts. Higher altitude and slightly higher catechin content than Timbilil, consistent with the altitude gradient. Complements RSU-58 (Kericho, ~2200m, Kim et al. 2011) as an independent high-altitude Kenya data point from a different geographic sub-region.",
+  "data_sources": [
+    "Mutuku A et al. (2016) — Influence of geographical regions on catechin and caffeine levels in tea (Camellia sinensis). American Journal of Plant Sciences 7(3):562-571. doi:10.4236/ajps.2016.73049."
+  ]
+}

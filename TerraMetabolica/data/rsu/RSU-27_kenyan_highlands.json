@@ -1,0 +1,241 @@
+{
+  "region_id": "RSU-27",
+  "name": "Kenyan Highlands",
+  "coordinates": {
+    "lat": -0.5,
+    "lon": 37.0,
+    "altitude_m": 1800
+  },
+  "climate": {
+    "temperature_mean": 17.0,
+    "temperature_seasonality": 5.0,
+    "precipitation_mean": 950,
+    "precipitation_seasonality": 0.55
+  },
+  "geology": {
+    "parent_material": "volcanic",
+    "soil_pH": 5.8,
+    "soil_texture": "clay loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Kenya CTC black tea",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "black tea brewed",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "ascorbic_acid": "trace — destroyed in black tea oxidation"
+        },
+        "key_flavor_bioactives": {
+          "caffeine_concentration": "2.5-4.0 g/100g dry leaf [Kenyan CTC black tea — Wachira et al. 2002 Euphytica 125:69; high-altitude Kenyan tea comparable to Darjeeling in caffeine]",
+          "polyphenol_content": "15.0-20.0 g/100g dry leaf theaflavins+thearubigins [Kenyan CTC — Wachira et al. 2002; Kenya is known for high theaflavin content conferring bright liquor]",
+          "tannin_content": "6.0-9.0 g/100g [Kenyan black tea theaflavins — highest theaflavin of any commercial tea origin; Wachira et al. 2002]"
+        },
+        "terpenes": {
+          "linalool": "3-10 mg/kg [Kenyan black tea — Ravichandran 2002; intermediate terpene retention after CTC oxidation]"
+        },
+        "organic_acids": {
+          "malic_acid": "0.4-0.8 g/100g dry leaf [Kenyan highland tea — intermediate altitude; Hilal & Engelhardt 2007]",
+          "citric_acid": "0.2-0.4 g/100g [Kenyan tea — Hilal & Engelhardt 2007]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.6-1.2 g/100g [Kenyan tea theanine+glutamate — intermediate altitude accumulation; Wachira et al. 2002]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates",
+        "inosinate"
+      ],
+      "natural_experiment": ["RSU-20", "RSU-21", "RSU-22", "RSU-26"],
+      "cultivar": "Camellia sinensis var. assamica (Kenyan TRFK clones)",
+      "notes": "Kenya is the world's largest producer of CTC black tea by volume. The Kenyan highlands (Nandi Hills, Kericho, Kiambu, 1500-2700m) grow tea on volcanic red clay soils — the highest theaflavin content of any commercial tea origin is the key metabolite signal. Theaflavins (formed by oxidative condensation of catechins during CTC processing) give Kenyan tea its characteristic bright orange-red liquor and brisk flavor. Kenya represents a 5th node in the tea natural experiment: African high-altitude CTC, comparable in altitude to Darjeeling (RSU-20) but with var. assamica (like Assam, RSU-21) rather than var. sinensis. This disentangles the altitude vs cultivar vs processing effects.",
+      "data_sources": [
+        "Wachira et al. (2002) — Chemical studies of tea from Kenya, Euphytica 125:69",
+        "Hilal & Engelhardt (2007) — Organic acids in tea, J Consum Prot Food Saf 2:414"
+      ]
+    },
+    {
+      "name": "ugali (white maize porridge)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "maize meal white corn",
+      "fdc_id": 170287,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "6.93 g/100g [USDA FDC 170287]",
+          "lipid_content": "3.86 g/100g [USDA FDC 170287]",
+          "starch_content": "74.3 g/100g [USDA FDC 170287]",
+          "fiber_content": "7.3 g/100g [USDA FDC 170287]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "60-100 mg ferulic acid/100g [white maize — lower polyphenol than yellow maize; Adom & Liu 2002]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 6.93,
+          "fat_g": 3.86,
+          "carb_g": 74.3,
+          "fiber_g": 7.3
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Zea mays (white maize, non-nixtamalized)",
+      "notes": "Ugali is the stiff maize porridge (polenta-like) that is the staple carbohydrate of East Africa — Kenya, Tanzania, Uganda, Rwanda. White dent maize milled without nixtamalization (unlike Mesoamerican corn). The absence of alkali treatment means lower niacin bioavailability than RSU-25 nixtamalized corn. Consumed as a stiff mound scooped and dipped into stewed vegetables (sukuma wiki) or meat.",
+      "data_sources": [
+        "Adom & Liu (2002) — Antioxidant activity of grains, J Agric Food Chem 50:6182"
+      ]
+    },
+    {
+      "name": "sorghum (for uji porridge)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "sorghum grain raw",
+      "fdc_id": 169716,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "11.3 g/100g [USDA FDC 169716]",
+          "lipid_content": "3.46 g/100g [USDA FDC 169716]",
+          "starch_content": "72.1 g/100g [USDA FDC 169716]",
+          "fiber_content": "6.3 g/100g [USDA FDC 169716]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "400-1500 mg/100g [sorghum — Dykes & Rooney 2006 J Cereal Sci 44:236; highly variable by variety; tannin sorghums have highest polyphenol]",
+          "tannin_content": "0-3.6 g/100g condensed tannins [Dykes & Rooney 2006; high-tannin sorghum varieties can exceed 3 g/100g — a major antinutrient]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.5-1.5 g/100g [fermented uji sorghum porridge — LAB fermentation; Mituki et al. 2005]",
+          "acetic_acid": "0.1-0.3 g/100g [fermented sorghum — Mituki et al. 2005]"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 11.3,
+          "fat_g": 3.46,
+          "carb_g": 72.1,
+          "fiber_g": 6.3
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Sorghum bicolor (East African highland varieties)",
+      "notes": "Fermented sorghum porridge (uji) is made by soaking sorghum for 24-72h to allow LAB fermentation before cooking — reducing phytate and tannin content while producing lactic acid. Placed in 'fermented' category as the fermentation step is the culturally critical food technology. Sorghum is also used for traditional beer (busaa, changaa). The tannin content of sorghum is highly variety-dependent — high-tannin varieties (bird-resistant) have dramatically different polyphenol profiles than low-tannin food-grade varieties. Compare to RSU-08 (West Africa) sorghum for the East vs West African sorghum terroir contrast.",
+      "data_sources": [
+        "Dykes & Rooney (2006) — Sorghum and millet polyphenols, J Cereal Sci 44:236"
+      ]
+    },
+    {
+      "name": "nyama choma (grilled mutton/goat)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "goat meat raw",
+      "fdc_id": 175168,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "20.6 g/100g [USDA FDC 175168]",
+          "lipid_content": "2.31 g/100g [USDA FDC 175168]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.2-0.35 g/100g free glutamate [goat meat — similar to lamb; Maga 1983]",
+          "inosinate": "0.2-0.3 g/100g IMP [goat muscle]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 20.6,
+          "fat_g": 2.31
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Capra hircus (East African goat breeds)",
+      "notes": "Nyama choma (roasted meat, typically goat or mutton) is the defining protein dish of Kenyan highland social occasions. Goat is leaner than lamb — lower fat content reflects East African pastoral goat breeds adapted to semi-arid conditions. Compare to RSU-15/17 (lamb in Algeria/Ethiopia) for small ruminant meat protein across Africa.",
+      "data_sources": [
+        "Maga (1983) — Flavor potentiators, CRC Crit Rev Food Sci Nutr 18:231"
+      ]
+    },
+    {
+      "name": "Kenyan Arabica coffee",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "coffee beans whole roasted",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "caffeine_concentration": "9.5-12.0 mg/g dry bean [Kenyan AA Arabica — Wachira et al. 2002 (proxy); high altitude similar to Ethiopian]",
+          "polyphenol_content": "4000-5500 mg/100g CGA equivalents [Kenyan Arabica — altitude ~1700-2200m; similar range to Ethiopian highland]"
+        },
+        "terpenes": {
+          "linalool": "0.6-1.5 mg/L brewed [Kenyan washed Arabica — fruity floral profile; Buffo & Cardelli-Freire 2004]"
+        },
+        "organic_acids": {
+          "malic_acid": "0.8-1.3 g/100g dry bean [Kenyan highland Arabica — Lingle 2011; high altitude malic acid comparable to Ethiopian]",
+          "citric_acid": "0.4-0.7 g/100g [Kenyan Arabica — Lingle 2011]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates"
+      ],
+      "natural_experiment": ["RSU-17", "RSU-18", "RSU-19"],
+      "cultivar": "Coffea arabica (SL28, SL34 Kenyan varieties)",
+      "notes": "Kenya AA (large bean, double-washed) is one of the most renowned coffees globally for its distinctly tart, blackcurrant-berry profile — attributed to the combination of high altitude (1700-2200m), volcanic red clay soils (nitisols), and SL28/SL34 cultivars selected for disease resistance with exceptional cup quality. Placed in the 'fat' category somewhat awkwardly — functionally it serves as an energy/stimulant in the food system rather than a fat source. Adding Kenya as a 4th node to the coffee natural experiment (RSU-17 Ethiopia, RSU-18 Colombia, RSU-19 Vietnam, RSU-27 Kenya) gives a multi-continent altitude-controlled comparison at similar altitude to Ethiopia but different cultivar and soil type (volcanic nitisol vs Ethiopian basalt).",
+      "data_sources": [
+        "Lingle (2011) — SCAA Coffee Brewing Handbook",
+        "Buffo & Cardelli-Freire (2004) — Coffee flavor, Flavour Fragrance J 19:99"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "Kenya CTC black tea",
+      "Arabica coffee (export)",
+      "ugali (white maize)",
+      "fermented sorghum (uji)",
+      "nyama choma (goat/mutton)",
+      "sukuma wiki (kale)"
+    ],
+    "known_processing_methods": [
+      "CTC tea processing",
+      "wet coffee cherry processing (double-washed)",
+      "sorghum LAB fermentation (uji)",
+      "charcoal/wood fire nyama choma roasting",
+      "maize milling (no nixtamalization)"
+    ],
+    "fermentation_prevalence": 0.50
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.55,
+    "industrial_processing_index": 0.45
+  },
+  "notes": "Kenyan Highlands (Nandi Hills / Central Province, ~1800m). Volcanic red clay (nitisol) parent material from the East African Rift — highly fertile, well-drained soils. This RSU fills the East African gap and contributes two critical natural experiment nodes: (1) Kenya tea as a 5th node in the tea experiment (high altitude, var. assamica, CTC processed) — enables disentangling altitude vs cultivar effects vs processing; (2) Kenya Arabica coffee as a 4th coffee node (similar altitude to RSU-17 Ethiopia but different cultivar SL28/SL34 and soil type). The combination of both tea and coffee in one RSU reflects Kenya's reality as a world-leading producer of both commodities from overlapping highland geography."
+}

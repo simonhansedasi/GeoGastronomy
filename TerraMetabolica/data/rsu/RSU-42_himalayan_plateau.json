@@ -1,0 +1,232 @@
+{
+  "region_id": "RSU-42",
+  "name": "Himalayan Plateau (Tibet / Bhutan, ~3800m)",
+  "coordinates": {
+    "lat": 29.6,
+    "lon": 91.1,
+    "altitude_m": 3800
+  },
+  "climate": {
+    "temperature_mean": 2.0,
+    "temperature_seasonality": 20.0,
+    "precipitation_mean": 420,
+    "precipitation_seasonality": 0.75
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 7.0,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "yak butter (dri milk)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "butter yak milk",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "80-84 g/100g [yak butter \u2014 Jia et al. 2014 J Dairy Sci 97:3402]",
+          "oleic_acid": "23-28% of total fatty acids [yak butter \u2014 Jia et al. 2014 J Dairy Sci 97:3402; higher oleic than lowland bovine butter]",
+          "palmitic_acid": "24-28% of total fatty acids [yak butter \u2014 Jia et al. 2014]",
+          "stearic_acid": "10-14% of total fatty acids [yak butter \u2014 Jia et al. 2014]",
+          "linoleic_acid": "1.8-3.2% of total fatty acids [yak butter \u2014 Jia et al. 2014]"
+        },
+        "key_flavor_bioactives": {
+          "conjugated_linoleic_acid": "3.5-6.5 g/100g fat [yak butter CLA \u2014 Jia et al. 2014 J Dairy Sci 97:3402; among the highest CLA of any animal fat \u2014 alpine Himalayan pasture at 3800m drives very high CLA; highest altitude butter in natural experiment group]",
+          "tocopherol_content": "40-80 mg/kg [yak butter \u2014 elevated alpha-tocopherol from altitude-adapted pasture]",
+          "polyphenol_content": "15-35 mg GAE/100g [yak butter \u2014 trace from altitude-stressed grasses transferred to milk fat]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [
+        "RSU-36",
+        "RSU-37",
+        "RSU-43"
+      ],
+      "cultivar": "Bos grunniens (yak, dri = female yak, Tibetan Plateau 3800m)",
+      "notes": "Yak butter \u2014 the highest-altitude and highest-CLA fat in the dataset. Female yak (dri) graze at 3000-5000m on sparse alpine pasture of the Tibetan Plateau. The extreme altitude (3800m), high UV irradiance, and cold temperatures drive the yak's unusual milk fat composition. Jia et al. (2014) report CLA of 3.5-6.5 g/100g fat \u2014 at the upper end of the alpine butter CLA range. This RSU extends the butter CLA natural experiment (RSU-43 lowland 30m ~0.6-1.5 g, RSU-37 Irish Atlantic 100m ~2-3.5 g, RSU-36 Alpine 1200m ~3-5.5 g, RSU-42 Himalayan 3800m ~3.5-6.5 g) to the maximum altitude. The yak-specific genetics and the extreme altitude environment together create the extreme end of the CLA gradient.",
+      "data_sources": [
+        "Jia et al. (2014) \u2014 Fatty acid composition and CLA content in yak milk fat, J Dairy Sci 97:3402"
+      ],
+      "feeding_type": "grass-fed"
+    },
+    {
+      "name": "tsampa (roasted barley flour)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "barley flour whole grain",
+      "fdc_id": 170287,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "74.34 g/100g [USDA FDC 170287]",
+          "protein_content": "12.79 g/100g [USDA FDC 170287]",
+          "lipid_content": "2.93 g/100g [USDA FDC 170287]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "400-800 mg GAE/100g [roasted barley \u2014 Maillard products + phenolic acids; Madhujith & Shahidi 2007 J Agric Food Chem 55:9617]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.5-1.2 g/100g [roasted barley \u2014 Maillard-enhanced free amino acid profile vs raw; estimate]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 12.79,
+          "fat_g": 2.93,
+          "carb_g": 74.34
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Hordeum vulgare (hulless naked barley \u2014 Tibetan highland varieties grown at 3500-4200m)",
+      "notes": "Tsampa is roasted naked barley flour \u2014 the foundational carbohydrate of Tibetan food culture for 3500+ years. Made by roasting whole naked barley (qingke/highland barley) in sand or dry-pan, then grinding. Roasting creates Maillard flavor compounds and caramel notes. Eaten dry with tea and butter (mixed into a dough ball \u2014 pag), or as a porridge (ngamphe). The high-altitude Tibetan naked barley varieties are adapted to grow at 3500-4200m \u2014 an agricultural record for cereal grain cultivation.",
+      "data_sources": [
+        "Madhujith & Shahidi (2007) \u2014 Antioxidant activity in barley, J Agric Food Chem 55:9617"
+      ]
+    },
+    {
+      "name": "yak meat (dried, jerky)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "beef jerky dried",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "30-40 g/100g [dried yak meat \u2014 concentrated from ~21 g/100g fresh; Degen et al. 2007 Animal 1:696]",
+          "lipid_content": "3-8 g/100g [dried yak meat \u2014 variable with animal condition]",
+          "conjugated_linoleic_acid": "1.2-2.8 g/100g fat [yak meat CLA \u2014 lower than yak butter but still elevated vs lowland beef]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.8-1.5 g/100g [dried/aged yak meat \u2014 proteolysis during drying concentrates free amino acids; estimate]",
+          "inosinate": "trace [IMP hydrolyzed during extended drying]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Bos grunniens (yak, Tibetan Plateau)",
+      "notes": "Dried yak meat \u2014 the primary protein of the Tibetan Plateau food system. Traditional air-dried by hanging in the cold, dry Plateau conditions. The CLA content of yak meat (1.2-2.8 g/100g fat) is elevated vs lowland beef due to the same alpine-pasture grazing effect seen in yak butter. The free glutamate in dried/aged meat is elevated by proteolysis during drying.",
+      "data_sources": [
+        "Degen et al. (2007) \u2014 Yak milk and nutritional composition, Animal 1:696"
+      ]
+    },
+    {
+      "name": "butter tea (po cha \u2014 brick tea + yak butter + salt)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "black tea brewed",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "2-5 g/100ml [butter tea \u2014 yak butter content varies by preparation]"
+        },
+        "key_flavor_bioactives": {
+          "caffeine_concentration": "15-30 mg/100ml [butter tea \u2014 black brick tea caffeine; Weckerle et al. 2003 J Ethnopharmacol 88:27]",
+          "polyphenol_content": "200-500 mg GAE/100ml [butter tea \u2014 black brick tea oxidized polyphenols]",
+          "conjugated_linoleic_acid": "0.5-2.0 mg/100ml [butter tea \u2014 trace yak butter CLA in beverage form]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Po cha (butter tea) \u2014 the most calorie-dense beverage in any RSU. Made by churning brick tea (fermented/compressed Yunnan tea) with yak butter and salt in a butter churn. Provides significant fat calories and warmth at altitude \u2014 consumed 10-30 cups daily in traditional Tibetan culture. The combination of tea polyphenols, caffeine, and yak butter fat creates a unique metabolite mix. Treated as fermented category because brick tea (dark tea / Pu-erh ancestor) undergoes microbial post-fermentation (w\u00f2dui pile fermentation).",
+      "data_sources": [
+        "Weckerle et al. (2003) \u2014 Use of Camellia sinensis in eastern Tibet, J Ethnopharmacol 88:27"
+      ],
+      "feeding_type": "grass-fed"
+    },
+    {
+      "name": "buckwheat (black, Tibetan highland)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "buckwheat groats raw",
+      "fdc_id": 170285,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "71.5 g/100g [USDA FDC 170285]",
+          "protein_content": "13.25 g/100g [USDA FDC 170285]",
+          "lipid_content": "3.4 g/100g [USDA FDC 170285]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "600-1800 mg GAE/100g [Tibetan highland buckwheat rutin + quercetin \u2014 Li & Zhang 2001 Euphytica 117:85; high-altitude UV stress drives extremely high rutin accumulation \u2014 one of the richest dietary rutin sources]",
+          "tocopherol_content": "12-26 mg/kg [buckwheat \u2014 Li & Zhang 2001]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 13.25,
+          "fat_g": 3.4,
+          "carb_g": 71.5
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Fagopyrum tataricum (Tartary/bitter buckwheat \u2014 highland Tibetan species)",
+      "notes": "Tibetan highland buckwheat (Fagopyrum tataricum) \u2014 grown at 3000-4500m on the Plateau. Placed in aromatic slot as buckwheat (not a grass) has an unusual nutty-earthy-astringent flavor and is used in Bhutan in buckwheat pancakes (puta) and noodles alongside tsampa. The rutin content (a quercetin glycoside) in Tibetan Tartary buckwheat (600-1800 mg/100g) is driven by extreme UV irradiance at altitude \u2014 the UV-rutin accumulation signal is one of the clearest altitude-UV-polyphenol relationships in food science literature.",
+      "data_sources": [
+        "Li & Zhang (2001) \u2014 Tartary buckwheat and Fagopyrum species, Euphytica 117:85"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "tsampa (roasted barley)",
+      "yak butter",
+      "yak meat (dried)",
+      "butter tea (po cha)",
+      "buckwheat"
+    ],
+    "known_processing_methods": [
+      "barley dry-roasting in sand (tsampa)",
+      "yak cream butter churning",
+      "butter tea churning (dongmo churn)",
+      "air-drying yak meat in high-altitude cold",
+      "brick tea pile fermentation (w\u00f2dui)"
+    ],
+    "fermentation_prevalence": 0.55
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.2,
+    "industrial_processing_index": 0.15
+  },
+  "notes": "Lhasa region, Tibetan Plateau (~3800m), highest-altitude RSU in the dataset. Sedimentary geology, extreme cold-dry climate, intense UV. This RSU extends the butter CLA natural experiment to its maximum altitude (yak butter at 3800m, CLA 3.5-6.5 g/100g fat). Buckwheat rutin adds the strongest altitude-UV-polyphenol signal in the dataset \u2014 the clearest demonstration of UV-driven secondary metabolite elevation. Butter tea as a dietary fat delivery system at extreme altitude is one of the most ecologically adaptive food behaviors in the dataset. The combined yak butter + tsampa + butter tea system is a nearly complete caloric and fat-soluble vitamin delivery system optimized for cold, high-altitude human physiology."
+}

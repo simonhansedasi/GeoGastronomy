@@ -1,0 +1,48 @@
+{
+  "region_id": "RSU-57",
+  "name": "Suoi Giang Wild Ancient Tea, Yen Bai, Vietnam (~1400m)",
+  "coordinates": {"lat": 21.6, "lon": 104.5, "altitude_m": 1400},
+  "climate": {"temperature_mean": 16.0, "temperature_seasonality": 12.0, "precipitation_mean": 1600, "precipitation_seasonality": 0.60},
+  "geology": {"parent_material": "metamorphic", "soil_pH": 4.9, "soil_texture": "loam", "drainage_class": "high"},
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {"fruiting_species": null, "tuber_species": null, "aromatic_species": null, "fermentable_species": null},
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "green tea (Camellia sinensis)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "tea green",
+      "fdc_id": null,
+      "feeding_type": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "16.6-20.7 g/100g dry leaf total catechins [Suoi Giang wild/ancient-tree green teas, 7 samples at ~1400m — Nguyen et al. 2023 Antioxidants 12:1003; PMC10142074; sample totals: 166.1, 166.2, 167.2, 172.1, 172.6, 192.9, 207.0 mg/g DM]",
+          "caffeine_concentration": "2.5-3.5 g/100g dry leaf [wild-tree green tea — Nguyen et al. 2023; higher caffeine in wild assamica-type trees]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "1.0-2.0 g/100g dry leaf as theanine+glutamate [highland tea — Nguyen et al. 2023; wild-tree tea notably higher theanine than cultivated]"
+        }
+      },
+      "confirmed_absent": ["capsaicinoids", "isothiocyanates", "inosinate"],
+      "natural_experiment": ["RSU-20", "RSU-21", "RSU-56"],
+      "cultivar": "Camellia sinensis var. assamica (wild/ancient Shan Tuyet trees, >200 years old)",
+      "notes": "Suoi Giang commune, Van Chan District, Yen Bai Province, northern Vietnam — situated at ~1400m on mountainside forests with trees over 200-300 years old. The 7 wild/ancient-tree (Shan Tuyet) green tea samples measured by Nguyen et al. (2023) via HPLC-DAD gave total catechins of 166.1, 166.2, 167.2, 172.1, 172.6, 192.9, and 207.0 mg/g DM — range 16.6-20.7 g/100g DM. This is minimally processed green tea (the fresh leaf is steamed and sun-dried or pan-fired in the Shan Tuyet tradition), not shade-grown and not oxidized. IMPORTANT CONFOUND: the Suoi Giang trees are var. assamica wild-types rather than cultivated clones, so elevated catechins here partly reflect genetic background, not only altitude. Compare RSU-56 (Da Lat cultivated clones, ~1500m, 11.5-17.0 g/100g) to isolate domestication vs. wild-type effects. The upper range of RSU-57 (~20.7 g/100g) overlaps the lower range of RSU-20 Darjeeling (18.0-22.0 g/100g), providing a coherent across-region altitude gradient anchor. Mong ethnic community harvests using traditional stone-tumbling processing; no industrial processing.",
+      "data_sources": [
+        "Nguyen et al. (2023) — Characteristics and Relationships between Total Polyphenol and Flavonoid Contents, Antioxidant Capacities, and the Content of Caffeine, Gallic Acid, and Major Catechins in Wild/Ancient and Cultivated Teas in Vietnam, Antioxidants 12(5):1003 [PMC10142074]"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": ["wild ancient-tree green tea", "upland rice", "maize", "cassava"],
+    "known_processing_methods": ["pan-fired green tea", "sun-dried leaf", "stone-tumbling traditional processing"],
+    "fermentation_prevalence": 0.20
+  },
+  "culture": {"agricultural_intensification_index": 0.20, "industrial_processing_index": 0.10},
+  "notes": "Suoi Giang commune, Yen Bai Province, northern Vietnam (~1400m). Metamorphic highland soils, cool montane climate (average 8-10°C cooler than valley floor). Home to over 85,000 wild ancient Shan Tuyet tea trees (Camellia sinensis var. assamica) >200 years old — among the largest surviving population of wild-type C. sinensis in Vietnam. This RSU is paired with RSU-56 (Da Lat cultivated teas, ~1500m) in the Vietnamese altitude experiment and with RSU-20 (Darjeeling, 2000m) and RSU-21 (Assam, 100m) in the broader altitude-catechin natural experiment. The wild-type genetic background elevates catechins independently of altitude — documented in Nguyen et al. 2023 who showed wild/ancient trees consistently exceeded cultivated trees at matched altitude. The Hmong (Mong) ethnic community here is the primary steward of these trees and uses traditional minimal-processing green tea methods."
+}

@@ -1,0 +1,235 @@
+{
+  "region_id": "RSU-24",
+  "name": "Anatolian Plateau",
+  "coordinates": {
+    "lat": 39.5,
+    "lon": 33.0,
+    "altitude_m": 900
+  },
+  "climate": {
+    "temperature_mean": 10.5,
+    "temperature_seasonality": 28.0,
+    "precipitation_mean": 380,
+    "precipitation_seasonality": 0.50
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 7.5,
+    "soil_texture": "clay loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "durum wheat (bulgur/bread)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "bulgur wheat raw",
+      "fdc_id": 170284,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "12.29 g/100g [USDA FDC 170284]",
+          "lipid_content": "1.33 g/100g [USDA FDC 170284]",
+          "starch_content": "67.2 g/100g [USDA FDC 170284]",
+          "fiber_content": "18.3 g/100g [USDA FDC 170284 — high due to bran retention in bulgur]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "60-120 mg ferulic acid/100g [bulgur wheat — Adom & Liu 2002 J Agric Food Chem 50:6182]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 12.29,
+          "fat_g": 1.33,
+          "carb_g": 67.2,
+          "fiber_g": 18.3
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Triticum durum (Anatolian landraces)",
+      "notes": "Anatolia is among the primary centers of origin for wheat (Triticum) — the Fertile Crescent region. Durum wheat grown on the dry Anatolian steppe has high gluten strength from the temperature stress and moderate drought. Bulgur (pre-cooked, cracked wheat) retains the bran fraction with high fiber and ferulic acid. Compare to Algerian durum wheat (RSU-15) and French wheat (RSU-04) for a 3-RSU wheat comparison.",
+      "data_sources": [
+        "Adom & Liu (2002) — Antioxidant activity of grains, J Agric Food Chem 50:6182"
+      ]
+    },
+    {
+      "name": "lamb/mutton kebab",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "lamb leg raw",
+      "fdc_id": 174382,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "20.9 g/100g [USDA FDC 174382]",
+          "lipid_content": "14.8 g/100g [USDA FDC 174382]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [lamb — Maga 1983 CRC Crit Rev Food Sci Nutr 18:231]",
+          "inosinate": "~0.25 g/100g IMP [lamb muscle]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 20.9,
+          "fat_g": 14.8
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Lamb is the dominant meat protein of Anatolian and Levantine cuisines. The Anatolian steppe has supported sheep pastoralism for millennia. Transhumant flocks graze on diverse steppe vegetation including wild thyme, oregano, and sage — which may affect the fatty acid composition and flavor of the meat through secondary plant metabolite ingestion.",
+      "data_sources": [
+        "Maga (1983) — Flavor potentiators, CRC Crit Rev Food Sci Nutr 18:231"
+      ]
+    },
+    {
+      "name": "yogurt (süt yogurt)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "yogurt plain whole milk",
+      "fdc_id": 171284,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "3.47 g/100g [USDA FDC 171284]",
+          "lipid_content": "3.25 g/100g [USDA FDC 171284]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.7-1.4 g/100g [yogurt LAB fermentation — standard; S. thermophilus + L. bulgaricus]",
+          "acetic_acid": "trace"
+        },
+        "umami_compounds": {
+          "glutamate": "0.05-0.1 g/100g [yogurt — limited proteolysis in short fermentation]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 3.47,
+          "fat_g": 3.25
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Turkey is the putative origin of yogurt (the word is Turkish). Süzme (strained) yogurt, similar to Greek yogurt, is consumed daily. The LAB community (Streptococcus thermophilus + Lactobacillus delbrueckii subsp. bulgaricus) is the original industrial yogurt culture, standardized from Anatolian strains. Compare to leben (RSU-15), kefir (RSU-01), and viili (RSU-02) for a multi-RSU fermented dairy comparison.",
+      "data_sources": []
+    },
+    {
+      "name": "olive oil (Ayvalik)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "olive oil extra virgin",
+      "fdc_id": 171413,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [USDA FDC 171413]",
+          "oleic_acid": "68-75% of total fatty acids [Turkish Ayvalik EVOO — Yorulmaz et al. 2013 J Am Oil Chem Soc 90:1609]",
+          "linoleic_acid": "10-14% of total fatty acids [Yorulmaz et al. 2013]"
+        },
+        "key_flavor_bioactives": {
+          "hydroxytyrosol": "30-90 ppm [Turkish EVOO Ayvalik — Yorulmaz et al. 2013; moderate, semi-arid climate]",
+          "polyphenol_content": "300-550 ppm [Turkish EVOO — Yorulmaz et al. 2013]",
+          "tocopherol_content": "100-150 mg/kg [Yorulmaz et al. 2013]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "fat_g": 100
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Olea europaea (Ayvalik/Edremit cultivar)",
+      "notes": "Turkish Ayvalik olive oil from the Aegean coast. Different cultivar from Algerian Sigoise and Campanian varieties. Adds a 3rd data point to the Mediterranean olive oil polyphenol geography: RSU-15 (Algeria highland, 560-675 ppm), RSU-16 (Algeria Sahara margin, higher), RSU-23 (Campania, 400-700 ppm), RSU-24 (Turkey Aegean, 300-550 ppm). Cultivar effects confound the comparison but the geographic pattern is detectable.",
+      "data_sources": [
+        "Yorulmaz et al. (2013) — Turkish olive oil characteristics, J Am Oil Chem Soc 90:1609"
+      ]
+    },
+    {
+      "name": "sumac / za'atar spice blend",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "sumac spice",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "2000-4000 mg GAE/100g [sumac Rhus coriaria — Nasar-Abbas & Halkman 2004 Innov Food Sci Emerg Technol 5:423; exceptionally high tannin+anthocyanin content]",
+          "tannin_content": "400-700 mg/100g gallotannins [sumac — Nasar-Abbas & Halkman 2004]"
+        },
+        "terpenes": {
+          "limonene": "present in sumac EO — citrusy note [Boskovic et al. 2019]",
+          "linalool": "present in thyme component of za'atar blend"
+        },
+        "organic_acids": {
+          "malic_acid": "8-15 g/100g [sumac berry — dominant organic acid responsible for sour flavor; Nasar-Abbas & Halkman 2004]",
+          "citric_acid": "1-3 g/100g [sumac — Nasar-Abbas & Halkman 2004]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Rhus coriaria (sumac)",
+      "notes": "Sumac is the defining souring agent and aromatic of Anatolian, Levantine, and Persian cuisines — ground dried berries applied like a spice. Exceptionally high malic acid content (8-15 g/100g) gives it the signature tartness. The za'atar blend (sumac + thyme + sesame) is the multi-spice aromatic foundation of the region. This RSU is the only one in the pilot set with sumac — its extreme malic acid and tannin profile is a distinct signal. Compare to RSU-15 harissa (capsaicinoid aromatic) and RSU-17 berbere (complex multi-spice) for cross-regional aromatic comparison.",
+      "data_sources": [
+        "Nasar-Abbas & Halkman (2004) — Sumac composition and antimicrobial properties, Innov Food Sci Emerg Technol 5:423"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "durum wheat (bulgur, bread, baklava pastry)",
+      "lamb",
+      "yogurt",
+      "olive oil",
+      "sumac / za'atar",
+      "lentils"
+    ],
+    "known_processing_methods": [
+      "bulgur pre-cooking and drying",
+      "yogurt LAB fermentation",
+      "cold-pressing olive oil",
+      "charcoal kebab grilling",
+      "sumac berry drying and grinding"
+    ],
+    "fermentation_prevalence": 0.55
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.60,
+    "industrial_processing_index": 0.50
+  },
+  "notes": "Anatolian plateau (central Turkey, ~900m altitude). Semi-arid sedimentary parent material — limestone and marl from ancient Tethys Sea deposits. High temperature seasonality (continental steppe): cold winters, hot summers. This RSU fills the Near East gap in the pilot set and connects to the Fertile Crescent wheat origin story. Sumac malic acid content is among the highest of any measured food system — comparable only to tamarind. Yogurt as the fermented anchor connects to Turkey's historical role as originator of industrialized yogurt culture. Olive oil from the Aegean coast provides a 3rd Mediterranean EVOO data point."
+}

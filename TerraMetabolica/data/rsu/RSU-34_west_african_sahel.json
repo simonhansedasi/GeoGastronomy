@@ -1,0 +1,228 @@
+{
+  "region_id": "RSU-34",
+  "name": "West African Sahel (Burkina Faso / Mali)",
+  "coordinates": {
+    "lat": 12.4,
+    "lon": -1.5,
+    "altitude_m": 300
+  },
+  "climate": {
+    "temperature_mean": 28.5,
+    "temperature_seasonality": 8.0,
+    "precipitation_mean": 650,
+    "precipitation_seasonality": 0.85
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 6.5,
+    "soil_texture": "sand",
+    "drainage_class": "high"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "shea butter (karité)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "shea butter",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [pure fat]",
+          "stearic_acid": "38.5-43.2% of total fatty acids [Vitellaria paradoxa, Burkina Faso Sahel — Honfo et al. 2014 Crit Rev Food Sci Nutr 54:673; stearic acid is the defining characteristic — higher in drier/hotter Sahel conditions]",
+          "oleic_acid": "42.8-48.5% of total fatty acids [Sahel shea butter — Honfo et al. 2014; oleic acid inversely related to stearic acid, varies with provenance]",
+          "linoleic_acid": "3.8-6.5% of total fatty acids [shea butter — Honfo et al. 2014; very low linoleic]",
+          "palmitic_acid": "3.5-5.0% of total fatty acids [shea butter — Honfo et al. 2014]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "200-450 mg GAE/100g [shea butter catechins — Honfo et al. 2014; polyphenols from seed coat extracted into butter]",
+          "tocopherol_content": "80-150 mg/kg [shea butter tocopherols — Maranz & Wiesman 2003 J Agric Food Chem 51:6268; alpha-tocopherol dominant]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": ["RSU-34"],
+      "cultivar": "Vitellaria paradoxa (shea tree, Sahel parkland zone)",
+      "notes": "Shea butter — the defining fat of West African Sahel cuisine and economy. Extracted from the seed of Vitellaria paradoxa, a parkland agroforestry tree endemic to the Sahel. The stearic acid content (38-43%) is the highest of any plant fat and is a function of the hot, arid growing environment — the stearic/oleic ratio varies measurably with rainfall and temperature gradient across West Africa (Maranz & Wiesman 2003). This RSU adds the first shea butter data point. A second shea RSU in the Guinea savanna zone (more humid) would complete the stearic-terroir natural experiment (see notes field RSU-34 self-reference placeholder).",
+      "data_sources": [
+        "Honfo et al. (2014) — Shea butter composition and use in food and cosmetics, Crit Rev Food Sci Nutr 54:673",
+        "Maranz & Wiesman (2003) — Evidence for indigenous selection of shea tree fat composition, J Agric Food Chem 51:6268"
+      ]
+    },
+    {
+      "name": "sorghum (white)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "sorghum grain whole",
+      "fdc_id": 169716,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "72.09 g/100g [USDA FDC 169716]",
+          "protein_content": "11.3 g/100g [USDA FDC 169716]",
+          "lipid_content": "3.3 g/100g [USDA FDC 169716]"
+        },
+        "key_flavor_bioactives": {
+          "tannin_content": "10-35 mg CE/g [white sorghum condensed tannins — Taylor & Taylor 2002 J Sci Food Agric 82:1781; low-tannin varieties preferred for Sahel consumption]",
+          "polyphenol_content": "300-600 mg GAE/100g [sorghum phenolics — Dykes & Rooney 2006 J Cereal Sci 44:236]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 11.3,
+          "fat_g": 3.3,
+          "carb_g": 72.09
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Sorghum bicolor (white grain Sahel varieties)",
+      "notes": "Sorghum is the primary grain staple of the West African Sahel — drought-adapted, heat-tolerant, and a key food security crop. Used for to (thick porridge), dolo (fermented sorghum beer), and flatbreads. White-grained varieties have lower tannin than red-grained.",
+      "data_sources": [
+        "Taylor & Taylor (2002) — Sorghum tannins, J Sci Food Agric 82:1781",
+        "Dykes & Rooney (2006) — Sorghum and millet phenols, J Cereal Sci 44:236"
+      ]
+    },
+    {
+      "name": "dawadawa (fermented locust bean)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "locust bean fermented",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "30-36 g/100g [dawadawa — Ouoba et al. 2004 J Appl Microbiol 97:963; protein enriched by fermentation]",
+          "lipid_content": "18-24 g/100g [dawadawa — Ouoba et al. 2004]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "800-1500 mg GAE/100g [dawadawa tannins/phenolics — partially reduced during fermentation; Odunfa 1985]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "trace [primarily Bacillus-fermented, not LAB fermentation]",
+          "acetic_acid": "trace [volatile acids from Bacillus subtilis fermentation]"
+        },
+        "umami_compounds": {
+          "glutamate": "3.2-5.8 g/100g free glutamate [dawadawa — Kiers et al. 2003 J Appl Microbiol 95:381; Bacillus subtilis protease produces extremely high free glutamate — among the highest of any fermented food globally]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Parkia biglobosa (African locust bean)",
+      "notes": "Dawadawa (also iru, soumbala, nete) is the defining fermented condiment of West African Sahel cuisine — a Bacillus subtilis-fermented seed of the locust bean tree (Parkia biglobosa). The free glutamate content (3.2-5.8 g/100g) is among the highest of any fermented food globally, comparable to doenjang and fish paste. Used as a flavor-active umami condiment in soups and stews. The fermentation is alkaline (Bacillus protease, not LAB), producing a distinctive ammonia-forward aroma.",
+      "data_sources": [
+        "Ouoba et al. (2004) — Degradation of proteins during Bacillus subtilis fermentation, J Appl Microbiol 97:963",
+        "Kiers et al. (2003) — Free amino acids during soybean, tempeh and dawadawa fermentation, J Appl Microbiol 95:381"
+      ]
+    },
+    {
+      "name": "lamb (Sahel hair sheep)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "lamb leg raw",
+      "fdc_id": 175143,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "18.3 g/100g [USDA FDC 175143 proxy]",
+          "lipid_content": "20.9 g/100g [USDA FDC 175143 proxy]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [lamb muscle — Maga 1983 estimate]",
+          "inosinate": "~0.25 g/100g IMP [lamb muscle — Maga 1983]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 18.3,
+          "fat_g": 20.9
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Ovis aries (West African Dwarf / Sahel hair sheep)",
+      "notes": "West African hair sheep are raised extensively on Sahel rangelands — drought-tolerant, heat-tolerant, and fundamental to the pastoral economy. Lamb is the prestige protein of Sahelian food events (Tabaski festival). Fatty acid profile of Sahel lamb differs from European lamb due to different forage.",
+      "data_sources": [
+        "Maga (1983) — Flavor potentiators, CRC Crit Rev Food Sci Nutr 18:231"
+      ]
+    },
+    {
+      "name": "moringa leaves",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "moringa leaves raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "9.4 g/100g [Moringa oleifera leaves — Makkar & Becker 1997 Trop Sci 37:132]",
+          "ascorbic_acid": "220-270 mg/100g [moringa fresh leaves — Fuglie 1999 The Miracle Tree; very high for a leaf vegetable]"
+        },
+        "key_flavor_bioactives": {
+          "isothiocyanates": "present — 4-(alpha-L-rhamnopyranosyloxy)benzyl glucosinolate; the defining bioactive of moringa",
+          "polyphenol_content": "1100-1800 mg GAE/100g [moringa dry leaves — Siddhuraju & Becker 2003 J Agric Food Chem 51:2144]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Moringa oleifera",
+      "notes": "Moringa (kuli-kuli in Hausa, névédé in Moore) is a drought-tolerant multipurpose tree with highly nutritious leaves — the standard green vegetable of Sahelian food security systems. The exceptionally high ascorbic acid (220-270 mg/100g) and polyphenol content are well above most vegetables. The isothiocyanate content is nutritionally and metabolically significant. Used fresh in sauces, dried and powdered, or as a leaf paste.",
+      "data_sources": [
+        "Makkar & Becker (1997) — Nutrients and antiquality factors in Moringa oleifera leaves, Trop Sci 37:132",
+        "Siddhuraju & Becker (2003) — Antioxidant properties of Moringa oleifera leaf extracts, J Agric Food Chem 51:2144"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "sorghum",
+      "millet",
+      "shea butter",
+      "lamb",
+      "dawadawa",
+      "moringa"
+    ],
+    "known_processing_methods": [
+      "shea nut boiling, drying, pounding, and fat extraction",
+      "dawadawa Bacillus alkaline fermentation (3 days)",
+      "sorghum dolo beer LAB/yeast fermentation",
+      "sorghum to (porridge) cooking",
+      "moringa leaf sun-drying"
+    ],
+    "fermentation_prevalence": 0.65
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.30,
+    "industrial_processing_index": 0.20
+  },
+  "notes": "Ouagadougou/Bobo-Dioulasso region, Burkina Faso, West African Sahel (~300m). Sandy sedimentary soils, hot semi-arid climate (650mm highly seasonal). This RSU introduces shea butter — one of the most distinct fat profiles in the dataset. The stearic acid dominance (38-43%) is a direct environmental signal: hotter, drier Sahel conditions consistently produce higher stearic acid proportions in shea fat. Dawadawa provides the highest free glutamate umami concentration in the entire dataset via Bacillus-driven proteolysis. Both fat and umami signals here are architecturally distinct from all Mediterranean RSUs."
+}

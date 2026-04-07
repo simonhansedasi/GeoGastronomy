@@ -1,0 +1,219 @@
+{
+  "region_id": "RSU-18",
+  "name": "Colombian Andean Coffee Belt",
+  "coordinates": {
+    "lat": 5.3,
+    "lon": -75.6,
+    "altitude_m": 1600
+  },
+  "climate": {
+    "temperature_mean": 19.0,
+    "temperature_seasonality": 4.0,
+    "precipitation_mean": 1800,
+    "precipitation_seasonality": 0.45
+  },
+  "geology": {
+    "parent_material": "volcanic",
+    "soil_pH": 5.5,
+    "soil_texture": "loam",
+    "drainage_class": "high"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Arabica coffee",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "coffee brewed black",
+      "fdc_id": 171891,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "caffeine_concentration": "9.0-11.5 mg/g dry bean [Colombian washed Arabica — Mussatto et al. 2011 Trends Food Sci 22:404; Huila/Nariño mid-altitude]",
+          "polyphenol_content": "3800-5400 mg/100g CGA equivalents [Colombian washed process — Campa et al. 2012 J Agric Food Chem 60:3252; slightly lower than Ethiopian at equivalent altitude due to processing]"
+        },
+        "terpenes": {
+          "linalool": "0.5-1.2 mg/L in brewed coffee [Colombian washed — Buffo & Cardelli-Freire 2004 Flavour Fragrance J 19:99; lower than Ethiopian natural process]"
+        },
+        "organic_acids": {
+          "malic_acid": "0.6-1.0 g/100g dry bean [Colombian mid-altitude — Lingle 2011 SCAA; intermediate between Ethiopian highland and Vietnamese lowland]",
+          "citric_acid": "0.4-0.7 g/100g dry bean [Colombian Arabica — Lingle 2011]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates"
+      ],
+      "natural_experiment": ["RSU-17", "RSU-19"],
+      "cultivar": "Coffea arabica (Castillo/Caturra cultivar)",
+      "notes": "Colombian coffee belt mid-altitude point for the 3-RSU altitude natural experiment. Colombian Castillo/Caturra cultivars are genetically distinct from Ethiopian landraces — this introduces cultivar noise but the altitude signal is still large enough to detect. CGA and malic acid intermediate between Ethiopian highland (RSU-17, 2200m) and Vietnamese lowland (RSU-19, 700m). Washed processing removes mucilage, reducing linalool relative to Ethiopian natural process. Colombian volcanic soils (Andosols) drain rapidly and supply mineral nutrients differently from Ethiopian basalt.",
+      "data_sources": [
+        "Mussatto et al. (2011) — Coffee chemistry review, Trends Food Sci 22:404",
+        "Campa et al. (2012) — CGA across coffee origins, J Agric Food Chem 60:3252",
+        "Lingle (2011) — SCAA Coffee Brewing Handbook",
+        "Buffo & Cardelli-Freire (2004) — Coffee flavor overview, Flavour Fragrance J 19:99"
+      ]
+    },
+    {
+      "name": "arepa de choclo",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "corn masa arepa",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "3.5-5.0 g/100g [fresh corn arepa — estimate from nixtamal literature]",
+          "starch_content": "25-35 g/100g [fresh ground corn, high moisture]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "80-140 mg GAE/100g [yellow corn phenolics — Adom & Liu 2002 J Agric Food Chem 50:6182]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Fresh corn (maize) cakes are the foundational carbohydrate in Colombian lowland-to-highland transition zones. Unlike Mexican nixtamal (which uses lime-alkali treatment), Colombian arepas use fresh or dried ground corn without alkaline processing. Polyphenol content of corn kernel varies with pigmentation.",
+      "data_sources": [
+        "Adom & Liu (2002) — Antioxidant activity of grains, J Agric Food Chem 50:6182"
+      ]
+    },
+    {
+      "name": "papa criolla",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "potato yellow flesh raw",
+      "fdc_id": 170032,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "2.1 g/100g [USDA FDC 170032]",
+          "lipid_content": "0.1 g/100g [USDA FDC 170032]",
+          "starch_content": "16.7 g/100g [USDA FDC 170032]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "citric_acid": "0.5-0.8 g/100g [Solanum phureja — Colombian yellow creole potato; Rodríguez et al. 2010 J Food Comp Anal 23:376]",
+          "malic_acid": "0.15-0.25 g/100g [papa criolla — Rodríguez et al. 2010]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.05-0.15 g/100g free glutamate [Solanum phureja — lower glutamate than wild Andean types; Rodríguez et al. 2010]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 2.1,
+          "fat_g": 0.1,
+          "carb_g": 16.7
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Solanum phureja (papa criolla)",
+      "notes": "Papa criolla (Solanum phureja) is Colombia's native diploid potato — small, yellow-fleshed, buttery, and fast-cooking. Grown at 1000-2800m in the Andes. This is a different Solanum species from RSU-10 (Andean S. andigenum) but still within the Andean potato clade — organic acid comparison between RSU-10 and RSU-18 is possible with cultivar annotation.",
+      "data_sources": [
+        "Rodríguez et al. (2010) — Nutritional composition of papa criolla, J Food Comp Anal 23:376"
+      ]
+    },
+    {
+      "name": "chontaduro",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "peach palm fruit",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "3.4-5.0 g/100g [Bactris gasipaes — Yuyama et al. 2003 Food Chem 83:79]",
+          "lipid_content": "5.0-9.0 g/100g [peach palm — Yuyama et al. 2003]",
+          "starch_content": "28-38 g/100g [Bactris gasipaes — Yuyama et al. 2003]",
+          "ascorbic_acid": "20-40 mg/100g [Yuyama et al. 2003]"
+        },
+        "key_flavor_bioactives": {
+          "tocopherol_content": "2.5-4.0 mg/100g [Bactris gasipaes — Yuyama et al. 2003]",
+          "polyphenol_content": "120-200 mg GAE/100g [peach palm carotenoids and phenolics — Pacheco et al. 2008 Grasas y Aceites 59:45]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Bactris gasipaes",
+      "notes": "Chontaduro (peach palm fruit) is the culturally distinctive fat/energy food of Pacific Colombian and Andean transition zones. Boiled and eaten with salt or honey, it is starchy, fatty, and nutritionally dense. High in beta-carotene (pro-vitamin A). Represents Amazonian/Andean palm food culture distinct from RSU-09.",
+      "data_sources": [
+        "Yuyama et al. (2003) — Chemical composition of peach palm, Food Chem 83:79",
+        "Pacheco et al. (2008) — Peach palm lipid fractions, Grasas y Aceites 59:45"
+      ]
+    },
+    {
+      "name": "chicha de maiz",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "chicha corn beer fermented",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.5-1.0 g/100g [traditional chicha — Medina & Rolz 1980 Appl Microbiol 40:150]",
+          "acetic_acid": "0.05-0.15 g/100g [chicha — Medina & Rolz 1980]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Fermented corn beverage analogous to RSU-10 chicha de jora but at mid-altitude Colombia. Traditional preparation varies: some use salivary amylase inoculation (chewing), others use malted corn. The microbial community and resulting acid profile differ from the Peruvian highland version. Connects to RSU-10 for fermentation chemistry comparison.",
+      "data_sources": [
+        "Medina & Rolz (1980) — Fermentation characteristics of chicha, Appl Microbiol 40:150"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "Arabica coffee",
+      "corn (arepa)",
+      "papa criolla",
+      "chontaduro",
+      "plantain",
+      "beans"
+    ],
+    "known_processing_methods": [
+      "wet coffee processing (washed)",
+      "corn masa grinding",
+      "palm fruit boiling",
+      "LAB fermentation (chicha)"
+    ],
+    "fermentation_prevalence": 0.45
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.55,
+    "industrial_processing_index": 0.40
+  },
+  "notes": "Colombian Andean coffee belt (Eje Cafetero, Huila/Nariño region, ~1600m). Volcanic Andosol parent material, well-drained, high organic matter. Mid-altitude anchor for the 3-RSU coffee natural experiment (RSU-17 Ethiopia 2200m, RSU-18 Colombia 1600m, RSU-19 Vietnam 700m). Colombian washed processing introduces a processing variable on top of altitude — the clean cup of Colombian coffee vs Ethiopian natural process isolates fermentation effects. Note: arepa de choclo and papa criolla both present in carb slot; papa criolla listed as second carb for natural experiment continuity with RSU-10."
+}

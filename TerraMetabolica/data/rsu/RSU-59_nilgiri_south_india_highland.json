@@ -1,0 +1,53 @@
+{
+  "region_id": "RSU-59",
+  "name": "Nilgiri Highland Tea, Tamil Nadu, India (~2100m)",
+  "coordinates": {"lat": 11.4, "lon": 76.7, "altitude_m": 2100},
+  "climate": {"temperature_mean": 14.0, "temperature_seasonality": 8.0, "precipitation_mean": 1800, "precipitation_seasonality": 0.55},
+  "geology": {"parent_material": "metamorphic", "soil_pH": 4.7, "soil_texture": "loam", "drainage_class": "high"},
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {"fruiting_species": null, "tuber_species": null, "aromatic_species": null, "fermentable_species": null},
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "green tea (Camellia sinensis)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "tea green",
+      "fdc_id": null,
+      "feeding_type": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "17.0-21.0 g/100g dry leaf total catechins [Nilgiri highland green leaf at 1800-2200m — Muthumani et al. 2013 J Nat Prod Plant Resour 3:18; altitude of planting significantly affects catechin composition of south Indian green leaf, with the highest altitude site (2125m) having highest catechin-driven theaflavin precursor pool; range estimated from Kim et al. 2011 Food Chem 129:486 gradient extrapolated to 2100m Nilgiri; Kim et al. report 18.0-22.0 g/100g at 2000m Darjeeling; Nilgiri assamica var. expected ~1-2 g/100g lower than var. sinensis at same altitude]",
+          "caffeine_concentration": "2.8-4.0 g/100g dry leaf [south Indian CTC tea leaf — Muthumani et al. 2013; Nilgiri assamica var. caffeine profile]"
+        },
+        "terpenes": {
+          "linalool": "5-15 mg/kg dry leaf [Nilgiri highland tea aroma — lower muscatel than Darjeeling; linalool oxide present but at lower concentration than first-flush Darjeeling; Ravichandran & Parthiban 1998 Food Chem 62:77]"
+        },
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.6-1.2 g/100g dry leaf as theanine+glutamate [south Indian highland tea — theanine elevated at high altitude relative to lowland; Park et al. 2010 Amino Acids 39:843]"
+        }
+      },
+      "confirmed_absent": ["capsaicinoids", "isothiocyanates", "inosinate"],
+      "natural_experiment": ["RSU-20", "RSU-21"],
+      "cultivar": "Camellia sinensis var. assamica (South Indian tea — Nilgiri clones, predominantly assamica)",
+      "notes": "Nilgiri ('Blue Mountains') tea zone, Tamil Nadu, India — grown at 1000-2500m, this RSU represents the upper Nilgiri band at ~2100m (including estates such as Korakundah at ~2100-2200m, one of the world's highest tea estates). Muthumani et al. (2013) performed the most complete altitude-stratified catechin study of south Indian tea, testing leaf at 950m, 1150m, and 2125m — their results showed that altitude significantly affects individual catechin composition of the green leaf, with the highest altitude showing the highest catechin precursor pool driving theaflavin formation. The catechin range of 17.0-21.0 g/100g is derived from: (1) Kim et al. 2011 anchor at 2000m Darjeeling (18.0-22.0 g/100g, var. sinensis); (2) Muthumani et al. 2013 confirming altitude effect direction in south Indian leaf; (3) a ~1-2 g/100g downward adjustment for var. assamica vs. var. sinensis at matched altitude (consistent with Kim et al. 2011 Assam comparison). IMPORTANT: Nilgiri is predominantly var. assamica (large-leaf tropical clone), unlike Darjeeling's var. sinensis. This is the same variety confound as the RSU-21 Assam comparison, making the Nilgiri-to-Assam comparison (both assamica, different altitude) more controlled than the Nilgiri-to-Darjeeling comparison. CAUTION: the polyphenol_content range here uses inference from multiple sources rather than a single HPLC dry-leaf green tea measurement at this exact Nilgiri altitude — it should be treated as an estimated range pending direct Nilgiri green-leaf catechin data. NOT shade-grown (Nilgiri is open-canopy CTC-system); NOT black tea (green leaf data used).",
+      "data_sources": [
+        "Muthumani et al. (2013) — Influence of altitude of planting on quality of south Indian black teas, J Nat Prod Plant Resour 3(1):18-23",
+        "Kim et al. (2011) — Catechin profiles across Indian altitude gradient, Food Chem 129:486 [RSU-20 anchor]",
+        "Ravichandran & Parthiban (1998) — Volatile compounds in south Indian tea, Food Chem 62:77",
+        "Park et al. (2010) — L-theanine altitude response, Amino Acids 39:843"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": ["black tea (CTC)", "millets (ragi)", "tapioca", "jackfruit"],
+    "known_processing_methods": ["CTC tea processing", "orthodox green tea rolling (limited)", "stone-ground ragi flour"],
+    "fermentation_prevalence": 0.25
+  },
+  "culture": {"agricultural_intensification_index": 0.55, "industrial_processing_index": 0.50},
+  "notes": "Nilgiri District, Tamil Nadu, India (~2100m centroid; Nilgiri range 1000-2500m). Metamorphic Archean gneiss parent material (similar to Darjeeling in rock type), highly acidic fast-draining soils. Two annual monsoon exposures (SW June-September, NE October-December) produce two main tea flushes. Korakundah estate at ~2100-2200m is frequently cited as among the world's highest commercial tea gardens. The Nilgiri at this altitude is a critical geographic data point: it is a high-altitude South Indian tea zone that can be compared to RSU-20 Darjeeling (high-altitude, North India, var. sinensis) and RSU-21 Assam (low-altitude, North India, var. assamica). The Nilgiri-Assam comparison using matched var. assamica at different altitudes provides a key partial control for cultivar effects. The catechin range for this RSU is an evidence-based estimate from converging literature sources rather than a single direct measurement — flagged in notes. A direct HPLC green-leaf study at Nilgiri 2000-2200m would strengthen this anchor substantially."
+}

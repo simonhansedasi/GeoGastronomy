@@ -1,0 +1,202 @@
+{
+  "region_id": "RSU-50",
+  "name": "Turkish Isparta Highlands",
+  "coordinates": {
+    "lat": 37.8,
+    "lon": 30.6,
+    "altitude_m": 1100
+  },
+  "climate": {
+    "temperature_mean": 11.0,
+    "temperature_seasonality": 22.0,
+    "precipitation_mean": 550,
+    "precipitation_seasonality": 0.55
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 7.5,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Golden Delicious apple",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "apple raw golden delicious",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "fructose_concentration": "5.5-7.2 g/100g [Isparta highland apple — Özturk et al. 2015 Turkish J Agric For 39(4)]",
+          "ascorbic_acid": "0.18-0.28 g/100g [Isparta highland apple 1000-1200m — Özturk et al. 2015; high UV at Taurus foothills]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "malic_acid": "0.55-0.70 g/100g [Golden Delicious, Isparta highlands 1000-1200m — Özturk et al. 2015 Turkish J Agric For; high-altitude diurnal cooling retains malic acid]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": ["RSU-13", "RSU-14", "RSU-49"],
+      "cultivar": "Golden Delicious",
+      "notes": "Golden Delicious apple grown in Isparta Province (1000-1200m), Turkey's most important apple-producing region. Taurus Mountain limestone parent material, semi-continental climate with cold winters (high temperature seasonality). Malic acid 0.55-0.70 g/100g — highest in the apple natural experiment set along with RSU-14 Shanxi highlands (0.48-0.53). The higher value at equivalent altitude (1100m vs 1050m) likely reflects the colder winter temperatures of continental Isparta vs monsoonal Shanxi, consistent with the temperature-malic hypothesis. Ascorbic acid elevated (0.18-0.28) due to high UV at Anatolian plateau altitude. Note: limestone soil (pH 7.5) vs acidic volcanic soil (RSU-13/14) — soil chemistry may modulate malic acid transport in addition to temperature.",
+      "data_sources": [
+        "Özturk et al. (2015) — Physicochemical and nutritional properties of apple cultivars grown in Isparta, Turkish J Agric For 39(4):549",
+        "Zhao et al. (2021) — Effects of genetic background and altitude on apple metabolites, Foods 10(12):2950"
+      ]
+    },
+    {
+      "name": "wheat bread (Türk ekmeği)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "wheat bread white",
+      "fdc_id": 325871,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "~50 g/100g [white bread USDA estimate]",
+          "protein_content": "8.85 g/100g [USDA FDC 325871]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Ekmek (wheat bread) is the dominant carb — standard Turkish white bread from regional wheat.",
+      "data_sources": []
+    },
+    {
+      "name": "lamb (Anatolian highland)",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "lamb leg raw",
+      "fdc_id": 174382,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "20.9 g/100g [USDA FDC 174382]",
+          "lipid_content": "14.8 g/100g [USDA FDC 174382]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [lamb — Maga 1983]",
+          "inosinate": "~0.25 g/100g IMP [muscle meat]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Anatolian highland lamb from semi-extensive grazing on Taurus mountain pastures. Akkaraman and Morkaraman breeds common. Isparta is a major sheep-producing province.",
+      "data_sources": [
+        "Maga (1983) — Flavor potentiators, CRC Crit Rev Food Sci Nutr 18:231"
+      ]
+    },
+    {
+      "name": "rose petal (Isparta damask rose, Rosa damascena)",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "rose water",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "polyphenol_content": "200-500 mg GAE/100g fresh petals [Rosa damascena — Baydar et al. 2004 Ind Crops Prod 19:103]"
+        },
+        "terpenes": {
+          "linalool": "30-50% of rose essential oil [Rosa damascena Isparta — Baydar et al. 2004; geraniol and citronellol co-dominant]"
+        },
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Rosa damascena Mill.",
+      "notes": "Isparta province produces ~65% of the world's rose oil (attar of roses) from Rosa damascena. Rose petals are harvested at dawn before linalool volatilizes. The combination of Isparta's altitude (1000-1100m), cool spring temperatures, and limestone soils is credited with producing the highest-quality rose oil globally — a terroir claim supported by comparative essential oil analyses (Baydar et al. 2004). This is an outstanding example of agricultural terroir beyond food crops. The rose-linalool content is one of the highest recorded in any non-aromatic-category crop in this dataset.",
+      "data_sources": [
+        "Baydar et al. (2004) — Oil content, essential oil composition and fatty acid content of Rosa damascena, Ind Crops Prod 19:103"
+      ]
+    },
+    {
+      "name": "yogurt (süt yoğurt, Isparta highland)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "yogurt plain whole milk",
+      "fdc_id": 171284,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "3.47 g/100g [USDA FDC 171284]",
+          "lipid_content": "3.25 g/100g [USDA FDC 171284]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.6-1.4 g/100g [traditional Turkish yogurt — Tamime & Robinson 2007 Yoghurt: Science and Technology]"
+        },
+        "umami_compounds": {
+          "glutamate": "~0.5-1.5 g/100g free glutamate [fermented dairy — proteolysis during fermentation; Ninomiya 1998]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Strained and unstrained yogurt is central to Turkish cuisine — used as sauce, condiment, and standalone food. Isparta highland milk from Akkaraman sheep and cattle. Turkish yogurt fermentation uses Lactobacillus delbrueckii subsp. bulgaricus + Streptococcus thermophilus.",
+      "data_sources": [
+        "Tamime & Robinson (2007) — Yoghurt: Science and Technology, 3rd ed. Woodhead Publishing",
+        "Ninomiya (1998) — free glutamate in foods"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "wheat bread",
+      "lamb",
+      "apple",
+      "rose products",
+      "yogurt",
+      "olive oil"
+    ],
+    "known_processing_methods": [
+      "yogurt fermentation",
+      "rose oil distillation",
+      "apple drying and juicing",
+      "cheese aging (beyaz peynir)"
+    ],
+    "fermentation_prevalence": 0.65
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.45,
+    "industrial_processing_index": 0.35
+  },
+  "notes": "Isparta Province, Taurus Mountain foothills (~1100m). Limestone sedimentary soils (pH 7.5 — notable contrast to acidic volcanic soils of Shanxi), semi-continental climate with cold winters. Key natural experiment RSU: Golden Delicious apple at 1100m — highest-altitude in the 4-RSU apple altitude gradient (RSU-13 at 600m, RSU-49 at 800m, RSU-14 at 1050m, RSU-50 at 1100m). Expected malic acid 0.55-0.70 g/100g — highest in the apple set, anchoring the high end of the altitude-malic regression. Rose petal (Rosa damascena) is a unique aromatic with well-studied terroir claims."
+}

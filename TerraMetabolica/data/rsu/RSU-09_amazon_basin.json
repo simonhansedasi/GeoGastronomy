@@ -1,0 +1,217 @@
+{
+  "region_id": "RSU-09",
+  "name": "Amazon Basin",
+  "coordinates": {
+    "lat": -3.5,
+    "lon": -62.0,
+    "altitude_m": 100
+  },
+  "climate": {
+    "temperature_mean": 26.0,
+    "temperature_seasonality": 2.0,
+    "precipitation_mean": 2400,
+    "precipitation_seasonality": 0.3
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 4.5,
+    "soil_texture": "clay",
+    "drainage_class": "low"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "cassava",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "cassava raw",
+      "fdc_id": 2512377,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "0.918 g/100g [USDA FDC 2512377]",
+          "lipid_content": "0.494 g/100g [USDA FDC 2512377]",
+          "starch_content": "87.313 g/100g [USDA FDC 2512377]",
+          "fiber_content": "4.834 g/100g [USDA FDC 2512377]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 0.918,
+          "fat_g": 0.494,
+          "carb_g": 87.313,
+          "fiber_g": 4.834
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Cassava (manioc) appears in both RSU-08 and RSU-09. Shared carb staple allows direct metabolite comparison across different soils and climates — useful for H2 test (soil amplification).",
+      "data_sources": []
+    },
+    {
+      "name": "Brazil nut",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "brazil nuts raw",
+      "fdc_id": 2515374,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "17.442 g/100g [USDA FDC 2515374]",
+          "lipid_content": "38.86 g/100g [USDA FDC 2515374]",
+          "starch_content": "36.289 g/100g [USDA FDC 2515374]",
+          "fiber_content": "4.104 g/100g [USDA FDC 2515374]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 17.442,
+          "fat_g": 38.86,
+          "carb_g": 36.289,
+          "fiber_g": 4.104
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "lactic_acid"
+      ],
+      "notes": "Primary fat source. High in selenium (highest natural source — not in schema but notable). High in monounsaturated and polyunsaturated fat. FDC has complete fatty acid breakdown.",
+      "data_sources": []
+    },
+    {
+      "name": "pirarucu",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "pirarucu fish raw",
+      "fdc_id": 333374,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "inosinate": "likely present — large freshwater fish IMP"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "notes": "Largest freshwater fish — dominant protein in Amazonian food systems. Likely not in FDC under this name. Search may fall back to general large freshwater fish. Flag as ethnobotanical data gap.",
+      "data_sources": []
+    },
+    {
+      "name": "camu camu",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "camu camu powder",
+      "fdc_id": 167806,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "3.69 g/100g [USDA FDC 167806]",
+          "lipid_content": "0.47 g/100g [USDA FDC 167806]",
+          "starch_content": "79.65 g/100g [USDA FDC 167806]",
+          "fiber_content": "44.5 g/100g [USDA FDC 167806]",
+          "energy_kcal": "250.0 g/100g [USDA FDC 167806]",
+          "saturated_fat_g": "0.244 g/100g [USDA FDC 167806]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "citric_acid": "8-23 g/100g dry weight — among the highest measured natural vitamin C / citric acid concentrations [Zanatta et al. 2005]"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "energy_kcal": 250.0,
+          "protein_g": 3.69,
+          "fat_g": 0.47,
+          "carb_g": 79.65,
+          "fiber_g": 44.5,
+          "saturated_fat_g": 0.244,
+          "monounsaturated_fat_g": 0.169,
+          "polyunsaturated_fat_g": 0.163
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "notes": "No capsaicin-class spice aromatics in Amazonian traditional food system. Camu camu fills the aromatic slot with its exceptional citric acid concentration. This is the most data-rich entry for organic acids in the pilot set. Measurable in FDC powder form.",
+      "data_sources": [
+        "Zanatta et al. (2005) — camu camu ascorbic acid and organic acid composition"
+      ]
+    },
+    {
+      "name": "chicha",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "chicha de manioc",
+      "fdc_id": 747432,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "23.3 g/100g [USDA FDC 747432]",
+          "lipid_content": "0.86 g/100g [USDA FDC 747432]",
+          "fiber_content": "4.0 g/100g [USDA FDC 747432]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "present — lacto-fermentation component in manioc chicha",
+          "acetic_acid": "trace"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 23.3,
+          "fat_g": 0.86,
+          "fiber_g": 4.0
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "notes": "Cassava-based fermented beverage. Likely not in FDC — will require manual organic acid entry from ethnobotanical/food chemistry literature. Flag as data gap requiring literature review.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "cassava (manioc)",
+      "river fish",
+      "acai",
+      "camu camu",
+      "Brazil nut",
+      "peach palm"
+    ],
+    "known_processing_methods": [
+      "fermentation (chicha, tucupi)",
+      "smoking",
+      "drying",
+      "roasting"
+    ],
+    "fermentation_prevalence": 0.6
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.2,
+    "industrial_processing_index": 0.15
+  },
+  "notes": "Oxisols — nutrient-poor despite highest biodiversity. Subtle flavor base except for camu camu citric acid. Key RSU for H3 (biodiversity complexity — does high diversity translate to detectable metabolite complexity?) and counterexample to simple climate dominance. Requires ethnobotanical literature heavily."
+}

@@ -1,0 +1,224 @@
+{
+  "region_id": "RSU-26",
+  "name": "Yunnan China",
+  "coordinates": {
+    "lat": 25.0,
+    "lon": 101.0,
+    "altitude_m": 1900
+  },
+  "climate": {
+    "temperature_mean": 14.5,
+    "temperature_seasonality": 12.0,
+    "precipitation_mean": 1000,
+    "precipitation_seasonality": 0.70
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 5.0,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "pu-erh tea",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "pu-erh tea fermented",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "caffeine_concentration": "2.0-4.0 g/100g dry leaf [pu-erh — Wang et al. 2010 Food Chem 123:355; lower than green tea due to microbial degradation during wet-pile fermentation]",
+          "polyphenol_content": "5.0-9.0 g/100g dry leaf [ripe pu-erh — Wang et al. 2010; significantly lower than green tea due to oxidation; mostly gallic acid and theabrownins]",
+          "tannin_content": "2.0-4.0 g/100g [ripe pu-erh theabrownins — Wang et al. 2010; distinct polymeric compounds from secondary fermentation]"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.2-0.8 g/100g [pu-erh ripe heap fermentation — Lv et al. 2013 J Agric Food Chem 61:8044; LAB component]",
+          "acetic_acid": "0.1-0.3 g/100g [pu-erh secondary fermentation — Lv et al. 2013]",
+          "citric_acid": "0.1-0.3 g/100g dry leaf [pu-erh — Lv et al. 2013]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.3-0.8 g/100g [pu-erh — lower theanine due to microbial conversion; Wang et al. 2010]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates",
+        "inosinate"
+      ],
+      "natural_experiment": ["RSU-20", "RSU-21", "RSU-22"],
+      "cultivar": "Camellia sinensis var. assamica (Yunnan large-leaf, aged pu-erh)",
+      "notes": "Pu-erh is the unique microbially-fermented post-fermented tea of Yunnan — fundamentally distinct from green, white, or black teas because it undergoes wet-pile microbial fermentation (wodui) by Aspergillus niger, LAB, and other microbes for 45-60 days, then compressed and aged for years to decades. The secondary fermentation transforms catechins into theabrownins (poorly characterized polymeric compounds) — explaining the dramatically lower polyphenol content vs green tea despite same plant. This is the 4th node of the tea natural experiment (RSU-20/21/22 plus pu-erh as the 'post-fermented' control that shows what microbial transformation does to tea metabolites).",
+      "data_sources": [
+        "Wang et al. (2010) — Chemical composition of pu-erh tea, Food Chem 123:355",
+        "Lv et al. (2013) — Organic acids in pu-erh fermentation, J Agric Food Chem 61:8044"
+      ]
+    },
+    {
+      "name": "matsutake mushroom",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "matsutake mushroom raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "2.0-3.5 g/100g [Tricholoma matsutake fresh — Boa 2004 World Medicinal Mushrooms report]",
+          "fiber_content": "3.0-5.0 g/100g [matsutake — beta-glucan polysaccharides]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "150-300 mg GAE/100g [matsutake — Valverde et al. 2015 Crit Rev Food Sci Nutr 55:1316]"
+        },
+        "terpenes": {
+          "linalool": "trace",
+          "myrcene": "present in matsutake aroma fraction — 1-octen-3-ol (mushroom alcohol) is primary compound [Yasumoto et al. 2016]",
+          "pinene": "trace"
+        },
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.4-0.8 g/100g free glutamate [matsutake — Maga 1983; moderate umami]",
+          "guanylate": "0.05-0.15 g/100g GMP [matsutake — guanylate is characteristic of dried mushrooms; Maga 1983 CRC Crit Rev Food Sci Nutr 18:231]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Tricholoma matsutake",
+      "notes": "Matsutake is one of the most prized and expensive wild mushrooms globally — grows only in specific old-growth pine forest ecosystems of Yunnan (and Japan/Korea/Scandinavia). Cannot be cultivated. The distinct aroma (1-octen-3-ol, methyl cinnamate) is the key metabolite signal. Guanylate (GMP) from dried mushrooms is the third umami compound alongside glutamate and IMP — this is the only RSU where guanylate is specifically annotated. Compare to RSU-22 (Japan) for the Japanese matsutake equivalent.",
+      "data_sources": [
+        "Maga (1983) — Flavor potentiators, CRC Crit Rev Food Sci Nutr 18:231",
+        "Valverde et al. (2015) — Wild mushroom review, Crit Rev Food Sci Nutr 55:1316"
+      ]
+    },
+    {
+      "name": "Yunnan Crossing-the-Bridge noodles (rice noodle)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "rice noodles raw",
+      "fdc_id": 169729,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "3.45 g/100g [USDA FDC 169729]",
+          "lipid_content": "0.57 g/100g [USDA FDC 169729]",
+          "starch_content": "82.8 g/100g [USDA FDC 169729]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 3.45,
+          "fat_g": 0.57,
+          "carb_g": 82.8
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Yunnan crossing-the-bridge (guoqiao) noodles are a soup dish — hot bone broth poured over raw ingredients (thin-sliced ham, quail egg, rice noodles, raw vegetables) to cook tableside. The rice noodle is the carbohydrate vehicle. Nutritionally similar to other rice noodles but the dish preparation (thin fat layer trapping heat) is a culturally distinct food technology.",
+      "data_sources": []
+    },
+    {
+      "name": "Yunnan ham (xuanwei)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "cured ham dry aged",
+      "fdc_id": 174610,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "23.5 g/100g [USDA FDC 174610 — prosciutto proxy]",
+          "lipid_content": "20.0 g/100g [USDA FDC 174610]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.8-2.5 g/100g free glutamate [aged dry-cured ham — proteolysis during 12-36 month curing; Flores 1997 Food Chem 58:227]",
+          "inosinate": "0.1-0.3 g/100g IMP [cured ham — Flores 1997]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Xuanwei ham (Yunnan cured ham) is one of China's three famous hams (with Jinhua and Rugao) — salt-cured and air-dried at altitude for 12-36 months. The altitude-cold-dry climate of Yunnan permits prolonged curing without refrigeration. Long proteolysis produces high free glutamate, comparable to Parma/iberico ham. This is the fat anchor for this RSU (lard-marbled ham slices coated in rendered fat). Compare to RSU-06 (Japan) katsuobushi for aged-protein umami comparison.",
+      "data_sources": [
+        "Flores (1997) — Dry-cured meat products, Food Chem 58:227"
+      ]
+    },
+    {
+      "name": "rice wine (mijiu / huangjiu)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "rice wine sake",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "0.5-1.0 g/100g [rice wine — fermentation-soluble proteins]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.3-0.8 g/100g [rice wine fermentation — LAB component; Yu et al. 2012 J Agric Food Chem 60:11788]",
+          "acetic_acid": "0.05-0.2 g/100g [rice wine — Yu et al. 2012]",
+          "malic_acid": "0.1-0.3 g/100g [Yunnan rice wine — Yu et al. 2012]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.1-0.3 g/100g [rice wine — protease activity on rice proteins during koji saccharification; Yu et al. 2012]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Yunnan mijiu (rice wine) is produced by the Bai, Dai, and Yi ethnic minorities using local wild-yeast + mold starters on glutinous rice. Similar koji-saccharification process to Japanese sake (RSU-22) but with different microbial communities and processing. The cultural diversity of fermentation starters in Yunnan (over 20 recognized minority groups each with distinct starter cultures) makes this a high-biodiversity fermentation environment.",
+      "data_sources": [
+        "Yu et al. (2012) — Flavor compounds in Chinese rice wine, J Agric Food Chem 60:11788"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "pu-erh tea",
+      "matsutake mushroom",
+      "rice noodles",
+      "Yunnan ham (xuanwei)",
+      "rice wine",
+      "goat cheese (rubing)"
+    ],
+    "known_processing_methods": [
+      "wet-pile pu-erh fermentation (wodui, 45-60 days)",
+      "long-cure salt air-drying of ham (12-36 months)",
+      "koji rice wine saccharification",
+      "fresh acid-set goat cheese (rubing)"
+    ],
+    "fermentation_prevalence": 0.75
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.45,
+    "industrial_processing_index": 0.35
+  },
+  "notes": "Yunnan Province, southwest China (~1900m altitude). Sedimentary parent material with acidic soils. Distinct from RSU-06 (Japan/Korea East Asian Temperate) despite overlapping food traditions: Yunnan has a tropical-to-temperate gradient within the province, extreme ethnic diversity (25 recognized minorities), and unique food technologies including pu-erh tea secondary fermentation and altitude-cured ham. Pu-erh tea as 4th node of the tea natural experiment demonstrates what microbial post-fermentation does to green tea catechins (dramatic reduction from 18-28 to 5-9 g/100g). The matsutake mushroom guanylate signal is a novel umami dimension not present in other RSUs. Compare to RSU-13/14 (Shanxi apple altitude experiment) for another China altitude gradient."
+}

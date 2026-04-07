@@ -1,0 +1,193 @@
+{
+  "region_id": "RSU-46",
+  "name": "New Zealand Waikato (North Island)",
+  "coordinates": {
+    "lat": -37.8,
+    "lon": 175.3,
+    "altitude_m": 50
+  },
+  "climate": {
+    "temperature_mean": 13.5,
+    "temperature_seasonality": 7.0,
+    "precipitation_mean": 1200,
+    "precipitation_seasonality": 0.30
+  },
+  "geology": {
+    "parent_material": "volcanic",
+    "soil_pH": 5.8,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "NZ grass-fed butter (Waikato lowland)",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "butter unsalted grass fed",
+      "fdc_id": null,
+      "feeding_type": "grass-fed",
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "81-84 g/100g [NZ pasture butter — MacGibbon & Taylor 2006 Advanced Dairy Chemistry Vol 2]",
+          "oleic_acid": "22-26% of total fatty acids [NZ pasture butter — MacGibbon & Taylor 2006]",
+          "palmitic_acid": "27-31% of total fatty acids [NZ pasture butter — MacGibbon & Taylor 2006]"
+        },
+        "key_flavor_bioactives": {
+          "conjugated_linoleic_acid": "2.5-3.5 g/100g fat [NZ grass-fed, annual average — MacGibbon & Taylor 2006 Advanced Dairy Chemistry Vol 2; Parodi 1997 Australian J Dairy Tech 52:92]",
+          "tocopherol_content": "18-28 mg/100g fat [NZ pasture butter — comparable to Irish grass-fed values]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": ["RSU-36", "RSU-37", "RSU-42", "RSU-43"],
+      "cultivar": null,
+      "notes": "NZ Waikato lowland dairy butter — the sea-level grass-fed anchor in the butter CLA natural experiment. Waikato cows graze year-round on perennial ryegrass/white clover pasture (similar to Irish Atlantic). CLA=2.5-3.5 g/100g fat (annual average) is comparable to Irish grass-fed (RSU-37, 2.0-3.5 g/100g) despite nearly identical altitude (50m vs 100m). This confirms that at low elevation, forage quality (year-round grass access, pasture species richness) determines the sea-level CLA baseline. The strong altitude effect only emerges above ~500m (Alpine RSU-36, Himalayan RSU-42). Data interpretation: NZ ≈ Irish (both ~3 g/100g) < Alpine (4.25) < Himalayan (5.0) — altitude effect is non-linear, threshold around 500-800m.",
+      "data_sources": [
+        "MacGibbon & Taylor (2006) — NZ milk fat composition, Advanced Dairy Chemistry Vol 2 Ch 1",
+        "Parodi (1997) — CLA in milk fat: global survey, Australian J Dairy Tech 52:92"
+      ]
+    },
+    {
+      "name": "kumara (sweet potato)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "sweet potato raw",
+      "fdc_id": 168482,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "starch_content": "12-18 g/100g [sweet potato raw — USDA FDC 168482]",
+          "protein_content": "1.57 g/100g [USDA FDC 168482]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Kumara (Ipomoea batatas) was brought to NZ by Polynesian settlers before European contact — a pre-contact staple of Māori food systems. NZ varieties (red, gold, orange) are distinct from generic sweet potato.",
+      "data_sources": []
+    },
+    {
+      "name": "New Zealand lamb",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "lamb leg raw",
+      "fdc_id": 174382,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "20.9 g/100g [USDA FDC 174382]",
+          "lipid_content": "14.8 g/100g [USDA FDC 174382]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "inosinate": "~0.25 g/100g IMP [muscle meat — standard literature]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "NZ is one of the world's largest lamb exporters. Grass-fed, outdoor year-round. Fatty acid profile reflects ryegrass-white clover pasture diet.",
+      "data_sources": []
+    },
+    {
+      "name": "manuka honey",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "honey raw",
+      "fdc_id": 169640,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "glucose_concentration": "26-31 g/100g [honey — standard honey chemistry]",
+          "fructose_concentration": "38-42 g/100g [honey — standard]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "80-150 mg GAE/100g [manuka honey — higher than conventional honey; Irish & Blair 2011 Phytother Res]",
+          "hydroxytyrosol": null
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Manuka honey (from Leptospermum scoparium) contains methylglyoxal (MGO) as the primary bioactive — not captured in current schema but scientifically significant. High antimicrobial activity. Placed in aromatic category as a flavor-active condiment.",
+      "data_sources": [
+        "Irish & Blair (2011) — Antibacterial activity of manuka honey, Phytother Res 25:1229"
+      ]
+    },
+    {
+      "name": "hokey pokey (honeycomb toffee)",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "toffee candy",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Placeholder fermented slot — NZ does not have a dominant fermented food tradition comparable to sauerkraut or kimchi. Hokey pokey is culturally iconic but not a fermented product. Slot should be replaced with a better fermented candidate (e.g. NZ craft beer, which uses local Nelson Sauvin hops). Data gap.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "lamb",
+      "dairy (butter, milk, cheese)",
+      "kumara",
+      "seafood (green-lipped mussel, pāua)",
+      "kiwifruit"
+    ],
+    "known_processing_methods": [
+      "hāngi (earth oven)",
+      "dairy processing",
+      "meat smoking"
+    ],
+    "fermentation_prevalence": 0.25
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.55,
+    "industrial_processing_index": 0.45
+  },
+  "notes": "New Zealand Waikato lowland (~50m). Volcanic Waikato soils, temperate oceanic climate, year-round grass growth. Primary role in dataset: sea-level grass-fed butter anchor for the butter CLA altitude gradient experiment (RSU-36/37/42/43/46). NZ at 50m vs Irish at 100m both yield CLA ~2.5-3.5 g/100g fat — confirming that the altitude CLA effect is not detectable at low elevation and only becomes significant above ~500m (Alpine pasture) and above (yak grazing)."
+}

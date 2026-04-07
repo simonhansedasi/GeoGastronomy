@@ -1,0 +1,244 @@
+{
+  "region_id": "RSU-01",
+  "name": "Boreal Finland",
+  "coordinates": {
+    "lat": 64.5,
+    "lon": 26.0,
+    "altitude_m": 150
+  },
+  "climate": {
+    "temperature_mean": 2.5,
+    "temperature_seasonality": 28.0,
+    "precipitation_mean": 600,
+    "precipitation_seasonality": 0.45
+  },
+  "geology": {
+    "parent_material": "metamorphic",
+    "soil_pH": 4.8,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "rye bread",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "rye bread dark",
+      "fdc_id": 2512375,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "8.395 g/100g [USDA FDC 2512375]",
+          "lipid_content": "1.908 g/100g [USDA FDC 2512375]",
+          "starch_content": "77.162 g/100g [USDA FDC 2512375]",
+          "fiber_content": "13.68 g/100g [USDA FDC 2512375]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.3-1.2 g/100g [sourdough rye fermentation literature]"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 8.395,
+          "fat_g": 1.908,
+          "carb_g": 77.162,
+          "fiber_g": 13.68
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "myrcene"
+      ],
+      "notes": "Sourdough rye is the dominant carb staple. Lactic acid from fermentation is measurable.",
+      "data_sources": []
+    },
+    {
+      "name": "Atlantic salmon",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "salmon raw",
+      "fdc_id": 2684441,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "20.319 g/100g [USDA FDC 2684441]",
+          "lipid_content": "13.11 g/100g [USDA FDC 2684441]",
+          "saturated_fat_g": "2.277 g/100g [USDA FDC 2684441]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "inosinate": "measurable — fish muscle IMP documented in food science literature"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 20.319,
+          "fat_g": 13.11,
+          "saturated_fat_g": 2.277,
+          "monounsaturated_fat_g": 5.012,
+          "polyunsaturated_fat_g": 4.061
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "notes": "Primary fat source. High omega-3 PUFA. FDC has detailed fatty acid breakdown.",
+      "data_sources": []
+    },
+    {
+      "name": "pike",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "pike fish raw",
+      "fdc_id": 173680,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "19.26 g/100g [USDA FDC 173680]",
+          "lipid_content": "0.69 g/100g [USDA FDC 173680]",
+          "energy_kcal": "88.0 g/100g [USDA FDC 173680]",
+          "saturated_fat_g": "0.118 g/100g [USDA FDC 173680]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "inosinate": "present — freshwater fish IMP profile"
+        },
+        "_fdc_macros_raw": {
+          "energy_kcal": 88.0,
+          "protein_g": 19.26,
+          "fat_g": 0.69,
+          "saturated_fat_g": 0.118,
+          "monounsaturated_fat_g": 0.157,
+          "polyunsaturated_fat_g": 0.202
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Dominant freshwater protein source in boreal Finland lakes.",
+      "data_sources": []
+    },
+    {
+      "name": "cloudberries",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "cloudberries",
+      "fdc_id": 169802,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "2.4 g/100g [USDA FDC 169802]",
+          "lipid_content": "0.8 g/100g [USDA FDC 169802]",
+          "starch_content": "8.6 g/100g [USDA FDC 169802]",
+          "energy_kcal": "51.0 g/100g [USDA FDC 169802]"
+        },
+        "key_flavor_bioactives": {
+          "tannin_content": "ellagitannins documented — cloudberry is among highest ellagitannin sources (Phenol-Explorer)"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "citric_acid": "1.5-2.5 g/100g [Nordic wild berry literature]",
+          "malic_acid": "0.5-1.2 g/100g [Nordic wild berry literature]"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "energy_kcal": 51.0,
+          "protein_g": 2.4,
+          "fat_g": 0.8,
+          "carb_g": 8.6
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "notes": "No true spice aromatic in boreal Finland — cloudberry is the closest analog, valued for tartness and bioactives. Ellagitannin data available from Phenol-Explorer.",
+      "data_sources": [
+        "Phenol-Explorer — ellagitannins in cloudberry"
+      ]
+    },
+    {
+      "name": "fermented Baltic herring",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "herring pickled",
+      "fdc_id": 175118,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "14.19 g/100g [USDA FDC 175118]",
+          "lipid_content": "18.0 g/100g [USDA FDC 175118]",
+          "starch_content": "9.64 g/100g [USDA FDC 175118]",
+          "energy_kcal": "262.0 g/100g [USDA FDC 175118]",
+          "glucose_concentration": "7.71 g/100g [USDA FDC 175118]",
+          "saturated_fat_g": "2.381 g/100g [USDA FDC 175118]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "acetic_acid": "present — pickling/fermentation brine",
+          "lactic_acid": "trace — partial lacto-fermentation in traditional preparation"
+        },
+        "umami_compounds": {
+          "glutamate": "elevated — autolytic enzyme activity during fermentation releases free glutamate",
+          "inosinate": "present — fish IMP from muscle breakdown"
+        },
+        "_fdc_macros_raw": {
+          "energy_kcal": 262.0,
+          "protein_g": 14.19,
+          "fat_g": 18.0,
+          "carb_g": 9.64,
+          "sugars_g": 7.71,
+          "saturated_fat_g": 2.381,
+          "monounsaturated_fat_g": 11.947,
+          "polyunsaturated_fat_g": 1.679
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Surströmming/suomuikku tradition. Fermentation produces strong glutamate release via autolysis. Well-documented in Scandinavian food science.",
+      "data_sources": [
+        "Lindqvist et al. (2018) — fermented Baltic herring chemistry"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "rye bread",
+      "pike",
+      "salmon",
+      "cloudberries",
+      "fermented fish"
+    ],
+    "known_processing_methods": [
+      "fermentation",
+      "smoking",
+      "salt-curing",
+      "freeze-drying"
+    ],
+    "fermentation_prevalence": 0.75
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.35,
+    "industrial_processing_index": 0.4
+  },
+  "notes": "Archetype for preservation-dominant cold climate food system. Cloudberry fills the aromatic slot — no capsaicin-class spices are native. Key RSU for H1 (climate dominance)."
+}

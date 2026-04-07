@@ -1,0 +1,260 @@
+{
+  "region_id": "RSU-05",
+  "name": "Central Europe",
+  "coordinates": {
+    "lat": 51.0,
+    "lon": 10.0,
+    "altitude_m": 200
+  },
+  "climate": {
+    "temperature_mean": 9.0,
+    "temperature_seasonality": 20.0,
+    "precipitation_mean": 650,
+    "precipitation_seasonality": 0.35
+  },
+  "geology": {
+    "parent_material": "sedimentary",
+    "soil_pH": 6.5,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "potato",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "potato raw flesh",
+      "fdc_id": 2346404,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "1.578 g/100g [USDA FDC 2346404]",
+          "lipid_content": "0.375 g/100g [USDA FDC 2346404]",
+          "starch_content": "17.328 g/100g [USDA FDC 2346404]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "citric_acid": "0.3-0.7 g/100g [European cultivated varieties — Sampaio et al. 2021 Food Chemistry 345:128853; Bushway et al. 1984 J Food Sci 49:76]",
+          "malic_acid": "0.19-0.29 g/100g [European cultivated varieties — Sampaio et al. 2021]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.033-0.047 g/100g free glutamate [S. tuberosum European cultivars — Peksa et al. 2021 Molecules 26:1322]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 1.578,
+          "fat_g": 0.375,
+          "carb_g": 17.328
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "myrcene"
+      ],
+      "notes": "Potato displaced rye as the primary carb across Central Europe. GENETICS CONFOUND: citric acid in potato is ~75% genetically controlled (Eldem et al. 2022 Scientia Horticulturae) — the RSU-05 vs RSU-10 comparison reflects variety differences (S. tuberosum vs Andean accessions), not purely terroir. Malic acid is more environment-sensitive. For a clean terroir signal use the apple comparison (RSU-13 vs RSU-14: same Golden Delicious cultivar, different altitude).",
+      "data_sources": [
+        "Sampaio et al. (2021) — Potato biodiversity: fifty genotypes, Food Chemistry 345:128853",
+        "Bushway et al. (1984) — Organic acids in potatoes by HPLC, J Food Sci 49:76",
+        "Peksa et al. (2021) — Free amino acids in six potato cultivars, Molecules 26:1322"
+      ]
+    },
+    {
+      "name": "pork lard",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "lard pork",
+      "fdc_id": 171401,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100.0 g/100g [USDA FDC 171401]",
+          "energy_kcal": "902.0 g/100g [USDA FDC 171401]",
+          "saturated_fat_g": "39.2 g/100g [USDA FDC 171401]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "energy_kcal": 902.0,
+          "fat_g": 100.0,
+          "saturated_fat_g": 39.2,
+          "monounsaturated_fat_g": 45.1,
+          "polyunsaturated_fat_g": 11.2
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool",
+        "lactic_acid"
+      ],
+      "notes": "Dominant cooking fat. Very high in oleic + palmitic acid. FDC has detailed fatty acid profile for lard.",
+      "data_sources": []
+    },
+    {
+      "name": "pork",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "pork loin raw",
+      "fdc_id": 2646168,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "21.119 g/100g [USDA FDC 2646168]",
+          "lipid_content": "9.469 g/100g [USDA FDC 2646168]",
+          "saturated_fat_g": "3.285 g/100g [USDA FDC 2646168]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "inosinate": "present — pork muscle IMP",
+          "glutamate": "~0.34 g/100g free glutamate [pork — Ninomiya 1998]"
+        },
+        "_fdc_macros_raw": {
+          "protein_g": 21.119,
+          "fat_g": 9.469,
+          "saturated_fat_g": 3.285,
+          "monounsaturated_fat_g": 3.946,
+          "polyunsaturated_fat_g": 1.379
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Central protein source. IMP and glutamate data documented in meat science literature.",
+      "data_sources": [
+        "Ninomiya (1998) — free glutamate in meat"
+      ]
+    },
+    {
+      "name": "caraway",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "caraway seed",
+      "fdc_id": 170918,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "19.77 g/100g [USDA FDC 170918]",
+          "lipid_content": "14.59 g/100g [USDA FDC 170918]",
+          "starch_content": "49.9 g/100g [USDA FDC 170918]",
+          "fiber_content": "38.0 g/100g [USDA FDC 170918]",
+          "energy_kcal": "333.0 g/100g [USDA FDC 170918]",
+          "glucose_concentration": "0.64 g/100g [USDA FDC 170918]",
+          "saturated_fat_g": "0.62 g/100g [USDA FDC 170918]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {
+          "limonene": "40-60% of caraway essential oil [Lawrence spice oil literature]",
+          "myrcene": "trace in caraway oil"
+        },
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "energy_kcal": 333.0,
+          "protein_g": 19.77,
+          "fat_g": 14.59,
+          "carb_g": 49.9,
+          "fiber_g": 38.0,
+          "sugars_g": 0.64,
+          "saturated_fat_g": 0.62,
+          "monounsaturated_fat_g": 7.125,
+          "polyunsaturated_fat_g": 3.272
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates",
+        "linalool"
+      ],
+      "notes": "Caraway (Carum carvi) is the defining aromatic of Central European cuisine. Carvone is the key compound (not captured in schema terpenes — schema extension needed). Limonene co-dominant. Used in bread, sauerkraut, cheese.",
+      "data_sources": [
+        "Lawrence (1993) — caraway essential oil composition"
+      ]
+    },
+    {
+      "name": "sauerkraut",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "sauerkraut canned",
+      "fdc_id": 169279,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "0.91 g/100g [USDA FDC 169279]",
+          "lipid_content": "0.14 g/100g [USDA FDC 169279]",
+          "starch_content": "4.28 g/100g [USDA FDC 169279]",
+          "fiber_content": "2.9 g/100g [USDA FDC 169279]",
+          "energy_kcal": "19.0 g/100g [USDA FDC 169279]",
+          "glucose_concentration": "1.78 g/100g [USDA FDC 169279]",
+          "saturated_fat_g": "0.034 g/100g [USDA FDC 169279]"
+        },
+        "key_flavor_bioactives": {
+          "isothiocyanates": "glucosinolate degradation products from cabbage — measurable in fermented brassica"
+        },
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "4-10 g/L [traditional lacto-fermented sauerkraut — Breidt et al. 2013]",
+          "acetic_acid": "0.5-2 g/L [secondary fermentation product]"
+        },
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "energy_kcal": 19.0,
+          "protein_g": 0.91,
+          "fat_g": 0.14,
+          "carb_g": 4.28,
+          "fiber_g": 2.9,
+          "sugars_g": 1.78,
+          "saturated_fat_g": 0.034,
+          "monounsaturated_fat_g": 0.013,
+          "polyunsaturated_fat_g": 0.067
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "notes": "Best-documented lacto-fermented vegetable in the dataset. Organic acid profile is well-measured. Highest lactic acid concentration in fermented slot across the temperate RSUs.",
+      "data_sources": [
+        "Breidt et al. (2013) — sauerkraut fermentation chemistry and safety"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "rye",
+      "wheat",
+      "cabbage",
+      "pork",
+      "hops",
+      "barley",
+      "potatoes"
+    ],
+    "known_processing_methods": [
+      "lacto-fermentation",
+      "beer brewing",
+      "smoking",
+      "curing"
+    ],
+    "fermentation_prevalence": 0.9
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.7,
+    "industrial_processing_index": 0.65
+  },
+  "notes": "Loess soils. Highest fermentation prevalence in temperate set. Sauerkraut provides the best-measured organic acid profile of any RSU fermented food. H3 contrast: moderate biodiversity but intense fermentation-driven metabolite development."
+}

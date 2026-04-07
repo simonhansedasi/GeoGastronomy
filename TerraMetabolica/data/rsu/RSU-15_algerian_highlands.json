@@ -1,0 +1,181 @@
+{
+  "region_id": "RSU-15",
+  "name": "Algerian Northern Highlands",
+  "coordinates": {
+    "lat": 36.2,
+    "lon": 5.4,
+    "altitude_m": 1000
+  },
+  "climate": {
+    "temperature_mean": 14.0,
+    "temperature_seasonality": 18.0,
+    "precipitation_mean": 450,
+    "precipitation_seasonality": 0.55
+  },
+  "geology": {
+    "parent_material": "limestone",
+    "soil_pH": 7.2,
+    "soil_texture": "clay loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Sigoise olive",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "olive oil extra virgin",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "oleic_acid": "66-68% of total fatty acids [Sigoise, Setif — Guerfel et al. 2022 Food Sci Nutr]",
+          "linoleic_acid": "12-13% of total fatty acids [Guerfel et al. 2022]"
+        },
+        "key_flavor_bioactives": {
+          "polyphenol_content": "560-675 ppm total polyphenols [Sigoise olive, Setif — Guerfel et al. 2022 Food Sci Nutr]",
+          "tocopherol_content": "85-103 mg/kg [Sigoise, Setif — Guerfel et al. 2022]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": ["RSU-16"],
+      "cultivar": "Sigoise",
+      "notes": "Highland Setif site. Adequate water availability at 450mm precipitation produces moderate polyphenol and tocopherol levels. Oleic acid dominant as typical for Mediterranean olives. Natural experiment pair with RSU-16 (Algerian Saharan Margin) — same Sigoise cultivar under contrasting water stress conditions.",
+      "data_sources": [
+        "Guerfel et al. 2022 Food Sci Nutr PMC9179137 — Sigoise olive oil composition across Algerian regions"
+      ]
+    },
+    {
+      "name": "durum wheat",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "durum wheat semolina",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Durum wheat (Triticum durum) is the foundation starch of Algerian cuisine — used for couscous, bread, and pasta. Algeria is among the world's largest per-capita durum wheat consumers. FDC data needed.",
+      "data_sources": []
+    },
+    {
+      "name": "lamb",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "lamb leg raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "~0.3 g/100g free glutamate [lamb muscle — food chemistry literature estimate, FDC data needed]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Lamb is the dominant meat protein in highland Algerian cuisine. Sheep herding is well-suited to the limestone highland terrain. FDC data needed.",
+      "data_sources": []
+    },
+    {
+      "name": "harissa",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "harissa chili paste",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {
+          "capsaicin": "present — key pungency compound of harissa chili base, concentration varies by formulation"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Harissa is the defining aromatic condiment of North African cuisine — a paste of hot chili peppers, garlic, olive oil, and spices. Capsaicinoids are the key bioactives. FDC data needed for quantified profile.",
+      "data_sources": []
+    },
+    {
+      "name": "leben",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "fermented buttermilk",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {},
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.5-0.9 g/100g [fermented milk — LAB fermentation literature estimate, FDC data needed]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Leben is a traditional North African fermented milk product, similar to buttermilk or drinkable yogurt. Produced by LAB fermentation of sheep or cow milk. Widely consumed across Algeria. FDC data needed.",
+      "data_sources": []
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "durum wheat",
+      "olive oil",
+      "lamb",
+      "chickpeas",
+      "chili",
+      "fermented dairy"
+    ],
+    "known_processing_methods": [
+      "couscous production",
+      "olive pressing",
+      "LAB dairy fermentation",
+      "drying",
+      "spice blending"
+    ],
+    "fermentation_prevalence": 0.6
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.45,
+    "industrial_processing_index": 0.35
+  },
+  "notes": "Algerian northern highland site (Setif region, ~1000m). Mediterranean climate with limestone parent material. Natural experiment pair with RSU-16 (Algerian Saharan Margin) — same Sigoise olive cultivar under contrasting aridity. Highland conditions (adequate rainfall, moderate temperature) produce lower polyphenol and tocopherol concentrations in olive oil than the water-stressed Saharan margin. Durum wheat and lamb represent the dominant starch-protein axis of Algerian highland cuisine."
+}

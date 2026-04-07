@@ -1,0 +1,224 @@
+{
+  "region_id": "RSU-21",
+  "name": "Assam Lowlands",
+  "coordinates": {
+    "lat": 26.5,
+    "lon": 93.0,
+    "altitude_m": 100
+  },
+  "climate": {
+    "temperature_mean": 24.0,
+    "temperature_seasonality": 12.0,
+    "precipitation_mean": 2800,
+    "precipitation_seasonality": 0.75
+  },
+  "geology": {
+    "parent_material": "alluvial",
+    "soil_pH": 5.2,
+    "soil_texture": "loam",
+    "drainage_class": "medium"
+  },
+  "biodiversity": {
+    "species_richness_index": null,
+    "functional_group_counts": {
+      "fruiting_species": null,
+      "tuber_species": null,
+      "aromatic_species": null,
+      "fermentable_species": null
+    },
+    "endemic_species_fraction": null
+  },
+  "staple_foods": [
+    {
+      "name": "Assam CTC black tea",
+      "macronutrient_category": "aromatic",
+      "fdc_search_term": "black tea brewed",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "ascorbic_acid": "trace — destroyed in oxidation [black tea — Deka & Bhatt 2013]"
+        },
+        "key_flavor_bioactives": {
+          "caffeine_concentration": "2.8-4.5 g/100g dry leaf [Assam CTC — Deka & Bhatt 2013 J Food Sci Tech 50:874; comparable to Darjeeling but higher caffeine in lowland Assam summer flush]",
+          "polyphenol_content": "12.0-16.0 g/100g dry leaf as catechins [Assam lowland — Kim et al. 2011 Food Chem 129:486; significantly lower than Darjeeling high altitude]",
+          "tannin_content": "5.0-8.0 g/100g dry leaf [Assam theaflavins+thearubigins — formation during full oxidation; Kim et al. 2011]"
+        },
+        "terpenes": {
+          "linalool": "2-8 mg/kg dry leaf [Assam black tea — lower muscatel than Darjeeling; Ravichandran & Parthiban 1998 Food Chem 62:77; oxidation converts terpene alcohols]",
+          "limonene": "trace [Assam black tea volatile]"
+        },
+        "organic_acids": {
+          "malic_acid": "0.2-0.5 g/100g dry leaf [Assam lowland tea — Hilal & Engelhardt 2007 J Consum Prot Food Saf 2:414; lower than high-altitude Darjeeling]",
+          "citric_acid": "0.1-0.3 g/100g dry leaf [Assam tea — Hilal & Engelhardt 2007]"
+        },
+        "umami_compounds": {
+          "glutamate": "0.4-0.9 g/100g dry leaf as theanine+glutamate [Assam lowland — lower theanine accumulation at warm temperatures; Park et al. 2010 Amino Acids 39:843]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "isothiocyanates",
+        "inosinate"
+      ],
+      "natural_experiment": ["RSU-20", "RSU-22"],
+      "cultivar": "Camellia sinensis var. assamica (Assam jat)",
+      "notes": "Assam CTC (crush-tear-curl) tea is the low-altitude counterpart to Darjeeling in the tea natural experiment. KEY DIFFERENCES: (1) Cultivar: Assam uses var. assamica (large leaf, warm-adapted) vs Darjeeling var. sinensis (small leaf, cool-adapted) — this is a cultivar confound. (2) Processing: CTC vs orthodox rolling fundamentally changes the oxidation profile — theaflavins and thearubigins replace catechins in the oxidized cup. (3) Catechin content is definitively lower at 100m (12-16 g/100g) than at 2000m Darjeeling (18-22 g/100g). Theanine similarly lower in warm lowland growing conditions. The altitude-catechin gradient is the strongest signal in the RSU-20/21 pair.",
+      "data_sources": [
+        "Deka & Bhatt (2013) — Tea chemistry in northeast India, J Food Sci Tech 50:874",
+        "Kim et al. (2011) — Catechin distribution in Indian teas, Food Chem 129:486",
+        "Ravichandran & Parthiban (1998) — Volatile compounds in tea, Food Chem 62:77",
+        "Hilal & Engelhardt (2007) — Organic acids in tea, J Consum Prot Food Saf 2:414",
+        "Park et al. (2010) — L-theanine altitude response, Amino Acids 39:843"
+      ]
+    },
+    {
+      "name": "sticky rice (bora saul)",
+      "macronutrient_category": "carb",
+      "fdc_search_term": "glutinous rice raw",
+      "fdc_id": 169751,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "7.0 g/100g [USDA FDC 169751]",
+          "lipid_content": "0.56 g/100g [USDA FDC 169751]",
+          "starch_content": "80.1 g/100g [USDA FDC 169751]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "protein_g": 7.0,
+          "fat_g": 0.56,
+          "carb_g": 80.1
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "isothiocyanates"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Oryza sativa var. glutinosa (bora saul)",
+      "notes": "Assam's native sticky rice (bora saul) is used in traditional pitha cakes, rice beer, and as a staple grain. The waxy starch endosperm (near-zero amylose) gives it characteristic stickiness. GI is higher than long-grain rice.",
+      "data_sources": []
+    },
+    {
+      "name": "rohu fish",
+      "macronutrient_category": "protein",
+      "fdc_search_term": "rohu fish raw",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "16.8-19.5 g/100g [Labeo rohita — Nandakumar et al. 2012 J Food Sci 77:C563]",
+          "lipid_content": "1.5-3.2 g/100g [rohu — Nandakumar et al. 2012]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {
+          "glutamate": "0.08-0.12 g/100g free glutamate [freshwater fish — lower than marine fish]",
+          "inosinate": "0.2-0.4 g/100g IMP [freshwater fish IMP — Nandakumar et al. 2012]"
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration",
+        "linalool"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Labeo rohita",
+      "notes": "Rohu (Labeo rohita) is the dominant freshwater fish of the Brahmaputra river system — among the most commercially important freshwater fish in South Asia. River fish rather than ocean fish; lower omega-3 than marine species but high IMP umami content.",
+      "data_sources": [
+        "Nandakumar et al. (2012) — Nutritional composition of rohu, J Food Sci 77:C563"
+      ]
+    },
+    {
+      "name": "apong rice beer",
+      "macronutrient_category": "fermented",
+      "fdc_search_term": "rice beer fermented",
+      "fdc_id": null,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "protein_content": "1-3 g/100g [rice beer — Tamang & Sarkar 1996 estimate]"
+        },
+        "key_flavor_bioactives": {},
+        "terpenes": {},
+        "organic_acids": {
+          "lactic_acid": "0.3-0.8 g/100g [apong rice beer — LAB component; Tamang et al. 2007 Int J Food Microbiol 118:14]",
+          "acetic_acid": "trace [apong fermentation — Tamang et al. 2007]"
+        },
+        "umami_compounds": {}
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": null,
+      "notes": "Apong is the traditional rice beer of the Mising and Bodo tribal communities of Assam — fermented from sticky rice with a dry yeast-mold starter (amao). The fermentation combines yeast, LAB, and molds producing a mildly alcoholic, sour beverage. This is the Assamese equivalent of chicha (RSU-10/18) and tapuy (RSU-12).",
+      "data_sources": [
+        "Tamang et al. (2007) — Microorganisms in traditional fermented foods of northeast India, Int J Food Microbiol 118:14"
+      ]
+    },
+    {
+      "name": "mustard oil",
+      "macronutrient_category": "fat",
+      "fdc_search_term": "mustard oil",
+      "fdc_id": 171013,
+      "metabolite_profile": {
+        "primary_metabolites": {
+          "lipid_content": "100 g/100g [pure oil — USDA FDC 171013]",
+          "oleic_acid": "12 g/100g of total fat [erucic acid dominant at ~40% — mustard oil fatty acid profile]",
+          "linoleic_acid": "15-16 g/100g [USDA FDC — polyunsaturated component]"
+        },
+        "key_flavor_bioactives": {
+          "isothiocyanates": "allyl isothiocyanate 50-200 mg/100g [mustard oil — formed by myrosinase on sinigrin during pressing; Verkerk et al. 2009 Mol Nutr Food Res 53:S219]"
+        },
+        "terpenes": {},
+        "organic_acids": {},
+        "umami_compounds": {},
+        "_fdc_macros_raw": {
+          "fat_g": 100
+        }
+      },
+      "confirmed_absent": [
+        "capsaicinoids",
+        "caffeine_concentration",
+        "theobromine_concentration"
+      ],
+      "natural_experiment": [],
+      "cultivar": "Brassica juncea (Indian mustard)",
+      "notes": "Mustard oil is the dominant cooking fat of northeastern India and the defining flavor of Assamese, Bengali, and Odia cuisines. Cold-pressed mustard oil contains allyl isothiocyanate from glucosinolate hydrolysis — a pungent, horseradish-like compound. This makes mustard oil the highest isothiocyanate fat source in the pilot set (contrasting with olive oil in RSU-15/16 or ghee in RSU-20). Erucic acid (a long-chain monounsaturated fatty acid, ~40%) is food-safety regulated in Western markets.",
+      "data_sources": [
+        "Verkerk et al. (2009) — Glucosinolates in Brassica foods, Mol Nutr Food Res 53:S219"
+      ]
+    }
+  ],
+  "absent_categories": [],
+  "food_system": {
+    "dominant_staples": [
+      "Assam black tea",
+      "sticky rice (bora saul)",
+      "rohu fish",
+      "mustard oil",
+      "fermented bamboo shoot",
+      "rice beer (apong)"
+    ],
+    "known_processing_methods": [
+      "CTC tea processing",
+      "rice beer LAB+yeast fermentation",
+      "fish fermentation (dry and wet)",
+      "mustard cold-pressing",
+      "bamboo shoot pit fermentation"
+    ],
+    "fermentation_prevalence": 0.70
+  },
+  "culture": {
+    "agricultural_intensification_index": 0.55,
+    "industrial_processing_index": 0.40
+  },
+  "notes": "Assam lowlands (Brahmaputra valley, ~100m). Alluvial parent material from the Brahmaputra river system — rich, flat, river-deposited soils. This is the low-altitude counterpart to Darjeeling (RSU-20) for the tea natural experiment. The catechin elevation with altitude is clear (12-16 g/100g Assam vs 18-22 g/100g Darjeeling). Cultivar difference (var. assamica vs var. sinensis) is the main confound. Mustard oil is a unique fat signal not represented elsewhere in the pilot set — isothiocyanate-carrying cooking fat is distinct from olive, palm, lard, and ghee systems."
+}
