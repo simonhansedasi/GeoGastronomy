@@ -1,7 +1,12 @@
 # JavaScript
 
-Coffee suitability mapping for the Kona and Kaʻu growing districts of Hawaiʻi's Big Island, with forward climate projections to 2035 and 2045.
+# Terrain-Thermal Convergence Framework (TTCF)
 
+This repository contains code and data for:
+
+Edasi et al. (2026) – Terrain-Constrained Suitability in Specialty Agriculture
+
+Part of the GeoGastronomy research program.
 ---
 
 ## Overview
