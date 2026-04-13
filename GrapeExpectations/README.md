@@ -10,7 +10,9 @@ GrapeExpectations models per-cell NDVI — a proxy for vine canopy density and v
 
 A companion analysis identifies frost risk zones using topographic position, elevation deviation, and NDVI history.
 
-**Key result:** Stacked ensemble achieves R² = 0.967 on the held-out tune set across 8 phenological weeks.
+**Key result:** Stacked ensemble (RF + ExtraTrees + GBM + XGBoost + KNN → ElasticNetCV) achieves random-split test R² = 0.9323, RMSE = 0.0229 NDVI units, across 8 harvest-window weeks (ISO 36–43). LOYO validation mean R² = 0.353 ± 0.114 across 10 vintages. Terrain accounts for 75.5% of SHAP attribution.
+
+**Paper:** `RegressionRidge/paper.tex` — full draft with 14 figures, submitted target: *Precision Agriculture* (Springer).
 
 ---
 
@@ -75,8 +77,11 @@ GrapeExpectations/
 ├── README.md
 ├── CONTEXT.md                      — detailed architecture and data specification
 ├── RegressionRidge/
+│   ├── paper.tex                   — manuscript (full draft, 14 figures, target: Precision Agriculture)
+│   ├── references.bib              — bibliography
+│   ├── img/                        — all figure files (~30 PNGs)
 │   ├── data_wrangling/             — numbered ingestion pipeline (00–06)
-│   ├── ML/                         — model notebooks
+│   ├── ML/                         — model notebooks (forest_ensemble, clustering, SHAP, etc.)
 │   └── data/                       — pickled DataFrames and raw raster subdirs (~5.5 GB)
 ├── assess_frost_risk.ipynb
 ├── sensing/                        — fiber-optic sensor deployment notebooks
