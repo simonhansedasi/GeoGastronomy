@@ -2,9 +2,23 @@
 
 # Adaptation Space Peaks at Present Climate — working copy
 
-> **`JavaScript.tex` IS DEAD — 2026-08-02.** The live document is **`DRAFT_2026-07-30.md`**, written against `notebooks/`. Do not compile, cite, submit, or edit the `.tex` for prose: it predates the rainfall correction, the matched statistic and the inversion condition, and its framing (per-district, "moves closer to optimum", 61x overestimate factors) has been retired. `check_numbers.py` reads only the `.tex` and does not pass (13 claims unresolvable) — that is expected and no longer worth fixing. The `.tex` stays readable for exactly one purpose: **provenance of constants**, e.g. line 310 documents where the +1.00/+1.35 C reference increments and the 2001-2014 GCM baseline came from. When the analysis closes, rebuild the `.tex` from the draft rather than patching it. Analysis remains gated on `ANALYSIS_TODO.md`; see memory `feedback_analysis_before_prose`.
+> **`JavaScript.tex` REBUILT 2026-08-27 (Round 27).** No longer dead — rewritten from `DRAFT_2026-07-30.md` for the editor's requested revision. Pre-rebuild versions kept at `JavaScript.tex.bak_preRound27` / `JavaScript_supp.tex.bak_preRound27` for provenance. `check_numbers.py` still reads only the old `.tex` structure and will not pass against this version; not worth wiring up for a document expected to change again.
 
 Fork of `../JavaScript/` (the as-submitted-to-Scientific-Reports version — do not edit that copy). `data/` is symlinked back; everything else is a real copy.
+
+## Round 27 (2026-08-27) — rebuilt `JavaScript.tex`/`JavaScript_supp.tex` for the editor; two known overclaims fixed first
+
+Editor requested updated documents; before this round only the AGU abstract had actually been rewritten since Round 24 closed (2026-08-02) — `JavaScript.tex` was untouched since before it was declared dead, and `DRAFT_2026-07-30.md` itself still carried both overclaims flagged in Round 25.
+
+**Fixed in the draft first, then propagated into the rebuild.** (1) Abstract/§1 now concede GAEZ and the crop-suitability literature already screen by land availability, and state the real novelty precisely: a screen anchored to a specific designation-of-origin configuration, evaluated as a function of the warming amount. (2) §4.4's `dz/h > 1` claim is no longer stated as settled — it now reports the Round 25 bootstrap result inline (Kona 1.22, CI 0.83–2.47; Ka'u 1.02, CI 0.67–2.08) and frames the condition as the mechanism the matched statistic is consistent with, not an independently confirmed threshold. `ANALYSIS_TODO.md` item 3 marked done to match.
+
+**`JavaScript.tex` rebuilt from the corrected draft**, new title "Bounded Ground: Terrain Limits Invert Climate-Only Suitability Projections." Kept the Methods furniture that didn't change (screen construction, thermal envelope equation, farmability screen, uncertainty quantification) and dropped the retired "peak alignment" Results/Theory sections entirely in favor of the matched-statistic + inversion-condition structure. Citation corrections from the audit applied: CBB economic figures now cite USDA NASS *Coffee 2022* ($113M/$161M/7,100 acres) and Leung, Kawabata & Nakamoto 2014 ($25.7M lost sales, not total loss) instead of Lee et al. 2023, which only cites those numbers; both added to `references.bib`.
+
+**`JavaScript_supp.tex` rebuilt to match** — per Simon's call, cut the "overestimation multiplier" material entirely (Table S1 and its framing in Fig S1) rather than keep it as orphaned context, since Round 24 already retired it as mostly mechanical and it doesn't appear in the new main text at all. Kept the per-scenario matched-statistic numbers, the parameter factorial, and the elevation-weight sweep (all screen-robustness evidence still directly relevant). Added a new Table S4 giving the headroom/`dz/h` bootstrap explicitly (point estimate vs. bootstrap median vs. CI, both districts) and extended Note S1 to describe that bootstrap's methodology.
+
+Figures for the new main text pulled from `notebooks/figures/` (`02_rainfall_phase.png`, `03_baseline_envelope.png`, `04_inversion.png`, `04_F_vs_dT.png`, `05_robustness.png`) via `\graphicspath{{./}{notebooks/figures/}}` rather than copied into root; `FigS1.jpg`/`FigS2.jpg` (threshold sensitivity, elevation-weight sweep) stayed at root, unchanged, since that underlying analysis didn't move this round.
+
+**Not done, still open:** the pre-existing `ANALYSIS_TODO.md` items — re-running the Kaua'i out-of-sample test explicitly on the seven-feature screen, and a full supplement audit for any remaining eight-feature stragglers. Neither blocked this rebuild since neither claim changed in the new text. Also not done: compiling on Overleaf (no local LaTeX) or deciding when to actually send this to the editor — that's Simon's call.
 
 ## Round 25 (2026-08-05) — AGU abstract rebuilt; the inversion condition failed a bootstrap; reframed as live science
 
