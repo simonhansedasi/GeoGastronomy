@@ -262,3 +262,8 @@ GrapeExpectations/powerbi_dashboard/*.gpkg
 GrapeExpectations/powerbi_dashboard/*.qgz
 GrapeExpectations/powerbi_dashboard/*.geojson
 JavaScript/data/
+*.doc
+*.md
+!README.md
+GrapeExpectations/sensing/
+KushCountry/site/data/
